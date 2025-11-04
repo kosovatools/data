@@ -7,6 +7,7 @@ import { XMLParser } from "fast-xml-parser"
 // ---- constants (vendored from the app) ----
 const ENTSEO_ENDPOINT = "https://web-api.tp.entsoe.eu/api"
 const KOSOVO_EIC = "10Y1001C--00100H"
+const MAX_BACKFILL_MONTHS = 24
 const DEFAULT_NEIGHBORS = [
     { code: "10YAL-KESH-----5", label: "Albania" },
     { code: "10YMK-MEPSO----8", label: "North Macedonia" },
@@ -223,27 +224,62 @@ async function main() {
     }
     const outDir = path.resolve(args.get("--out") ?? "./data")
     const monthArg = args.get("--month")
+    const backfillArg = args.get("--backfill") ?? args.get("--months")
 
-    const { start, end } = monthArg && /^\d{4}-\d{2}$/.test(monthArg)
+    const baseRange = monthArg && /^\d{4}-\d{2}$/.test(monthArg)
         ? (() => { const [y, m] = monthArg.split("-").map(Number); return { start: new Date(Date.UTC(y, m - 1, 1)), end: new Date(Date.UTC(y, m, 1)) } })()
         : getPreviousMonthRange()
 
-    const id = formatPeriodId(start)
-    const monthlyPath = path.join(outDir, "monthly", `${id}.json`)
-    if (await fileExists(monthlyPath)) {
-        console.log(`Month ${id} already present, updating pointers...`)
-        const existing = JSON.parse(await readFile(monthlyPath, "utf8"))
-        await updatePointers(outDir, existing)
-        return
+    let backfillCount = 1
+    if (backfillArg) {
+        const parsed = parseInt(backfillArg, 10)
+        if (Number.isFinite(parsed) && parsed > 0) {
+            if (parsed > MAX_BACKFILL_MONTHS) {
+                console.warn(`Capping backfill to ${MAX_BACKFILL_MONTHS} months to limit API load.`)
+            }
+            backfillCount = Math.min(parsed, MAX_BACKFILL_MONTHS)
+        }
     }
 
-    const { monthly, latestDaily } = await createSnapshot({ token, start, end })
+    const months: Array<{ start: Date; end: Date }> = []
+    for (let offset = backfillCount - 1; offset >= 0; offset--) {
+        const start = new Date(Date.UTC(baseRange.start.getUTCFullYear(), baseRange.start.getUTCMonth() - offset, 1))
+        const end = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 1))
+        months.push({ start, end })
+    }
 
-    await writeJsonAtomic(monthlyPath, monthly)
-    await updatePointers(outDir, monthly)
-    await writeJsonAtomic(path.join(outDir, "latest-daily.json"), latestDaily)
+    const latestDailyPath = path.join(outDir, "latest-daily.json")
+    let touchedAny = false
 
-    console.log(`Saved ${id} monthly + latest daily.`)
+    for (let i = 0; i < months.length; i++) {
+        const { start, end } = months[i]
+        const id = formatPeriodId(start)
+        const isNewest = i === months.length - 1
+        const monthlyPath = path.join(outDir, "monthly", `${id}.json`)
+
+        if (await fileExists(monthlyPath)) {
+            console.log(`Month ${id} already present, refreshing pointers...`)
+            const existing = JSON.parse(await readFile(monthlyPath, "utf8"))
+            await updatePointers(outDir, existing)
+            continue
+        }
+
+        const { monthly, latestDaily } = await createSnapshot({ token, start, end })
+
+        await writeJsonAtomic(monthlyPath, monthly)
+        await updatePointers(outDir, monthly)
+        if (isNewest) {
+            await writeJsonAtomic(latestDailyPath, latestDaily)
+        }
+
+        const suffix = isNewest ? " + latest daily" : ""
+        console.log(`Saved ${id} monthly${suffix}.`)
+        touchedAny = true
+    }
+
+    if (!touchedAny) {
+        console.log("No new months fetched. Existing data kept in place.")
+    }
 }
 
 async function updatePointers(outDir: string, monthly: { id: string; periodStart: string; periodEnd: string; totals: any }) {

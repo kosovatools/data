@@ -1,0 +1,44 @@
+{
+  "id": "2025-02",
+  "periodStart": "2025-02-01T00:00:00.000Z",
+  "periodEnd": "2025-03-01T00:00:00.000Z",
+  "neighbors": [
+    {
+      "code": "10YAL-KESH-----5",
+      "country": "Albania",
+      "importMWh": 132174.7100000001,
+      "exportMWh": 1528.5599999999997,
+      "netMWh": 130646.15000000011,
+      "hasData": true
+    },
+    {
+      "code": "10YMK-MEPSO----8",
+      "country": "North Macedonia",
+      "importMWh": 89977.59999999995,
+      "exportMWh": 21332.800000000003,
+      "netMWh": 68644.79999999994,
+      "hasData": true
+    },
+    {
+      "code": "10YCS-CG-TSO---S",
+      "country": "Montenegro",
+      "importMWh": 79778,
+      "exportMWh": 36024.399999999994,
+      "netMWh": 43753.600000000006,
+      "hasData": true
+    },
+    {
+      "code": "10YCS-SERBIATSOV",
+      "country": "Serbia",
+      "importMWh": 44601.88,
+      "exportMWh": 47394.320000000014,
+      "netMWh": -2792.440000000017,
+      "hasData": true
+    }
+  ],
+  "totals": {
+    "importMWh": 346532.19000000006,
+    "exportMWh": 106280.08000000002,
+    "netMWh": 240252.11000000004
+  }
+}
