@@ -2,6 +2,10 @@ name: Publish data
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Refresh ENTSO-E data"]
+    types: [completed]
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -9,9 +13,12 @@ permissions:
 
 jobs:
   deploy-pages:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.ref }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
