@@ -222,7 +222,7 @@ async function main() {
             args.set(raw, "true")
         }
     }
-    const outDir = path.resolve(args.get("--out") ?? "./data")
+    const outDir = path.resolve(args.get("--out") ?? "./data/energy")
     const monthArg = args.get("--month")
     const backfillArg = args.get("--backfill") ?? args.get("--months")
 
