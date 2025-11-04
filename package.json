@@ -7,7 +7,8 @@
     "tsx": "^4.19.2"
   },
   "scripts": {
-    "generate": "tsx ./src/fetch-entsoe.ts --out ./data/energy"
+    "generate:energy": "tsx ./src/fetch-entsoe.ts --out ./data/energy",
+    "generate:customs": "tsx ./src/fetch-customs.ts"
   },
   "dependencies": {
     "@types/node": "^24.10.0"
