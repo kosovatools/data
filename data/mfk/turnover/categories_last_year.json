@@ -1,0 +1,115 @@
+{
+  "year": 2025,
+  "records": [
+    {
+      "category": "Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave",
+      "turnover": 7433276818.74,
+      "taxpayers": 139692
+    },
+    {
+      "category": "Industria perpunuese",
+      "turnover": 1793377951.68,
+      "taxpayers": 54856
+    },
+    {
+      "category": "Ndertimtaria",
+      "turnover": 1428268388.96,
+      "taxpayers": 45209
+    },
+    {
+      "category": "Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",
+      "turnover": 1121996105.02,
+      "taxpayers": 2032
+    },
+    {
+      "category": "Aktivitetet financiare dhe te sigurimit",
+      "turnover": 677725959.95,
+      "taxpayers": 2828
+    },
+    {
+      "category": "Informimi dhe komunikimi",
+      "turnover": 513053227.73,
+      "taxpayers": 19708
+    },
+    {
+      "category": "Sherbimet administrative dhe mbeshtetese",
+      "turnover": 449529725.24,
+      "taxpayers": 15120
+    },
+    {
+      "category": "Transporti dhe magazinimi",
+      "turnover": 443464889.68,
+      "taxpayers": 14890
+    },
+    {
+      "category": "Aktivitetet profesionale, shkencore dhe teknike",
+      "turnover": 356314532.14,
+      "taxpayers": 34203
+    },
+    {
+      "category": "Akomodimi dhe sherbimi ushqimor",
+      "turnover": 335377055.56,
+      "taxpayers": 32120
+    },
+    {
+      "category": "Aktivitetet e shendetit te njeriut dhe te punes sociale",
+      "turnover": 143213748.62,
+      "taxpayers": 11434
+    },
+    {
+      "category": "Bujqesia;Pylltaria dhe Peshkimi",
+      "turnover": 132085421.16,
+      "taxpayers": 11361
+    },
+    {
+      "category": "Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave",
+      "turnover": 101686209.7,
+      "taxpayers": 1632
+    },
+    {
+      "category": "Aktivitetet e tjera sherbyese",
+      "turnover": 100430874.45,
+      "taxpayers": 17611
+    },
+    {
+      "category": "Industria nxjerrese",
+      "turnover": 90392019.0,
+      "taxpayers": 2148
+    },
+    {
+      "category": "Arsimi",
+      "turnover": 64590929.48,
+      "taxpayers": 4296
+    },
+    {
+      "category": "Aktivitetet e patundshmerise",
+      "turnover": 63867736.75,
+      "taxpayers": 4387
+    },
+    {
+      "category": "Artet, Argetimi dhe rekreacioni",
+      "turnover": 41728320.86,
+      "taxpayers": 5361
+    },
+    {
+      "category": "Person Fizik",
+      "turnover": 32361550.79,
+      "taxpayers": 2200
+    },
+    {
+      "category": "Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem",
+      "turnover": 24890893.64,
+      "taxpayers": 1227
+    },
+    {
+      "category": "Mungon aktiviteti",
+      "turnover": 4667536.81,
+      "taxpayers": 700
+    },
+    {
+      "category": "Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",
+      "turnover": 1455.0,
+      "taxpayers": 9
+    }
+  ]
+}
