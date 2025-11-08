@@ -1,0 +1,66 @@
+{
+  "generated_at": "2025-11-08T10:36:43Z",
+  "versions": [
+    {
+      "version": "1.1",
+      "source_file": "raw_data/drug-prices-1.1.xlsx",
+      "record_count": 3008,
+      "valid_until_values": [
+        "2026-01-31",
+        "2026-03-23"
+      ]
+    },
+    {
+      "version": "1.5",
+      "source_file": "raw_data/drug-prices-1.5.xlsx",
+      "record_count": 3656,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    },
+    {
+      "version": "1.6",
+      "source_file": "raw_data/drug-prices-1.6.xlsx",
+      "record_count": 3794,
+      "valid_until_values": [
+        "2026-01-31",
+        "deklarim",
+        "ndryshim"
+      ]
+    },
+    {
+      "version": "1.7",
+      "source_file": "raw_data/drug-prices-1.7.xlsx",
+      "record_count": 3828,
+      "valid_until_values": [
+        "2026-01-31",
+        "deklarim",
+        "ndryshim"
+      ]
+    },
+    {
+      "version": "1.8",
+      "source_file": "raw_data/drug-prices-1.8.xlsx",
+      "record_count": 3953,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    },
+    {
+      "version": "1.9",
+      "source_file": "raw_data/drug-prices-1.9.xlsx",
+      "record_count": 3959,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    },
+    {
+      "version": "1.10",
+      "source_file": "raw_data/drug-prices-1.10.xlsx",
+      "record_count": 4013,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    }
+  ]
+}
