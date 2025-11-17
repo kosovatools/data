@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -22,7 +23,11 @@ HEADER_KEYWORDS = {
 
 
 def discover_excel_files(source_dir: Path) -> list[Path]:
-    return sorted(p for p in source_dir.rglob("*.xlsx") if p.is_file())
+    return sorted(
+        p
+        for p in source_dir.rglob("*.xlsx")
+        if p.is_file() and "turnover" in p.name.lower()
+    )
 
 
 def detect_header_row(frame: pd.DataFrame) -> int:
@@ -114,87 +119,215 @@ def extract_year_from_filename(path: Path) -> int | None:
     return int(match.group(1))
 
 
-def to_records(frame: pd.DataFrame, sort_columns: Iterable[str] | None = None) -> list[dict]:
-    if sort_columns:
-        frame = frame.sort_values(list(sort_columns))
-    return [
-        {key: (value.item() if hasattr(value, "item") else value) for key, value in row.items()}
-        for row in frame.to_dict(orient="records")
-    ]
-
-
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
 
 
+def iso_timestamp() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def format_currency(value: float) -> float:
+    return round(float(value), 2)
+
+
+def as_int(value: Any) -> int:
+    return int(round(float(value)))
+
+
+def build_dimension_options(options: Iterable[str]) -> list[dict[str, str]]:
+    return [{"key": option, "label": option} for option in options]
+
+
+def build_time(periods: list[str], granularity: str) -> dict[str, Any]:
+    if not periods:
+        raise ValueError("Dataset is missing period information.")
+    return {
+        "key": "period",
+        "granularity": granularity,
+        "first": periods[0],
+        "last": periods[-1],
+        "count": len(periods),
+    }
+
+
 def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
     dataset = dataset.copy()
-    last_year = int(dataset["year"].max())
-    last_year_data = dataset[dataset["year"] == last_year]
+    years = sorted(int(value) for value in dataset["year"].unique())
+    if not years:
+        raise ValueError("No turnover data found in the provided Excel exports.")
 
-    monthly_category_city = (
-        last_year_data.groupby(["month", "category", "city"], as_index=False)
+    last_year = years[-1]
+    timestamp = iso_timestamp()
+    categories = sorted(dataset["category"].unique())
+    cities = sorted(dataset["city"].unique())
+    dimension_categories = build_dimension_options(categories)
+    dimension_cities = build_dimension_options(cities)
+
+    # Categories × Year
+    categories_yearly = (
+        dataset.groupby(["year", "category"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
+        .sort_values(["year", "category"])
     )
+    category_records: list[dict[str, Any]] = []
+    for row in categories_yearly.to_dict(orient="records"):
+        category_records.append(
+            {
+                "period": str(int(row["year"])),
+                "category": row["category"],
+                "turnover": format_currency(row["turnover"]),
+                "taxpayers": as_int(row["taxpayers"]),
+            }
+        )
+    year_periods = [str(year) for year in years]
+    category_meta = {
+        "id": "mfk_turnover_categories_yearly",
+        "title": "Qarkullimi sipas kategorive (vjetor)",
+        "generated_at": timestamp,
+        "updated_at": None,
+        "source": "Ministria e Financave, Punës dhe Transfereve (MFK)",
+        "source_urls": ["https://mfpt.rks-gov.net"],
+        "time": build_time(year_periods, "yearly"),
+        "fields": [
+            {"key": "turnover", "label": "Qarkullimi", "unit": "EUR"},
+            {"key": "taxpayers", "label": "Tatimpagues", "unit": "count"},
+        ],
+        "metrics": ["turnover", "taxpayers"],
+        "dimensions": {"category": dimension_categories},
+        "extras": {"currency": "EUR"},
+    }
     write_json(
-        output_dir / "monthly_category_city_last_year.json",
-        {
-            "year": last_year,
-            "records": to_records(monthly_category_city, sort_columns=["month", "category", "city"]),
-        },
+        output_dir / "mfk_turnover_categories_yearly.json",
+        {"meta": category_meta, "records": category_records},
     )
 
-    categories_last_year = (
-        last_year_data.groupby("category", as_index=False)
+    # Cities × Year
+    cities_yearly = (
+        dataset.groupby(["year", "city"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
-        .sort_values("turnover", ascending=False)
+        .sort_values(["year", "city"])
     )
+    city_records: list[dict[str, Any]] = []
+    for row in cities_yearly.to_dict(orient="records"):
+        city_records.append(
+            {
+                "period": str(int(row["year"])),
+                "city": row["city"],
+                "turnover": format_currency(row["turnover"]),
+                "taxpayers": as_int(row["taxpayers"]),
+            }
+        )
+    city_meta = {
+        "id": "mfk_turnover_cities_yearly",
+        "title": "Qarkullimi sipas komunave (vjetor)",
+        "generated_at": timestamp,
+        "updated_at": None,
+        "source": "Ministria e Financave, Punës dhe Transfereve (MFK)",
+        "source_urls": ["https://mfpt.rks-gov.net"],
+        "time": build_time(year_periods, "yearly"),
+        "fields": [
+            {"key": "turnover", "label": "Qarkullimi", "unit": "EUR"},
+            {"key": "taxpayers", "label": "Tatimpagues", "unit": "count"},
+        ],
+        "metrics": ["turnover", "taxpayers"],
+        "dimensions": {"city": dimension_cities},
+        "extras": {"currency": "EUR"},
+    }
     write_json(
-        output_dir / "categories_last_year.json",
-        {
-            "year": last_year,
-            "records": to_records(categories_last_year),
-        },
+        output_dir / "mfk_turnover_cities_yearly.json",
+        {"meta": city_meta, "records": city_records},
     )
 
-    cities_last_year = (
-        last_year_data.groupby("city", as_index=False)
-        .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
-        .sort_values("turnover", ascending=False)
-    )
-    write_json(
-        output_dir / "cities_last_year.json",
-        {
-            "year": last_year,
-            "records": to_records(cities_last_year),
-        },
-    )
-
+    # City × Category × Year rankings
     grouped = (
         dataset.groupby(["year", "city", "category"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
     )
-    top_category_by_city_year = (
+    rankings = (
         grouped.sort_values(["year", "city", "turnover"], ascending=[True, True, False])
         .groupby(["year", "city"], group_keys=False)
         .head(8)
         .copy()
     )
-    top_category_by_city_year["rank"] = top_category_by_city_year.groupby(["year", "city"]).cumcount() + 1
+    rankings["rank"] = rankings.groupby(["year", "city"]).cumcount() + 1
+    ranking_records: list[dict[str, Any]] = []
+    for row in rankings.sort_values(["year", "city", "rank"]).to_dict(orient="records"):
+        ranking_records.append(
+            {
+                "period": str(int(row["year"])),
+                "city": row["city"],
+                "category": row["category"],
+                "turnover": format_currency(row["turnover"]),
+                "taxpayers": as_int(row["taxpayers"]),
+                "rank": int(row["rank"]),
+            }
+        )
+    ranking_meta = {
+        "id": "mfk_turnover_city_category_yearly",
+        "title": "Top kategoritë sipas komunave (vjetor)",
+        "generated_at": timestamp,
+        "updated_at": None,
+        "source": "Ministria e Financave, Punës dhe Transfereve (MFK)",
+        "source_urls": ["https://mfpt.rks-gov.net"],
+        "time": build_time(year_periods, "yearly"),
+        "fields": [
+            {"key": "turnover", "label": "Qarkullimi", "unit": "EUR"},
+            {"key": "taxpayers", "label": "Tatimpagues", "unit": "count"},
+            {"key": "rank", "label": "Renditja", "unit": "index"},
+        ],
+        "metrics": ["turnover", "taxpayers"],
+        "dimensions": {"city": dimension_cities, "category": dimension_categories},
+        "extras": {"currency": "EUR"},
+    }
     write_json(
-        output_dir / "top_category_by_city_over_years.json",
-        to_records(top_category_by_city_year, sort_columns=["year", "city", "rank"]),
+        output_dir / "mfk_turnover_city_category_yearly.json",
+        {"meta": ranking_meta, "records": ranking_records},
     )
 
-    categories_over_years = (
-        grouped.groupby(["year", "category"], as_index=False)
+    # Monthly Categories × City (latest year)
+    last_year_data = dataset[dataset["year"] == last_year]
+    monthly = (
+        last_year_data.groupby(["month", "category", "city"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
+        .sort_values(["month", "category", "city"])
     )
+    monthly_records: list[dict[str, Any]] = []
+    periods = sorted(
+        {f"{last_year}-{int(month):02d}" for month in last_year_data["month"].unique()}
+    )
+    for row in monthly.to_dict(orient="records"):
+        period = f"{last_year}-{int(row['month']):02d}"
+        monthly_records.append(
+            {
+                "period": period,
+                "category": row["category"],
+                "city": row["city"],
+                "turnover": format_currency(row["turnover"]),
+                "taxpayers": as_int(row["taxpayers"]),
+            }
+        )
+    monthly_meta = {
+        "id": "mfk_turnover_city_category_monthly",
+        "title": "Qarkullimi mujor sipas kategorive dhe komunave",
+        "generated_at": timestamp,
+        "updated_at": None,
+        "source": "Ministria e Financave, Punës dhe Transfereve (MFK)",
+        "source_urls": ["https://mfpt.rks-gov.net"],
+        "time": build_time(periods, "monthly"),
+        "fields": [
+            {"key": "turnover", "label": "Qarkullimi", "unit": "EUR"},
+            {"key": "taxpayers", "label": "Tatimpagues", "unit": "count"},
+        ],
+        "metrics": ["turnover", "taxpayers"],
+        "dimensions": {"city": dimension_cities, "category": dimension_categories},
+        "extras": {"currency": "EUR", "coverage_year": last_year},
+    }
     write_json(
-        output_dir / "categories_over_years.json",
-        to_records(categories_over_years, sort_columns=["year", "category"]),
+        output_dir / "mfk_turnover_city_category_monthly.json",
+        {"meta": monthly_meta, "records": monthly_records},
     )
 
 

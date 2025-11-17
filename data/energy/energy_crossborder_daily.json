@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "id": "energy_crossborder_daily",
+    "title": "Flukset kufitare ditore (ENTSO-E)",
+    "generated_at": "2025-11-17T16:22:32.243Z",
+    "updated_at": null,
+    "source": "ENTSO-E Transparency Platform",
+    "source_urls": [
+      "https://transparency.entsoe.eu"
+    ],
+    "time": {
+      "key": "period",
+      "granularity": "daily",
+      "first": "2025-10-01",
+      "last": "2025-10-31",
+      "count": 31
+    },
+    "fields": [
+      {
+        "key": "import",
+        "label": "Importet",
+        "unit": "MWh"
+      },
+      {
+        "key": "export",
+        "label": "Eksportet",
+        "unit": "MWh"
+      },
+      {
+        "key": "net",
+        "label": "Bilanci neto",
+        "unit": "MWh"
+      }
+    ],
+    "metrics": [
+      "import",
+      "export",
+      "net"
+    ],
+    "dimensions": {}
+  },
+  "records": [
+    {
+      "period": "2025-10-01",
+      "import": 0,
+      "export": 11934.03,
+      "net": -11934.03
+    },
+    {
+      "period": "2025-10-02",
+      "import": 4938,
+      "export": 7827.87,
+      "net": -2889.87
+    },
+    {
+      "period": "2025-10-03",
+      "import": 1263.74,
+      "export": 2071.6,
+      "net": -807.86
+    },
+    {
+      "period": "2025-10-04",
+      "import": 0,
+      "export": 4947.41,
+      "net": -4947.41
+    },
+    {
+      "period": "2025-10-05",
+      "import": 834.56,
+      "export": 7032.12,
+      "net": -6197.56
+    },
+    {
+      "period": "2025-10-06",
+      "import": 413.6,
+      "export": 7826.28,
+      "net": -7412.68
+    },
+    {
+      "period": "2025-10-07",
+      "import": 7169.68,
+      "export": 8252.97,
+      "net": -1083.29
+    },
+    {
+      "period": "2025-10-08",
+      "import": 7293.53,
+      "export": 7672.25,
+      "net": -378.72
+    },
+    {
+      "period": "2025-10-09",
+      "import": 10113.37,
+      "export": 10667.37,
+      "net": -554
+    },
+    {
+      "period": "2025-10-10",
+      "import": 10011.06,
+      "export": 10064.19,
+      "net": -53.13
+    },
+    {
+      "period": "2025-10-11",
+      "import": 11438.26,
+      "export": 11010.61,
+      "net": 427.65
+    },
+    {
+      "period": "2025-10-12",
+      "import": 11716.93,
+      "export": 11205.3,
+      "net": 511.63
+    },
+    {
+      "period": "2025-10-13",
+      "import": 9362.39,
+      "export": 5677,
+      "net": 3685.4
+    },
+    {
+      "period": "2025-10-14",
+      "import": 11399.75,
+      "export": 2826.97,
+      "net": 8572.78
+    },
+    {
+      "period": "2025-10-15",
+      "import": 11646.21,
+      "export": 3677.72,
+      "net": 7968.48
+    },
+    {
+      "period": "2025-10-16",
+      "import": 8337.41,
+      "export": 2413.27,
+      "net": 5924.14
+    },
+    {
+      "period": "2025-10-17",
+      "import": 5395.24,
+      "export": 4441.68,
+      "net": 953.56
+    },
+    {
+      "period": "2025-10-18",
+      "import": 7961.61,
+      "export": 2291.37,
+      "net": 5670.23
+    },
+    {
+      "period": "2025-10-19",
+      "import": 9985.8,
+      "export": 4997.75,
+      "net": 4988.05
+    },
+    {
+      "period": "2025-10-20",
+      "import": 10170.88,
+      "export": 4646.3,
+      "net": 5524.58
+    },
+    {
+      "period": "2025-10-21",
+      "import": 10743.07,
+      "export": 3998.27,
+      "net": 6744.8
+    },
+    {
+      "period": "2025-10-22",
+      "import": 8884.67,
+      "export": 4209.41,
+      "net": 4675.26
+    },
+    {
+      "period": "2025-10-23",
+      "import": 8735.46,
+      "export": 5115.32,
+      "net": 3620.14
+    },
+    {
+      "period": "2025-10-24",
+      "import": 5495.02,
+      "export": 7605.42,
+      "net": -2110.41
+    },
+    {
+      "period": "2025-10-25",
+      "import": 6735.35,
+      "export": 8335.92,
+      "net": -1600.58
+    },
+    {
+      "period": "2025-10-26",
+      "import": 8479.6,
+      "export": 3783.63,
+      "net": 4695.97
+    },
+    {
+      "period": "2025-10-27",
+      "import": 11690.06,
+      "export": 6414.71,
+      "net": 5275.35
+    },
+    {
+      "period": "2025-10-28",
+      "import": 11695.79,
+      "export": 6406,
+      "net": 5289.79
+    },
+    {
+      "period": "2025-10-29",
+      "import": 11477.51,
+      "export": 9461.88,
+      "net": 2015.62
+    },
+    {
+      "period": "2025-10-30",
+      "import": 7436.79,
+      "export": 8961.1,
+      "net": -1524.31
+    },
+    {
+      "period": "2025-10-31",
+      "import": 7970.98,
+      "export": 8630.66,
+      "net": -659.68
+    }
+  ]
+}

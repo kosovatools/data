@@ -1,26 +1,47 @@
-# Energy Dataset
+# Energy JSON Specification
 
-This folder contains the generated energy-flow snapshots that power the Kosovo Tools visualizations. The data is derived from the ENTSO-E cross-border flow API and is produced by the `src/fetch-entsoe.ts` script.
+`src/fetch-entsoe.ts` emits consolidated ENTSO-E cross-border flow datasets in the `{ meta, records }` format. Energy metrics are reported in megawatt-hours (MWh) and timestamps use UTC ISO-8601 strings.
 
-## File layout
+## `energy_crossborder_monthly.json`
+- **Type:** Object
+- **Fields:**
+  - `meta` (`object`): Dataset metadata.
+    - `time.granularity` (`"monthly"`), `time.first` / `time.last` (`string` periods), etc.
+    - `fields` include:
+      - `{ "key": "import", "label": "Importet", "unit": "MWh" }`
+      - `{ "key": "export", "label": "Eksportet", "unit": "MWh" }`
+      - `{ "key": "net", "label": "Bilanci neto", "unit": "MWh" }`
+      - `{ "key": "has_data", "label": "Ka të dhëna", "unit": "boolean" }`
+    - `dimensions.neighbor`: array of `{ key, label }` pairs for each interconnection (AL, ME, MK, RS).
+  - `records` (`array`): Per-neighbor monthly rows.
+    - `period` (`string`): Month in `YYYY-MM` format.
+    - `neighbor` (`string`): Neighbor key (e.g., `AL`).
+    - `import` (`number`): Total imports for the month.
+    - `export` (`number`): Total exports for the month.
+    - `net` (`number`): `import - export`.
+    - `has_data` (`boolean`): Whether ENTSO-E returned data for the interconnection.
 
-- `index.json` – metadata pointing at every available monthly snapshot. `months` is kept in ascending chronological order and includes `{ id, periodStart, periodEnd, totals }`.
-- `latest.json` – pointer to the most recent monthly snapshot (`snapshotId`, `periodStart`, `periodEnd`).
-- `latest-daily.json` – the per-day imports/exports for the latest month (`days` holds `{ date, imports, exports, net }`).
-- `monthly/<YYYY-MM>.json` – detailed snapshot for the month. Each file includes the period bounds and the per-neighbor breakdown with `{ code, country, importMWh, exportMWh, netMWh, hasData }` plus the aggregated `totals`.
+## `energy_crossborder_daily.json`
+- **Type:** Object
+- **Fields:**
+  - `meta` (`object`): Metadata for the latest month.
+    - `time.granularity` (`"daily"`), `time.first` / `time.last` (`YYYY-MM-DD`).
+    - `fields` matches monthly metrics without the `neighbor` dimension.
+  - `records` (`array`): Daily totals for the latest snapshot.
+    - `period` (`string`): Day in `YYYY-MM-DD` format.
+    - `import` (`number`)
+    - `export` (`number`)
+    - `net` (`number`)
 
-All timestamps are UTC strings, all energy values are expressed in megawatt-hours (MWh), and arrays are pre-sorted so clients can consume them directly.
+### Notes
+- Files are UTF-8 encoded without BOM.
+- Arrays are sorted chronologically so clients can consume them directly.
+- Monthly totals can be recomputed by grouping records on `period` and summing `import`, `export`, and `net`.
 
 ## Regenerating the dataset
 
 1. Install dependencies: `pnpm install`.
-2. Export your ENTSO-E API token: `export ENTSOE_API_KEY=...`.
-3. Run `pnpm run generate:energy` (wrap with `env ENT...` if running once).
+2. Provide an ENTSO-E API token: `export ENTSOE_API_KEY=...`.
+3. Run `pnpm run generate:energy` (optionally add `--month YYYY-MM`, `--backfill N`, or `--out <path>`). Use `--force` to re-fetch a month even if it already exists.
 
-The generator writes into `data/energy` by default. Useful flags:
-
-- `--month YYYY-MM` – regenerate a specific month instead of the previous month.
-- `--backfill N` (or `--months N`) – fetch up to `N` months counting back from the base month (capped at 24).
-- `--out <path>` – override the output directory if you need a different target.
-
-Each run updates the monthly file, refreshes `index.json`, and rewrites the `latest*` pointers when a newer month is fetched.
+The generator fetches the requested months, updates `energy_crossborder_monthly.json`, and rewrites `energy_crossborder_daily.json` for the newest snapshot.

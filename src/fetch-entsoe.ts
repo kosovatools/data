@@ -1,5 +1,5 @@
 #!/usr/bin/env tsx
-import { mkdir, readFile, writeFile, rename, stat } from "node:fs/promises"
+import { mkdir, readFile, writeFile, rename } from "node:fs/promises"
 import path from "node:path"
 import { randomUUID } from "node:crypto"
 import { XMLParser } from "fast-xml-parser"
@@ -14,6 +14,56 @@ const DEFAULT_NEIGHBORS = [
     { code: "10YCS-CG-TSO---S", label: "Montenegro" },
     { code: "10YCS-SERBIATSOV", label: "Serbia" }
 ] as const
+
+const ENERGY_SOURCE = "ENTSO-E Transparency Platform"
+const ENERGY_SOURCE_URLS = ["https://transparency.entsoe.eu"] as const
+const ENERGY_METRICS = ["import", "export", "net"] as const
+const MONTHLY_FIELDS = [
+    { key: "import", label: "Importet", unit: "MWh" },
+    { key: "export", label: "Eksportet", unit: "MWh" },
+    { key: "net", label: "Bilanci neto", unit: "MWh" },
+    { key: "has_data", label: "Ka të dhëna", unit: "boolean" },
+] as const
+const DAILY_FIELDS = [
+    { key: "import", label: "Importet", unit: "MWh" },
+    { key: "export", label: "Eksportet", unit: "MWh" },
+    { key: "net", label: "Bilanci neto", unit: "MWh" },
+] as const
+const NEIGHBOR_LABELS = {
+    AL: "Shqipëri (AL)",
+    MK: "Maqedonia e Veriut (MK)",
+    ME: "Mal i Zi (ME)",
+    RS: "Serbi (RS)",
+} as const
+const NEIGHBOR_CODE_TO_KEY: Record<string, keyof typeof NEIGHBOR_LABELS> = {
+    "10YAL-KESH-----5": "AL",
+    "10YMK-MEPSO----8": "MK",
+    "10YCS-CG-TSO---S": "ME",
+    "10YCS-SERBIATSOV": "RS",
+}
+
+type NeighborKey = keyof typeof NEIGHBOR_LABELS
+type MonthlyRecord = {
+    period: string
+    neighbor: string
+    import: number
+    export: number
+    net: number
+    has_data: boolean
+}
+type MonthlyDatasetStore = {
+    records: MonthlyRecord[]
+}
+type DailyRecord = {
+    period: string
+    import: number
+    export: number
+    net: number
+}
+type DailyDatasetPayload = {
+    records: DailyRecord[]
+    snapshotId: string
+}
 
 const parser = new XMLParser({ ignoreAttributes: false })
 
@@ -62,21 +112,30 @@ async function writeJsonAtomic(file: string, obj: unknown) {
     await writeFile(tmp, JSON.stringify(obj, null, 2) + "\n", "utf8")
     await rename(tmp, file)
 }
-async function fileExists(p: string) { try { await stat(p); return true } catch { return false } }
 async function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)) }
 async function safeFetch(url: string, tries = 5) {
+    console.log(url);
     let delay = 1000
+    let lastError: unknown
     for (let i = 0; i < tries; i++) {
-        const res = await fetch(url)
-        if (res.ok) return res
-        const ra = res.headers.get("retry-after")
-        if (res.status === 429 || res.status >= 500) {
-            await sleep(ra ? Number(ra) * 1000 : delay); delay *= 2; continue
+        try {
+            const res = await fetch(url)
+            if (res.ok) return res
+            const ra = res.headers.get("retry-after")
+            if (res.status === 429 || res.status >= 500) {
+                await sleep(ra ? Number(ra) * 1000 : delay); delay *= 2; continue
+            }
+            const msg = await res.text().catch(() => res.statusText)
+            throw new Error(`ENTSO-E ${res.status}: ${msg}`)
+        } catch (error) {
+            lastError = error
+            if (i === tries - 1) break
+            await sleep(delay)
+            delay *= 2
         }
-        const msg = await res.text().catch(() => res.statusText)
-        throw new Error(`ENTSO-E ${res.status}: ${msg}`)
     }
-    throw new Error("ENTSO-E: exhausted retries")
+    const message = lastError instanceof Error ? lastError.message : String(lastError ?? "unknown error")
+    throw new Error(`ENTSO-E: failed after ${tries} attempts (${message})`)
 }
 
 // ---------- parsing ----------
@@ -161,6 +220,153 @@ function sumByDay(importSamples: Sample[], exportSamples: Sample[]) {
         .map(([date, v]) => ({ date, imports: v.imports, exports: v.exports, net: v.imports - v.exports }))
 }
 
+type SnapshotResult = Awaited<ReturnType<typeof createSnapshot>>
+type MonthlySnapshotPayload = SnapshotResult["monthly"]
+type LatestDailyPayload = SnapshotResult["latestDaily"]
+
+function toEnergyNumber(value: unknown) {
+    if (typeof value === "number") return Number.isFinite(value) ? value : 0
+    if (typeof value === "string") {
+        const parsed = Number(value)
+        return Number.isFinite(parsed) ? parsed : 0
+    }
+    return 0
+}
+
+function roundEnergy(value: number) {
+    return Math.round(value * 100) / 100
+}
+
+function mapNeighborKey(code: string, fallback: string) {
+    const mapped = NEIGHBOR_CODE_TO_KEY[code]
+    if (mapped) return mapped
+    if (fallback && typeof fallback === "string") {
+        const trimmed = fallback.trim()
+        if (trimmed) return trimmed
+    }
+    return code
+}
+
+function buildNeighborDimensions(records: MonthlyRecord[]) {
+    const entries = new Map<string, string>()
+    for (const key of Object.keys(NEIGHBOR_LABELS) as NeighborKey[]) {
+        entries.set(key, NEIGHBOR_LABELS[key])
+    }
+    for (const record of records) {
+        if (!entries.has(record.neighbor)) {
+            entries.set(record.neighbor, record.neighbor)
+        }
+    }
+    return [...entries.entries()]
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([key, label]) => ({ key, label }))
+}
+
+async function loadMonthlyDataset(file: string): Promise<MonthlyDatasetStore> {
+    try {
+        const raw = JSON.parse(await readFile(file, "utf8"))
+        const records = Array.isArray(raw?.records) ? sanitizeMonthlyRecords(raw.records) : []
+        return { records }
+    } catch {
+        return { records: [] }
+    }
+}
+
+function sanitizeMonthlyRecords(raw: any[]): MonthlyRecord[] {
+    return raw
+        .map(record => ({
+            period: typeof record?.period === "string" ? record.period : "",
+            neighbor: typeof record?.neighbor === "string" ? record.neighbor : "",
+            import: roundEnergy(toEnergyNumber(record?.import ?? record?.import_mwh)),
+            export: roundEnergy(toEnergyNumber(record?.export ?? record?.export_mwh)),
+            net: roundEnergy(toEnergyNumber(record?.net ?? record?.net_mwh)),
+            has_data: Boolean(record?.has_data),
+        }))
+        .filter(record => record.period && record.neighbor)
+}
+
+function upsertMonthlySnapshot(store: MonthlyDatasetStore, snapshot: MonthlySnapshotPayload) {
+    const id = snapshot.id
+    store.records = store.records.filter(record => record.period !== id)
+    const records: MonthlyRecord[] = snapshot.neighbors.map(neighbor => ({
+        period: id,
+        neighbor: mapNeighborKey(neighbor.code, neighbor.country),
+        import: roundEnergy(toEnergyNumber(neighbor.importMWh)),
+        export: roundEnergy(toEnergyNumber(neighbor.exportMWh)),
+        net: roundEnergy(toEnergyNumber(neighbor.netMWh)),
+        has_data: Boolean(neighbor.hasData),
+    }))
+    store.records.push(...records)
+}
+
+function buildTimeMetadata(periods: string[], granularity: "monthly" | "daily") {
+    if (!periods.length) {
+        throw new Error(`Cannot build ${granularity} dataset without any records.`)
+    }
+    const sorted = [...periods].sort((a, b) => a.localeCompare(b))
+    return {
+        key: "period",
+        granularity,
+        first: sorted[0],
+        last: sorted[sorted.length - 1],
+        count: sorted.length,
+    }
+}
+
+async function writeMonthlyDataset(file: string, store: MonthlyDatasetStore) {
+    if (!store.records.length) {
+        throw new Error("Monthly dataset is empty; fetch at least one snapshot before writing.")
+    }
+    const records = store.records
+        .slice()
+        .sort((a, b) => a.period.localeCompare(b.period) || a.neighbor.localeCompare(b.neighbor))
+    const periods = [...new Set(records.map(record => record.period))]
+    const meta = {
+        id: "energy_crossborder_monthly",
+        title: "Flukset kufitare mujore (ENTSO-E)",
+        generated_at: new Date().toISOString(),
+        updated_at: null,
+        source: ENERGY_SOURCE,
+        source_urls: ENERGY_SOURCE_URLS,
+        time: buildTimeMetadata(periods, "monthly"),
+        fields: MONTHLY_FIELDS,
+        metrics: ENERGY_METRICS,
+        dimensions: { neighbor: buildNeighborDimensions(records) },
+    }
+    await writeJsonAtomic(file, { meta, records })
+}
+
+function buildDailyDataset(latestDaily: LatestDailyPayload): DailyDatasetPayload {
+    const records: DailyRecord[] = latestDaily.days.map(day => ({
+        period: day.date,
+        import: roundEnergy(toEnergyNumber(day.imports)),
+        export: roundEnergy(toEnergyNumber(day.exports)),
+        net: roundEnergy(toEnergyNumber(day.net)),
+    }))
+    return { records, snapshotId: latestDaily.snapshotId }
+}
+
+async function writeDailyDataset(file: string, payload: DailyDatasetPayload) {
+    if (!payload.records.length) {
+        throw new Error("Daily dataset is empty; cannot write file.")
+    }
+    const records = payload.records.slice().sort((a, b) => a.period.localeCompare(b.period))
+    const periods = records.map(record => record.period)
+    const meta = {
+        id: "energy_crossborder_daily",
+        title: "Flukset kufitare ditore (ENTSO-E)",
+        generated_at: new Date().toISOString(),
+        updated_at: null,
+        source: ENERGY_SOURCE,
+        source_urls: ENERGY_SOURCE_URLS,
+        time: buildTimeMetadata(periods, "daily"),
+        fields: DAILY_FIELDS,
+        metrics: ENERGY_METRICS,
+        dimensions: {},
+    }
+    await writeJsonAtomic(file, { meta, records })
+}
+
 async function createSnapshot({ token, start, end }: { token: string; start: Date; end: Date }) {
     const snapshotId = formatPeriodId(start)
     const periodStart = toEntsoeDate(start)
@@ -225,6 +431,7 @@ async function main() {
     const outDir = path.resolve(args.get("--out") ?? "./data/energy")
     const monthArg = args.get("--month")
     const backfillArg = args.get("--backfill") ?? args.get("--months")
+    const force = args.has("--force")
 
     const baseRange = monthArg && /^\d{4}-\d{2}$/.test(monthArg)
         ? (() => { const [y, m] = monthArg.split("-").map(Number); return { start: new Date(Date.UTC(y, m - 1, 1)), end: new Date(Date.UTC(y, m, 1)) } })()
@@ -247,60 +454,44 @@ async function main() {
         const end = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 1))
         months.push({ start, end })
     }
-
-    const latestDailyPath = path.join(outDir, "latest-daily.json")
-    let touchedAny = false
+    const monthlyDatasetPath = path.join(outDir, "energy_crossborder_monthly.json")
+    const dailyDatasetPath = path.join(outDir, "energy_crossborder_daily.json")
+    const monthlyStore = await loadMonthlyDataset(monthlyDatasetPath)
+    const updatedPeriods: string[] = []
+    let latestDailyDataset: DailyDatasetPayload | null = null
 
     for (let i = 0; i < months.length; i++) {
         const { start, end } = months[i]
         const id = formatPeriodId(start)
         const isNewest = i === months.length - 1
-        const monthlyPath = path.join(outDir, "monthly", `${id}.json`)
-
-        if (await fileExists(monthlyPath)) {
-            console.log(`Month ${id} already present, refreshing pointers...`)
-            const existing = JSON.parse(await readFile(monthlyPath, "utf8"))
-            await updatePointers(outDir, existing)
+        const alreadyPresent = monthlyStore.records.some(record => record.period === id)
+        const shouldFetch = force || !alreadyPresent || isNewest
+        if (!shouldFetch) {
+            console.log(`Month ${id} already present, skipping (use --force to re-fetch).`)
             continue
         }
 
         const { monthly, latestDaily } = await createSnapshot({ token, start, end })
-
-        await writeJsonAtomic(monthlyPath, monthly)
-        await updatePointers(outDir, monthly)
+        upsertMonthlySnapshot(monthlyStore, monthly)
+        updatedPeriods.push(id)
         if (isNewest) {
-            await writeJsonAtomic(latestDailyPath, latestDaily)
+            latestDailyDataset = buildDailyDataset(latestDaily)
         }
-
-        const suffix = isNewest ? " + latest daily" : ""
-        console.log(`Saved ${id} monthly${suffix}.`)
-        touchedAny = true
+        const status = alreadyPresent && !force ? "refreshed" : "fetched"
+        console.log(`${status === "refreshed" ? "Refreshed" : "Fetched"} ${id} snapshot${isNewest ? " (includes daily)" : ""}.`)
     }
 
-    if (!touchedAny) {
+    if (updatedPeriods.length) {
+        await writeMonthlyDataset(monthlyDatasetPath, monthlyStore)
+        console.log(`Updated monthly dataset for periods: ${updatedPeriods.join(", ")}.`)
+    } else {
         console.log("No new months fetched. Existing data kept in place.")
     }
-}
 
-async function updatePointers(outDir: string, monthly: { id: string; periodStart: string; periodEnd: string; totals: any }) {
-    const indexPath = path.join(outDir, "index.json")
-    let index: any = { generatedAt: new Date().toISOString(), months: [] as any[] }
-    try {
-        const raw = await readFile(indexPath, "utf8")
-        const parsed = JSON.parse(raw)
-        if (parsed && typeof parsed === "object" && Array.isArray(parsed.months)) index = parsed
-    } catch { }
-    const minimal = { id: monthly.id, periodStart: monthly.periodStart, periodEnd: monthly.periodEnd, totals: monthly.totals }
-    index.months = [
-        ...index.months.filter((m: any) => m?.id !== monthly.id),
-        minimal
-    ].sort((a: any, b: any) => new Date(a.periodStart).getTime() - new Date(b.periodStart).getTime())
-    index.generatedAt = new Date().toISOString()
-    await writeJsonAtomic(indexPath, index)
-
-    await writeJsonAtomic(path.join(outDir, "latest.json"), {
-        snapshotId: monthly.id, periodStart: monthly.periodStart, periodEnd: monthly.periodEnd
-    })
+    if (latestDailyDataset) {
+        await writeDailyDataset(dailyDatasetPath, latestDailyDataset)
+        console.log(`Updated daily dataset for snapshot ${latestDailyDataset.snapshotId}.`)
+    }
 }
 
 main().catch(err => { console.error(err); process.exit(1) })

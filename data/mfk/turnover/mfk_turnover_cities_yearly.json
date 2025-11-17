@@ -1,0 +1,1792 @@
+{
+  "meta": {
+    "id": "mfk_turnover_cities_yearly",
+    "title": "Qarkullimi sipas komunave (vjetor)",
+    "generated_at": "2025-11-17T16:24:01Z",
+    "updated_at": null,
+    "source": "Ministria e Financave, Punës dhe Transfereve (MFK)",
+    "source_urls": [
+      "https://mfpt.rks-gov.net"
+    ],
+    "time": {
+      "key": "period",
+      "granularity": "yearly",
+      "first": "2019",
+      "last": "2025",
+      "count": 7
+    },
+    "fields": [
+      {
+        "key": "turnover",
+        "label": "Qarkullimi",
+        "unit": "EUR"
+      },
+      {
+        "key": "taxpayers",
+        "label": "Tatimpagues",
+        "unit": "count"
+      }
+    ],
+    "metrics": [
+      "turnover",
+      "taxpayers"
+    ],
+    "dimensions": {
+      "city": [
+        {
+          "key": "DEÇAN",
+          "label": "DEÇAN"
+        },
+        {
+          "key": "DRAGASH",
+          "label": "DRAGASH"
+        },
+        {
+          "key": "FERIZAJ",
+          "label": "FERIZAJ"
+        },
+        {
+          "key": "FUSHË KOSOVË",
+          "label": "FUSHË KOSOVË"
+        },
+        {
+          "key": "GJAKOVË",
+          "label": "GJAKOVË"
+        },
+        {
+          "key": "GJILAN",
+          "label": "GJILAN"
+        },
+        {
+          "key": "GLLOGOC",
+          "label": "GLLOGOC"
+        },
+        {
+          "key": "GRAÇANICË",
+          "label": "GRAÇANICË"
+        },
+        {
+          "key": "HANI I ELEZIT",
+          "label": "HANI I ELEZIT"
+        },
+        {
+          "key": "ISTOG",
+          "label": "ISTOG"
+        },
+        {
+          "key": "JUNIK",
+          "label": "JUNIK"
+        },
+        {
+          "key": "KAMENICË",
+          "label": "KAMENICË"
+        },
+        {
+          "key": "KAÇANIK",
+          "label": "KAÇANIK"
+        },
+        {
+          "key": "KLINË",
+          "label": "KLINË"
+        },
+        {
+          "key": "KLLOKOT",
+          "label": "KLLOKOT"
+        },
+        {
+          "key": "LEPOSAVIQ",
+          "label": "LEPOSAVIQ"
+        },
+        {
+          "key": "LIPJAN",
+          "label": "LIPJAN"
+        },
+        {
+          "key": "MALISHEVË",
+          "label": "MALISHEVË"
+        },
+        {
+          "key": "MAMUSHË",
+          "label": "MAMUSHË"
+        },
+        {
+          "key": "MITROVICË",
+          "label": "MITROVICË"
+        },
+        {
+          "key": "MITROVICË VERIORE",
+          "label": "MITROVICË VERIORE"
+        },
+        {
+          "key": "NOVOBËRDË",
+          "label": "NOVOBËRDË"
+        },
+        {
+          "key": "OBILIQ",
+          "label": "OBILIQ"
+        },
+        {
+          "key": "PARTESH",
+          "label": "PARTESH"
+        },
+        {
+          "key": "PEJË",
+          "label": "PEJË"
+        },
+        {
+          "key": "PODUJEVË",
+          "label": "PODUJEVË"
+        },
+        {
+          "key": "PRISHTINË",
+          "label": "PRISHTINË"
+        },
+        {
+          "key": "PRIZREN",
+          "label": "PRIZREN"
+        },
+        {
+          "key": "RAHOVEC",
+          "label": "RAHOVEC"
+        },
+        {
+          "key": "RANILLUG",
+          "label": "RANILLUG"
+        },
+        {
+          "key": "SHTIME",
+          "label": "SHTIME"
+        },
+        {
+          "key": "SHTËRPCË",
+          "label": "SHTËRPCË"
+        },
+        {
+          "key": "SKENDERAJ",
+          "label": "SKENDERAJ"
+        },
+        {
+          "key": "SUHAREKË",
+          "label": "SUHAREKË"
+        },
+        {
+          "key": "VITI",
+          "label": "VITI"
+        },
+        {
+          "key": "VUSHTRRI",
+          "label": "VUSHTRRI"
+        },
+        {
+          "key": "ZUBIN POTOK",
+          "label": "ZUBIN POTOK"
+        },
+        {
+          "key": "ZVEÇAN",
+          "label": "ZVEÇAN"
+        }
+      ]
+    },
+    "extras": {
+      "currency": "EUR"
+    }
+  },
+  "records": [
+    {
+      "period": "2019",
+      "city": "DEÇAN",
+      "turnover": 68531074.57,
+      "taxpayers": 4571
+    },
+    {
+      "period": "2019",
+      "city": "DRAGASH",
+      "turnover": 30108788.65,
+      "taxpayers": 3449
+    },
+    {
+      "period": "2019",
+      "city": "FERIZAJ",
+      "turnover": 813710531.02,
+      "taxpayers": 36056
+    },
+    {
+      "period": "2019",
+      "city": "FUSHË KOSOVË",
+      "turnover": 528420122.69,
+      "taxpayers": 14846
+    },
+    {
+      "period": "2019",
+      "city": "GJAKOVË",
+      "turnover": 269257986.62,
+      "taxpayers": 22758
+    },
+    {
+      "period": "2019",
+      "city": "GJILAN",
+      "turnover": 337908067.0,
+      "taxpayers": 25687
+    },
+    {
+      "period": "2019",
+      "city": "GLLOGOC",
+      "turnover": 224823953.08,
+      "taxpayers": 9836
+    },
+    {
+      "period": "2019",
+      "city": "GRAÇANICË",
+      "turnover": 1191990447.01,
+      "taxpayers": 5943
+    },
+    {
+      "period": "2019",
+      "city": "HANI I ELEZIT",
+      "turnover": 66647512.14,
+      "taxpayers": 1825
+    },
+    {
+      "period": "2019",
+      "city": "ISTOG",
+      "turnover": 122274704.95,
+      "taxpayers": 7060
+    },
+    {
+      "period": "2019",
+      "city": "JUNIK",
+      "turnover": 9152488.76,
+      "taxpayers": 430
+    },
+    {
+      "period": "2019",
+      "city": "KAMENICË",
+      "turnover": 36253151.85,
+      "taxpayers": 5813
+    },
+    {
+      "period": "2019",
+      "city": "KAÇANIK",
+      "turnover": 53739219.23,
+      "taxpayers": 5187
+    },
+    {
+      "period": "2019",
+      "city": "KLINË",
+      "turnover": 106019939.85,
+      "taxpayers": 6211
+    },
+    {
+      "period": "2019",
+      "city": "KLLOKOT",
+      "turnover": 9343080.72,
+      "taxpayers": 507
+    },
+    {
+      "period": "2019",
+      "city": "LEPOSAVIQ",
+      "turnover": 4542416.01,
+      "taxpayers": 1490
+    },
+    {
+      "period": "2019",
+      "city": "LIPJAN",
+      "turnover": 235637226.39,
+      "taxpayers": 10720
+    },
+    {
+      "period": "2019",
+      "city": "MALISHEVË",
+      "turnover": 123769908.47,
+      "taxpayers": 7179
+    },
+    {
+      "period": "2019",
+      "city": "MAMUSHË",
+      "turnover": 11046822.77,
+      "taxpayers": 921
+    },
+    {
+      "period": "2019",
+      "city": "MITROVICË",
+      "turnover": 229270881.03,
+      "taxpayers": 16985
+    },
+    {
+      "period": "2019",
+      "city": "MITROVICË VERIORE",
+      "turnover": 12605815.49,
+      "taxpayers": 1492
+    },
+    {
+      "period": "2019",
+      "city": "NOVOBËRDË",
+      "turnover": 1084845.74,
+      "taxpayers": 673
+    },
+    {
+      "period": "2019",
+      "city": "OBILIQ",
+      "turnover": 144267268.3,
+      "taxpayers": 4102
+    },
+    {
+      "period": "2019",
+      "city": "PARTESH",
+      "turnover": 3146756.45,
+      "taxpayers": 717
+    },
+    {
+      "period": "2019",
+      "city": "PEJË",
+      "turnover": 666598986.89,
+      "taxpayers": 25296
+    },
+    {
+      "period": "2019",
+      "city": "PODUJEVË",
+      "turnover": 191102887.54,
+      "taxpayers": 13042
+    },
+    {
+      "period": "2019",
+      "city": "PRISHTINË",
+      "turnover": 5102063511.86,
+      "taxpayers": 140621
+    },
+    {
+      "period": "2019",
+      "city": "PRIZREN",
+      "turnover": 739602867.23,
+      "taxpayers": 42294
+    },
+    {
+      "period": "2019",
+      "city": "RAHOVEC",
+      "turnover": 152021677.84,
+      "taxpayers": 10189
+    },
+    {
+      "period": "2019",
+      "city": "RANILLUG",
+      "turnover": 39919.03,
+      "taxpayers": 104
+    },
+    {
+      "period": "2019",
+      "city": "SHTIME",
+      "turnover": 84487875.7,
+      "taxpayers": 4332
+    },
+    {
+      "period": "2019",
+      "city": "SHTËRPCË",
+      "turnover": 5624404.64,
+      "taxpayers": 1568
+    },
+    {
+      "period": "2019",
+      "city": "SKENDERAJ",
+      "turnover": 115673565.87,
+      "taxpayers": 5803
+    },
+    {
+      "period": "2019",
+      "city": "SUHAREKË",
+      "turnover": 246605990.95,
+      "taxpayers": 13378
+    },
+    {
+      "period": "2019",
+      "city": "VITI",
+      "turnover": 224601442.94,
+      "taxpayers": 8122
+    },
+    {
+      "period": "2019",
+      "city": "VUSHTRRI",
+      "turnover": 203929620.89,
+      "taxpayers": 10616
+    },
+    {
+      "period": "2019",
+      "city": "ZUBIN POTOK",
+      "turnover": 5169667.39,
+      "taxpayers": 537
+    },
+    {
+      "period": "2019",
+      "city": "ZVEÇAN",
+      "turnover": 12159805.89,
+      "taxpayers": 883
+    },
+    {
+      "period": "2020",
+      "city": "DEÇAN",
+      "turnover": 71090881.33,
+      "taxpayers": 4811
+    },
+    {
+      "period": "2020",
+      "city": "DRAGASH",
+      "turnover": 27410830.27,
+      "taxpayers": 3468
+    },
+    {
+      "period": "2020",
+      "city": "FERIZAJ",
+      "turnover": 694283653.96,
+      "taxpayers": 36609
+    },
+    {
+      "period": "2020",
+      "city": "FUSHË KOSOVË",
+      "turnover": 477637930.77,
+      "taxpayers": 15306
+    },
+    {
+      "period": "2020",
+      "city": "GJAKOVË",
+      "turnover": 275317154.92,
+      "taxpayers": 22768
+    },
+    {
+      "period": "2020",
+      "city": "GJILAN",
+      "turnover": 325102075.12,
+      "taxpayers": 25566
+    },
+    {
+      "period": "2020",
+      "city": "GLLOGOC",
+      "turnover": 209690231.51,
+      "taxpayers": 9731
+    },
+    {
+      "period": "2020",
+      "city": "GRAÇANICË",
+      "turnover": 1204340848.68,
+      "taxpayers": 6084
+    },
+    {
+      "period": "2020",
+      "city": "HANI I ELEZIT",
+      "turnover": 65780524.23,
+      "taxpayers": 1895
+    },
+    {
+      "period": "2020",
+      "city": "ISTOG",
+      "turnover": 108614667.27,
+      "taxpayers": 7049
+    },
+    {
+      "period": "2020",
+      "city": "JUNIK",
+      "turnover": 3874419.38,
+      "taxpayers": 473
+    },
+    {
+      "period": "2020",
+      "city": "KAMENICË",
+      "turnover": 35810365.0,
+      "taxpayers": 5780
+    },
+    {
+      "period": "2020",
+      "city": "KAÇANIK",
+      "turnover": 46134892.18,
+      "taxpayers": 5209
+    },
+    {
+      "period": "2020",
+      "city": "KLINË",
+      "turnover": 95478268.41,
+      "taxpayers": 6468
+    },
+    {
+      "period": "2020",
+      "city": "KLLOKOT",
+      "turnover": 8005874.72,
+      "taxpayers": 505
+    },
+    {
+      "period": "2020",
+      "city": "LEPOSAVIQ",
+      "turnover": 6920767.76,
+      "taxpayers": 1311
+    },
+    {
+      "period": "2020",
+      "city": "LIPJAN",
+      "turnover": 199108257.3,
+      "taxpayers": 10833
+    },
+    {
+      "period": "2020",
+      "city": "MALISHEVË",
+      "turnover": 117429563.0,
+      "taxpayers": 7456
+    },
+    {
+      "period": "2020",
+      "city": "MAMUSHË",
+      "turnover": 9053236.43,
+      "taxpayers": 944
+    },
+    {
+      "period": "2020",
+      "city": "MITROVICË",
+      "turnover": 217031786.74,
+      "taxpayers": 16971
+    },
+    {
+      "period": "2020",
+      "city": "MITROVICË VERIORE",
+      "turnover": 11788594.77,
+      "taxpayers": 1424
+    },
+    {
+      "period": "2020",
+      "city": "NOVOBËRDË",
+      "turnover": 1705849.25,
+      "taxpayers": 645
+    },
+    {
+      "period": "2020",
+      "city": "OBILIQ",
+      "turnover": 132886713.35,
+      "taxpayers": 4126
+    },
+    {
+      "period": "2020",
+      "city": "PARTESH",
+      "turnover": 2828015.8,
+      "taxpayers": 638
+    },
+    {
+      "period": "2020",
+      "city": "PEJË",
+      "turnover": 664900067.69,
+      "taxpayers": 25826
+    },
+    {
+      "period": "2020",
+      "city": "PODUJEVË",
+      "turnover": 184662709.81,
+      "taxpayers": 13359
+    },
+    {
+      "period": "2020",
+      "city": "PRISHTINË",
+      "turnover": 4817472080.04,
+      "taxpayers": 140971
+    },
+    {
+      "period": "2020",
+      "city": "PRIZREN",
+      "turnover": 639926172.2,
+      "taxpayers": 42610
+    },
+    {
+      "period": "2020",
+      "city": "RAHOVEC",
+      "turnover": 149981372.03,
+      "taxpayers": 10167
+    },
+    {
+      "period": "2020",
+      "city": "RANILLUG",
+      "turnover": 162698.57,
+      "taxpayers": 116
+    },
+    {
+      "period": "2020",
+      "city": "SHTIME",
+      "turnover": 84655918.79,
+      "taxpayers": 4462
+    },
+    {
+      "period": "2020",
+      "city": "SHTËRPCË",
+      "turnover": 5303710.08,
+      "taxpayers": 1554
+    },
+    {
+      "period": "2020",
+      "city": "SKENDERAJ",
+      "turnover": 108965893.51,
+      "taxpayers": 5796
+    },
+    {
+      "period": "2020",
+      "city": "SUHAREKË",
+      "turnover": 233034059.01,
+      "taxpayers": 13336
+    },
+    {
+      "period": "2020",
+      "city": "VITI",
+      "turnover": 201775587.27,
+      "taxpayers": 8084
+    },
+    {
+      "period": "2020",
+      "city": "VUSHTRRI",
+      "turnover": 209022715.51,
+      "taxpayers": 11168
+    },
+    {
+      "period": "2020",
+      "city": "ZUBIN POTOK",
+      "turnover": 3739496.01,
+      "taxpayers": 466
+    },
+    {
+      "period": "2020",
+      "city": "ZVEÇAN",
+      "turnover": 13908844.27,
+      "taxpayers": 793
+    },
+    {
+      "period": "2021",
+      "city": "DEÇAN",
+      "turnover": 96621264.53,
+      "taxpayers": 4995
+    },
+    {
+      "period": "2021",
+      "city": "DRAGASH",
+      "turnover": 32440642.79,
+      "taxpayers": 3517
+    },
+    {
+      "period": "2021",
+      "city": "FERIZAJ",
+      "turnover": 965194189.47,
+      "taxpayers": 37084
+    },
+    {
+      "period": "2021",
+      "city": "FUSHË KOSOVË",
+      "turnover": 699140391.69,
+      "taxpayers": 16130
+    },
+    {
+      "period": "2021",
+      "city": "GJAKOVË",
+      "turnover": 472057088.79,
+      "taxpayers": 23466
+    },
+    {
+      "period": "2021",
+      "city": "GJILAN",
+      "turnover": 444835349.7,
+      "taxpayers": 25687
+    },
+    {
+      "period": "2021",
+      "city": "GLLOGOC",
+      "turnover": 263431714.35,
+      "taxpayers": 10022
+    },
+    {
+      "period": "2021",
+      "city": "GRAÇANICË",
+      "turnover": 1561998173.34,
+      "taxpayers": 6476
+    },
+    {
+      "period": "2021",
+      "city": "HANI I ELEZIT",
+      "turnover": 74957554.13,
+      "taxpayers": 1896
+    },
+    {
+      "period": "2021",
+      "city": "ISTOG",
+      "turnover": 136685876.03,
+      "taxpayers": 7184
+    },
+    {
+      "period": "2021",
+      "city": "JUNIK",
+      "turnover": 3983803.36,
+      "taxpayers": 475
+    },
+    {
+      "period": "2021",
+      "city": "KAMENICË",
+      "turnover": 43766272.96,
+      "taxpayers": 5622
+    },
+    {
+      "period": "2021",
+      "city": "KAÇANIK",
+      "turnover": 61068698.57,
+      "taxpayers": 5188
+    },
+    {
+      "period": "2021",
+      "city": "KLINË",
+      "turnover": 119811474.77,
+      "taxpayers": 6596
+    },
+    {
+      "period": "2021",
+      "city": "KLLOKOT",
+      "turnover": 11711197.72,
+      "taxpayers": 482
+    },
+    {
+      "period": "2021",
+      "city": "LEPOSAVIQ",
+      "turnover": 6807244.19,
+      "taxpayers": 1124
+    },
+    {
+      "period": "2021",
+      "city": "LIPJAN",
+      "turnover": 289955638.08,
+      "taxpayers": 11179
+    },
+    {
+      "period": "2021",
+      "city": "MALISHEVË",
+      "turnover": 150422025.39,
+      "taxpayers": 7777
+    },
+    {
+      "period": "2021",
+      "city": "MAMUSHË",
+      "turnover": 11846655.79,
+      "taxpayers": 989
+    },
+    {
+      "period": "2021",
+      "city": "MITROVICË",
+      "turnover": 293266557.14,
+      "taxpayers": 16926
+    },
+    {
+      "period": "2021",
+      "city": "MITROVICË VERIORE",
+      "turnover": 13554414.15,
+      "taxpayers": 1369
+    },
+    {
+      "period": "2021",
+      "city": "NOVOBËRDË",
+      "turnover": 2817768.29,
+      "taxpayers": 691
+    },
+    {
+      "period": "2021",
+      "city": "OBILIQ",
+      "turnover": 164564110.06,
+      "taxpayers": 4372
+    },
+    {
+      "period": "2021",
+      "city": "PARTESH",
+      "turnover": 3649708.35,
+      "taxpayers": 578
+    },
+    {
+      "period": "2021",
+      "city": "PEJË",
+      "turnover": 766905950.46,
+      "taxpayers": 26609
+    },
+    {
+      "period": "2021",
+      "city": "PODUJEVË",
+      "turnover": 238804252.49,
+      "taxpayers": 13763
+    },
+    {
+      "period": "2021",
+      "city": "PRISHTINË",
+      "turnover": 6362846882.63,
+      "taxpayers": 143542
+    },
+    {
+      "period": "2021",
+      "city": "PRIZREN",
+      "turnover": 845186351.67,
+      "taxpayers": 43417
+    },
+    {
+      "period": "2021",
+      "city": "RAHOVEC",
+      "turnover": 180348776.55,
+      "taxpayers": 10214
+    },
+    {
+      "period": "2021",
+      "city": "RANILLUG",
+      "turnover": 985716.95,
+      "taxpayers": 144
+    },
+    {
+      "period": "2021",
+      "city": "SHTIME",
+      "turnover": 106015140.19,
+      "taxpayers": 4586
+    },
+    {
+      "period": "2021",
+      "city": "SHTËRPCË",
+      "turnover": 6493747.46,
+      "taxpayers": 1525
+    },
+    {
+      "period": "2021",
+      "city": "SKENDERAJ",
+      "turnover": 125472141.75,
+      "taxpayers": 6039
+    },
+    {
+      "period": "2021",
+      "city": "SUHAREKË",
+      "turnover": 297530440.79,
+      "taxpayers": 13679
+    },
+    {
+      "period": "2021",
+      "city": "VITI",
+      "turnover": 266597115.86,
+      "taxpayers": 8189
+    },
+    {
+      "period": "2021",
+      "city": "VUSHTRRI",
+      "turnover": 258790562.16,
+      "taxpayers": 11587
+    },
+    {
+      "period": "2021",
+      "city": "ZUBIN POTOK",
+      "turnover": 6591780.85,
+      "taxpayers": 434
+    },
+    {
+      "period": "2021",
+      "city": "ZVEÇAN",
+      "turnover": 13120758.32,
+      "taxpayers": 714
+    },
+    {
+      "period": "2022",
+      "city": "DEÇAN",
+      "turnover": 108284915.7,
+      "taxpayers": 5256
+    },
+    {
+      "period": "2022",
+      "city": "DRAGASH",
+      "turnover": 35143402.98,
+      "taxpayers": 3665
+    },
+    {
+      "period": "2022",
+      "city": "FERIZAJ",
+      "turnover": 1184706928.15,
+      "taxpayers": 39944
+    },
+    {
+      "period": "2022",
+      "city": "FUSHË KOSOVË",
+      "turnover": 836713675.54,
+      "taxpayers": 17618
+    },
+    {
+      "period": "2022",
+      "city": "GJAKOVË",
+      "turnover": 554498477.86,
+      "taxpayers": 24521
+    },
+    {
+      "period": "2022",
+      "city": "GJILAN",
+      "turnover": 551786910.71,
+      "taxpayers": 26399
+    },
+    {
+      "period": "2022",
+      "city": "GLLOGOC",
+      "turnover": 228964696.09,
+      "taxpayers": 10433
+    },
+    {
+      "period": "2022",
+      "city": "GRAÇANICË",
+      "turnover": 1926028442.44,
+      "taxpayers": 7110
+    },
+    {
+      "period": "2022",
+      "city": "HANI I ELEZIT",
+      "turnover": 110974554.02,
+      "taxpayers": 1939
+    },
+    {
+      "period": "2022",
+      "city": "ISTOG",
+      "turnover": 150746162.57,
+      "taxpayers": 7504
+    },
+    {
+      "period": "2022",
+      "city": "JUNIK",
+      "turnover": 2951789.63,
+      "taxpayers": 477
+    },
+    {
+      "period": "2022",
+      "city": "KAMENICË",
+      "turnover": 47445175.66,
+      "taxpayers": 5593
+    },
+    {
+      "period": "2022",
+      "city": "KAÇANIK",
+      "turnover": 98209589.49,
+      "taxpayers": 5443
+    },
+    {
+      "period": "2022",
+      "city": "KLINË",
+      "turnover": 150672621.57,
+      "taxpayers": 6895
+    },
+    {
+      "period": "2022",
+      "city": "KLLOKOT",
+      "turnover": 13959066.81,
+      "taxpayers": 505
+    },
+    {
+      "period": "2022",
+      "city": "LEPOSAVIQ",
+      "turnover": 10116810.97,
+      "taxpayers": 1111
+    },
+    {
+      "period": "2022",
+      "city": "LIPJAN",
+      "turnover": 365149992.27,
+      "taxpayers": 12132
+    },
+    {
+      "period": "2022",
+      "city": "MALISHEVË",
+      "turnover": 178662015.76,
+      "taxpayers": 8219
+    },
+    {
+      "period": "2022",
+      "city": "MAMUSHË",
+      "turnover": 13334425.6,
+      "taxpayers": 1034
+    },
+    {
+      "period": "2022",
+      "city": "MITROVICË",
+      "turnover": 365322469.44,
+      "taxpayers": 17283
+    },
+    {
+      "period": "2022",
+      "city": "MITROVICË VERIORE",
+      "turnover": 13939986.2,
+      "taxpayers": 1329
+    },
+    {
+      "period": "2022",
+      "city": "NOVOBËRDË",
+      "turnover": 4298117.17,
+      "taxpayers": 677
+    },
+    {
+      "period": "2022",
+      "city": "OBILIQ",
+      "turnover": 208528883.81,
+      "taxpayers": 4569
+    },
+    {
+      "period": "2022",
+      "city": "PARTESH",
+      "turnover": 3817342.61,
+      "taxpayers": 534
+    },
+    {
+      "period": "2022",
+      "city": "PEJË",
+      "turnover": 854079071.54,
+      "taxpayers": 28006
+    },
+    {
+      "period": "2022",
+      "city": "PODUJEVË",
+      "turnover": 263093299.45,
+      "taxpayers": 14274
+    },
+    {
+      "period": "2022",
+      "city": "PRISHTINË",
+      "turnover": 7969206663.13,
+      "taxpayers": 152044
+    },
+    {
+      "period": "2022",
+      "city": "PRIZREN",
+      "turnover": 1060818725.87,
+      "taxpayers": 45765
+    },
+    {
+      "period": "2022",
+      "city": "RAHOVEC",
+      "turnover": 208729886.38,
+      "taxpayers": 10505
+    },
+    {
+      "period": "2022",
+      "city": "RANILLUG",
+      "turnover": 1732112.79,
+      "taxpayers": 153
+    },
+    {
+      "period": "2022",
+      "city": "SHTIME",
+      "turnover": 120065709.26,
+      "taxpayers": 4777
+    },
+    {
+      "period": "2022",
+      "city": "SHTËRPCË",
+      "turnover": 8101823.6,
+      "taxpayers": 1742
+    },
+    {
+      "period": "2022",
+      "city": "SKENDERAJ",
+      "turnover": 151380575.54,
+      "taxpayers": 6419
+    },
+    {
+      "period": "2022",
+      "city": "SUHAREKË",
+      "turnover": 371740464.72,
+      "taxpayers": 14252
+    },
+    {
+      "period": "2022",
+      "city": "VITI",
+      "turnover": 331079576.48,
+      "taxpayers": 8402
+    },
+    {
+      "period": "2022",
+      "city": "VUSHTRRI",
+      "turnover": 324625287.37,
+      "taxpayers": 12006
+    },
+    {
+      "period": "2022",
+      "city": "ZUBIN POTOK",
+      "turnover": 7283925.72,
+      "taxpayers": 421
+    },
+    {
+      "period": "2022",
+      "city": "ZVEÇAN",
+      "turnover": 9400472.56,
+      "taxpayers": 618
+    },
+    {
+      "period": "2023",
+      "city": "DEÇAN",
+      "turnover": 134530185.1,
+      "taxpayers": 5459
+    },
+    {
+      "period": "2023",
+      "city": "DRAGASH",
+      "turnover": 38007918.01,
+      "taxpayers": 3643
+    },
+    {
+      "period": "2023",
+      "city": "FERIZAJ",
+      "turnover": 1390223405.78,
+      "taxpayers": 42904
+    },
+    {
+      "period": "2023",
+      "city": "FUSHË KOSOVË",
+      "turnover": 836765612.65,
+      "taxpayers": 18918
+    },
+    {
+      "period": "2023",
+      "city": "GJAKOVË",
+      "turnover": 554583120.78,
+      "taxpayers": 25897
+    },
+    {
+      "period": "2023",
+      "city": "GJILAN",
+      "turnover": 588185262.7,
+      "taxpayers": 27153
+    },
+    {
+      "period": "2023",
+      "city": "GLLOGOC",
+      "turnover": 254933631.73,
+      "taxpayers": 10753
+    },
+    {
+      "period": "2023",
+      "city": "GRAÇANICË",
+      "turnover": 2055390135.89,
+      "taxpayers": 7763
+    },
+    {
+      "period": "2023",
+      "city": "HANI I ELEZIT",
+      "turnover": 145465833.53,
+      "taxpayers": 2036
+    },
+    {
+      "period": "2023",
+      "city": "ISTOG",
+      "turnover": 184218124.91,
+      "taxpayers": 7860
+    },
+    {
+      "period": "2023",
+      "city": "JUNIK",
+      "turnover": 4594087.61,
+      "taxpayers": 513
+    },
+    {
+      "period": "2023",
+      "city": "KAMENICË",
+      "turnover": 52664320.44,
+      "taxpayers": 5536
+    },
+    {
+      "period": "2023",
+      "city": "KAÇANIK",
+      "turnover": 109741877.68,
+      "taxpayers": 5721
+    },
+    {
+      "period": "2023",
+      "city": "KLINË",
+      "turnover": 168682899.39,
+      "taxpayers": 7272
+    },
+    {
+      "period": "2023",
+      "city": "KLLOKOT",
+      "turnover": 24040893.95,
+      "taxpayers": 555
+    },
+    {
+      "period": "2023",
+      "city": "LEPOSAVIQ",
+      "turnover": 7486497.31,
+      "taxpayers": 1063
+    },
+    {
+      "period": "2023",
+      "city": "LIPJAN",
+      "turnover": 388611570.06,
+      "taxpayers": 13012
+    },
+    {
+      "period": "2023",
+      "city": "MALISHEVË",
+      "turnover": 216952453.03,
+      "taxpayers": 8677
+    },
+    {
+      "period": "2023",
+      "city": "MAMUSHË",
+      "turnover": 15255399.89,
+      "taxpayers": 1380
+    },
+    {
+      "period": "2023",
+      "city": "MITROVICË",
+      "turnover": 383153583.23,
+      "taxpayers": 17768
+    },
+    {
+      "period": "2023",
+      "city": "MITROVICË VERIORE",
+      "turnover": 14059031.27,
+      "taxpayers": 1262
+    },
+    {
+      "period": "2023",
+      "city": "NOVOBËRDË",
+      "turnover": 3909688.46,
+      "taxpayers": 670
+    },
+    {
+      "period": "2023",
+      "city": "OBILIQ",
+      "turnover": 231553642.11,
+      "taxpayers": 4775
+    },
+    {
+      "period": "2023",
+      "city": "PARTESH",
+      "turnover": 3231859.36,
+      "taxpayers": 498
+    },
+    {
+      "period": "2023",
+      "city": "PEJË",
+      "turnover": 882176391.49,
+      "taxpayers": 29262
+    },
+    {
+      "period": "2023",
+      "city": "PODUJEVË",
+      "turnover": 296144016.73,
+      "taxpayers": 14812
+    },
+    {
+      "period": "2023",
+      "city": "PRISHTINË",
+      "turnover": 8445706127.35,
+      "taxpayers": 160792
+    },
+    {
+      "period": "2023",
+      "city": "PRIZREN",
+      "turnover": 1192912887.18,
+      "taxpayers": 47966
+    },
+    {
+      "period": "2023",
+      "city": "RAHOVEC",
+      "turnover": 224605728.4,
+      "taxpayers": 10864
+    },
+    {
+      "period": "2023",
+      "city": "RANILLUG",
+      "turnover": 720202.97,
+      "taxpayers": 144
+    },
+    {
+      "period": "2023",
+      "city": "SHTIME",
+      "turnover": 146782678.26,
+      "taxpayers": 5084
+    },
+    {
+      "period": "2023",
+      "city": "SHTËRPCË",
+      "turnover": 8721783.08,
+      "taxpayers": 1783
+    },
+    {
+      "period": "2023",
+      "city": "SKENDERAJ",
+      "turnover": 185021153.41,
+      "taxpayers": 6855
+    },
+    {
+      "period": "2023",
+      "city": "SUHAREKË",
+      "turnover": 432399016.66,
+      "taxpayers": 15129
+    },
+    {
+      "period": "2023",
+      "city": "VITI",
+      "turnover": 344123135.43,
+      "taxpayers": 8605
+    },
+    {
+      "period": "2023",
+      "city": "VUSHTRRI",
+      "turnover": 346104495.34,
+      "taxpayers": 12605
+    },
+    {
+      "period": "2023",
+      "city": "ZUBIN POTOK",
+      "turnover": 5601657.96,
+      "taxpayers": 395
+    },
+    {
+      "period": "2023",
+      "city": "ZVEÇAN",
+      "turnover": 7052580.18,
+      "taxpayers": 577
+    },
+    {
+      "period": "2024",
+      "city": "DEÇAN",
+      "turnover": 122115323.95,
+      "taxpayers": 5657
+    },
+    {
+      "period": "2024",
+      "city": "DRAGASH",
+      "turnover": 42673065.08,
+      "taxpayers": 3719
+    },
+    {
+      "period": "2024",
+      "city": "FERIZAJ",
+      "turnover": 1372636345.72,
+      "taxpayers": 46265
+    },
+    {
+      "period": "2024",
+      "city": "FUSHË KOSOVË",
+      "turnover": 917286401.99,
+      "taxpayers": 20255
+    },
+    {
+      "period": "2024",
+      "city": "GJAKOVË",
+      "turnover": 473449817.61,
+      "taxpayers": 27106
+    },
+    {
+      "period": "2024",
+      "city": "GJILAN",
+      "turnover": 619500097.66,
+      "taxpayers": 28624
+    },
+    {
+      "period": "2024",
+      "city": "GLLOGOC",
+      "turnover": 215335273.57,
+      "taxpayers": 11061
+    },
+    {
+      "period": "2024",
+      "city": "GRAÇANICË",
+      "turnover": 1896811766.6,
+      "taxpayers": 8337
+    },
+    {
+      "period": "2024",
+      "city": "HANI I ELEZIT",
+      "turnover": 145753303.09,
+      "taxpayers": 1971
+    },
+    {
+      "period": "2024",
+      "city": "ISTOG",
+      "turnover": 197061281.73,
+      "taxpayers": 8264
+    },
+    {
+      "period": "2024",
+      "city": "JUNIK",
+      "turnover": 5567494.64,
+      "taxpayers": 583
+    },
+    {
+      "period": "2024",
+      "city": "KAMENICË",
+      "turnover": 61182680.97,
+      "taxpayers": 5755
+    },
+    {
+      "period": "2024",
+      "city": "KAÇANIK",
+      "turnover": 103907023.45,
+      "taxpayers": 6252
+    },
+    {
+      "period": "2024",
+      "city": "KLINË",
+      "turnover": 178278184.72,
+      "taxpayers": 7762
+    },
+    {
+      "period": "2024",
+      "city": "KLLOKOT",
+      "turnover": 12245492.02,
+      "taxpayers": 578
+    },
+    {
+      "period": "2024",
+      "city": "LEPOSAVIQ",
+      "turnover": 7353376.12,
+      "taxpayers": 1418
+    },
+    {
+      "period": "2024",
+      "city": "LIPJAN",
+      "turnover": 409726007.37,
+      "taxpayers": 13789
+    },
+    {
+      "period": "2024",
+      "city": "MALISHEVË",
+      "turnover": 227673362.19,
+      "taxpayers": 9298
+    },
+    {
+      "period": "2024",
+      "city": "MAMUSHË",
+      "turnover": 15430599.58,
+      "taxpayers": 1638
+    },
+    {
+      "period": "2024",
+      "city": "MITROVICË",
+      "turnover": 407357925.09,
+      "taxpayers": 18380
+    },
+    {
+      "period": "2024",
+      "city": "MITROVICË VERIORE",
+      "turnover": 30672962.18,
+      "taxpayers": 1560
+    },
+    {
+      "period": "2024",
+      "city": "NOVOBËRDË",
+      "turnover": 6194151.66,
+      "taxpayers": 710
+    },
+    {
+      "period": "2024",
+      "city": "OBILIQ",
+      "turnover": 281322076.65,
+      "taxpayers": 4985
+    },
+    {
+      "period": "2024",
+      "city": "PARTESH",
+      "turnover": 2700650.45,
+      "taxpayers": 496
+    },
+    {
+      "period": "2024",
+      "city": "PEJË",
+      "turnover": 932657943.39,
+      "taxpayers": 30892
+    },
+    {
+      "period": "2024",
+      "city": "PODUJEVË",
+      "turnover": 317433286.69,
+      "taxpayers": 15485
+    },
+    {
+      "period": "2024",
+      "city": "PRISHTINË",
+      "turnover": 8694957258.29,
+      "taxpayers": 169900
+    },
+    {
+      "period": "2024",
+      "city": "PRIZREN",
+      "turnover": 1245740525.36,
+      "taxpayers": 50732
+    },
+    {
+      "period": "2024",
+      "city": "RAHOVEC",
+      "turnover": 223624364.33,
+      "taxpayers": 11287
+    },
+    {
+      "period": "2024",
+      "city": "RANILLUG",
+      "turnover": 296161.68,
+      "taxpayers": 164
+    },
+    {
+      "period": "2024",
+      "city": "SHTIME",
+      "turnover": 120997113.55,
+      "taxpayers": 5369
+    },
+    {
+      "period": "2024",
+      "city": "SHTËRPCË",
+      "turnover": 9230356.44,
+      "taxpayers": 1775
+    },
+    {
+      "period": "2024",
+      "city": "SKENDERAJ",
+      "turnover": 175426965.85,
+      "taxpayers": 7200
+    },
+    {
+      "period": "2024",
+      "city": "SUHAREKË",
+      "turnover": 410857333.02,
+      "taxpayers": 15810
+    },
+    {
+      "period": "2024",
+      "city": "VITI",
+      "turnover": 341077822.68,
+      "taxpayers": 8892
+    },
+    {
+      "period": "2024",
+      "city": "VUSHTRRI",
+      "turnover": 377053904.51,
+      "taxpayers": 13395
+    },
+    {
+      "period": "2024",
+      "city": "ZUBIN POTOK",
+      "turnover": 5382859.78,
+      "taxpayers": 583
+    },
+    {
+      "period": "2024",
+      "city": "ZVEÇAN",
+      "turnover": 10477482.46,
+      "taxpayers": 730
+    },
+    {
+      "period": "2025",
+      "city": "DEÇAN",
+      "turnover": 92943808.37,
+      "taxpayers": 4163
+    },
+    {
+      "period": "2025",
+      "city": "DRAGASH",
+      "turnover": 29675883.42,
+      "taxpayers": 2704
+    },
+    {
+      "period": "2025",
+      "city": "FERIZAJ",
+      "turnover": 965867042.34,
+      "taxpayers": 35383
+    },
+    {
+      "period": "2025",
+      "city": "FUSHË KOSOVË",
+      "turnover": 662924095.95,
+      "taxpayers": 15564
+    },
+    {
+      "period": "2025",
+      "city": "GJAKOVË",
+      "turnover": 363247360.35,
+      "taxpayers": 19982
+    },
+    {
+      "period": "2025",
+      "city": "GJILAN",
+      "turnover": 457883015.79,
+      "taxpayers": 20999
+    },
+    {
+      "period": "2025",
+      "city": "GLLOGOC",
+      "turnover": 160529861.82,
+      "taxpayers": 7826
+    },
+    {
+      "period": "2025",
+      "city": "GRAÇANICË",
+      "turnover": 1471099510.02,
+      "taxpayers": 6429
+    },
+    {
+      "period": "2025",
+      "city": "HANI I ELEZIT",
+      "turnover": 101495143.65,
+      "taxpayers": 1426
+    },
+    {
+      "period": "2025",
+      "city": "ISTOG",
+      "turnover": 138791340.9,
+      "taxpayers": 6131
+    },
+    {
+      "period": "2025",
+      "city": "JUNIK",
+      "turnover": 6166019.37,
+      "taxpayers": 444
+    },
+    {
+      "period": "2025",
+      "city": "KAMENICË",
+      "turnover": 52477072.76,
+      "taxpayers": 4144
+    },
+    {
+      "period": "2025",
+      "city": "KAÇANIK",
+      "turnover": 75762207.34,
+      "taxpayers": 4548
+    },
+    {
+      "period": "2025",
+      "city": "KLINË",
+      "turnover": 131694050.91,
+      "taxpayers": 5729
+    },
+    {
+      "period": "2025",
+      "city": "KLLOKOT",
+      "turnover": 10968550.51,
+      "taxpayers": 440
+    },
+    {
+      "period": "2025",
+      "city": "LEPOSAVIQ",
+      "turnover": 7248115.3,
+      "taxpayers": 1159
+    },
+    {
+      "period": "2025",
+      "city": "LIPJAN",
+      "turnover": 317550224.31,
+      "taxpayers": 10065
+    },
+    {
+      "period": "2025",
+      "city": "MALISHEVË",
+      "turnover": 149414733.66,
+      "taxpayers": 6890
+    },
+    {
+      "period": "2025",
+      "city": "MAMUSHË",
+      "turnover": 13226972.04,
+      "taxpayers": 1194
+    },
+    {
+      "period": "2025",
+      "city": "MITROVICË",
+      "turnover": 307004132.12,
+      "taxpayers": 13183
+    },
+    {
+      "period": "2025",
+      "city": "MITROVICË VERIORE",
+      "turnover": 25288263.17,
+      "taxpayers": 1264
+    },
+    {
+      "period": "2025",
+      "city": "NOVOBËRDË",
+      "turnover": 5334253.94,
+      "taxpayers": 487
+    },
+    {
+      "period": "2025",
+      "city": "OBILIQ",
+      "turnover": 183584573.67,
+      "taxpayers": 3753
+    },
+    {
+      "period": "2025",
+      "city": "PARTESH",
+      "turnover": 2046850.76,
+      "taxpayers": 333
+    },
+    {
+      "period": "2025",
+      "city": "PEJË",
+      "turnover": 675805635.96,
+      "taxpayers": 22745
+    },
+    {
+      "period": "2025",
+      "city": "PODUJEVË",
+      "turnover": 214766832.63,
+      "taxpayers": 11573
+    },
+    {
+      "period": "2025",
+      "city": "PRISHTINË",
+      "turnover": 6583857452.75,
+      "taxpayers": 127678
+    },
+    {
+      "period": "2025",
+      "city": "PRIZREN",
+      "turnover": 867545407.64,
+      "taxpayers": 38435
+    },
+    {
+      "period": "2025",
+      "city": "RAHOVEC",
+      "turnover": 166024161.0,
+      "taxpayers": 8409
+    },
+    {
+      "period": "2025",
+      "city": "RANILLUG",
+      "turnover": 621384.6,
+      "taxpayers": 112
+    },
+    {
+      "period": "2025",
+      "city": "SHTIME",
+      "turnover": 117403049.42,
+      "taxpayers": 3947
+    },
+    {
+      "period": "2025",
+      "city": "SHTËRPCË",
+      "turnover": 21774997.64,
+      "taxpayers": 1257
+    },
+    {
+      "period": "2025",
+      "city": "SKENDERAJ",
+      "turnover": 96914719.83,
+      "taxpayers": 5381
+    },
+    {
+      "period": "2025",
+      "city": "SUHAREKË",
+      "turnover": 303873744.07,
+      "taxpayers": 11789
+    },
+    {
+      "period": "2025",
+      "city": "VITI",
+      "turnover": 279347864.93,
+      "taxpayers": 6630
+    },
+    {
+      "period": "2025",
+      "city": "VUSHTRRI",
+      "turnover": 279898984.01,
+      "taxpayers": 9720
+    },
+    {
+      "period": "2025",
+      "city": "ZUBIN POTOK",
+      "turnover": 3485214.74,
+      "taxpayers": 479
+    },
+    {
+      "period": "2025",
+      "city": "ZVEÇAN",
+      "turnover": 8758819.27,
+      "taxpayers": 629
+    }
+  ]
+}
