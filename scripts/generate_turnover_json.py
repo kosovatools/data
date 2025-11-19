@@ -77,7 +77,7 @@ def load_turnover_data(excel_path: Path) -> pd.DataFrame:
     cleaned["turnover"] = pd.to_numeric(cleaned.get("turnover"), errors="coerce")
 
     cleaned["category"] = cleaned["category"].astype(str).str.strip()
-    cleaned["city"] = cleaned["city"].astype(str).str.strip()
+    cleaned["city"] = cleaned["city"].apply(format_city_label)
     if "registration_status" in cleaned.columns:
         cleaned["registration_status"] = cleaned["registration_status"].astype(str).str.strip()
 
@@ -131,6 +131,18 @@ def iso_timestamp() -> str:
 
 def format_currency(value: float) -> float:
     return round(float(value), 2)
+
+
+def format_city_label(city: Any) -> str:
+    if pd.isna(city):
+        return ""
+    normalized = str(city).strip()
+    if not normalized:
+        return ""
+    lowered = re.sub(r"\s+", " ", normalized.lower())
+    if lowered in {"nan", "none"}:
+        return ""
+    return lowered.title()
 
 
 def as_int(value: Any) -> int:
