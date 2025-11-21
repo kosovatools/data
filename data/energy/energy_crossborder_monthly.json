@@ -2,7 +2,7 @@
   "meta": {
     "id": "energy_crossborder_monthly",
     "title": "Flukset kufitare mujore (ENTSO-E)",
-    "generated_at": "2025-11-17T16:22:32.241Z",
+    "generated_at": "2025-11-21T10:51:32Z",
     "updated_at": null,
     "source": "ENTSO-E Transparency Platform",
     "source_urls": [
@@ -45,19 +45,19 @@
     "dimensions": {
       "neighbor": [
         {
-          "key": "AL",
+          "key": "al",
           "label": "Shqipëri (AL)"
         },
         {
-          "key": "ME",
+          "key": "me",
           "label": "Mal i Zi (ME)"
         },
         {
-          "key": "MK",
+          "key": "mk",
           "label": "Maqedonia e Veriut (MK)"
         },
         {
-          "key": "RS",
+          "key": "rs",
           "label": "Serbi (RS)"
         }
       ]
@@ -66,7 +66,7 @@
   "records": [
     {
       "period": "2023-11",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 70332.59,
       "export": 18961.93,
       "net": 51370.66,
@@ -74,7 +74,7 @@
     },
     {
       "period": "2023-11",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 64519,
       "export": 16966.8,
       "net": 47552.2,
@@ -82,7 +82,7 @@
     },
     {
       "period": "2023-11",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 27824.2,
       "export": 97023.8,
       "net": -69199.6,
@@ -90,7 +90,7 @@
     },
     {
       "period": "2023-11",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 56712.39,
       "export": 42682.1,
       "net": 14030.29,
@@ -98,7 +98,7 @@
     },
     {
       "period": "2023-12",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 101563.22,
       "export": 5406.33,
       "net": 96156.89,
@@ -106,7 +106,7 @@
     },
     {
       "period": "2023-12",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 99899,
       "export": 5034.6,
       "net": 94864.4,
@@ -114,7 +114,7 @@
     },
     {
       "period": "2023-12",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 13353,
       "export": 156523,
       "net": -143170,
@@ -122,7 +122,7 @@
     },
     {
       "period": "2023-12",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 164865.82,
       "export": 27150.45,
       "net": 137715.37,
@@ -130,7 +130,7 @@
     },
     {
       "period": "2024-01",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 97708.47,
       "export": 4976.27,
       "net": 92732.2,
@@ -138,7 +138,7 @@
     },
     {
       "period": "2024-01",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 105686.6,
       "export": 11086.8,
       "net": 94599.8,
@@ -146,7 +146,7 @@
     },
     {
       "period": "2024-01",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 22621.8,
       "export": 127443.6,
       "net": -104821.8,
@@ -154,7 +154,7 @@
     },
     {
       "period": "2024-01",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 136777.7,
       "export": 17341.02,
       "net": 119436.68,
@@ -162,7 +162,7 @@
     },
     {
       "period": "2024-02",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 41720.33,
       "export": 25152.87,
       "net": 16567.46,
@@ -170,7 +170,7 @@
     },
     {
       "period": "2024-02",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 46982.2,
       "export": 39602.2,
       "net": 7380,
@@ -178,7 +178,7 @@
     },
     {
       "period": "2024-02",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 22930.8,
       "export": 135149.4,
       "net": -112218.6,
@@ -186,7 +186,7 @@
     },
     {
       "period": "2024-02",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 127609.88,
       "export": 8113.76,
       "net": 119496.12,
@@ -194,7 +194,7 @@
     },
     {
       "period": "2024-03",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 40896.97,
       "export": 33470.7,
       "net": 7426.27,
@@ -202,7 +202,7 @@
     },
     {
       "period": "2024-03",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 63782.4,
       "export": 42968.6,
       "net": 20813.8,
@@ -210,7 +210,7 @@
     },
     {
       "period": "2024-03",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 37890.4,
       "export": 160576.2,
       "net": -122685.8,
@@ -218,7 +218,7 @@
     },
     {
       "period": "2024-03",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 135379.6,
       "export": 21640.26,
       "net": 113739.34,
@@ -226,7 +226,7 @@
     },
     {
       "period": "2024-04",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 24418.94,
       "export": 71188.05,
       "net": -46769.11,
@@ -234,7 +234,7 @@
     },
     {
       "period": "2024-04",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 6881.8,
       "export": 86137.8,
       "net": -79256,
@@ -242,7 +242,7 @@
     },
     {
       "period": "2024-04",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 77230.8,
       "export": 53870.2,
       "net": 23360.6,
@@ -250,7 +250,7 @@
     },
     {
       "period": "2024-04",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 67928.22,
       "export": 43939.86,
       "net": 23988.36,
@@ -258,7 +258,7 @@
     },
     {
       "period": "2024-05",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 62703.9,
       "export": 1932.11,
       "net": 60771.79,
@@ -266,7 +266,7 @@
     },
     {
       "period": "2024-05",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 15185,
       "export": 101870.3,
       "net": -86685.3,
@@ -274,7 +274,7 @@
     },
     {
       "period": "2024-05",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 31626.15,
       "export": 100643.91,
       "net": -69017.76,
@@ -282,7 +282,7 @@
     },
     {
       "period": "2024-05",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 25322.22,
       "export": 80462.02,
       "net": -55139.8,
@@ -290,7 +290,7 @@
     },
     {
       "period": "2024-06",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 41255.88,
       "export": 7202.98,
       "net": 34052.9,
@@ -298,7 +298,7 @@
     },
     {
       "period": "2024-06",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 38288,
       "export": 51993.2,
       "net": -13705.2,
@@ -306,7 +306,7 @@
     },
     {
       "period": "2024-06",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 26913,
       "export": 129127,
       "net": -102214,
@@ -314,7 +314,7 @@
     },
     {
       "period": "2024-06",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 32318.15,
       "export": 65624.36,
       "net": -33306.21,
@@ -322,7 +322,7 @@
     },
     {
       "period": "2024-07",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 50889.42,
       "export": 6624.63,
       "net": 44264.79,
@@ -330,7 +330,7 @@
     },
     {
       "period": "2024-07",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 38079.2,
       "export": 47842.8,
       "net": -9763.6,
@@ -338,7 +338,7 @@
     },
     {
       "period": "2024-07",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 51521.8,
       "export": 58915.8,
       "net": -7394,
@@ -346,7 +346,7 @@
     },
     {
       "period": "2024-07",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 56968.65,
       "export": 48165.59,
       "net": 8803.06,
@@ -354,7 +354,7 @@
     },
     {
       "period": "2024-08",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 34926.69,
       "export": 11744.76,
       "net": 23181.93,
@@ -362,7 +362,7 @@
     },
     {
       "period": "2024-08",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 41641.6,
       "export": 47089.2,
       "net": -5447.6,
@@ -370,7 +370,7 @@
     },
     {
       "period": "2024-08",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 58492.8,
       "export": 57358.4,
       "net": 1134.4,
@@ -378,7 +378,7 @@
     },
     {
       "period": "2024-08",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 70062.82,
       "export": 37112.2,
       "net": 32950.62,
@@ -386,7 +386,7 @@
     },
     {
       "period": "2024-09",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 28777.73,
       "export": 20920.29,
       "net": 7857.44,
@@ -394,7 +394,7 @@
     },
     {
       "period": "2024-09",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 22549.2,
       "export": 57265.2,
       "net": -34716,
@@ -402,7 +402,7 @@
     },
     {
       "period": "2024-09",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 1510,
       "export": 4140.4,
       "net": -2630.4,
@@ -410,7 +410,7 @@
     },
     {
       "period": "2024-09",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 108048.72,
       "export": 19551.51,
       "net": 88497.21,
@@ -418,7 +418,7 @@
     },
     {
       "period": "2024-10",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 40099.1,
       "export": 7397.09,
       "net": 32702.01,
@@ -426,7 +426,7 @@
     },
     {
       "period": "2024-10",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 58920.2,
       "export": 66822.2,
       "net": -7902,
@@ -434,7 +434,7 @@
     },
     {
       "period": "2024-10",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 49389.4,
       "export": 118286.8,
       "net": -68897.4,
@@ -442,7 +442,7 @@
     },
     {
       "period": "2024-10",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 87687.31,
       "export": 34395.21,
       "net": 53292.1,
@@ -450,7 +450,7 @@
     },
     {
       "period": "2024-11",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 83410.39,
       "export": 1738.04,
       "net": 81672.35,
@@ -458,7 +458,7 @@
     },
     {
       "period": "2024-11",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 149552.8,
       "export": 27224.8,
       "net": 122328,
@@ -466,7 +466,7 @@
     },
     {
       "period": "2024-11",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 67550.4,
       "export": 44888.4,
       "net": 22662,
@@ -474,7 +474,7 @@
     },
     {
       "period": "2024-11",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 12323.1,
       "export": 93797.2,
       "net": -81474.1,
@@ -482,7 +482,7 @@
     },
     {
       "period": "2024-12",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 188131.59,
       "export": 387.98,
       "net": 187743.61,
@@ -490,7 +490,7 @@
     },
     {
       "period": "2024-12",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 140716,
       "export": 9096,
       "net": 131620,
@@ -498,7 +498,7 @@
     },
     {
       "period": "2024-12",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 61356.8,
       "export": 57966,
       "net": 3390.8,
@@ -506,7 +506,7 @@
     },
     {
       "period": "2024-12",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 65496.49,
       "export": 59989.68,
       "net": 5506.81,
@@ -514,7 +514,7 @@
     },
     {
       "period": "2025-01",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 133235.19,
       "export": 4989.73,
       "net": 128245.46,
@@ -522,7 +522,7 @@
     },
     {
       "period": "2025-01",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 109959.6,
       "export": 23922.4,
       "net": 86037.2,
@@ -530,7 +530,7 @@
     },
     {
       "period": "2025-01",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 57468,
       "export": 62169.2,
       "net": -4701.2,
@@ -538,7 +538,7 @@
     },
     {
       "period": "2025-01",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 78869.89,
       "export": 43404.24,
       "net": 35465.65,
@@ -546,7 +546,7 @@
     },
     {
       "period": "2025-02",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 132174.71,
       "export": 1528.56,
       "net": 130646.15,
@@ -554,7 +554,7 @@
     },
     {
       "period": "2025-02",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 79778,
       "export": 36024.4,
       "net": 43753.6,
@@ -562,7 +562,7 @@
     },
     {
       "period": "2025-02",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 89977.6,
       "export": 21332.8,
       "net": 68644.8,
@@ -570,7 +570,7 @@
     },
     {
       "period": "2025-02",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 44601.88,
       "export": 47394.32,
       "net": -2792.44,
@@ -578,7 +578,7 @@
     },
     {
       "period": "2025-03",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 89714.48,
       "export": 18202.51,
       "net": 71511.97,
@@ -586,7 +586,7 @@
     },
     {
       "period": "2025-03",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 90312.4,
       "export": 45204.8,
       "net": 45107.6,
@@ -594,7 +594,7 @@
     },
     {
       "period": "2025-03",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 66784,
       "export": 91867.6,
       "net": -25083.6,
@@ -602,7 +602,7 @@
     },
     {
       "period": "2025-03",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 64088.36,
       "export": 63231.45,
       "net": 856.91,
@@ -610,7 +610,7 @@
     },
     {
       "period": "2025-04",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 87997.28,
       "export": 11699.54,
       "net": 76297.74,
@@ -618,7 +618,7 @@
     },
     {
       "period": "2025-04",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 102273.2,
       "export": 41534,
       "net": 60739.2,
@@ -626,7 +626,7 @@
     },
     {
       "period": "2025-04",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 49966,
       "export": 125006.4,
       "net": -75040.4,
@@ -634,7 +634,7 @@
     },
     {
       "period": "2025-04",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 111444.83,
       "export": 14336.37,
       "net": 97108.46,
@@ -642,7 +642,7 @@
     },
     {
       "period": "2025-05",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 75273.66,
       "export": 11290.92,
       "net": 63982.74,
@@ -650,7 +650,7 @@
     },
     {
       "period": "2025-05",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 64909.6,
       "export": 63202.8,
       "net": 1706.8,
@@ -658,7 +658,7 @@
     },
     {
       "period": "2025-05",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 69208.8,
       "export": 71572.4,
       "net": -2363.6,
@@ -666,7 +666,7 @@
     },
     {
       "period": "2025-05",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 64345.51,
       "export": 38946,
       "net": 25399.51,
@@ -674,7 +674,7 @@
     },
     {
       "period": "2025-06",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 20641.45,
       "export": 64741.03,
       "net": -44099.58,
@@ -682,7 +682,7 @@
     },
     {
       "period": "2025-06",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 30440,
       "export": 56820,
       "net": -26380,
@@ -690,7 +690,7 @@
     },
     {
       "period": "2025-06",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 83489.2,
       "export": 38524.4,
       "net": 44964.8,
@@ -698,7 +698,7 @@
     },
     {
       "period": "2025-06",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 138246.62,
       "export": 16883.86,
       "net": 121362.76,
@@ -706,7 +706,7 @@
     },
     {
       "period": "2025-07",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 10578.68,
       "export": 97027.5,
       "net": -86448.82,
@@ -714,7 +714,7 @@
     },
     {
       "period": "2025-07",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 52489.2,
       "export": 66002.4,
       "net": -13513.2,
@@ -722,7 +722,7 @@
     },
     {
       "period": "2025-07",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 112326.4,
       "export": 47420,
       "net": 64906.4,
@@ -730,7 +730,7 @@
     },
     {
       "period": "2025-07",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 137596.12,
       "export": 9325.59,
       "net": 128270.53,
@@ -738,7 +738,7 @@
     },
     {
       "period": "2025-08",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 3348.65,
       "export": 74761.59,
       "net": -71412.94,
@@ -746,7 +746,7 @@
     },
     {
       "period": "2025-08",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 418.8,
       "export": 79314,
       "net": -78895.2,
@@ -754,7 +754,7 @@
     },
     {
       "period": "2025-08",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 3897.2,
       "export": 20393.6,
       "net": -16496.4,
@@ -762,7 +762,7 @@
     },
     {
       "period": "2025-08",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 5232.98,
       "export": 6615.1,
       "net": -1382.12,
@@ -770,7 +770,7 @@
     },
     {
       "period": "2025-09",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 5329.32,
       "export": 57410.76,
       "net": -52081.44,
@@ -778,7 +778,7 @@
     },
     {
       "period": "2025-09",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 2928.4,
       "export": 102434,
       "net": -99505.6,
@@ -786,7 +786,7 @@
     },
     {
       "period": "2025-09",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 0,
       "export": 35118.4,
       "net": -35118.4,
@@ -794,7 +794,7 @@
     },
     {
       "period": "2025-09",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 13154.7,
       "export": 9907.81,
       "net": 3246.89,
@@ -802,7 +802,7 @@
     },
     {
       "period": "2025-10",
-      "neighbor": "AL",
+      "neighbor": "al",
       "import": 54800.7,
       "export": 47448.43,
       "net": 7352.27,
@@ -810,7 +810,7 @@
     },
     {
       "period": "2025-10",
-      "neighbor": "ME",
+      "neighbor": "me",
       "import": 55298.8,
       "export": 58838.8,
       "net": -3540,
@@ -818,7 +818,7 @@
     },
     {
       "period": "2025-10",
-      "neighbor": "MK",
+      "neighbor": "mk",
       "import": 98574,
       "export": 39672,
       "net": 58902,
@@ -826,7 +826,7 @@
     },
     {
       "period": "2025-10",
-      "neighbor": "RS",
+      "neighbor": "rs",
       "import": 30122.8,
       "export": 58447.16,
       "net": -28324.36,

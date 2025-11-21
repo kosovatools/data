@@ -6,6 +6,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+import unicodedata
 from typing import Any, Iterable
 
 import pandas as pd
@@ -149,8 +150,34 @@ def as_int(value: Any) -> int:
     return int(round(float(value)))
 
 
-def build_dimension_options(options: Iterable[str]) -> list[dict[str, str]]:
-    return [{"key": option, "label": option} for option in options]
+def slugify_label(label: str) -> str:
+    normalized = unicodedata.normalize("NFKD", str(label).strip())
+    ascii_safe = normalized.encode("ascii", "ignore").decode("ascii").lower()
+    slug = re.sub(r"[^\w]+", "_", ascii_safe)
+    slug = re.sub(r"_+", "_", slug).strip("_")
+    return slug
+
+
+def build_slug_map(options: Iterable[str]) -> dict[str, str]:
+    slug_counts: dict[str, int] = {}
+    mapping: dict[str, str] = {}
+    for label in sorted(set(options), key=lambda value: value.lower()):
+        base = slugify_label(label) or "item"
+        count = slug_counts.get(base, 0)
+        slug = base if count == 0 else f"{base}_{count}"
+        while slug in mapping.values():
+            count += 1
+            slug = f"{base}_{count}"
+        slug_counts[base] = count + 1
+        mapping[label] = slug
+    return mapping
+
+
+def build_dimension_options(mapping: dict[str, str]) -> list[dict[str, str]]:
+    return [
+        {"key": slug, "label": label}
+        for label, slug in sorted(mapping.items(), key=lambda item: item[0].lower())
+    ]
 
 
 def build_time(periods: list[str], granularity: str) -> dict[str, Any]:
@@ -173,23 +200,25 @@ def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
 
     last_year = years[-1]
     timestamp = iso_timestamp()
-    categories = sorted(dataset["category"].unique())
-    cities = sorted(dataset["city"].unique())
-    dimension_categories = build_dimension_options(categories)
-    dimension_cities = build_dimension_options(cities)
+    category_slug_map = build_slug_map(dataset["category"].unique())
+    city_slug_map = build_slug_map(dataset["city"].unique())
+    dataset["category_slug"] = dataset["category"].map(category_slug_map)
+    dataset["city_slug"] = dataset["city"].map(city_slug_map)
+    dimension_categories = build_dimension_options(category_slug_map)
+    dimension_cities = build_dimension_options(city_slug_map)
 
     # Categories × Year
     categories_yearly = (
-        dataset.groupby(["year", "category"], as_index=False)
+        dataset.groupby(["year", "category_slug"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
-        .sort_values(["year", "category"])
+        .sort_values(["year", "category_slug"])
     )
     category_records: list[dict[str, Any]] = []
     for row in categories_yearly.to_dict(orient="records"):
         category_records.append(
             {
                 "period": str(int(row["year"])),
-                "category": row["category"],
+                "category": row["category_slug"],
                 "turnover": format_currency(row["turnover"]),
                 "taxpayers": as_int(row["taxpayers"]),
             }
@@ -218,16 +247,16 @@ def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
 
     # Cities × Year
     cities_yearly = (
-        dataset.groupby(["year", "city"], as_index=False)
+        dataset.groupby(["year", "city_slug"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
-        .sort_values(["year", "city"])
+        .sort_values(["year", "city_slug"])
     )
     city_records: list[dict[str, Any]] = []
     for row in cities_yearly.to_dict(orient="records"):
         city_records.append(
             {
                 "period": str(int(row["year"])),
-                "city": row["city"],
+                "city": row["city_slug"],
                 "turnover": format_currency(row["turnover"]),
                 "taxpayers": as_int(row["taxpayers"]),
             }
@@ -255,23 +284,23 @@ def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
 
     # City × Category × Year rankings
     grouped = (
-        dataset.groupby(["year", "city", "category"], as_index=False)
+        dataset.groupby(["year", "city_slug", "category_slug"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
     )
     rankings = (
-        grouped.sort_values(["year", "city", "turnover"], ascending=[True, True, False])
-        .groupby(["year", "city"], group_keys=False)
+        grouped.sort_values(["year", "city_slug", "turnover"], ascending=[True, True, False])
+        .groupby(["year", "city_slug"], group_keys=False)
         .head(8)
         .copy()
     )
-    rankings["rank"] = rankings.groupby(["year", "city"]).cumcount() + 1
+    rankings["rank"] = rankings.groupby(["year", "city_slug"]).cumcount() + 1
     ranking_records: list[dict[str, Any]] = []
-    for row in rankings.sort_values(["year", "city", "rank"]).to_dict(orient="records"):
+    for row in rankings.sort_values(["year", "city_slug", "rank"]).to_dict(orient="records"):
         ranking_records.append(
             {
                 "period": str(int(row["year"])),
-                "city": row["city"],
-                "category": row["category"],
+                "city": row["city_slug"],
+                "category": row["category_slug"],
                 "turnover": format_currency(row["turnover"]),
                 "taxpayers": as_int(row["taxpayers"]),
                 "rank": int(row["rank"]),
@@ -302,9 +331,9 @@ def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
     # Monthly Categories × City (latest year)
     last_year_data = dataset[dataset["year"] == last_year]
     monthly = (
-        last_year_data.groupby(["month", "category", "city"], as_index=False)
+        last_year_data.groupby(["month", "category_slug", "city_slug"], as_index=False)
         .agg(turnover=("turnover", "sum"), taxpayers=("taxpayers", "sum"))
-        .sort_values(["month", "category", "city"])
+        .sort_values(["month", "category_slug", "city_slug"])
     )
     monthly_records: list[dict[str, Any]] = []
     periods = sorted(
@@ -315,8 +344,8 @@ def build_outputs(dataset: pd.DataFrame, output_dir: Path) -> None:
         monthly_records.append(
             {
                 "period": period,
-                "category": row["category"],
-                "city": row["city"],
+                "category": row["category_slug"],
+                "city": row["city_slug"],
                 "turnover": format_currency(row["turnover"]),
                 "taxpayers": as_int(row["taxpayers"]),
             }

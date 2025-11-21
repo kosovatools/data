@@ -30,16 +30,16 @@ const DAILY_FIELDS = [
     { key: "net", label: "Bilanci neto", unit: "MWh" },
 ] as const
 const NEIGHBOR_LABELS = {
-    AL: "Shqipëri (AL)",
-    MK: "Maqedonia e Veriut (MK)",
-    ME: "Mal i Zi (ME)",
-    RS: "Serbi (RS)",
+    al: "Shqipëri (AL)",
+    mk: "Maqedonia e Veriut (MK)",
+    me: "Mal i Zi (ME)",
+    rs: "Serbi (RS)",
 } as const
 const NEIGHBOR_CODE_TO_KEY: Record<string, keyof typeof NEIGHBOR_LABELS> = {
-    "10YAL-KESH-----5": "AL",
-    "10YMK-MEPSO----8": "MK",
-    "10YCS-CG-TSO---S": "ME",
-    "10YCS-SERBIATSOV": "RS",
+    "10YAL-KESH-----5": "al",
+    "10YMK-MEPSO----8": "mk",
+    "10YCS-CG-TSO---S": "me",
+    "10YCS-SERBIATSOV": "rs",
 }
 
 type NeighborKey = keyof typeof NEIGHBOR_LABELS
@@ -85,6 +85,11 @@ function parseResolutionToHours(resolution: unknown) {
 function ensureArray<T>(v: T | T[] | null | undefined): T[] {
     if (!v) return []
     return Array.isArray(v) ? v : [v]
+}
+function slugifyKey(value: string) {
+    const normalized = value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    const slug = normalized.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
+    return slug || "item"
 }
 function extractQuantity(v: unknown): number | null {
     if (typeof v === "number") return v
@@ -242,9 +247,9 @@ function mapNeighborKey(code: string, fallback: string) {
     if (mapped) return mapped
     if (fallback && typeof fallback === "string") {
         const trimmed = fallback.trim()
-        if (trimmed) return trimmed
+        if (trimmed) return slugifyKey(trimmed)
     }
-    return code
+    return slugifyKey(code)
 }
 
 function buildNeighborDimensions(records: MonthlyRecord[]) {
@@ -276,7 +281,7 @@ function sanitizeMonthlyRecords(raw: any[]): MonthlyRecord[] {
     return raw
         .map(record => ({
             period: typeof record?.period === "string" ? record.period : "",
-            neighbor: typeof record?.neighbor === "string" ? record.neighbor : "",
+            neighbor: typeof record?.neighbor === "string" ? slugifyKey(record.neighbor) : "",
             import: roundEnergy(toEnergyNumber(record?.import ?? record?.import_mwh)),
             export: roundEnergy(toEnergyNumber(record?.export ?? record?.export_mwh)),
             net: roundEnergy(toEnergyNumber(record?.net ?? record?.net_mwh)),
