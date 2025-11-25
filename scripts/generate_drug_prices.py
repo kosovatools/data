@@ -67,6 +67,12 @@ PRICE_FIELDS = ("price_wholesale", "price_with_margin", "price_retail")
 
 PRICE_META_FIELDS = ("valid_until", "reference_prices", "reference_prices_secondary")
 
+# Fields that are considered when determining whether two snapshots represent
+# the same visible price regime. Reference price maps are intentionally
+# excluded so that versions which only differ in reference data but have the
+# same displayed prices are treated as equivalent.
+SNAPSHOT_COMPARISON_FIELDS = PRICE_FIELDS + ("valid_until",)
+
 DEDUPLICATION_FIELDS = (
     "atc_code",
     "authorization_number",
@@ -311,6 +317,28 @@ def aggregate_records(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]
 
     results: list[dict[str, Any]] = []
     for entry in aggregated.values():
+        def snapshot_values(snapshot: dict[str, Any]) -> tuple[Any, ...]:
+            # Prices are already normalised (rounded) when records are built, so
+            # direct comparison is sufficient here.
+            return tuple(snapshot.get(field) for field in SNAPSHOT_COMPARISON_FIELDS)
+
+        # Ensure history is in ascending version order before compression.
+        sorted_history = sorted(
+            entry["history"], key=lambda snap: version_key(snap["version"])
+        )
+
+        compressed_history: list[dict[str, Any]] = []
+        for snapshot in sorted_history:
+            if not compressed_history:
+                compressed_history.append(snapshot)
+                continue
+            if snapshot_values(compressed_history[-1]) == snapshot_values(snapshot):
+                # Same values as previous regime: keep the earlier version so
+                # we preserve when this price regime started.
+                continue
+            else:
+                compressed_history.append(snapshot)
+
         record_data: dict[str, Any] = {}
         for field in STATIC_FIELDS:
             value = entry["data"].get(field)
@@ -324,8 +352,10 @@ def aggregate_records(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]
                 record_data[field] = value
 
         record_data["latest_version"] = entry["latest_version"]
+        if compressed_history:
+            record_data["latest_price_change_version"] = compressed_history[-1]["version"]
         history_sorted = sorted(
-            entry["history"],
+            compressed_history,
             key=lambda snap: version_key(snap["version"]),
             reverse=True,
         )

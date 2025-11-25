@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-08T10:36:43Z",
+  "generated_at": "2025-11-25T11:33:23Z",
   "versions": [
     {
       "version": "1.1",
@@ -58,6 +58,22 @@
       "version": "1.10",
       "source_file": "raw_data/drug-prices-1.10.xlsx",
       "record_count": 4013,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    },
+    {
+      "version": "1.11",
+      "source_file": "raw_data/drug-prices-1.11.xlsx",
+      "record_count": 4013,
+      "valid_until_values": [
+        "2026-01-31"
+      ]
+    },
+    {
+      "version": "1.12",
+      "source_file": "raw_data/drug-prices-1.12.xlsx",
+      "record_count": 4018,
       "valid_until_values": [
         "2026-01-31"
       ]
