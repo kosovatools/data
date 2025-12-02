@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "updated_at": null,
+    "time": {
+      "key": "period",
+      "granularity": "yearly",
+      "first": "2012",
+      "last": "2024",
+      "count": 13
+    },
+    "fields": [
+      {
+        "key": "gross_eur",
+        "label": "Pagë bruto",
+        "unit": "EUR"
+      },
+      {
+        "key": "net_eur",
+        "label": "Pagë neto",
+        "unit": "EUR"
+      }
+    ],
+    "metrics": ["gross_eur", "net_eur"],
+    "dimensions": {
+      "group": [
+        {
+          "key": "average",
+          "label": "Pagë mesatare"
+        },
+        {
+          "key": "public_sector",
+          "label": "Sektori publik"
+        },
+        {
+          "key": "public_enterprises",
+          "label": "Ndërmarrjet publike"
+        },
+        {
+          "key": "private_sector",
+          "label": "Sektori privat"
+        }
+      ]
+    },
+    "source": "Table 01 in Labour market",
+    "source_urls": ["ASKdata/Labour market/Niveli i Pagave/tab01.px"],
+    "notes": [],
+    "id": "kas_labour_wages_yearly",
+    "generated_at": "2025-11-23T13:19:54.062Z",
+    "title": null
+  },
+  "records": [
+    {
+      "period": "2012",
+      "group": "average",
+      "gross_eur": 383,
+      "net_eur": 348
+    },
+    {
+      "period": "2012",
+      "group": "private_sector",
+      "gross_eur": 337,
+      "net_eur": 308
+    },
+    {
+      "period": "2012",
+      "group": "public_enterprises",
+      "gross_eur": 561,
+      "net_eur": 502
+    },
+    {
+      "period": "2012",
+      "group": "public_sector",
+      "gross_eur": 407,
+      "net_eur": 366
+    },
+    {
+      "period": "2013",
+      "group": "average",
+      "gross_eur": 386,
+      "net_eur": 351
+    },
+    {
+      "period": "2013",
+      "group": "private_sector",
+      "gross_eur": 340,
+      "net_eur": 310
+    },
+    {
+      "period": "2013",
+      "group": "public_enterprises",
+      "gross_eur": 573,
+      "net_eur": 512
+    },
+    {
+      "period": "2013",
+      "group": "public_sector",
+      "gross_eur": 411,
+      "net_eur": 370
+    },
+    {
+      "period": "2014",
+      "group": "average",
+      "gross_eur": 403,
+      "net_eur": 365
+    },
+    {
+      "period": "2014",
+      "group": "private_sector",
+      "gross_eur": 329,
+      "net_eur": 301
+    },
+    {
+      "period": "2014",
+      "group": "public_enterprises",
+      "gross_eur": 656,
+      "net_eur": 583
+    },
+    {
+      "period": "2014",
+      "group": "public_sector",
+      "gross_eur": 473,
+      "net_eur": 423
+    },
+    {
+      "period": "2015",
+      "group": "average",
+      "gross_eur": 415,
+      "net_eur": 376
+    },
+    {
+      "period": "2015",
+      "group": "private_sector",
+      "gross_eur": 328,
+      "net_eur": 300
+    },
+    {
+      "period": "2015",
+      "group": "public_enterprises",
+      "gross_eur": 674,
+      "net_eur": 598
+    },
+    {
+      "period": "2015",
+      "group": "public_sector",
+      "gross_eur": 509,
+      "net_eur": 454
+    },
+    {
+      "period": "2016",
+      "group": "average",
+      "gross_eur": 422,
+      "net_eur": 382
+    },
+    {
+      "period": "2016",
+      "group": "private_sector",
+      "gross_eur": 340,
+      "net_eur": 310
+    },
+    {
+      "period": "2016",
+      "group": "public_enterprises",
+      "gross_eur": 686,
+      "net_eur": 609
+    },
+    {
+      "period": "2016",
+      "group": "public_sector",
+      "gross_eur": 525,
+      "net_eur": 467
+    },
+    {
+      "period": "2017",
+      "group": "average",
+      "gross_eur": 431,
+      "net_eur": 390
+    },
+    {
+      "period": "2017",
+      "group": "private_sector",
+      "gross_eur": 356,
+      "net_eur": 324
+    },
+    {
+      "period": "2017",
+      "group": "public_enterprises",
+      "gross_eur": 699,
+      "net_eur": 620
+    },
+    {
+      "period": "2017",
+      "group": "public_sector",
+      "gross_eur": 532,
+      "net_eur": 474
+    },
+    {
+      "period": "2018",
+      "group": "average",
+      "gross_eur": 453,
+      "net_eur": 409
+    },
+    {
+      "period": "2018",
+      "group": "private_sector",
+      "gross_eur": 376,
+      "net_eur": 342
+    },
+    {
+      "period": "2018",
+      "group": "public_enterprises",
+      "gross_eur": 721,
+      "net_eur": 639
+    },
+    {
+      "period": "2018",
+      "group": "public_sector",
+      "gross_eur": 573,
+      "net_eur": 509
+    },
+    {
+      "period": "2019",
+      "group": "average",
+      "gross_eur": 477,
+      "net_eur": 430
+    },
+    {
+      "period": "2019",
+      "group": "private_sector",
+      "gross_eur": 411,
+      "net_eur": 372
+    },
+    {
+      "period": "2019",
+      "group": "public_enterprises",
+      "gross_eur": 766,
+      "net_eur": 677
+    },
+    {
+      "period": "2019",
+      "group": "public_sector",
+      "gross_eur": 584,
+      "net_eur": 519
+    },
+    {
+      "period": "2020",
+      "group": "average",
+      "gross_eur": 466,
+      "net_eur": 416
+    },
+    {
+      "period": "2020",
+      "group": "private_sector",
+      "gross_eur": 380,
+      "net_eur": 342
+    },
+    {
+      "period": "2020",
+      "group": "public_enterprises",
+      "gross_eur": 769,
+      "net_eur": 680
+    },
+    {
+      "period": "2020",
+      "group": "public_sector",
+      "gross_eur": 624,
+      "net_eur": 552
+    },
+    {
+      "period": "2021",
+      "group": "average",
+      "gross_eur": 484,
+      "net_eur": 432
+    },
+    {
+      "period": "2021",
+      "group": "private_sector",
+      "gross_eur": 419,
+      "net_eur": 376
+    },
+    {
+      "period": "2021",
+      "group": "public_enterprises",
+      "gross_eur": 768,
+      "net_eur": 680
+    },
+    {
+      "period": "2021",
+      "group": "public_sector",
+      "gross_eur": 612,
+      "net_eur": 542
+    },
+    {
+      "period": "2022",
+      "group": "average",
+      "gross_eur": 521,
+      "net_eur": 446
+    },
+    {
+      "period": "2022",
+      "group": "private_sector",
+      "gross_eur": 473,
+      "net_eur": 401
+    },
+    {
+      "period": "2022",
+      "group": "public_enterprises",
+      "gross_eur": 789,
+      "net_eur": 659
+    },
+    {
+      "period": "2022",
+      "group": "public_sector",
+      "gross_eur": 604,
+      "net_eur": 536
+    },
+    {
+      "period": "2023",
+      "group": "average",
+      "gross_eur": 570,
+      "net_eur": 506
+    },
+    {
+      "period": "2023",
+      "group": "private_sector",
+      "gross_eur": 515,
+      "net_eur": 459
+    },
+    {
+      "period": "2023",
+      "group": "public_enterprises",
+      "gross_eur": 789,
+      "net_eur": 691
+    },
+    {
+      "period": "2023",
+      "group": "public_sector",
+      "gross_eur": 713,
+      "net_eur": 630
+    },
+    {
+      "period": "2024",
+      "group": "average",
+      "gross_eur": 639,
+      "net_eur": 552
+    },
+    {
+      "period": "2024",
+      "group": "private_sector",
+      "gross_eur": 598,
+      "net_eur": 513
+    },
+    {
+      "period": "2024",
+      "group": "public_enterprises",
+      "gross_eur": 783,
+      "net_eur": 685
+    },
+    {
+      "period": "2024",
+      "group": "public_sector",
+      "gross_eur": 755,
+      "net_eur": 668
+    }
+  ]
+}

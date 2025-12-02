@@ -8,7 +8,8 @@
   },
   "scripts": {
     "generate:energy": "tsx ./src/fetch-entsoe.ts --out ./data/energy",
-    "generate:customs": "tsx ./src/fetch-customs.ts"
+    "generate:customs": "tsx ./src/fetch-customs.ts",
+    "generate:kas": "tsx ./src/kas/scripts/fetch_kas.ts --out ./data/kas"
   },
   "dependencies": {
     "@types/node": "^24.10.0"

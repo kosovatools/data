@@ -1,0 +1,8721 @@
+{
+  "meta": {
+    "updated_at": null,
+    "time": {
+      "key": "period",
+      "granularity": "yearly",
+      "first": "2002",
+      "last": "2024",
+      "count": 23
+    },
+    "fields": [
+      {
+        "key": "price",
+        "label": "Çmimet mesatare",
+        "unit": "€"
+      }
+    ],
+    "metrics": ["price"],
+    "dimensions": {
+      "article": [
+        {
+          "key": "0",
+          "label": "Oriz 1 kg"
+        },
+        {
+          "key": "1",
+          "label": "Miell gruri 1 kg"
+        },
+        {
+          "key": "2",
+          "label": "Bukë e bardhë 500 gr"
+        },
+        {
+          "key": "3",
+          "label": "Makarona 500 gr"
+        },
+        {
+          "key": "4",
+          "label": "Miell misri 1 kg"
+        },
+        {
+          "key": "5",
+          "label": "Mish gjedhi pa eshtra 1 kg"
+        },
+        {
+          "key": "6",
+          "label": "Mish viçi 1 kg"
+        },
+        {
+          "key": "7",
+          "label": "Mushkëri viçi 1 kg"
+        },
+        {
+          "key": "8",
+          "label": "Mish pule 1 kg"
+        },
+        {
+          "key": "9",
+          "label": "Mish i terur shtepie dhe pershutë 1 kg"
+        },
+        {
+          "key": "10",
+          "label": "Mish qengji 1 kg"
+        },
+        {
+          "key": "11",
+          "label": "Suxhuk shtëpiak 1 kg"
+        },
+        {
+          "key": "12",
+          "label": "Sallamë pule 1 kg"
+        },
+        {
+          "key": "13",
+          "label": "Pashtetë pule 100 gr"
+        },
+        {
+          "key": "14",
+          "label": "Peshk i ngrirë 1 kg"
+        },
+        {
+          "key": "15",
+          "label": "Peshk i freskët 1 kg"
+        },
+        {
+          "key": "16",
+          "label": "Peshk i konzervuar 125 gr"
+        },
+        {
+          "key": "17",
+          "label": "Qumësht (tetrapak) 1 lit"
+        },
+        {
+          "key": "18",
+          "label": "Qumësht i freskët 1 lit"
+        },
+        {
+          "key": "19",
+          "label": "Jogurt 1 lit"
+        },
+        {
+          "key": "20",
+          "label": "Djathë i freskët 1 kg"
+        },
+        {
+          "key": "21",
+          "label": "Ajkë 180-200 gr"
+        },
+        {
+          "key": "22",
+          "label": "Vezë 30 copë"
+        },
+        {
+          "key": "23",
+          "label": "Vajë ushqimor luledielli 1 lit"
+        },
+        {
+          "key": "24",
+          "label": "Margarinë 250 gr"
+        },
+        {
+          "key": "25",
+          "label": "Yndyrë bimësh  1 kg"
+        },
+        {
+          "key": "26",
+          "label": "Mollë 1 kg"
+        },
+        {
+          "key": "27",
+          "label": "Dardhë 1 kg"
+        },
+        {
+          "key": "28",
+          "label": "Banane 1 kg"
+        },
+        {
+          "key": "29",
+          "label": "Portokall 1 kg"
+        },
+        {
+          "key": "30",
+          "label": "Limon 1 kg"
+        },
+        {
+          "key": "31",
+          "label": "Rrush 1 kg"
+        },
+        {
+          "key": "32",
+          "label": "Patate 1 kg"
+        },
+        {
+          "key": "33",
+          "label": "Domate 1 kg"
+        },
+        {
+          "key": "34",
+          "label": "Fasule 1 kg"
+        },
+        {
+          "key": "35",
+          "label": "Qepë 1 kg"
+        },
+        {
+          "key": "36",
+          "label": "Hudhra 1 kg"
+        },
+        {
+          "key": "37",
+          "label": "Tranguj 1 kg"
+        },
+        {
+          "key": "38",
+          "label": "Speca të padjegës 1 kg"
+        },
+        {
+          "key": "39",
+          "label": "Karotë 1 kg"
+        },
+        {
+          "key": "40",
+          "label": "Spinaq 1 kg"
+        },
+        {
+          "key": "41",
+          "label": "Lakra 1 kg"
+        },
+        {
+          "key": "42",
+          "label": "Sheqer 1 kg"
+        },
+        {
+          "key": "43",
+          "label": "Mjaltë 0.9-1 kg"
+        },
+        {
+          "key": "44",
+          "label": "Marmelatë 1 kg"
+        },
+        {
+          "key": "45",
+          "label": "Çokolatë 100 gr"
+        },
+        {
+          "key": "46",
+          "label": "Eurokrem 500 gr"
+        },
+        {
+          "key": "47",
+          "label": "Biberi i kuq 1 kg"
+        },
+        {
+          "key": "48",
+          "label": "Erëzë, mëlmesë 1 kg"
+        },
+        {
+          "key": "49",
+          "label": "Tharmi 500 gr"
+        },
+        {
+          "key": "50",
+          "label": "Majonezi 1 ml"
+        },
+        {
+          "key": "51",
+          "label": "Kafe e bluar 1 kg"
+        },
+        {
+          "key": "52",
+          "label": "Çaj (Cejlon) 1 kg"
+        },
+        {
+          "key": "53",
+          "label": "Kakao 100 gr"
+        },
+        {
+          "key": "54",
+          "label": "Uji mineral 1.5 lit"
+        },
+        {
+          "key": "55",
+          "label": "Coca cola 2 lit"
+        },
+        {
+          "key": "56",
+          "label": "Lëng pemësh 1 lit"
+        },
+        {
+          "key": "57",
+          "label": "Sprite 2 lit"
+        },
+        {
+          "key": "58",
+          "label": "Birrë 0.5 lit"
+        },
+        {
+          "key": "59",
+          "label": "Cigare - Boss 1 pako"
+        },
+        {
+          "key": "60",
+          "label": "Cigare - Lucky strike 1 pako"
+        },
+        {
+          "key": "61",
+          "label": "Cigare - Ronhill 1 pako"
+        },
+        {
+          "key": "62",
+          "label": "Cigare - Marlboro 1 pako"
+        },
+        {
+          "key": "63",
+          "label": "Qelq për dritare (3mm) 1 m²"
+        },
+        {
+          "key": "64",
+          "label": "Ngjyrë druri 1 lit"
+        },
+        {
+          "key": "65",
+          "label": "Pllaka të qeramikës 1 m²"
+        },
+        {
+          "key": "66",
+          "label": "Çimento 50 kg"
+        },
+        {
+          "key": "67",
+          "label": "Rryma elektrike për amvisëri pa fuqi bartse 1 kwh"
+        },
+        {
+          "key": "68",
+          "label": "Dru të zjarrit 1 m³"
+        },
+        {
+          "key": "69",
+          "label": "Nxerrja e dhëmbit a"
+        },
+        {
+          "key": "70",
+          "label": "Vizita te mjeku b"
+        },
+        {
+          "key": "71",
+          "label": "Benzin 1 lit"
+        },
+        {
+          "key": "72",
+          "label": "Dizel 1 lit"
+        }
+      ]
+    },
+    "source": "Table cpi03 in Prices",
+    "source_urls": [
+      "ASKdata/Prices/Consumer Price Index/Annual indicators/cpi03.px"
+    ],
+    "notes": [],
+    "id": "kas_cpi_average_prices_yearly",
+    "generated_at": "2025-11-23T13:19:54.062Z",
+    "title": null
+  },
+  "records": [
+    {
+      "period": "2002",
+      "article": "0",
+      "price": 0.99
+    },
+    {
+      "period": "2002",
+      "article": "1",
+      "price": 0.25
+    },
+    {
+      "period": "2002",
+      "article": "10",
+      "price": 5.18
+    },
+    {
+      "period": "2002",
+      "article": "11",
+      "price": 4.15
+    },
+    {
+      "period": "2002",
+      "article": "12",
+      "price": 1.81
+    },
+    {
+      "period": "2002",
+      "article": "13",
+      "price": 0.63
+    },
+    {
+      "period": "2002",
+      "article": "14",
+      "price": 2.32
+    },
+    {
+      "period": "2002",
+      "article": "15",
+      "price": null
+    },
+    {
+      "period": "2002",
+      "article": "16",
+      "price": 0.6
+    },
+    {
+      "period": "2002",
+      "article": "17",
+      "price": 0.65
+    },
+    {
+      "period": "2002",
+      "article": "18",
+      "price": 0.5
+    },
+    {
+      "period": "2002",
+      "article": "19",
+      "price": 0.77
+    },
+    {
+      "period": "2002",
+      "article": "2",
+      "price": 0.27
+    },
+    {
+      "period": "2002",
+      "article": "20",
+      "price": 2.46
+    },
+    {
+      "period": "2002",
+      "article": "21",
+      "price": 0.56
+    },
+    {
+      "period": "2002",
+      "article": "22",
+      "price": 2.59
+    },
+    {
+      "period": "2002",
+      "article": "23",
+      "price": 1.15
+    },
+    {
+      "period": "2002",
+      "article": "24",
+      "price": 0.44
+    },
+    {
+      "period": "2002",
+      "article": "25",
+      "price": 1.4
+    },
+    {
+      "period": "2002",
+      "article": "26",
+      "price": 1.22
+    },
+    {
+      "period": "2002",
+      "article": "27",
+      "price": 1.27
+    },
+    {
+      "period": "2002",
+      "article": "28",
+      "price": 0.95
+    },
+    {
+      "period": "2002",
+      "article": "29",
+      "price": 1.22
+    },
+    {
+      "period": "2002",
+      "article": "3",
+      "price": 0.51
+    },
+    {
+      "period": "2002",
+      "article": "30",
+      "price": 1.38
+    },
+    {
+      "period": "2002",
+      "article": "31",
+      "price": 1.89
+    },
+    {
+      "period": "2002",
+      "article": "32",
+      "price": 0.47
+    },
+    {
+      "period": "2002",
+      "article": "33",
+      "price": 0.81
+    },
+    {
+      "period": "2002",
+      "article": "34",
+      "price": 2.56
+    },
+    {
+      "period": "2002",
+      "article": "35",
+      "price": 0.56
+    },
+    {
+      "period": "2002",
+      "article": "36",
+      "price": 1.82
+    },
+    {
+      "period": "2002",
+      "article": "37",
+      "price": 0.74
+    },
+    {
+      "period": "2002",
+      "article": "38",
+      "price": 1.01
+    },
+    {
+      "period": "2002",
+      "article": "39",
+      "price": 0.96
+    },
+    {
+      "period": "2002",
+      "article": "4",
+      "price": 0.75
+    },
+    {
+      "period": "2002",
+      "article": "40",
+      "price": 0.63
+    },
+    {
+      "period": "2002",
+      "article": "41",
+      "price": 0.37
+    },
+    {
+      "period": "2002",
+      "article": "42",
+      "price": 0.5
+    },
+    {
+      "period": "2002",
+      "article": "43",
+      "price": 3.99
+    },
+    {
+      "period": "2002",
+      "article": "44",
+      "price": 1.25
+    },
+    {
+      "period": "2002",
+      "article": "45",
+      "price": 0.72
+    },
+    {
+      "period": "2002",
+      "article": "46",
+      "price": 1.3
+    },
+    {
+      "period": "2002",
+      "article": "47",
+      "price": 3.97
+    },
+    {
+      "period": "2002",
+      "article": "48",
+      "price": 2.18
+    },
+    {
+      "period": "2002",
+      "article": "49",
+      "price": 1.33
+    },
+    {
+      "period": "2002",
+      "article": "5",
+      "price": 4.48
+    },
+    {
+      "period": "2002",
+      "article": "50",
+      "price": 1.1
+    },
+    {
+      "period": "2002",
+      "article": "51",
+      "price": 5.04
+    },
+    {
+      "period": "2002",
+      "article": "52",
+      "price": 3.36
+    },
+    {
+      "period": "2002",
+      "article": "53",
+      "price": 0.42
+    },
+    {
+      "period": "2002",
+      "article": "54",
+      "price": 0.42
+    },
+    {
+      "period": "2002",
+      "article": "55",
+      "price": 1.26
+    },
+    {
+      "period": "2002",
+      "article": "56",
+      "price": 0.91
+    },
+    {
+      "period": "2002",
+      "article": "57",
+      "price": 1.26
+    },
+    {
+      "period": "2002",
+      "article": "58",
+      "price": 0.44
+    },
+    {
+      "period": "2002",
+      "article": "59",
+      "price": 0.5
+    },
+    {
+      "period": "2002",
+      "article": "6",
+      "price": 4.75
+    },
+    {
+      "period": "2002",
+      "article": "60",
+      "price": 1.04
+    },
+    {
+      "period": "2002",
+      "article": "61",
+      "price": null
+    },
+    {
+      "period": "2002",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2002",
+      "article": "63",
+      "price": 8.57
+    },
+    {
+      "period": "2002",
+      "article": "64",
+      "price": 2.85
+    },
+    {
+      "period": "2002",
+      "article": "65",
+      "price": 9.07
+    },
+    {
+      "period": "2002",
+      "article": "66",
+      "price": 4.58
+    },
+    {
+      "period": "2002",
+      "article": "67",
+      "price": 0.04
+    },
+    {
+      "period": "2002",
+      "article": "68",
+      "price": 32.45
+    },
+    {
+      "period": "2002",
+      "article": "69",
+      "price": 5.7
+    },
+    {
+      "period": "2002",
+      "article": "7",
+      "price": 2.9
+    },
+    {
+      "period": "2002",
+      "article": "70",
+      "price": 4.02
+    },
+    {
+      "period": "2002",
+      "article": "71",
+      "price": 0.79
+    },
+    {
+      "period": "2002",
+      "article": "72",
+      "price": 0.72
+    },
+    {
+      "period": "2002",
+      "article": "8",
+      "price": 1.91
+    },
+    {
+      "period": "2002",
+      "article": "9",
+      "price": 8.31
+    },
+    {
+      "period": "2003",
+      "article": "0",
+      "price": 1
+    },
+    {
+      "period": "2003",
+      "article": "1",
+      "price": 0.3
+    },
+    {
+      "period": "2003",
+      "article": "10",
+      "price": 5.29
+    },
+    {
+      "period": "2003",
+      "article": "11",
+      "price": 3.88
+    },
+    {
+      "period": "2003",
+      "article": "12",
+      "price": 1.8
+    },
+    {
+      "period": "2003",
+      "article": "13",
+      "price": 0.68
+    },
+    {
+      "period": "2003",
+      "article": "14",
+      "price": 2.14
+    },
+    {
+      "period": "2003",
+      "article": "15",
+      "price": null
+    },
+    {
+      "period": "2003",
+      "article": "16",
+      "price": 0.62
+    },
+    {
+      "period": "2003",
+      "article": "17",
+      "price": 0.61
+    },
+    {
+      "period": "2003",
+      "article": "18",
+      "price": 0.49
+    },
+    {
+      "period": "2003",
+      "article": "19",
+      "price": 1.02
+    },
+    {
+      "period": "2003",
+      "article": "2",
+      "price": 0.3
+    },
+    {
+      "period": "2003",
+      "article": "20",
+      "price": 2.51
+    },
+    {
+      "period": "2003",
+      "article": "21",
+      "price": 0.54
+    },
+    {
+      "period": "2003",
+      "article": "22",
+      "price": 2.2
+    },
+    {
+      "period": "2003",
+      "article": "23",
+      "price": 1.17
+    },
+    {
+      "period": "2003",
+      "article": "24",
+      "price": 0.47
+    },
+    {
+      "period": "2003",
+      "article": "25",
+      "price": 1.46
+    },
+    {
+      "period": "2003",
+      "article": "26",
+      "price": 0.87
+    },
+    {
+      "period": "2003",
+      "article": "27",
+      "price": 1.47
+    },
+    {
+      "period": "2003",
+      "article": "28",
+      "price": 0.88
+    },
+    {
+      "period": "2003",
+      "article": "29",
+      "price": 1.12
+    },
+    {
+      "period": "2003",
+      "article": "3",
+      "price": 0.5
+    },
+    {
+      "period": "2003",
+      "article": "30",
+      "price": 1.39
+    },
+    {
+      "period": "2003",
+      "article": "31",
+      "price": 1.48
+    },
+    {
+      "period": "2003",
+      "article": "32",
+      "price": 0.48
+    },
+    {
+      "period": "2003",
+      "article": "33",
+      "price": 1.01
+    },
+    {
+      "period": "2003",
+      "article": "34",
+      "price": 2.04
+    },
+    {
+      "period": "2003",
+      "article": "35",
+      "price": 0.57
+    },
+    {
+      "period": "2003",
+      "article": "36",
+      "price": 1.86
+    },
+    {
+      "period": "2003",
+      "article": "37",
+      "price": 0.97
+    },
+    {
+      "period": "2003",
+      "article": "38",
+      "price": 1.3
+    },
+    {
+      "period": "2003",
+      "article": "39",
+      "price": 0.95
+    },
+    {
+      "period": "2003",
+      "article": "4",
+      "price": 0.68
+    },
+    {
+      "period": "2003",
+      "article": "40",
+      "price": 0.75
+    },
+    {
+      "period": "2003",
+      "article": "41",
+      "price": 0.44
+    },
+    {
+      "period": "2003",
+      "article": "42",
+      "price": 0.48
+    },
+    {
+      "period": "2003",
+      "article": "43",
+      "price": 4.69
+    },
+    {
+      "period": "2003",
+      "article": "44",
+      "price": 1.28
+    },
+    {
+      "period": "2003",
+      "article": "45",
+      "price": 0.74
+    },
+    {
+      "period": "2003",
+      "article": "46",
+      "price": 1.34
+    },
+    {
+      "period": "2003",
+      "article": "47",
+      "price": 3.92
+    },
+    {
+      "period": "2003",
+      "article": "48",
+      "price": 2.07
+    },
+    {
+      "period": "2003",
+      "article": "49",
+      "price": 1.62
+    },
+    {
+      "period": "2003",
+      "article": "5",
+      "price": 4.5
+    },
+    {
+      "period": "2003",
+      "article": "50",
+      "price": 1.15
+    },
+    {
+      "period": "2003",
+      "article": "51",
+      "price": 4.8
+    },
+    {
+      "period": "2003",
+      "article": "52",
+      "price": 3.33
+    },
+    {
+      "period": "2003",
+      "article": "53",
+      "price": 0.54
+    },
+    {
+      "period": "2003",
+      "article": "54",
+      "price": 0.42
+    },
+    {
+      "period": "2003",
+      "article": "55",
+      "price": 1.27
+    },
+    {
+      "period": "2003",
+      "article": "56",
+      "price": 0.94
+    },
+    {
+      "period": "2003",
+      "article": "57",
+      "price": 1.27
+    },
+    {
+      "period": "2003",
+      "article": "58",
+      "price": 0.48
+    },
+    {
+      "period": "2003",
+      "article": "59",
+      "price": 0.52
+    },
+    {
+      "period": "2003",
+      "article": "6",
+      "price": 4.83
+    },
+    {
+      "period": "2003",
+      "article": "60",
+      "price": 1.16
+    },
+    {
+      "period": "2003",
+      "article": "61",
+      "price": null
+    },
+    {
+      "period": "2003",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2003",
+      "article": "63",
+      "price": 8.37
+    },
+    {
+      "period": "2003",
+      "article": "64",
+      "price": 2.93
+    },
+    {
+      "period": "2003",
+      "article": "65",
+      "price": 8.24
+    },
+    {
+      "period": "2003",
+      "article": "66",
+      "price": 4.65
+    },
+    {
+      "period": "2003",
+      "article": "67",
+      "price": 0.04
+    },
+    {
+      "period": "2003",
+      "article": "68",
+      "price": 32.5
+    },
+    {
+      "period": "2003",
+      "article": "69",
+      "price": 6.08
+    },
+    {
+      "period": "2003",
+      "article": "7",
+      "price": 2.76
+    },
+    {
+      "period": "2003",
+      "article": "70",
+      "price": 4.13
+    },
+    {
+      "period": "2003",
+      "article": "71",
+      "price": 0.78
+    },
+    {
+      "period": "2003",
+      "article": "72",
+      "price": 0.72
+    },
+    {
+      "period": "2003",
+      "article": "8",
+      "price": 1.76
+    },
+    {
+      "period": "2003",
+      "article": "9",
+      "price": 8.52
+    },
+    {
+      "period": "2004",
+      "article": "0",
+      "price": 0.98
+    },
+    {
+      "period": "2004",
+      "article": "1",
+      "price": 0.32
+    },
+    {
+      "period": "2004",
+      "article": "10",
+      "price": 4.9
+    },
+    {
+      "period": "2004",
+      "article": "11",
+      "price": 3.67
+    },
+    {
+      "period": "2004",
+      "article": "12",
+      "price": 1.74
+    },
+    {
+      "period": "2004",
+      "article": "13",
+      "price": 0.69
+    },
+    {
+      "period": "2004",
+      "article": "14",
+      "price": 2.01
+    },
+    {
+      "period": "2004",
+      "article": "15",
+      "price": 4.85
+    },
+    {
+      "period": "2004",
+      "article": "16",
+      "price": 0.63
+    },
+    {
+      "period": "2004",
+      "article": "17",
+      "price": 0.64
+    },
+    {
+      "period": "2004",
+      "article": "18",
+      "price": 0.49
+    },
+    {
+      "period": "2004",
+      "article": "19",
+      "price": 1.02
+    },
+    {
+      "period": "2004",
+      "article": "2",
+      "price": 0.29
+    },
+    {
+      "period": "2004",
+      "article": "20",
+      "price": 2.59
+    },
+    {
+      "period": "2004",
+      "article": "21",
+      "price": 0.53
+    },
+    {
+      "period": "2004",
+      "article": "22",
+      "price": 2.28
+    },
+    {
+      "period": "2004",
+      "article": "23",
+      "price": 1.04
+    },
+    {
+      "period": "2004",
+      "article": "24",
+      "price": 0.46
+    },
+    {
+      "period": "2004",
+      "article": "25",
+      "price": 1.43
+    },
+    {
+      "period": "2004",
+      "article": "26",
+      "price": 0.82
+    },
+    {
+      "period": "2004",
+      "article": "27",
+      "price": 1.34
+    },
+    {
+      "period": "2004",
+      "article": "28",
+      "price": 0.75
+    },
+    {
+      "period": "2004",
+      "article": "29",
+      "price": 1.09
+    },
+    {
+      "period": "2004",
+      "article": "3",
+      "price": 0.48
+    },
+    {
+      "period": "2004",
+      "article": "30",
+      "price": 1.24
+    },
+    {
+      "period": "2004",
+      "article": "31",
+      "price": 1.36
+    },
+    {
+      "period": "2004",
+      "article": "32",
+      "price": 0.43
+    },
+    {
+      "period": "2004",
+      "article": "33",
+      "price": 0.91
+    },
+    {
+      "period": "2004",
+      "article": "34",
+      "price": 1.64
+    },
+    {
+      "period": "2004",
+      "article": "35",
+      "price": 0.59
+    },
+    {
+      "period": "2004",
+      "article": "36",
+      "price": 1.69
+    },
+    {
+      "period": "2004",
+      "article": "37",
+      "price": 0.94
+    },
+    {
+      "period": "2004",
+      "article": "38",
+      "price": 1.25
+    },
+    {
+      "period": "2004",
+      "article": "39",
+      "price": 0.85
+    },
+    {
+      "period": "2004",
+      "article": "4",
+      "price": 0.62
+    },
+    {
+      "period": "2004",
+      "article": "40",
+      "price": 0.7
+    },
+    {
+      "period": "2004",
+      "article": "41",
+      "price": 0.28
+    },
+    {
+      "period": "2004",
+      "article": "42",
+      "price": 0.42
+    },
+    {
+      "period": "2004",
+      "article": "43",
+      "price": 5.19
+    },
+    {
+      "period": "2004",
+      "article": "44",
+      "price": 1.25
+    },
+    {
+      "period": "2004",
+      "article": "45",
+      "price": 0.72
+    },
+    {
+      "period": "2004",
+      "article": "46",
+      "price": 1.36
+    },
+    {
+      "period": "2004",
+      "article": "47",
+      "price": 3.92
+    },
+    {
+      "period": "2004",
+      "article": "48",
+      "price": 2.02
+    },
+    {
+      "period": "2004",
+      "article": "49",
+      "price": 1.61
+    },
+    {
+      "period": "2004",
+      "article": "5",
+      "price": 4.4
+    },
+    {
+      "period": "2004",
+      "article": "50",
+      "price": 1.1
+    },
+    {
+      "period": "2004",
+      "article": "51",
+      "price": 4.6
+    },
+    {
+      "period": "2004",
+      "article": "52",
+      "price": 3.12
+    },
+    {
+      "period": "2004",
+      "article": "53",
+      "price": 0.53
+    },
+    {
+      "period": "2004",
+      "article": "54",
+      "price": 0.43
+    },
+    {
+      "period": "2004",
+      "article": "55",
+      "price": 1.25
+    },
+    {
+      "period": "2004",
+      "article": "56",
+      "price": 0.92
+    },
+    {
+      "period": "2004",
+      "article": "57",
+      "price": 1.25
+    },
+    {
+      "period": "2004",
+      "article": "58",
+      "price": 0.49
+    },
+    {
+      "period": "2004",
+      "article": "59",
+      "price": 0.58
+    },
+    {
+      "period": "2004",
+      "article": "6",
+      "price": 4.69
+    },
+    {
+      "period": "2004",
+      "article": "60",
+      "price": 1.19
+    },
+    {
+      "period": "2004",
+      "article": "61",
+      "price": null
+    },
+    {
+      "period": "2004",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2004",
+      "article": "63",
+      "price": 8.09
+    },
+    {
+      "period": "2004",
+      "article": "64",
+      "price": 2.99
+    },
+    {
+      "period": "2004",
+      "article": "65",
+      "price": 8.58
+    },
+    {
+      "period": "2004",
+      "article": "66",
+      "price": 4.46
+    },
+    {
+      "period": "2004",
+      "article": "67",
+      "price": 0.04
+    },
+    {
+      "period": "2004",
+      "article": "68",
+      "price": 31.21
+    },
+    {
+      "period": "2004",
+      "article": "69",
+      "price": 6.1
+    },
+    {
+      "period": "2004",
+      "article": "7",
+      "price": 2.61
+    },
+    {
+      "period": "2004",
+      "article": "70",
+      "price": 5.09
+    },
+    {
+      "period": "2004",
+      "article": "71",
+      "price": 0.84
+    },
+    {
+      "period": "2004",
+      "article": "72",
+      "price": 0.77
+    },
+    {
+      "period": "2004",
+      "article": "8",
+      "price": 1.7
+    },
+    {
+      "period": "2004",
+      "article": "9",
+      "price": 7.57
+    },
+    {
+      "period": "2005",
+      "article": "0",
+      "price": 0.94
+    },
+    {
+      "period": "2005",
+      "article": "1",
+      "price": 0.23
+    },
+    {
+      "period": "2005",
+      "article": "10",
+      "price": 5.14
+    },
+    {
+      "period": "2005",
+      "article": "11",
+      "price": 3.58
+    },
+    {
+      "period": "2005",
+      "article": "12",
+      "price": 1.6
+    },
+    {
+      "period": "2005",
+      "article": "13",
+      "price": 0.66
+    },
+    {
+      "period": "2005",
+      "article": "14",
+      "price": 1.84
+    },
+    {
+      "period": "2005",
+      "article": "15",
+      "price": 4.79
+    },
+    {
+      "period": "2005",
+      "article": "16",
+      "price": 0.57
+    },
+    {
+      "period": "2005",
+      "article": "17",
+      "price": 0.64
+    },
+    {
+      "period": "2005",
+      "article": "18",
+      "price": 0.48
+    },
+    {
+      "period": "2005",
+      "article": "19",
+      "price": 0.95
+    },
+    {
+      "period": "2005",
+      "article": "2",
+      "price": 0.26
+    },
+    {
+      "period": "2005",
+      "article": "20",
+      "price": 2.64
+    },
+    {
+      "period": "2005",
+      "article": "21",
+      "price": 0.5
+    },
+    {
+      "period": "2005",
+      "article": "22",
+      "price": 2.2
+    },
+    {
+      "period": "2005",
+      "article": "23",
+      "price": 0.93
+    },
+    {
+      "period": "2005",
+      "article": "24",
+      "price": 0.44
+    },
+    {
+      "period": "2005",
+      "article": "25",
+      "price": 1.44
+    },
+    {
+      "period": "2005",
+      "article": "26",
+      "price": 0.77
+    },
+    {
+      "period": "2005",
+      "article": "27",
+      "price": 1.19
+    },
+    {
+      "period": "2005",
+      "article": "28",
+      "price": 0.76
+    },
+    {
+      "period": "2005",
+      "article": "29",
+      "price": 1.03
+    },
+    {
+      "period": "2005",
+      "article": "3",
+      "price": 0.49
+    },
+    {
+      "period": "2005",
+      "article": "30",
+      "price": 1.06
+    },
+    {
+      "period": "2005",
+      "article": "31",
+      "price": 1.23
+    },
+    {
+      "period": "2005",
+      "article": "32",
+      "price": 0.34
+    },
+    {
+      "period": "2005",
+      "article": "33",
+      "price": 0.93
+    },
+    {
+      "period": "2005",
+      "article": "34",
+      "price": 1.52
+    },
+    {
+      "period": "2005",
+      "article": "35",
+      "price": 0.44
+    },
+    {
+      "period": "2005",
+      "article": "36",
+      "price": 1.72
+    },
+    {
+      "period": "2005",
+      "article": "37",
+      "price": 0.89
+    },
+    {
+      "period": "2005",
+      "article": "38",
+      "price": 1.15
+    },
+    {
+      "period": "2005",
+      "article": "39",
+      "price": 0.82
+    },
+    {
+      "period": "2005",
+      "article": "4",
+      "price": 0.6
+    },
+    {
+      "period": "2005",
+      "article": "40",
+      "price": 0.76
+    },
+    {
+      "period": "2005",
+      "article": "41",
+      "price": 0.33
+    },
+    {
+      "period": "2005",
+      "article": "42",
+      "price": 0.44
+    },
+    {
+      "period": "2005",
+      "article": "43",
+      "price": 5.77
+    },
+    {
+      "period": "2005",
+      "article": "44",
+      "price": 1.18
+    },
+    {
+      "period": "2005",
+      "article": "45",
+      "price": 0.71
+    },
+    {
+      "period": "2005",
+      "article": "46",
+      "price": 1.32
+    },
+    {
+      "period": "2005",
+      "article": "47",
+      "price": 4.2
+    },
+    {
+      "period": "2005",
+      "article": "48",
+      "price": 1.87
+    },
+    {
+      "period": "2005",
+      "article": "49",
+      "price": 1.56
+    },
+    {
+      "period": "2005",
+      "article": "5",
+      "price": 4.49
+    },
+    {
+      "period": "2005",
+      "article": "50",
+      "price": 0.99
+    },
+    {
+      "period": "2005",
+      "article": "51",
+      "price": 4.32
+    },
+    {
+      "period": "2005",
+      "article": "52",
+      "price": 2.96
+    },
+    {
+      "period": "2005",
+      "article": "53",
+      "price": 0.5
+    },
+    {
+      "period": "2005",
+      "article": "54",
+      "price": 0.39
+    },
+    {
+      "period": "2005",
+      "article": "55",
+      "price": 1.16
+    },
+    {
+      "period": "2005",
+      "article": "56",
+      "price": 0.89
+    },
+    {
+      "period": "2005",
+      "article": "57",
+      "price": 1.17
+    },
+    {
+      "period": "2005",
+      "article": "58",
+      "price": 0.51
+    },
+    {
+      "period": "2005",
+      "article": "59",
+      "price": 0.67
+    },
+    {
+      "period": "2005",
+      "article": "6",
+      "price": 4.73
+    },
+    {
+      "period": "2005",
+      "article": "60",
+      "price": 1.21
+    },
+    {
+      "period": "2005",
+      "article": "61",
+      "price": null
+    },
+    {
+      "period": "2005",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2005",
+      "article": "63",
+      "price": 7.95
+    },
+    {
+      "period": "2005",
+      "article": "64",
+      "price": 2.9
+    },
+    {
+      "period": "2005",
+      "article": "65",
+      "price": 7.83
+    },
+    {
+      "period": "2005",
+      "article": "66",
+      "price": 4.44
+    },
+    {
+      "period": "2005",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2005",
+      "article": "68",
+      "price": 29.12
+    },
+    {
+      "period": "2005",
+      "article": "69",
+      "price": 5.88
+    },
+    {
+      "period": "2005",
+      "article": "7",
+      "price": 2.47
+    },
+    {
+      "period": "2005",
+      "article": "70",
+      "price": 4.86
+    },
+    {
+      "period": "2005",
+      "article": "71",
+      "price": 0.93
+    },
+    {
+      "period": "2005",
+      "article": "72",
+      "price": 0.89
+    },
+    {
+      "period": "2005",
+      "article": "8",
+      "price": 1.74
+    },
+    {
+      "period": "2005",
+      "article": "9",
+      "price": 6.86
+    },
+    {
+      "period": "2006",
+      "article": "0",
+      "price": 0.94
+    },
+    {
+      "period": "2006",
+      "article": "1",
+      "price": 0.24
+    },
+    {
+      "period": "2006",
+      "article": "10",
+      "price": 5.36
+    },
+    {
+      "period": "2006",
+      "article": "11",
+      "price": 3.63
+    },
+    {
+      "period": "2006",
+      "article": "12",
+      "price": 1.54
+    },
+    {
+      "period": "2006",
+      "article": "13",
+      "price": 0.66
+    },
+    {
+      "period": "2006",
+      "article": "14",
+      "price": 2.19
+    },
+    {
+      "period": "2006",
+      "article": "15",
+      "price": 4.62
+    },
+    {
+      "period": "2006",
+      "article": "16",
+      "price": 0.57
+    },
+    {
+      "period": "2006",
+      "article": "17",
+      "price": 0.61
+    },
+    {
+      "period": "2006",
+      "article": "18",
+      "price": 0.47
+    },
+    {
+      "period": "2006",
+      "article": "19",
+      "price": 0.95
+    },
+    {
+      "period": "2006",
+      "article": "2",
+      "price": 0.25
+    },
+    {
+      "period": "2006",
+      "article": "20",
+      "price": 2.76
+    },
+    {
+      "period": "2006",
+      "article": "21",
+      "price": 0.47
+    },
+    {
+      "period": "2006",
+      "article": "22",
+      "price": 2.14
+    },
+    {
+      "period": "2006",
+      "article": "23",
+      "price": 0.93
+    },
+    {
+      "period": "2006",
+      "article": "24",
+      "price": 0.44
+    },
+    {
+      "period": "2006",
+      "article": "25",
+      "price": 1.54
+    },
+    {
+      "period": "2006",
+      "article": "26",
+      "price": 0.76
+    },
+    {
+      "period": "2006",
+      "article": "27",
+      "price": 1.32
+    },
+    {
+      "period": "2006",
+      "article": "28",
+      "price": 0.87
+    },
+    {
+      "period": "2006",
+      "article": "29",
+      "price": 0.99
+    },
+    {
+      "period": "2006",
+      "article": "3",
+      "price": 0.46
+    },
+    {
+      "period": "2006",
+      "article": "30",
+      "price": 1.03
+    },
+    {
+      "period": "2006",
+      "article": "31",
+      "price": 1.53
+    },
+    {
+      "period": "2006",
+      "article": "32",
+      "price": 0.44
+    },
+    {
+      "period": "2006",
+      "article": "33",
+      "price": 0.83
+    },
+    {
+      "period": "2006",
+      "article": "34",
+      "price": 1.62
+    },
+    {
+      "period": "2006",
+      "article": "35",
+      "price": 0.5
+    },
+    {
+      "period": "2006",
+      "article": "36",
+      "price": 1.98
+    },
+    {
+      "period": "2006",
+      "article": "37",
+      "price": 0.95
+    },
+    {
+      "period": "2006",
+      "article": "38",
+      "price": 1.1
+    },
+    {
+      "period": "2006",
+      "article": "39",
+      "price": 0.88
+    },
+    {
+      "period": "2006",
+      "article": "4",
+      "price": 0.57
+    },
+    {
+      "period": "2006",
+      "article": "40",
+      "price": 0.8
+    },
+    {
+      "period": "2006",
+      "article": "41",
+      "price": 0.33
+    },
+    {
+      "period": "2006",
+      "article": "42",
+      "price": 0.56
+    },
+    {
+      "period": "2006",
+      "article": "43",
+      "price": 6.26
+    },
+    {
+      "period": "2006",
+      "article": "44",
+      "price": 1.2
+    },
+    {
+      "period": "2006",
+      "article": "45",
+      "price": 0.7
+    },
+    {
+      "period": "2006",
+      "article": "46",
+      "price": 1.42
+    },
+    {
+      "period": "2006",
+      "article": "47",
+      "price": 4.2
+    },
+    {
+      "period": "2006",
+      "article": "48",
+      "price": 1.82
+    },
+    {
+      "period": "2006",
+      "article": "49",
+      "price": 1.55
+    },
+    {
+      "period": "2006",
+      "article": "5",
+      "price": 4.44
+    },
+    {
+      "period": "2006",
+      "article": "50",
+      "price": 0.98
+    },
+    {
+      "period": "2006",
+      "article": "51",
+      "price": 4.24
+    },
+    {
+      "period": "2006",
+      "article": "52",
+      "price": 2.89
+    },
+    {
+      "period": "2006",
+      "article": "53",
+      "price": 0.45
+    },
+    {
+      "period": "2006",
+      "article": "54",
+      "price": 0.38
+    },
+    {
+      "period": "2006",
+      "article": "55",
+      "price": 1.08
+    },
+    {
+      "period": "2006",
+      "article": "56",
+      "price": 0.83
+    },
+    {
+      "period": "2006",
+      "article": "57",
+      "price": 1.1
+    },
+    {
+      "period": "2006",
+      "article": "58",
+      "price": 0.49
+    },
+    {
+      "period": "2006",
+      "article": "59",
+      "price": 0.68
+    },
+    {
+      "period": "2006",
+      "article": "6",
+      "price": 5.05
+    },
+    {
+      "period": "2006",
+      "article": "60",
+      "price": 1.15
+    },
+    {
+      "period": "2006",
+      "article": "61",
+      "price": 0.8
+    },
+    {
+      "period": "2006",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2006",
+      "article": "63",
+      "price": 7.95
+    },
+    {
+      "period": "2006",
+      "article": "64",
+      "price": 2.85
+    },
+    {
+      "period": "2006",
+      "article": "65",
+      "price": 7.82
+    },
+    {
+      "period": "2006",
+      "article": "66",
+      "price": 4.42
+    },
+    {
+      "period": "2006",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2006",
+      "article": "68",
+      "price": 27.99
+    },
+    {
+      "period": "2006",
+      "article": "69",
+      "price": 6
+    },
+    {
+      "period": "2006",
+      "article": "7",
+      "price": 2.52
+    },
+    {
+      "period": "2006",
+      "article": "70",
+      "price": 5.15
+    },
+    {
+      "period": "2006",
+      "article": "71",
+      "price": 1.02
+    },
+    {
+      "period": "2006",
+      "article": "72",
+      "price": 0.98
+    },
+    {
+      "period": "2006",
+      "article": "8",
+      "price": 1.83
+    },
+    {
+      "period": "2006",
+      "article": "9",
+      "price": 6.87
+    },
+    {
+      "period": "2007",
+      "article": "0",
+      "price": 1.02
+    },
+    {
+      "period": "2007",
+      "article": "1",
+      "price": 0.35
+    },
+    {
+      "period": "2007",
+      "article": "10",
+      "price": 5.68
+    },
+    {
+      "period": "2007",
+      "article": "11",
+      "price": 3.56
+    },
+    {
+      "period": "2007",
+      "article": "12",
+      "price": 1.59
+    },
+    {
+      "period": "2007",
+      "article": "13",
+      "price": 0.67
+    },
+    {
+      "period": "2007",
+      "article": "14",
+      "price": 2.26
+    },
+    {
+      "period": "2007",
+      "article": "15",
+      "price": 4.72
+    },
+    {
+      "period": "2007",
+      "article": "16",
+      "price": 0.56
+    },
+    {
+      "period": "2007",
+      "article": "17",
+      "price": 0.7
+    },
+    {
+      "period": "2007",
+      "article": "18",
+      "price": 0.49
+    },
+    {
+      "period": "2007",
+      "article": "19",
+      "price": 0.91
+    },
+    {
+      "period": "2007",
+      "article": "2",
+      "price": 0.32
+    },
+    {
+      "period": "2007",
+      "article": "20",
+      "price": 2.87
+    },
+    {
+      "period": "2007",
+      "article": "21",
+      "price": 0.44
+    },
+    {
+      "period": "2007",
+      "article": "22",
+      "price": 2.39
+    },
+    {
+      "period": "2007",
+      "article": "23",
+      "price": 1.1
+    },
+    {
+      "period": "2007",
+      "article": "24",
+      "price": 0.44
+    },
+    {
+      "period": "2007",
+      "article": "25",
+      "price": 1.55
+    },
+    {
+      "period": "2007",
+      "article": "26",
+      "price": 0.8
+    },
+    {
+      "period": "2007",
+      "article": "27",
+      "price": 1.42
+    },
+    {
+      "period": "2007",
+      "article": "28",
+      "price": 0.91
+    },
+    {
+      "period": "2007",
+      "article": "29",
+      "price": 1.03
+    },
+    {
+      "period": "2007",
+      "article": "3",
+      "price": 0.51
+    },
+    {
+      "period": "2007",
+      "article": "30",
+      "price": 1.07
+    },
+    {
+      "period": "2007",
+      "article": "31",
+      "price": 1.59
+    },
+    {
+      "period": "2007",
+      "article": "32",
+      "price": 0.4
+    },
+    {
+      "period": "2007",
+      "article": "33",
+      "price": 1.06
+    },
+    {
+      "period": "2007",
+      "article": "34",
+      "price": 1.71
+    },
+    {
+      "period": "2007",
+      "article": "35",
+      "price": 0.51
+    },
+    {
+      "period": "2007",
+      "article": "36",
+      "price": 1.91
+    },
+    {
+      "period": "2007",
+      "article": "37",
+      "price": 0.98
+    },
+    {
+      "period": "2007",
+      "article": "38",
+      "price": 1.21
+    },
+    {
+      "period": "2007",
+      "article": "39",
+      "price": 0.93
+    },
+    {
+      "period": "2007",
+      "article": "4",
+      "price": 0.57
+    },
+    {
+      "period": "2007",
+      "article": "40",
+      "price": 0.64
+    },
+    {
+      "period": "2007",
+      "article": "41",
+      "price": 0.33
+    },
+    {
+      "period": "2007",
+      "article": "42",
+      "price": 0.52
+    },
+    {
+      "period": "2007",
+      "article": "43",
+      "price": 6.04
+    },
+    {
+      "period": "2007",
+      "article": "44",
+      "price": 1.22
+    },
+    {
+      "period": "2007",
+      "article": "45",
+      "price": 0.71
+    },
+    {
+      "period": "2007",
+      "article": "46",
+      "price": 1.38
+    },
+    {
+      "period": "2007",
+      "article": "47",
+      "price": 4.33
+    },
+    {
+      "period": "2007",
+      "article": "48",
+      "price": 1.65
+    },
+    {
+      "period": "2007",
+      "article": "49",
+      "price": 1.57
+    },
+    {
+      "period": "2007",
+      "article": "5",
+      "price": 4.53
+    },
+    {
+      "period": "2007",
+      "article": "50",
+      "price": 0.98
+    },
+    {
+      "period": "2007",
+      "article": "51",
+      "price": 4.5
+    },
+    {
+      "period": "2007",
+      "article": "52",
+      "price": 3.04
+    },
+    {
+      "period": "2007",
+      "article": "53",
+      "price": 0.42
+    },
+    {
+      "period": "2007",
+      "article": "54",
+      "price": 0.39
+    },
+    {
+      "period": "2007",
+      "article": "55",
+      "price": 1.13
+    },
+    {
+      "period": "2007",
+      "article": "56",
+      "price": 0.82
+    },
+    {
+      "period": "2007",
+      "article": "57",
+      "price": 1.12
+    },
+    {
+      "period": "2007",
+      "article": "58",
+      "price": 0.49
+    },
+    {
+      "period": "2007",
+      "article": "59",
+      "price": 0.7
+    },
+    {
+      "period": "2007",
+      "article": "6",
+      "price": 5.06
+    },
+    {
+      "period": "2007",
+      "article": "60",
+      "price": 1.13
+    },
+    {
+      "period": "2007",
+      "article": "61",
+      "price": 0.8
+    },
+    {
+      "period": "2007",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2007",
+      "article": "63",
+      "price": 7.8
+    },
+    {
+      "period": "2007",
+      "article": "64",
+      "price": 2.85
+    },
+    {
+      "period": "2007",
+      "article": "65",
+      "price": 7.64
+    },
+    {
+      "period": "2007",
+      "article": "66",
+      "price": 4.46
+    },
+    {
+      "period": "2007",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2007",
+      "article": "68",
+      "price": 27.36
+    },
+    {
+      "period": "2007",
+      "article": "69",
+      "price": 5.74
+    },
+    {
+      "period": "2007",
+      "article": "7",
+      "price": 2.49
+    },
+    {
+      "period": "2007",
+      "article": "70",
+      "price": 4.75
+    },
+    {
+      "period": "2007",
+      "article": "71",
+      "price": 1.01
+    },
+    {
+      "period": "2007",
+      "article": "72",
+      "price": 0.98
+    },
+    {
+      "period": "2007",
+      "article": "8",
+      "price": 1.91
+    },
+    {
+      "period": "2007",
+      "article": "9",
+      "price": 6.84
+    },
+    {
+      "period": "2008",
+      "article": "0",
+      "price": 1.19
+    },
+    {
+      "period": "2008",
+      "article": "1",
+      "price": 0.47
+    },
+    {
+      "period": "2008",
+      "article": "10",
+      "price": 5.98
+    },
+    {
+      "period": "2008",
+      "article": "11",
+      "price": 3.71
+    },
+    {
+      "period": "2008",
+      "article": "12",
+      "price": 1.66
+    },
+    {
+      "period": "2008",
+      "article": "13",
+      "price": 0.68
+    },
+    {
+      "period": "2008",
+      "article": "14",
+      "price": 2.3
+    },
+    {
+      "period": "2008",
+      "article": "15",
+      "price": 4.7
+    },
+    {
+      "period": "2008",
+      "article": "16",
+      "price": 0.57
+    },
+    {
+      "period": "2008",
+      "article": "17",
+      "price": 0.86
+    },
+    {
+      "period": "2008",
+      "article": "18",
+      "price": 0.57
+    },
+    {
+      "period": "2008",
+      "article": "19",
+      "price": 0.99
+    },
+    {
+      "period": "2008",
+      "article": "2",
+      "price": 0.39
+    },
+    {
+      "period": "2008",
+      "article": "20",
+      "price": 3.41
+    },
+    {
+      "period": "2008",
+      "article": "21",
+      "price": 0.49
+    },
+    {
+      "period": "2008",
+      "article": "22",
+      "price": 2.86
+    },
+    {
+      "period": "2008",
+      "article": "23",
+      "price": 1.65
+    },
+    {
+      "period": "2008",
+      "article": "24",
+      "price": 0.5
+    },
+    {
+      "period": "2008",
+      "article": "25",
+      "price": 1.98
+    },
+    {
+      "period": "2008",
+      "article": "26",
+      "price": 0.97
+    },
+    {
+      "period": "2008",
+      "article": "27",
+      "price": 1.53
+    },
+    {
+      "period": "2008",
+      "article": "28",
+      "price": 0.99
+    },
+    {
+      "period": "2008",
+      "article": "29",
+      "price": 1.12
+    },
+    {
+      "period": "2008",
+      "article": "3",
+      "price": 0.7
+    },
+    {
+      "period": "2008",
+      "article": "30",
+      "price": 1.71
+    },
+    {
+      "period": "2008",
+      "article": "31",
+      "price": 1.59
+    },
+    {
+      "period": "2008",
+      "article": "32",
+      "price": 0.38
+    },
+    {
+      "period": "2008",
+      "article": "33",
+      "price": 1
+    },
+    {
+      "period": "2008",
+      "article": "34",
+      "price": 2.07
+    },
+    {
+      "period": "2008",
+      "article": "35",
+      "price": 0.49
+    },
+    {
+      "period": "2008",
+      "article": "36",
+      "price": 1.91
+    },
+    {
+      "period": "2008",
+      "article": "37",
+      "price": 0.98
+    },
+    {
+      "period": "2008",
+      "article": "38",
+      "price": 1.29
+    },
+    {
+      "period": "2008",
+      "article": "39",
+      "price": 0.9
+    },
+    {
+      "period": "2008",
+      "article": "4",
+      "price": 0.78
+    },
+    {
+      "period": "2008",
+      "article": "40",
+      "price": 0.77
+    },
+    {
+      "period": "2008",
+      "article": "41",
+      "price": 0.37
+    },
+    {
+      "period": "2008",
+      "article": "42",
+      "price": 0.5
+    },
+    {
+      "period": "2008",
+      "article": "43",
+      "price": 6.44
+    },
+    {
+      "period": "2008",
+      "article": "44",
+      "price": 1.22
+    },
+    {
+      "period": "2008",
+      "article": "45",
+      "price": 0.78
+    },
+    {
+      "period": "2008",
+      "article": "46",
+      "price": 1.5
+    },
+    {
+      "period": "2008",
+      "article": "47",
+      "price": 5.02
+    },
+    {
+      "period": "2008",
+      "article": "48",
+      "price": 1.72
+    },
+    {
+      "period": "2008",
+      "article": "49",
+      "price": 1.58
+    },
+    {
+      "period": "2008",
+      "article": "5",
+      "price": 5.14
+    },
+    {
+      "period": "2008",
+      "article": "50",
+      "price": 1.11
+    },
+    {
+      "period": "2008",
+      "article": "51",
+      "price": 5.05
+    },
+    {
+      "period": "2008",
+      "article": "52",
+      "price": 3.57
+    },
+    {
+      "period": "2008",
+      "article": "53",
+      "price": 0.43
+    },
+    {
+      "period": "2008",
+      "article": "54",
+      "price": 0.39
+    },
+    {
+      "period": "2008",
+      "article": "55",
+      "price": 1.2
+    },
+    {
+      "period": "2008",
+      "article": "56",
+      "price": 0.83
+    },
+    {
+      "period": "2008",
+      "article": "57",
+      "price": 1.18
+    },
+    {
+      "period": "2008",
+      "article": "58",
+      "price": 0.5
+    },
+    {
+      "period": "2008",
+      "article": "59",
+      "price": 0.71
+    },
+    {
+      "period": "2008",
+      "article": "6",
+      "price": 5.64
+    },
+    {
+      "period": "2008",
+      "article": "60",
+      "price": 1.06
+    },
+    {
+      "period": "2008",
+      "article": "61",
+      "price": 0.81
+    },
+    {
+      "period": "2008",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2008",
+      "article": "63",
+      "price": 7.82
+    },
+    {
+      "period": "2008",
+      "article": "64",
+      "price": 2.88
+    },
+    {
+      "period": "2008",
+      "article": "65",
+      "price": 7.74
+    },
+    {
+      "period": "2008",
+      "article": "66",
+      "price": 4.72
+    },
+    {
+      "period": "2008",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2008",
+      "article": "68",
+      "price": 30.86
+    },
+    {
+      "period": "2008",
+      "article": "69",
+      "price": 5.74
+    },
+    {
+      "period": "2008",
+      "article": "7",
+      "price": 2.84
+    },
+    {
+      "period": "2008",
+      "article": "70",
+      "price": 4.69
+    },
+    {
+      "period": "2008",
+      "article": "71",
+      "price": 1.11
+    },
+    {
+      "period": "2008",
+      "article": "72",
+      "price": 1.15
+    },
+    {
+      "period": "2008",
+      "article": "8",
+      "price": 2.19
+    },
+    {
+      "period": "2008",
+      "article": "9",
+      "price": 7.35
+    },
+    {
+      "period": "2009",
+      "article": "0",
+      "price": 1.37
+    },
+    {
+      "period": "2009",
+      "article": "1",
+      "price": 0.31
+    },
+    {
+      "period": "2009",
+      "article": "10",
+      "price": 6.28
+    },
+    {
+      "period": "2009",
+      "article": "11",
+      "price": 3.76
+    },
+    {
+      "period": "2009",
+      "article": "12",
+      "price": 1.73
+    },
+    {
+      "period": "2009",
+      "article": "13",
+      "price": 0.69
+    },
+    {
+      "period": "2009",
+      "article": "14",
+      "price": 2.41
+    },
+    {
+      "period": "2009",
+      "article": "15",
+      "price": 4.61
+    },
+    {
+      "period": "2009",
+      "article": "16",
+      "price": 0.56
+    },
+    {
+      "period": "2009",
+      "article": "17",
+      "price": 0.84
+    },
+    {
+      "period": "2009",
+      "article": "18",
+      "price": 0.57
+    },
+    {
+      "period": "2009",
+      "article": "19",
+      "price": 1
+    },
+    {
+      "period": "2009",
+      "article": "2",
+      "price": 0.3
+    },
+    {
+      "period": "2009",
+      "article": "20",
+      "price": 3.36
+    },
+    {
+      "period": "2009",
+      "article": "21",
+      "price": 0.49
+    },
+    {
+      "period": "2009",
+      "article": "22",
+      "price": 2.3
+    },
+    {
+      "period": "2009",
+      "article": "23",
+      "price": 1.15
+    },
+    {
+      "period": "2009",
+      "article": "24",
+      "price": 0.5
+    },
+    {
+      "period": "2009",
+      "article": "25",
+      "price": 2.09
+    },
+    {
+      "period": "2009",
+      "article": "26",
+      "price": 0.84
+    },
+    {
+      "period": "2009",
+      "article": "27",
+      "price": 1.48
+    },
+    {
+      "period": "2009",
+      "article": "28",
+      "price": 1.01
+    },
+    {
+      "period": "2009",
+      "article": "29",
+      "price": 1.08
+    },
+    {
+      "period": "2009",
+      "article": "3",
+      "price": 0.67
+    },
+    {
+      "period": "2009",
+      "article": "30",
+      "price": 1.2
+    },
+    {
+      "period": "2009",
+      "article": "31",
+      "price": 1.62
+    },
+    {
+      "period": "2009",
+      "article": "32",
+      "price": 0.35
+    },
+    {
+      "period": "2009",
+      "article": "33",
+      "price": 0.96
+    },
+    {
+      "period": "2009",
+      "article": "34",
+      "price": 2.06
+    },
+    {
+      "period": "2009",
+      "article": "35",
+      "price": 0.52
+    },
+    {
+      "period": "2009",
+      "article": "36",
+      "price": 1.91
+    },
+    {
+      "period": "2009",
+      "article": "37",
+      "price": 0.96
+    },
+    {
+      "period": "2009",
+      "article": "38",
+      "price": 1.21
+    },
+    {
+      "period": "2009",
+      "article": "39",
+      "price": 0.93
+    },
+    {
+      "period": "2009",
+      "article": "4",
+      "price": 0.82
+    },
+    {
+      "period": "2009",
+      "article": "40",
+      "price": 0.64
+    },
+    {
+      "period": "2009",
+      "article": "41",
+      "price": 0.23
+    },
+    {
+      "period": "2009",
+      "article": "42",
+      "price": 0.56
+    },
+    {
+      "period": "2009",
+      "article": "43",
+      "price": 6.51
+    },
+    {
+      "period": "2009",
+      "article": "44",
+      "price": 1.22
+    },
+    {
+      "period": "2009",
+      "article": "45",
+      "price": 0.8
+    },
+    {
+      "period": "2009",
+      "article": "46",
+      "price": 1.58
+    },
+    {
+      "period": "2009",
+      "article": "47",
+      "price": 5.57
+    },
+    {
+      "period": "2009",
+      "article": "48",
+      "price": 1.74
+    },
+    {
+      "period": "2009",
+      "article": "49",
+      "price": 1.6
+    },
+    {
+      "period": "2009",
+      "article": "5",
+      "price": 5.55
+    },
+    {
+      "period": "2009",
+      "article": "50",
+      "price": 1.06
+    },
+    {
+      "period": "2009",
+      "article": "51",
+      "price": 5.14
+    },
+    {
+      "period": "2009",
+      "article": "52",
+      "price": 3.71
+    },
+    {
+      "period": "2009",
+      "article": "53",
+      "price": 0.43
+    },
+    {
+      "period": "2009",
+      "article": "54",
+      "price": 0.38
+    },
+    {
+      "period": "2009",
+      "article": "55",
+      "price": 1.21
+    },
+    {
+      "period": "2009",
+      "article": "56",
+      "price": 0.78
+    },
+    {
+      "period": "2009",
+      "article": "57",
+      "price": 1.17
+    },
+    {
+      "period": "2009",
+      "article": "58",
+      "price": 0.49
+    },
+    {
+      "period": "2009",
+      "article": "59",
+      "price": 0.77
+    },
+    {
+      "period": "2009",
+      "article": "6",
+      "price": 6.11
+    },
+    {
+      "period": "2009",
+      "article": "60",
+      "price": 1.06
+    },
+    {
+      "period": "2009",
+      "article": "61",
+      "price": 0.9
+    },
+    {
+      "period": "2009",
+      "article": "62",
+      "price": null
+    },
+    {
+      "period": "2009",
+      "article": "63",
+      "price": 7.82
+    },
+    {
+      "period": "2009",
+      "article": "64",
+      "price": 2.85
+    },
+    {
+      "period": "2009",
+      "article": "65",
+      "price": 7.65
+    },
+    {
+      "period": "2009",
+      "article": "66",
+      "price": 4.85
+    },
+    {
+      "period": "2009",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2009",
+      "article": "68",
+      "price": 30.71
+    },
+    {
+      "period": "2009",
+      "article": "69",
+      "price": 5.74
+    },
+    {
+      "period": "2009",
+      "article": "7",
+      "price": 2.96
+    },
+    {
+      "period": "2009",
+      "article": "70",
+      "price": 4.56
+    },
+    {
+      "period": "2009",
+      "article": "71",
+      "price": 0.9
+    },
+    {
+      "period": "2009",
+      "article": "72",
+      "price": 0.89
+    },
+    {
+      "period": "2009",
+      "article": "8",
+      "price": 2.27
+    },
+    {
+      "period": "2009",
+      "article": "9",
+      "price": 7.63
+    },
+    {
+      "period": "2010",
+      "article": "0",
+      "price": 1.31
+    },
+    {
+      "period": "2010",
+      "article": "1",
+      "price": 0.34
+    },
+    {
+      "period": "2010",
+      "article": "10",
+      "price": 6.48
+    },
+    {
+      "period": "2010",
+      "article": "11",
+      "price": 3.8
+    },
+    {
+      "period": "2010",
+      "article": "12",
+      "price": 1.93
+    },
+    {
+      "period": "2010",
+      "article": "13",
+      "price": 0.69
+    },
+    {
+      "period": "2010",
+      "article": "14",
+      "price": 2.44
+    },
+    {
+      "period": "2010",
+      "article": "15",
+      "price": 4.51
+    },
+    {
+      "period": "2010",
+      "article": "16",
+      "price": 0.61
+    },
+    {
+      "period": "2010",
+      "article": "17",
+      "price": 0.83
+    },
+    {
+      "period": "2010",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2010",
+      "article": "19",
+      "price": 0.97
+    },
+    {
+      "period": "2010",
+      "article": "2",
+      "price": 0.31
+    },
+    {
+      "period": "2010",
+      "article": "20",
+      "price": 3.18
+    },
+    {
+      "period": "2010",
+      "article": "21",
+      "price": 0.49
+    },
+    {
+      "period": "2010",
+      "article": "22",
+      "price": 2.26
+    },
+    {
+      "period": "2010",
+      "article": "23",
+      "price": 1.22
+    },
+    {
+      "period": "2010",
+      "article": "24",
+      "price": 0.48
+    },
+    {
+      "period": "2010",
+      "article": "25",
+      "price": 2.03
+    },
+    {
+      "period": "2010",
+      "article": "26",
+      "price": 0.75
+    },
+    {
+      "period": "2010",
+      "article": "27",
+      "price": 1.39
+    },
+    {
+      "period": "2010",
+      "article": "28",
+      "price": 0.98
+    },
+    {
+      "period": "2010",
+      "article": "29",
+      "price": 1.02
+    },
+    {
+      "period": "2010",
+      "article": "3",
+      "price": 0.64
+    },
+    {
+      "period": "2010",
+      "article": "30",
+      "price": 1.42
+    },
+    {
+      "period": "2010",
+      "article": "31",
+      "price": 1.57
+    },
+    {
+      "period": "2010",
+      "article": "32",
+      "price": 0.39
+    },
+    {
+      "period": "2010",
+      "article": "33",
+      "price": 0.97
+    },
+    {
+      "period": "2010",
+      "article": "34",
+      "price": 1.88
+    },
+    {
+      "period": "2010",
+      "article": "35",
+      "price": 0.6
+    },
+    {
+      "period": "2010",
+      "article": "36",
+      "price": 2.71
+    },
+    {
+      "period": "2010",
+      "article": "37",
+      "price": 0.9
+    },
+    {
+      "period": "2010",
+      "article": "38",
+      "price": 1.22
+    },
+    {
+      "period": "2010",
+      "article": "39",
+      "price": 0.86
+    },
+    {
+      "period": "2010",
+      "article": "4",
+      "price": 0.79
+    },
+    {
+      "period": "2010",
+      "article": "40",
+      "price": 0.9
+    },
+    {
+      "period": "2010",
+      "article": "41",
+      "price": 0.3
+    },
+    {
+      "period": "2010",
+      "article": "42",
+      "price": 0.75
+    },
+    {
+      "period": "2010",
+      "article": "43",
+      "price": 6.64
+    },
+    {
+      "period": "2010",
+      "article": "44",
+      "price": 1.24
+    },
+    {
+      "period": "2010",
+      "article": "45",
+      "price": 0.88
+    },
+    {
+      "period": "2010",
+      "article": "46",
+      "price": 1.6
+    },
+    {
+      "period": "2010",
+      "article": "47",
+      "price": 5.3
+    },
+    {
+      "period": "2010",
+      "article": "48",
+      "price": 1.71
+    },
+    {
+      "period": "2010",
+      "article": "49",
+      "price": 1.65
+    },
+    {
+      "period": "2010",
+      "article": "5",
+      "price": 5.45
+    },
+    {
+      "period": "2010",
+      "article": "50",
+      "price": 1.06
+    },
+    {
+      "period": "2010",
+      "article": "51",
+      "price": 5.14
+    },
+    {
+      "period": "2010",
+      "article": "52",
+      "price": 4.33
+    },
+    {
+      "period": "2010",
+      "article": "53",
+      "price": 0.44
+    },
+    {
+      "period": "2010",
+      "article": "54",
+      "price": 0.36
+    },
+    {
+      "period": "2010",
+      "article": "55",
+      "price": 1.23
+    },
+    {
+      "period": "2010",
+      "article": "56",
+      "price": 0.74
+    },
+    {
+      "period": "2010",
+      "article": "57",
+      "price": 1.19
+    },
+    {
+      "period": "2010",
+      "article": "58",
+      "price": 0.52
+    },
+    {
+      "period": "2010",
+      "article": "59",
+      "price": 0.83
+    },
+    {
+      "period": "2010",
+      "article": "6",
+      "price": 6.13
+    },
+    {
+      "period": "2010",
+      "article": "60",
+      "price": 1.06
+    },
+    {
+      "period": "2010",
+      "article": "61",
+      "price": 0.95
+    },
+    {
+      "period": "2010",
+      "article": "62",
+      "price": 1.64
+    },
+    {
+      "period": "2010",
+      "article": "63",
+      "price": 7.85
+    },
+    {
+      "period": "2010",
+      "article": "64",
+      "price": 2.78
+    },
+    {
+      "period": "2010",
+      "article": "65",
+      "price": 7.69
+    },
+    {
+      "period": "2010",
+      "article": "66",
+      "price": 4.96
+    },
+    {
+      "period": "2010",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2010",
+      "article": "68",
+      "price": 32.64
+    },
+    {
+      "period": "2010",
+      "article": "69",
+      "price": 5.24
+    },
+    {
+      "period": "2010",
+      "article": "7",
+      "price": 2.98
+    },
+    {
+      "period": "2010",
+      "article": "70",
+      "price": 4.39
+    },
+    {
+      "period": "2010",
+      "article": "71",
+      "price": 1.07
+    },
+    {
+      "period": "2010",
+      "article": "72",
+      "price": 1.05
+    },
+    {
+      "period": "2010",
+      "article": "8",
+      "price": 2.27
+    },
+    {
+      "period": "2010",
+      "article": "9",
+      "price": 7.84
+    },
+    {
+      "period": "2011",
+      "article": "0",
+      "price": 1.33
+    },
+    {
+      "period": "2011",
+      "article": "1",
+      "price": 0.49
+    },
+    {
+      "period": "2011",
+      "article": "10",
+      "price": 6.68
+    },
+    {
+      "period": "2011",
+      "article": "11",
+      "price": 3.86
+    },
+    {
+      "period": "2011",
+      "article": "12",
+      "price": 2.09
+    },
+    {
+      "period": "2011",
+      "article": "13",
+      "price": 0.7
+    },
+    {
+      "period": "2011",
+      "article": "14",
+      "price": 2.62
+    },
+    {
+      "period": "2011",
+      "article": "15",
+      "price": 4.46
+    },
+    {
+      "period": "2011",
+      "article": "16",
+      "price": 0.63
+    },
+    {
+      "period": "2011",
+      "article": "17",
+      "price": 0.88
+    },
+    {
+      "period": "2011",
+      "article": "18",
+      "price": 0.54
+    },
+    {
+      "period": "2011",
+      "article": "19",
+      "price": 0.97
+    },
+    {
+      "period": "2011",
+      "article": "2",
+      "price": 0.43
+    },
+    {
+      "period": "2011",
+      "article": "20",
+      "price": 3.37
+    },
+    {
+      "period": "2011",
+      "article": "21",
+      "price": 0.52
+    },
+    {
+      "period": "2011",
+      "article": "22",
+      "price": 2.66
+    },
+    {
+      "period": "2011",
+      "article": "23",
+      "price": 1.63
+    },
+    {
+      "period": "2011",
+      "article": "24",
+      "price": 0.5
+    },
+    {
+      "period": "2011",
+      "article": "25",
+      "price": 2.27
+    },
+    {
+      "period": "2011",
+      "article": "26",
+      "price": 0.9
+    },
+    {
+      "period": "2011",
+      "article": "27",
+      "price": 1.45
+    },
+    {
+      "period": "2011",
+      "article": "28",
+      "price": 0.97
+    },
+    {
+      "period": "2011",
+      "article": "29",
+      "price": 1.04
+    },
+    {
+      "period": "2011",
+      "article": "3",
+      "price": 0.68
+    },
+    {
+      "period": "2011",
+      "article": "30",
+      "price": 1.16
+    },
+    {
+      "period": "2011",
+      "article": "31",
+      "price": 1.59
+    },
+    {
+      "period": "2011",
+      "article": "32",
+      "price": 0.43
+    },
+    {
+      "period": "2011",
+      "article": "33",
+      "price": 0.83
+    },
+    {
+      "period": "2011",
+      "article": "34",
+      "price": 1.91
+    },
+    {
+      "period": "2011",
+      "article": "35",
+      "price": 0.49
+    },
+    {
+      "period": "2011",
+      "article": "36",
+      "price": 3.58
+    },
+    {
+      "period": "2011",
+      "article": "37",
+      "price": 0.9
+    },
+    {
+      "period": "2011",
+      "article": "38",
+      "price": 1.19
+    },
+    {
+      "period": "2011",
+      "article": "39",
+      "price": 0.87
+    },
+    {
+      "period": "2011",
+      "article": "4",
+      "price": 0.88
+    },
+    {
+      "period": "2011",
+      "article": "40",
+      "price": 0.9
+    },
+    {
+      "period": "2011",
+      "article": "41",
+      "price": 0.34
+    },
+    {
+      "period": "2011",
+      "article": "42",
+      "price": 0.98
+    },
+    {
+      "period": "2011",
+      "article": "43",
+      "price": 7.21
+    },
+    {
+      "period": "2011",
+      "article": "44",
+      "price": 1.37
+    },
+    {
+      "period": "2011",
+      "article": "45",
+      "price": 0.94
+    },
+    {
+      "period": "2011",
+      "article": "46",
+      "price": 1.82
+    },
+    {
+      "period": "2011",
+      "article": "47",
+      "price": 5.32
+    },
+    {
+      "period": "2011",
+      "article": "48",
+      "price": 1.75
+    },
+    {
+      "period": "2011",
+      "article": "49",
+      "price": 1.69
+    },
+    {
+      "period": "2011",
+      "article": "5",
+      "price": 5.79
+    },
+    {
+      "period": "2011",
+      "article": "50",
+      "price": 1.08
+    },
+    {
+      "period": "2011",
+      "article": "51",
+      "price": 5.93
+    },
+    {
+      "period": "2011",
+      "article": "52",
+      "price": 5.02
+    },
+    {
+      "period": "2011",
+      "article": "53",
+      "price": 0.47
+    },
+    {
+      "period": "2011",
+      "article": "54",
+      "price": 0.35
+    },
+    {
+      "period": "2011",
+      "article": "55",
+      "price": 1.28
+    },
+    {
+      "period": "2011",
+      "article": "56",
+      "price": 0.77
+    },
+    {
+      "period": "2011",
+      "article": "57",
+      "price": 1.26
+    },
+    {
+      "period": "2011",
+      "article": "58",
+      "price": 0.55
+    },
+    {
+      "period": "2011",
+      "article": "59",
+      "price": 0.86
+    },
+    {
+      "period": "2011",
+      "article": "6",
+      "price": 6.57
+    },
+    {
+      "period": "2011",
+      "article": "60",
+      "price": 1.14
+    },
+    {
+      "period": "2011",
+      "article": "61",
+      "price": 1
+    },
+    {
+      "period": "2011",
+      "article": "62",
+      "price": 1.69
+    },
+    {
+      "period": "2011",
+      "article": "63",
+      "price": 8.72
+    },
+    {
+      "period": "2011",
+      "article": "64",
+      "price": 2.81
+    },
+    {
+      "period": "2011",
+      "article": "65",
+      "price": 7.71
+    },
+    {
+      "period": "2011",
+      "article": "66",
+      "price": 4.86
+    },
+    {
+      "period": "2011",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2011",
+      "article": "68",
+      "price": 32.28
+    },
+    {
+      "period": "2011",
+      "article": "69",
+      "price": 5.3
+    },
+    {
+      "period": "2011",
+      "article": "7",
+      "price": 3
+    },
+    {
+      "period": "2011",
+      "article": "70",
+      "price": 4.63
+    },
+    {
+      "period": "2011",
+      "article": "71",
+      "price": 1.24
+    },
+    {
+      "period": "2011",
+      "article": "72",
+      "price": 1.24
+    },
+    {
+      "period": "2011",
+      "article": "8",
+      "price": 2.41
+    },
+    {
+      "period": "2011",
+      "article": "9",
+      "price": 9.07
+    },
+    {
+      "period": "2012",
+      "article": "0",
+      "price": 1.3
+    },
+    {
+      "period": "2012",
+      "article": "1",
+      "price": 0.43
+    },
+    {
+      "period": "2012",
+      "article": "10",
+      "price": 6.49
+    },
+    {
+      "period": "2012",
+      "article": "11",
+      "price": 4.1
+    },
+    {
+      "period": "2012",
+      "article": "12",
+      "price": 2.14
+    },
+    {
+      "period": "2012",
+      "article": "13",
+      "price": 0.7
+    },
+    {
+      "period": "2012",
+      "article": "14",
+      "price": 2.87
+    },
+    {
+      "period": "2012",
+      "article": "15",
+      "price": 4.39
+    },
+    {
+      "period": "2012",
+      "article": "16",
+      "price": 0.66
+    },
+    {
+      "period": "2012",
+      "article": "17",
+      "price": 0.88
+    },
+    {
+      "period": "2012",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2012",
+      "article": "19",
+      "price": 0.98
+    },
+    {
+      "period": "2012",
+      "article": "2",
+      "price": 0.39
+    },
+    {
+      "period": "2012",
+      "article": "20",
+      "price": 3.48
+    },
+    {
+      "period": "2012",
+      "article": "21",
+      "price": 0.52
+    },
+    {
+      "period": "2012",
+      "article": "22",
+      "price": 2.97
+    },
+    {
+      "period": "2012",
+      "article": "23",
+      "price": 1.59
+    },
+    {
+      "period": "2012",
+      "article": "24",
+      "price": 0.51
+    },
+    {
+      "period": "2012",
+      "article": "25",
+      "price": 2.3
+    },
+    {
+      "period": "2012",
+      "article": "26",
+      "price": 0.84
+    },
+    {
+      "period": "2012",
+      "article": "27",
+      "price": 1.46
+    },
+    {
+      "period": "2012",
+      "article": "28",
+      "price": 1.07
+    },
+    {
+      "period": "2012",
+      "article": "29",
+      "price": 0.97
+    },
+    {
+      "period": "2012",
+      "article": "3",
+      "price": 0.7
+    },
+    {
+      "period": "2012",
+      "article": "30",
+      "price": 1.39
+    },
+    {
+      "period": "2012",
+      "article": "31",
+      "price": 1.55
+    },
+    {
+      "period": "2012",
+      "article": "32",
+      "price": 0.34
+    },
+    {
+      "period": "2012",
+      "article": "33",
+      "price": 0.93
+    },
+    {
+      "period": "2012",
+      "article": "34",
+      "price": 2.17
+    },
+    {
+      "period": "2012",
+      "article": "35",
+      "price": 0.42
+    },
+    {
+      "period": "2012",
+      "article": "36",
+      "price": 2.84
+    },
+    {
+      "period": "2012",
+      "article": "37",
+      "price": 0.9
+    },
+    {
+      "period": "2012",
+      "article": "38",
+      "price": 1.25
+    },
+    {
+      "period": "2012",
+      "article": "39",
+      "price": 0.88
+    },
+    {
+      "period": "2012",
+      "article": "4",
+      "price": 0.89
+    },
+    {
+      "period": "2012",
+      "article": "40",
+      "price": 0.91
+    },
+    {
+      "period": "2012",
+      "article": "41",
+      "price": 0.31
+    },
+    {
+      "period": "2012",
+      "article": "42",
+      "price": 0.89
+    },
+    {
+      "period": "2012",
+      "article": "43",
+      "price": 7.74
+    },
+    {
+      "period": "2012",
+      "article": "44",
+      "price": 1.45
+    },
+    {
+      "period": "2012",
+      "article": "45",
+      "price": 0.98
+    },
+    {
+      "period": "2012",
+      "article": "46",
+      "price": 1.91
+    },
+    {
+      "period": "2012",
+      "article": "47",
+      "price": 5.47
+    },
+    {
+      "period": "2012",
+      "article": "48",
+      "price": 1.82
+    },
+    {
+      "period": "2012",
+      "article": "49",
+      "price": 1.7
+    },
+    {
+      "period": "2012",
+      "article": "5",
+      "price": 6.06
+    },
+    {
+      "period": "2012",
+      "article": "50",
+      "price": 1.08
+    },
+    {
+      "period": "2012",
+      "article": "51",
+      "price": 6.59
+    },
+    {
+      "period": "2012",
+      "article": "52",
+      "price": 5
+    },
+    {
+      "period": "2012",
+      "article": "53",
+      "price": 0.51
+    },
+    {
+      "period": "2012",
+      "article": "54",
+      "price": 0.35
+    },
+    {
+      "period": "2012",
+      "article": "55",
+      "price": 1.27
+    },
+    {
+      "period": "2012",
+      "article": "56",
+      "price": 0.76
+    },
+    {
+      "period": "2012",
+      "article": "57",
+      "price": 1.27
+    },
+    {
+      "period": "2012",
+      "article": "58",
+      "price": 0.55
+    },
+    {
+      "period": "2012",
+      "article": "59",
+      "price": 0.97
+    },
+    {
+      "period": "2012",
+      "article": "6",
+      "price": 6.88
+    },
+    {
+      "period": "2012",
+      "article": "60",
+      "price": 1.31
+    },
+    {
+      "period": "2012",
+      "article": "61",
+      "price": 1.08
+    },
+    {
+      "period": "2012",
+      "article": "62",
+      "price": 1.79
+    },
+    {
+      "period": "2012",
+      "article": "63",
+      "price": 9.04
+    },
+    {
+      "period": "2012",
+      "article": "64",
+      "price": 2.88
+    },
+    {
+      "period": "2012",
+      "article": "65",
+      "price": 7.98
+    },
+    {
+      "period": "2012",
+      "article": "66",
+      "price": 5.03
+    },
+    {
+      "period": "2012",
+      "article": "67",
+      "price": 0.05
+    },
+    {
+      "period": "2012",
+      "article": "68",
+      "price": 36.76
+    },
+    {
+      "period": "2012",
+      "article": "69",
+      "price": 6.05
+    },
+    {
+      "period": "2012",
+      "article": "7",
+      "price": 2.99
+    },
+    {
+      "period": "2012",
+      "article": "70",
+      "price": 4.7
+    },
+    {
+      "period": "2012",
+      "article": "71",
+      "price": 1.33
+    },
+    {
+      "period": "2012",
+      "article": "72",
+      "price": 1.32
+    },
+    {
+      "period": "2012",
+      "article": "8",
+      "price": 2.53
+    },
+    {
+      "period": "2012",
+      "article": "9",
+      "price": 9.74
+    },
+    {
+      "period": "2013",
+      "article": "0",
+      "price": 1.28
+    },
+    {
+      "period": "2013",
+      "article": "1",
+      "price": 0.4
+    },
+    {
+      "period": "2013",
+      "article": "10",
+      "price": 6.78
+    },
+    {
+      "period": "2013",
+      "article": "11",
+      "price": 4.17
+    },
+    {
+      "period": "2013",
+      "article": "12",
+      "price": 2.23
+    },
+    {
+      "period": "2013",
+      "article": "13",
+      "price": 0.7
+    },
+    {
+      "period": "2013",
+      "article": "14",
+      "price": 3
+    },
+    {
+      "period": "2013",
+      "article": "15",
+      "price": 4.25
+    },
+    {
+      "period": "2013",
+      "article": "16",
+      "price": 0.67
+    },
+    {
+      "period": "2013",
+      "article": "17",
+      "price": 0.91
+    },
+    {
+      "period": "2013",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2013",
+      "article": "19",
+      "price": 0.94
+    },
+    {
+      "period": "2013",
+      "article": "2",
+      "price": 0.37
+    },
+    {
+      "period": "2013",
+      "article": "20",
+      "price": 3.46
+    },
+    {
+      "period": "2013",
+      "article": "21",
+      "price": 0.54
+    },
+    {
+      "period": "2013",
+      "article": "22",
+      "price": 2.68
+    },
+    {
+      "period": "2013",
+      "article": "23",
+      "price": 1.53
+    },
+    {
+      "period": "2013",
+      "article": "24",
+      "price": 0.51
+    },
+    {
+      "period": "2013",
+      "article": "25",
+      "price": 2.4
+    },
+    {
+      "period": "2013",
+      "article": "26",
+      "price": 0.87
+    },
+    {
+      "period": "2013",
+      "article": "27",
+      "price": 1.59
+    },
+    {
+      "period": "2013",
+      "article": "28",
+      "price": 1.03
+    },
+    {
+      "period": "2013",
+      "article": "29",
+      "price": 1.07
+    },
+    {
+      "period": "2013",
+      "article": "3",
+      "price": 0.69
+    },
+    {
+      "period": "2013",
+      "article": "30",
+      "price": 1.42
+    },
+    {
+      "period": "2013",
+      "article": "31",
+      "price": 1.57
+    },
+    {
+      "period": "2013",
+      "article": "32",
+      "price": 0.52
+    },
+    {
+      "period": "2013",
+      "article": "33",
+      "price": 0.96
+    },
+    {
+      "period": "2013",
+      "article": "34",
+      "price": 2.51
+    },
+    {
+      "period": "2013",
+      "article": "35",
+      "price": 0.52
+    },
+    {
+      "period": "2013",
+      "article": "36",
+      "price": 2.47
+    },
+    {
+      "period": "2013",
+      "article": "37",
+      "price": 0.89
+    },
+    {
+      "period": "2013",
+      "article": "38",
+      "price": 1.16
+    },
+    {
+      "period": "2013",
+      "article": "39",
+      "price": 0.92
+    },
+    {
+      "period": "2013",
+      "article": "4",
+      "price": 0.94
+    },
+    {
+      "period": "2013",
+      "article": "40",
+      "price": 0.96
+    },
+    {
+      "period": "2013",
+      "article": "41",
+      "price": 0.3
+    },
+    {
+      "period": "2013",
+      "article": "42",
+      "price": 0.77
+    },
+    {
+      "period": "2013",
+      "article": "43",
+      "price": 8.32
+    },
+    {
+      "period": "2013",
+      "article": "44",
+      "price": 1.51
+    },
+    {
+      "period": "2013",
+      "article": "45",
+      "price": 1
+    },
+    {
+      "period": "2013",
+      "article": "46",
+      "price": 1.95
+    },
+    {
+      "period": "2013",
+      "article": "47",
+      "price": 5.63
+    },
+    {
+      "period": "2013",
+      "article": "48",
+      "price": 1.86
+    },
+    {
+      "period": "2013",
+      "article": "49",
+      "price": 1.75
+    },
+    {
+      "period": "2013",
+      "article": "5",
+      "price": 6.31
+    },
+    {
+      "period": "2013",
+      "article": "50",
+      "price": 1.11
+    },
+    {
+      "period": "2013",
+      "article": "51",
+      "price": 7.04
+    },
+    {
+      "period": "2013",
+      "article": "52",
+      "price": 5.17
+    },
+    {
+      "period": "2013",
+      "article": "53",
+      "price": 0.53
+    },
+    {
+      "period": "2013",
+      "article": "54",
+      "price": 0.34
+    },
+    {
+      "period": "2013",
+      "article": "55",
+      "price": 1.26
+    },
+    {
+      "period": "2013",
+      "article": "56",
+      "price": 0.78
+    },
+    {
+      "period": "2013",
+      "article": "57",
+      "price": 1.26
+    },
+    {
+      "period": "2013",
+      "article": "58",
+      "price": 0.56
+    },
+    {
+      "period": "2013",
+      "article": "59",
+      "price": 1.14
+    },
+    {
+      "period": "2013",
+      "article": "6",
+      "price": 7.07
+    },
+    {
+      "period": "2013",
+      "article": "60",
+      "price": 1.45
+    },
+    {
+      "period": "2013",
+      "article": "61",
+      "price": 1.16
+    },
+    {
+      "period": "2013",
+      "article": "62",
+      "price": 2.02
+    },
+    {
+      "period": "2013",
+      "article": "63",
+      "price": 9.03
+    },
+    {
+      "period": "2013",
+      "article": "64",
+      "price": 2.94
+    },
+    {
+      "period": "2013",
+      "article": "65",
+      "price": 8.14
+    },
+    {
+      "period": "2013",
+      "article": "66",
+      "price": 4.67
+    },
+    {
+      "period": "2013",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2013",
+      "article": "68",
+      "price": 34.27
+    },
+    {
+      "period": "2013",
+      "article": "69",
+      "price": 6.05
+    },
+    {
+      "period": "2013",
+      "article": "7",
+      "price": 3.02
+    },
+    {
+      "period": "2013",
+      "article": "70",
+      "price": 4.7
+    },
+    {
+      "period": "2013",
+      "article": "71",
+      "price": 1.27
+    },
+    {
+      "period": "2013",
+      "article": "72",
+      "price": 1.26
+    },
+    {
+      "period": "2013",
+      "article": "8",
+      "price": 2.8
+    },
+    {
+      "period": "2013",
+      "article": "9",
+      "price": 10.27
+    },
+    {
+      "period": "2014",
+      "article": "0",
+      "price": 1.31
+    },
+    {
+      "period": "2014",
+      "article": "1",
+      "price": 0.39
+    },
+    {
+      "period": "2014",
+      "article": "10",
+      "price": 6.84
+    },
+    {
+      "period": "2014",
+      "article": "11",
+      "price": 4.3
+    },
+    {
+      "period": "2014",
+      "article": "12",
+      "price": 2.17
+    },
+    {
+      "period": "2014",
+      "article": "13",
+      "price": 0.7
+    },
+    {
+      "period": "2014",
+      "article": "14",
+      "price": 3.09
+    },
+    {
+      "period": "2014",
+      "article": "15",
+      "price": 4.19
+    },
+    {
+      "period": "2014",
+      "article": "16",
+      "price": 0.69
+    },
+    {
+      "period": "2014",
+      "article": "17",
+      "price": 0.92
+    },
+    {
+      "period": "2014",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2014",
+      "article": "19",
+      "price": 0.93
+    },
+    {
+      "period": "2014",
+      "article": "2",
+      "price": 0.36
+    },
+    {
+      "period": "2014",
+      "article": "20",
+      "price": 3.49
+    },
+    {
+      "period": "2014",
+      "article": "21",
+      "price": 0.56
+    },
+    {
+      "period": "2014",
+      "article": "22",
+      "price": 2.75
+    },
+    {
+      "period": "2014",
+      "article": "23",
+      "price": 1.15
+    },
+    {
+      "period": "2014",
+      "article": "24",
+      "price": 0.49
+    },
+    {
+      "period": "2014",
+      "article": "25",
+      "price": 2.27
+    },
+    {
+      "period": "2014",
+      "article": "26",
+      "price": 0.75
+    },
+    {
+      "period": "2014",
+      "article": "27",
+      "price": 1.47
+    },
+    {
+      "period": "2014",
+      "article": "28",
+      "price": 1.04
+    },
+    {
+      "period": "2014",
+      "article": "29",
+      "price": 0.96
+    },
+    {
+      "period": "2014",
+      "article": "3",
+      "price": 0.65
+    },
+    {
+      "period": "2014",
+      "article": "30",
+      "price": 1.54
+    },
+    {
+      "period": "2014",
+      "article": "31",
+      "price": 1.44
+    },
+    {
+      "period": "2014",
+      "article": "32",
+      "price": 0.42
+    },
+    {
+      "period": "2014",
+      "article": "33",
+      "price": 0.92
+    },
+    {
+      "period": "2014",
+      "article": "34",
+      "price": 2.82
+    },
+    {
+      "period": "2014",
+      "article": "35",
+      "price": 0.49
+    },
+    {
+      "period": "2014",
+      "article": "36",
+      "price": 2.68
+    },
+    {
+      "period": "2014",
+      "article": "37",
+      "price": 0.84
+    },
+    {
+      "period": "2014",
+      "article": "38",
+      "price": 1.18
+    },
+    {
+      "period": "2014",
+      "article": "39",
+      "price": 0.86
+    },
+    {
+      "period": "2014",
+      "article": "4",
+      "price": 0.97
+    },
+    {
+      "period": "2014",
+      "article": "40",
+      "price": 0.77
+    },
+    {
+      "period": "2014",
+      "article": "41",
+      "price": 0.26
+    },
+    {
+      "period": "2014",
+      "article": "42",
+      "price": 0.69
+    },
+    {
+      "period": "2014",
+      "article": "43",
+      "price": 8.46
+    },
+    {
+      "period": "2014",
+      "article": "44",
+      "price": 1.51
+    },
+    {
+      "period": "2014",
+      "article": "45",
+      "price": 0.96
+    },
+    {
+      "period": "2014",
+      "article": "46",
+      "price": 1.94
+    },
+    {
+      "period": "2014",
+      "article": "47",
+      "price": 5.56
+    },
+    {
+      "period": "2014",
+      "article": "48",
+      "price": 1.94
+    },
+    {
+      "period": "2014",
+      "article": "49",
+      "price": 1.8
+    },
+    {
+      "period": "2014",
+      "article": "5",
+      "price": 6.48
+    },
+    {
+      "period": "2014",
+      "article": "50",
+      "price": 1.15
+    },
+    {
+      "period": "2014",
+      "article": "51",
+      "price": 7.1
+    },
+    {
+      "period": "2014",
+      "article": "52",
+      "price": 5.21
+    },
+    {
+      "period": "2014",
+      "article": "53",
+      "price": 0.51
+    },
+    {
+      "period": "2014",
+      "article": "54",
+      "price": 0.32
+    },
+    {
+      "period": "2014",
+      "article": "55",
+      "price": 1.25
+    },
+    {
+      "period": "2014",
+      "article": "56",
+      "price": 0.74
+    },
+    {
+      "period": "2014",
+      "article": "57",
+      "price": 1.25
+    },
+    {
+      "period": "2014",
+      "article": "58",
+      "price": 0.54
+    },
+    {
+      "period": "2014",
+      "article": "59",
+      "price": 1.21
+    },
+    {
+      "period": "2014",
+      "article": "6",
+      "price": 7.3
+    },
+    {
+      "period": "2014",
+      "article": "60",
+      "price": 1.53
+    },
+    {
+      "period": "2014",
+      "article": "61",
+      "price": 1.22
+    },
+    {
+      "period": "2014",
+      "article": "62",
+      "price": 2.2
+    },
+    {
+      "period": "2014",
+      "article": "63",
+      "price": 8.95
+    },
+    {
+      "period": "2014",
+      "article": "64",
+      "price": 2.87
+    },
+    {
+      "period": "2014",
+      "article": "65",
+      "price": 8.09
+    },
+    {
+      "period": "2014",
+      "article": "66",
+      "price": 4.74
+    },
+    {
+      "period": "2014",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2014",
+      "article": "68",
+      "price": 35.56
+    },
+    {
+      "period": "2014",
+      "article": "69",
+      "price": 5.25
+    },
+    {
+      "period": "2014",
+      "article": "7",
+      "price": 3.02
+    },
+    {
+      "period": "2014",
+      "article": "70",
+      "price": 4.01
+    },
+    {
+      "period": "2014",
+      "article": "71",
+      "price": 1.21
+    },
+    {
+      "period": "2014",
+      "article": "72",
+      "price": 1.21
+    },
+    {
+      "period": "2014",
+      "article": "8",
+      "price": 2.72
+    },
+    {
+      "period": "2014",
+      "article": "9",
+      "price": 10.29
+    },
+    {
+      "period": "2015",
+      "article": "0",
+      "price": 1.3
+    },
+    {
+      "period": "2015",
+      "article": "1",
+      "price": 0.38
+    },
+    {
+      "period": "2015",
+      "article": "10",
+      "price": 6.89
+    },
+    {
+      "period": "2015",
+      "article": "11",
+      "price": 4.29
+    },
+    {
+      "period": "2015",
+      "article": "12",
+      "price": 2.2
+    },
+    {
+      "period": "2015",
+      "article": "13",
+      "price": 0.71
+    },
+    {
+      "period": "2015",
+      "article": "14",
+      "price": 3.1
+    },
+    {
+      "period": "2015",
+      "article": "15",
+      "price": 4.22
+    },
+    {
+      "period": "2015",
+      "article": "16",
+      "price": 0.66
+    },
+    {
+      "period": "2015",
+      "article": "17",
+      "price": 0.9
+    },
+    {
+      "period": "2015",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2015",
+      "article": "19",
+      "price": 0.91
+    },
+    {
+      "period": "2015",
+      "article": "2",
+      "price": 0.33
+    },
+    {
+      "period": "2015",
+      "article": "20",
+      "price": 3.59
+    },
+    {
+      "period": "2015",
+      "article": "21",
+      "price": 0.51
+    },
+    {
+      "period": "2015",
+      "article": "22",
+      "price": 2.22
+    },
+    {
+      "period": "2015",
+      "article": "23",
+      "price": 1.15
+    },
+    {
+      "period": "2015",
+      "article": "24",
+      "price": 0.48
+    },
+    {
+      "period": "2015",
+      "article": "25",
+      "price": 2.3
+    },
+    {
+      "period": "2015",
+      "article": "26",
+      "price": 0.77
+    },
+    {
+      "period": "2015",
+      "article": "27",
+      "price": 1.48
+    },
+    {
+      "period": "2015",
+      "article": "28",
+      "price": 1.08
+    },
+    {
+      "period": "2015",
+      "article": "29",
+      "price": 0.99
+    },
+    {
+      "period": "2015",
+      "article": "3",
+      "price": 0.67
+    },
+    {
+      "period": "2015",
+      "article": "30",
+      "price": 1.6
+    },
+    {
+      "period": "2015",
+      "article": "31",
+      "price": 1.42
+    },
+    {
+      "period": "2015",
+      "article": "32",
+      "price": 0.39
+    },
+    {
+      "period": "2015",
+      "article": "33",
+      "price": 0.93
+    },
+    {
+      "period": "2015",
+      "article": "34",
+      "price": 2.5
+    },
+    {
+      "period": "2015",
+      "article": "35",
+      "price": 0.47
+    },
+    {
+      "period": "2015",
+      "article": "36",
+      "price": 2.77
+    },
+    {
+      "period": "2015",
+      "article": "37",
+      "price": 0.86
+    },
+    {
+      "period": "2015",
+      "article": "38",
+      "price": 1.25
+    },
+    {
+      "period": "2015",
+      "article": "39",
+      "price": 0.9
+    },
+    {
+      "period": "2015",
+      "article": "4",
+      "price": 0.94
+    },
+    {
+      "period": "2015",
+      "article": "40",
+      "price": 0.99
+    },
+    {
+      "period": "2015",
+      "article": "41",
+      "price": 0.41
+    },
+    {
+      "period": "2015",
+      "article": "42",
+      "price": 0.66
+    },
+    {
+      "period": "2015",
+      "article": "43",
+      "price": 8.9
+    },
+    {
+      "period": "2015",
+      "article": "44",
+      "price": 1.47
+    },
+    {
+      "period": "2015",
+      "article": "45",
+      "price": 0.98
+    },
+    {
+      "period": "2015",
+      "article": "46",
+      "price": 2.11
+    },
+    {
+      "period": "2015",
+      "article": "47",
+      "price": 5.47
+    },
+    {
+      "period": "2015",
+      "article": "48",
+      "price": 2.03
+    },
+    {
+      "period": "2015",
+      "article": "49",
+      "price": 1.87
+    },
+    {
+      "period": "2015",
+      "article": "5",
+      "price": 6.44
+    },
+    {
+      "period": "2015",
+      "article": "50",
+      "price": 1.21
+    },
+    {
+      "period": "2015",
+      "article": "51",
+      "price": 7.07
+    },
+    {
+      "period": "2015",
+      "article": "52",
+      "price": 5.49
+    },
+    {
+      "period": "2015",
+      "article": "53",
+      "price": 0.53
+    },
+    {
+      "period": "2015",
+      "article": "54",
+      "price": 0.31
+    },
+    {
+      "period": "2015",
+      "article": "55",
+      "price": 1.24
+    },
+    {
+      "period": "2015",
+      "article": "56",
+      "price": 0.72
+    },
+    {
+      "period": "2015",
+      "article": "57",
+      "price": 1.25
+    },
+    {
+      "period": "2015",
+      "article": "58",
+      "price": 0.58
+    },
+    {
+      "period": "2015",
+      "article": "59",
+      "price": 1.28
+    },
+    {
+      "period": "2015",
+      "article": "6",
+      "price": 7.28
+    },
+    {
+      "period": "2015",
+      "article": "60",
+      "price": 1.64
+    },
+    {
+      "period": "2015",
+      "article": "61",
+      "price": 1.33
+    },
+    {
+      "period": "2015",
+      "article": "62",
+      "price": 2.27
+    },
+    {
+      "period": "2015",
+      "article": "63",
+      "price": 9.05
+    },
+    {
+      "period": "2015",
+      "article": "64",
+      "price": 2.87
+    },
+    {
+      "period": "2015",
+      "article": "65",
+      "price": 8.08
+    },
+    {
+      "period": "2015",
+      "article": "66",
+      "price": 4.66
+    },
+    {
+      "period": "2015",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2015",
+      "article": "68",
+      "price": 37.97
+    },
+    {
+      "period": "2015",
+      "article": "69",
+      "price": 5.62
+    },
+    {
+      "period": "2015",
+      "article": "7",
+      "price": 3.02
+    },
+    {
+      "period": "2015",
+      "article": "70",
+      "price": 3.98
+    },
+    {
+      "period": "2015",
+      "article": "71",
+      "price": 1.04
+    },
+    {
+      "period": "2015",
+      "article": "72",
+      "price": 1.02
+    },
+    {
+      "period": "2015",
+      "article": "8",
+      "price": 2.61
+    },
+    {
+      "period": "2015",
+      "article": "9",
+      "price": 10.46
+    },
+    {
+      "period": "2016",
+      "article": "0",
+      "price": 1.33
+    },
+    {
+      "period": "2016",
+      "article": "1",
+      "price": 0.4
+    },
+    {
+      "period": "2016",
+      "article": "10",
+      "price": 6.87
+    },
+    {
+      "period": "2016",
+      "article": "11",
+      "price": 4.19
+    },
+    {
+      "period": "2016",
+      "article": "12",
+      "price": 2.34
+    },
+    {
+      "period": "2016",
+      "article": "13",
+      "price": 0.7
+    },
+    {
+      "period": "2016",
+      "article": "14",
+      "price": 3.13
+    },
+    {
+      "period": "2016",
+      "article": "15",
+      "price": 4.21
+    },
+    {
+      "period": "2016",
+      "article": "16",
+      "price": 0.68
+    },
+    {
+      "period": "2016",
+      "article": "17",
+      "price": 0.86
+    },
+    {
+      "period": "2016",
+      "article": "18",
+      "price": 0.54
+    },
+    {
+      "period": "2016",
+      "article": "19",
+      "price": 0.87
+    },
+    {
+      "period": "2016",
+      "article": "2",
+      "price": 0.29
+    },
+    {
+      "period": "2016",
+      "article": "20",
+      "price": 3.71
+    },
+    {
+      "period": "2016",
+      "article": "21",
+      "price": 0.47
+    },
+    {
+      "period": "2016",
+      "article": "22",
+      "price": 2.36
+    },
+    {
+      "period": "2016",
+      "article": "23",
+      "price": 1.16
+    },
+    {
+      "period": "2016",
+      "article": "24",
+      "price": 0.47
+    },
+    {
+      "period": "2016",
+      "article": "25",
+      "price": 2.4
+    },
+    {
+      "period": "2016",
+      "article": "26",
+      "price": 0.69
+    },
+    {
+      "period": "2016",
+      "article": "27",
+      "price": 1.5
+    },
+    {
+      "period": "2016",
+      "article": "28",
+      "price": 1.14
+    },
+    {
+      "period": "2016",
+      "article": "29",
+      "price": 0.9
+    },
+    {
+      "period": "2016",
+      "article": "3",
+      "price": 0.68
+    },
+    {
+      "period": "2016",
+      "article": "30",
+      "price": 1.74
+    },
+    {
+      "period": "2016",
+      "article": "31",
+      "price": 1.53
+    },
+    {
+      "period": "2016",
+      "article": "32",
+      "price": 0.4
+    },
+    {
+      "period": "2016",
+      "article": "33",
+      "price": 0.87
+    },
+    {
+      "period": "2016",
+      "article": "34",
+      "price": 2.15
+    },
+    {
+      "period": "2016",
+      "article": "35",
+      "price": 0.5
+    },
+    {
+      "period": "2016",
+      "article": "36",
+      "price": 3.64
+    },
+    {
+      "period": "2016",
+      "article": "37",
+      "price": 0.88
+    },
+    {
+      "period": "2016",
+      "article": "38",
+      "price": 1.18
+    },
+    {
+      "period": "2016",
+      "article": "39",
+      "price": 0.79
+    },
+    {
+      "period": "2016",
+      "article": "4",
+      "price": 0.88
+    },
+    {
+      "period": "2016",
+      "article": "40",
+      "price": 0.87
+    },
+    {
+      "period": "2016",
+      "article": "41",
+      "price": 0.3
+    },
+    {
+      "period": "2016",
+      "article": "42",
+      "price": 0.81
+    },
+    {
+      "period": "2016",
+      "article": "43",
+      "price": 9.15
+    },
+    {
+      "period": "2016",
+      "article": "44",
+      "price": 1.42
+    },
+    {
+      "period": "2016",
+      "article": "45",
+      "price": 1.01
+    },
+    {
+      "period": "2016",
+      "article": "46",
+      "price": 2.35
+    },
+    {
+      "period": "2016",
+      "article": "47",
+      "price": 5.46
+    },
+    {
+      "period": "2016",
+      "article": "48",
+      "price": 2.31
+    },
+    {
+      "period": "2016",
+      "article": "49",
+      "price": 1.92
+    },
+    {
+      "period": "2016",
+      "article": "5",
+      "price": 6.45
+    },
+    {
+      "period": "2016",
+      "article": "50",
+      "price": 1.12
+    },
+    {
+      "period": "2016",
+      "article": "51",
+      "price": 7.05
+    },
+    {
+      "period": "2016",
+      "article": "52",
+      "price": 6.01
+    },
+    {
+      "period": "2016",
+      "article": "53",
+      "price": 0.55
+    },
+    {
+      "period": "2016",
+      "article": "54",
+      "price": 0.3
+    },
+    {
+      "period": "2016",
+      "article": "55",
+      "price": 1.25
+    },
+    {
+      "period": "2016",
+      "article": "56",
+      "price": 0.74
+    },
+    {
+      "period": "2016",
+      "article": "57",
+      "price": 1.27
+    },
+    {
+      "period": "2016",
+      "article": "58",
+      "price": 0.63
+    },
+    {
+      "period": "2016",
+      "article": "59",
+      "price": 1.41
+    },
+    {
+      "period": "2016",
+      "article": "6",
+      "price": 7.26
+    },
+    {
+      "period": "2016",
+      "article": "60",
+      "price": 1.81
+    },
+    {
+      "period": "2016",
+      "article": "61",
+      "price": 1.5
+    },
+    {
+      "period": "2016",
+      "article": "62",
+      "price": 2.4
+    },
+    {
+      "period": "2016",
+      "article": "63",
+      "price": 8.88
+    },
+    {
+      "period": "2016",
+      "article": "64",
+      "price": 2.96
+    },
+    {
+      "period": "2016",
+      "article": "65",
+      "price": 8.5
+    },
+    {
+      "period": "2016",
+      "article": "66",
+      "price": 4.36
+    },
+    {
+      "period": "2016",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2016",
+      "article": "68",
+      "price": 37.31
+    },
+    {
+      "period": "2016",
+      "article": "69",
+      "price": 4.79
+    },
+    {
+      "period": "2016",
+      "article": "7",
+      "price": 2.94
+    },
+    {
+      "period": "2016",
+      "article": "70",
+      "price": 3.37
+    },
+    {
+      "period": "2016",
+      "article": "71",
+      "price": 0.98
+    },
+    {
+      "period": "2016",
+      "article": "72",
+      "price": 0.93
+    },
+    {
+      "period": "2016",
+      "article": "8",
+      "price": 2.58
+    },
+    {
+      "period": "2016",
+      "article": "9",
+      "price": 11.37
+    },
+    {
+      "period": "2017",
+      "article": "0",
+      "price": 1.34
+    },
+    {
+      "period": "2017",
+      "article": "1",
+      "price": 0.39
+    },
+    {
+      "period": "2017",
+      "article": "10",
+      "price": 6.78
+    },
+    {
+      "period": "2017",
+      "article": "11",
+      "price": 4.45
+    },
+    {
+      "period": "2017",
+      "article": "12",
+      "price": 2.35
+    },
+    {
+      "period": "2017",
+      "article": "13",
+      "price": 0.72
+    },
+    {
+      "period": "2017",
+      "article": "14",
+      "price": 3.22
+    },
+    {
+      "period": "2017",
+      "article": "15",
+      "price": 4.19
+    },
+    {
+      "period": "2017",
+      "article": "16",
+      "price": 0.68
+    },
+    {
+      "period": "2017",
+      "article": "17",
+      "price": 0.87
+    },
+    {
+      "period": "2017",
+      "article": "18",
+      "price": 0.53
+    },
+    {
+      "period": "2017",
+      "article": "19",
+      "price": 0.88
+    },
+    {
+      "period": "2017",
+      "article": "2",
+      "price": 0.28
+    },
+    {
+      "period": "2017",
+      "article": "20",
+      "price": 3.77
+    },
+    {
+      "period": "2017",
+      "article": "21",
+      "price": 0.48
+    },
+    {
+      "period": "2017",
+      "article": "22",
+      "price": 2.47
+    },
+    {
+      "period": "2017",
+      "article": "23",
+      "price": 1.09
+    },
+    {
+      "period": "2017",
+      "article": "24",
+      "price": 0.46
+    },
+    {
+      "period": "2017",
+      "article": "25",
+      "price": 2.34
+    },
+    {
+      "period": "2017",
+      "article": "26",
+      "price": 0.86
+    },
+    {
+      "period": "2017",
+      "article": "27",
+      "price": 1.6
+    },
+    {
+      "period": "2017",
+      "article": "28",
+      "price": 1.09
+    },
+    {
+      "period": "2017",
+      "article": "29",
+      "price": 1.1
+    },
+    {
+      "period": "2017",
+      "article": "3",
+      "price": 0.66
+    },
+    {
+      "period": "2017",
+      "article": "30",
+      "price": 1.62
+    },
+    {
+      "period": "2017",
+      "article": "31",
+      "price": 1.59
+    },
+    {
+      "period": "2017",
+      "article": "32",
+      "price": 0.38
+    },
+    {
+      "period": "2017",
+      "article": "33",
+      "price": 0.92
+    },
+    {
+      "period": "2017",
+      "article": "34",
+      "price": 2.35
+    },
+    {
+      "period": "2017",
+      "article": "35",
+      "price": 0.43
+    },
+    {
+      "period": "2017",
+      "article": "36",
+      "price": 4.24
+    },
+    {
+      "period": "2017",
+      "article": "37",
+      "price": 0.89
+    },
+    {
+      "period": "2017",
+      "article": "38",
+      "price": 1.26
+    },
+    {
+      "period": "2017",
+      "article": "39",
+      "price": 0.73
+    },
+    {
+      "period": "2017",
+      "article": "4",
+      "price": 0.88
+    },
+    {
+      "period": "2017",
+      "article": "40",
+      "price": 0.87
+    },
+    {
+      "period": "2017",
+      "article": "41",
+      "price": 0.27
+    },
+    {
+      "period": "2017",
+      "article": "42",
+      "price": 0.88
+    },
+    {
+      "period": "2017",
+      "article": "43",
+      "price": 9.06
+    },
+    {
+      "period": "2017",
+      "article": "44",
+      "price": 1.43
+    },
+    {
+      "period": "2017",
+      "article": "45",
+      "price": 0.98
+    },
+    {
+      "period": "2017",
+      "article": "46",
+      "price": 2.15
+    },
+    {
+      "period": "2017",
+      "article": "47",
+      "price": 5.53
+    },
+    {
+      "period": "2017",
+      "article": "48",
+      "price": 2.36
+    },
+    {
+      "period": "2017",
+      "article": "49",
+      "price": 2
+    },
+    {
+      "period": "2017",
+      "article": "5",
+      "price": 6.39
+    },
+    {
+      "period": "2017",
+      "article": "50",
+      "price": 1.12
+    },
+    {
+      "period": "2017",
+      "article": "51",
+      "price": 7.76
+    },
+    {
+      "period": "2017",
+      "article": "52",
+      "price": 7.51
+    },
+    {
+      "period": "2017",
+      "article": "53",
+      "price": 0.53
+    },
+    {
+      "period": "2017",
+      "article": "54",
+      "price": 0.32
+    },
+    {
+      "period": "2017",
+      "article": "55",
+      "price": 1.24
+    },
+    {
+      "period": "2017",
+      "article": "56",
+      "price": 0.71
+    },
+    {
+      "period": "2017",
+      "article": "57",
+      "price": 1.28
+    },
+    {
+      "period": "2017",
+      "article": "58",
+      "price": 0.64
+    },
+    {
+      "period": "2017",
+      "article": "59",
+      "price": 1.54
+    },
+    {
+      "period": "2017",
+      "article": "6",
+      "price": 7.36
+    },
+    {
+      "period": "2017",
+      "article": "60",
+      "price": 1.94
+    },
+    {
+      "period": "2017",
+      "article": "61",
+      "price": 1.59
+    },
+    {
+      "period": "2017",
+      "article": "62",
+      "price": 2.51
+    },
+    {
+      "period": "2017",
+      "article": "63",
+      "price": 8.81
+    },
+    {
+      "period": "2017",
+      "article": "64",
+      "price": 2.86
+    },
+    {
+      "period": "2017",
+      "article": "65",
+      "price": 8.7
+    },
+    {
+      "period": "2017",
+      "article": "66",
+      "price": 4.16
+    },
+    {
+      "period": "2017",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2017",
+      "article": "68",
+      "price": 39.58
+    },
+    {
+      "period": "2017",
+      "article": "69",
+      "price": 4.79
+    },
+    {
+      "period": "2017",
+      "article": "7",
+      "price": 2.8
+    },
+    {
+      "period": "2017",
+      "article": "70",
+      "price": 3.08
+    },
+    {
+      "period": "2017",
+      "article": "71",
+      "price": 1.05
+    },
+    {
+      "period": "2017",
+      "article": "72",
+      "price": 1.02
+    },
+    {
+      "period": "2017",
+      "article": "8",
+      "price": 2.65
+    },
+    {
+      "period": "2017",
+      "article": "9",
+      "price": 12.27
+    },
+    {
+      "period": "2018",
+      "article": "0",
+      "price": 1.31
+    },
+    {
+      "period": "2018",
+      "article": "1",
+      "price": 0.4
+    },
+    {
+      "period": "2018",
+      "article": "10",
+      "price": 6.88
+    },
+    {
+      "period": "2018",
+      "article": "11",
+      "price": 4.56
+    },
+    {
+      "period": "2018",
+      "article": "12",
+      "price": 2.29
+    },
+    {
+      "period": "2018",
+      "article": "13",
+      "price": 0.73
+    },
+    {
+      "period": "2018",
+      "article": "14",
+      "price": 3.2
+    },
+    {
+      "period": "2018",
+      "article": "15",
+      "price": 4.34
+    },
+    {
+      "period": "2018",
+      "article": "16",
+      "price": 0.69
+    },
+    {
+      "period": "2018",
+      "article": "17",
+      "price": 0.88
+    },
+    {
+      "period": "2018",
+      "article": "18",
+      "price": 0.53
+    },
+    {
+      "period": "2018",
+      "article": "19",
+      "price": 0.85
+    },
+    {
+      "period": "2018",
+      "article": "2",
+      "price": 0.29
+    },
+    {
+      "period": "2018",
+      "article": "20",
+      "price": 3.91
+    },
+    {
+      "period": "2018",
+      "article": "21",
+      "price": 0.48
+    },
+    {
+      "period": "2018",
+      "article": "22",
+      "price": 2.43
+    },
+    {
+      "period": "2018",
+      "article": "23",
+      "price": 1.05
+    },
+    {
+      "period": "2018",
+      "article": "24",
+      "price": 0.46
+    },
+    {
+      "period": "2018",
+      "article": "25",
+      "price": 2.4
+    },
+    {
+      "period": "2018",
+      "article": "26",
+      "price": 0.92
+    },
+    {
+      "period": "2018",
+      "article": "27",
+      "price": 1.54
+    },
+    {
+      "period": "2018",
+      "article": "28",
+      "price": 1.1
+    },
+    {
+      "period": "2018",
+      "article": "29",
+      "price": 1.06
+    },
+    {
+      "period": "2018",
+      "article": "3",
+      "price": 0.66
+    },
+    {
+      "period": "2018",
+      "article": "30",
+      "price": 1.59
+    },
+    {
+      "period": "2018",
+      "article": "31",
+      "price": 1.6
+    },
+    {
+      "period": "2018",
+      "article": "32",
+      "price": 0.51
+    },
+    {
+      "period": "2018",
+      "article": "33",
+      "price": 1
+    },
+    {
+      "period": "2018",
+      "article": "34",
+      "price": 2.34
+    },
+    {
+      "period": "2018",
+      "article": "35",
+      "price": 0.55
+    },
+    {
+      "period": "2018",
+      "article": "36",
+      "price": 3.56
+    },
+    {
+      "period": "2018",
+      "article": "37",
+      "price": 0.94
+    },
+    {
+      "period": "2018",
+      "article": "38",
+      "price": 1.34
+    },
+    {
+      "period": "2018",
+      "article": "39",
+      "price": 0.86
+    },
+    {
+      "period": "2018",
+      "article": "4",
+      "price": 0.93
+    },
+    {
+      "period": "2018",
+      "article": "40",
+      "price": 0.94
+    },
+    {
+      "period": "2018",
+      "article": "41",
+      "price": 0.34
+    },
+    {
+      "period": "2018",
+      "article": "42",
+      "price": 0.66
+    },
+    {
+      "period": "2018",
+      "article": "43",
+      "price": 8.9
+    },
+    {
+      "period": "2018",
+      "article": "44",
+      "price": 1.43
+    },
+    {
+      "period": "2018",
+      "article": "45",
+      "price": 0.98
+    },
+    {
+      "period": "2018",
+      "article": "46",
+      "price": 2.15
+    },
+    {
+      "period": "2018",
+      "article": "47",
+      "price": 5.25
+    },
+    {
+      "period": "2018",
+      "article": "48",
+      "price": 2.51
+    },
+    {
+      "period": "2018",
+      "article": "49",
+      "price": 2.01
+    },
+    {
+      "period": "2018",
+      "article": "5",
+      "price": 6.71
+    },
+    {
+      "period": "2018",
+      "article": "50",
+      "price": 1.12
+    },
+    {
+      "period": "2018",
+      "article": "51",
+      "price": 7.98
+    },
+    {
+      "period": "2018",
+      "article": "52",
+      "price": 7.98
+    },
+    {
+      "period": "2018",
+      "article": "53",
+      "price": 0.51
+    },
+    {
+      "period": "2018",
+      "article": "54",
+      "price": 0.3
+    },
+    {
+      "period": "2018",
+      "article": "55",
+      "price": 1.24
+    },
+    {
+      "period": "2018",
+      "article": "56",
+      "price": 0.75
+    },
+    {
+      "period": "2018",
+      "article": "57",
+      "price": 1.25
+    },
+    {
+      "period": "2018",
+      "article": "58",
+      "price": 0.64
+    },
+    {
+      "period": "2018",
+      "article": "59",
+      "price": 1.59
+    },
+    {
+      "period": "2018",
+      "article": "6",
+      "price": 7.32
+    },
+    {
+      "period": "2018",
+      "article": "60",
+      "price": 2
+    },
+    {
+      "period": "2018",
+      "article": "61",
+      "price": 1.61
+    },
+    {
+      "period": "2018",
+      "article": "62",
+      "price": 2.58
+    },
+    {
+      "period": "2018",
+      "article": "63",
+      "price": 9.04
+    },
+    {
+      "period": "2018",
+      "article": "64",
+      "price": 2.94
+    },
+    {
+      "period": "2018",
+      "article": "65",
+      "price": 8.82
+    },
+    {
+      "period": "2018",
+      "article": "66",
+      "price": 4.04
+    },
+    {
+      "period": "2018",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2018",
+      "article": "68",
+      "price": 36.94
+    },
+    {
+      "period": "2018",
+      "article": "69",
+      "price": 4.81
+    },
+    {
+      "period": "2018",
+      "article": "7",
+      "price": 2.82
+    },
+    {
+      "period": "2018",
+      "article": "70",
+      "price": 3.16
+    },
+    {
+      "period": "2018",
+      "article": "71",
+      "price": 1.14
+    },
+    {
+      "period": "2018",
+      "article": "72",
+      "price": 1.12
+    },
+    {
+      "period": "2018",
+      "article": "8",
+      "price": 2.61
+    },
+    {
+      "period": "2018",
+      "article": "9",
+      "price": 12.17
+    },
+    {
+      "period": "2019",
+      "article": "0",
+      "price": 1.33
+    },
+    {
+      "period": "2019",
+      "article": "1",
+      "price": 0.48
+    },
+    {
+      "period": "2019",
+      "article": "10",
+      "price": 7.31
+    },
+    {
+      "period": "2019",
+      "article": "11",
+      "price": 4.64
+    },
+    {
+      "period": "2019",
+      "article": "12",
+      "price": 2.36
+    },
+    {
+      "period": "2019",
+      "article": "13",
+      "price": 0.75
+    },
+    {
+      "period": "2019",
+      "article": "14",
+      "price": 3.37
+    },
+    {
+      "period": "2019",
+      "article": "15",
+      "price": 4.42
+    },
+    {
+      "period": "2019",
+      "article": "16",
+      "price": 0.69
+    },
+    {
+      "period": "2019",
+      "article": "17",
+      "price": 0.92
+    },
+    {
+      "period": "2019",
+      "article": "18",
+      "price": 0.55
+    },
+    {
+      "period": "2019",
+      "article": "19",
+      "price": 0.87
+    },
+    {
+      "period": "2019",
+      "article": "2",
+      "price": 0.35
+    },
+    {
+      "period": "2019",
+      "article": "20",
+      "price": 3.94
+    },
+    {
+      "period": "2019",
+      "article": "21",
+      "price": 0.49
+    },
+    {
+      "period": "2019",
+      "article": "22",
+      "price": 2.37
+    },
+    {
+      "period": "2019",
+      "article": "23",
+      "price": 1.02
+    },
+    {
+      "period": "2019",
+      "article": "24",
+      "price": 0.46
+    },
+    {
+      "period": "2019",
+      "article": "25",
+      "price": 2.5
+    },
+    {
+      "period": "2019",
+      "article": "26",
+      "price": 0.72
+    },
+    {
+      "period": "2019",
+      "article": "27",
+      "price": 1.63
+    },
+    {
+      "period": "2019",
+      "article": "28",
+      "price": 1.16
+    },
+    {
+      "period": "2019",
+      "article": "29",
+      "price": 1.02
+    },
+    {
+      "period": "2019",
+      "article": "3",
+      "price": 0.65
+    },
+    {
+      "period": "2019",
+      "article": "30",
+      "price": 1.5
+    },
+    {
+      "period": "2019",
+      "article": "31",
+      "price": 1.85
+    },
+    {
+      "period": "2019",
+      "article": "32",
+      "price": 0.58
+    },
+    {
+      "period": "2019",
+      "article": "33",
+      "price": 1.02
+    },
+    {
+      "period": "2019",
+      "article": "34",
+      "price": 2.39
+    },
+    {
+      "period": "2019",
+      "article": "35",
+      "price": 0.74
+    },
+    {
+      "period": "2019",
+      "article": "36",
+      "price": 3.56
+    },
+    {
+      "period": "2019",
+      "article": "37",
+      "price": 0.95
+    },
+    {
+      "period": "2019",
+      "article": "38",
+      "price": 1.56
+    },
+    {
+      "period": "2019",
+      "article": "39",
+      "price": 0.81
+    },
+    {
+      "period": "2019",
+      "article": "4",
+      "price": 0.95
+    },
+    {
+      "period": "2019",
+      "article": "40",
+      "price": 0.93
+    },
+    {
+      "period": "2019",
+      "article": "41",
+      "price": 0.44
+    },
+    {
+      "period": "2019",
+      "article": "42",
+      "price": 0.68
+    },
+    {
+      "period": "2019",
+      "article": "43",
+      "price": 9.16
+    },
+    {
+      "period": "2019",
+      "article": "44",
+      "price": 1.43
+    },
+    {
+      "period": "2019",
+      "article": "45",
+      "price": 1
+    },
+    {
+      "period": "2019",
+      "article": "46",
+      "price": 2.2
+    },
+    {
+      "period": "2019",
+      "article": "47",
+      "price": 4.93
+    },
+    {
+      "period": "2019",
+      "article": "48",
+      "price": 2.73
+    },
+    {
+      "period": "2019",
+      "article": "49",
+      "price": 2.05
+    },
+    {
+      "period": "2019",
+      "article": "5",
+      "price": 7.14
+    },
+    {
+      "period": "2019",
+      "article": "50",
+      "price": 1.02
+    },
+    {
+      "period": "2019",
+      "article": "51",
+      "price": 8.89
+    },
+    {
+      "period": "2019",
+      "article": "52",
+      "price": 7.81
+    },
+    {
+      "period": "2019",
+      "article": "53",
+      "price": 0.5
+    },
+    {
+      "period": "2019",
+      "article": "54",
+      "price": 0.3
+    },
+    {
+      "period": "2019",
+      "article": "55",
+      "price": 1.24
+    },
+    {
+      "period": "2019",
+      "article": "56",
+      "price": 0.89
+    },
+    {
+      "period": "2019",
+      "article": "57",
+      "price": 1.27
+    },
+    {
+      "period": "2019",
+      "article": "58",
+      "price": 0.65
+    },
+    {
+      "period": "2019",
+      "article": "59",
+      "price": 1.68
+    },
+    {
+      "period": "2019",
+      "article": "6",
+      "price": 7.9
+    },
+    {
+      "period": "2019",
+      "article": "60",
+      "price": 2
+    },
+    {
+      "period": "2019",
+      "article": "61",
+      "price": 1.69
+    },
+    {
+      "period": "2019",
+      "article": "62",
+      "price": 2.69
+    },
+    {
+      "period": "2019",
+      "article": "63",
+      "price": 9.23
+    },
+    {
+      "period": "2019",
+      "article": "64",
+      "price": 3.02
+    },
+    {
+      "period": "2019",
+      "article": "65",
+      "price": 8.98
+    },
+    {
+      "period": "2019",
+      "article": "66",
+      "price": 4.21
+    },
+    {
+      "period": "2019",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2019",
+      "article": "68",
+      "price": 37.59
+    },
+    {
+      "period": "2019",
+      "article": "69",
+      "price": 5.23
+    },
+    {
+      "period": "2019",
+      "article": "7",
+      "price": 3.04
+    },
+    {
+      "period": "2019",
+      "article": "70",
+      "price": 3.42
+    },
+    {
+      "period": "2019",
+      "article": "71",
+      "price": 1.14
+    },
+    {
+      "period": "2019",
+      "article": "72",
+      "price": 1.13
+    },
+    {
+      "period": "2019",
+      "article": "8",
+      "price": 2.73
+    },
+    {
+      "period": "2019",
+      "article": "9",
+      "price": 11.98
+    },
+    {
+      "period": "2020",
+      "article": "0",
+      "price": 1.36
+    },
+    {
+      "period": "2020",
+      "article": "1",
+      "price": 0.49
+    },
+    {
+      "period": "2020",
+      "article": "10",
+      "price": 7.18
+    },
+    {
+      "period": "2020",
+      "article": "11",
+      "price": 4.59
+    },
+    {
+      "period": "2020",
+      "article": "12",
+      "price": 2.33
+    },
+    {
+      "period": "2020",
+      "article": "13",
+      "price": 0.77
+    },
+    {
+      "period": "2020",
+      "article": "14",
+      "price": 3.52
+    },
+    {
+      "period": "2020",
+      "article": "15",
+      "price": 4.46
+    },
+    {
+      "period": "2020",
+      "article": "16",
+      "price": 0.7
+    },
+    {
+      "period": "2020",
+      "article": "17",
+      "price": 0.92
+    },
+    {
+      "period": "2020",
+      "article": "18",
+      "price": 0.55
+    },
+    {
+      "period": "2020",
+      "article": "19",
+      "price": 0.87
+    },
+    {
+      "period": "2020",
+      "article": "2",
+      "price": 0.35
+    },
+    {
+      "period": "2020",
+      "article": "20",
+      "price": 4.1
+    },
+    {
+      "period": "2020",
+      "article": "21",
+      "price": 0.48
+    },
+    {
+      "period": "2020",
+      "article": "22",
+      "price": 2.4
+    },
+    {
+      "period": "2020",
+      "article": "23",
+      "price": 1.08
+    },
+    {
+      "period": "2020",
+      "article": "24",
+      "price": 0.45
+    },
+    {
+      "period": "2020",
+      "article": "25",
+      "price": 2.67
+    },
+    {
+      "period": "2020",
+      "article": "26",
+      "price": 0.96
+    },
+    {
+      "period": "2020",
+      "article": "27",
+      "price": 1.67
+    },
+    {
+      "period": "2020",
+      "article": "28",
+      "price": 1.07
+    },
+    {
+      "period": "2020",
+      "article": "29",
+      "price": 1.19
+    },
+    {
+      "period": "2020",
+      "article": "3",
+      "price": 0.66
+    },
+    {
+      "period": "2020",
+      "article": "30",
+      "price": 1.61
+    },
+    {
+      "period": "2020",
+      "article": "31",
+      "price": 1.77
+    },
+    {
+      "period": "2020",
+      "article": "32",
+      "price": 0.46
+    },
+    {
+      "period": "2020",
+      "article": "33",
+      "price": 0.99
+    },
+    {
+      "period": "2020",
+      "article": "34",
+      "price": 2.51
+    },
+    {
+      "period": "2020",
+      "article": "35",
+      "price": 0.54
+    },
+    {
+      "period": "2020",
+      "article": "36",
+      "price": 4
+    },
+    {
+      "period": "2020",
+      "article": "37",
+      "price": 0.92
+    },
+    {
+      "period": "2020",
+      "article": "38",
+      "price": 1.51
+    },
+    {
+      "period": "2020",
+      "article": "39",
+      "price": 0.75
+    },
+    {
+      "period": "2020",
+      "article": "4",
+      "price": 1
+    },
+    {
+      "period": "2020",
+      "article": "40",
+      "price": 0.95
+    },
+    {
+      "period": "2020",
+      "article": "41",
+      "price": 0.28
+    },
+    {
+      "period": "2020",
+      "article": "42",
+      "price": 0.72
+    },
+    {
+      "period": "2020",
+      "article": "43",
+      "price": 9.02
+    },
+    {
+      "period": "2020",
+      "article": "44",
+      "price": 1.45
+    },
+    {
+      "period": "2020",
+      "article": "45",
+      "price": 0.99
+    },
+    {
+      "period": "2020",
+      "article": "46",
+      "price": 2.29
+    },
+    {
+      "period": "2020",
+      "article": "47",
+      "price": 4.74
+    },
+    {
+      "period": "2020",
+      "article": "48",
+      "price": 2.79
+    },
+    {
+      "period": "2020",
+      "article": "49",
+      "price": 2.31
+    },
+    {
+      "period": "2020",
+      "article": "5",
+      "price": 6.84
+    },
+    {
+      "period": "2020",
+      "article": "50",
+      "price": 1.04
+    },
+    {
+      "period": "2020",
+      "article": "51",
+      "price": 9.49
+    },
+    {
+      "period": "2020",
+      "article": "52",
+      "price": 7.89
+    },
+    {
+      "period": "2020",
+      "article": "53",
+      "price": 0.5
+    },
+    {
+      "period": "2020",
+      "article": "54",
+      "price": 0.3
+    },
+    {
+      "period": "2020",
+      "article": "55",
+      "price": 1.26
+    },
+    {
+      "period": "2020",
+      "article": "56",
+      "price": 0.92
+    },
+    {
+      "period": "2020",
+      "article": "57",
+      "price": 1.29
+    },
+    {
+      "period": "2020",
+      "article": "58",
+      "price": 0.65
+    },
+    {
+      "period": "2020",
+      "article": "59",
+      "price": 1.72
+    },
+    {
+      "period": "2020",
+      "article": "6",
+      "price": 7.78
+    },
+    {
+      "period": "2020",
+      "article": "60",
+      "price": 2.05
+    },
+    {
+      "period": "2020",
+      "article": "61",
+      "price": 1.7
+    },
+    {
+      "period": "2020",
+      "article": "62",
+      "price": 2.7
+    },
+    {
+      "period": "2020",
+      "article": "63",
+      "price": 9.12
+    },
+    {
+      "period": "2020",
+      "article": "64",
+      "price": 3.06
+    },
+    {
+      "period": "2020",
+      "article": "65",
+      "price": 9.23
+    },
+    {
+      "period": "2020",
+      "article": "66",
+      "price": 4.71
+    },
+    {
+      "period": "2020",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2020",
+      "article": "68",
+      "price": 37.89
+    },
+    {
+      "period": "2020",
+      "article": "69",
+      "price": 5.56
+    },
+    {
+      "period": "2020",
+      "article": "7",
+      "price": 2.94
+    },
+    {
+      "period": "2020",
+      "article": "70",
+      "price": 3.72
+    },
+    {
+      "period": "2020",
+      "article": "71",
+      "price": 0.95
+    },
+    {
+      "period": "2020",
+      "article": "72",
+      "price": 0.94
+    },
+    {
+      "period": "2020",
+      "article": "8",
+      "price": 2.71
+    },
+    {
+      "period": "2020",
+      "article": "9",
+      "price": 12.53
+    },
+    {
+      "period": "2021",
+      "article": "0",
+      "price": 1.42
+    },
+    {
+      "period": "2021",
+      "article": "1",
+      "price": 0.54
+    },
+    {
+      "period": "2021",
+      "article": "10",
+      "price": 7.02
+    },
+    {
+      "period": "2021",
+      "article": "11",
+      "price": 4.67
+    },
+    {
+      "period": "2021",
+      "article": "12",
+      "price": 2.41
+    },
+    {
+      "period": "2021",
+      "article": "13",
+      "price": 0.76
+    },
+    {
+      "period": "2021",
+      "article": "14",
+      "price": 3.48
+    },
+    {
+      "period": "2021",
+      "article": "15",
+      "price": 4.32
+    },
+    {
+      "period": "2021",
+      "article": "16",
+      "price": 0.71
+    },
+    {
+      "period": "2021",
+      "article": "17",
+      "price": 0.9
+    },
+    {
+      "period": "2021",
+      "article": "18",
+      "price": 0.56
+    },
+    {
+      "period": "2021",
+      "article": "19",
+      "price": 0.89
+    },
+    {
+      "period": "2021",
+      "article": "2",
+      "price": 0.37
+    },
+    {
+      "period": "2021",
+      "article": "20",
+      "price": 4.21
+    },
+    {
+      "period": "2021",
+      "article": "21",
+      "price": 0.49
+    },
+    {
+      "period": "2021",
+      "article": "22",
+      "price": 2.57
+    },
+    {
+      "period": "2021",
+      "article": "23",
+      "price": 1.48
+    },
+    {
+      "period": "2021",
+      "article": "24",
+      "price": 0.49
+    },
+    {
+      "period": "2021",
+      "article": "25",
+      "price": 2.83
+    },
+    {
+      "period": "2021",
+      "article": "26",
+      "price": 0.86
+    },
+    {
+      "period": "2021",
+      "article": "27",
+      "price": 1.61
+    },
+    {
+      "period": "2021",
+      "article": "28",
+      "price": 1.14
+    },
+    {
+      "period": "2021",
+      "article": "29",
+      "price": 1.08
+    },
+    {
+      "period": "2021",
+      "article": "3",
+      "price": 0.67
+    },
+    {
+      "period": "2021",
+      "article": "30",
+      "price": 1.3
+    },
+    {
+      "period": "2021",
+      "article": "31",
+      "price": 1.7
+    },
+    {
+      "period": "2021",
+      "article": "32",
+      "price": 0.57
+    },
+    {
+      "period": "2021",
+      "article": "33",
+      "price": 0.93
+    },
+    {
+      "period": "2021",
+      "article": "34",
+      "price": 2.57
+    },
+    {
+      "period": "2021",
+      "article": "35",
+      "price": 0.55
+    },
+    {
+      "period": "2021",
+      "article": "36",
+      "price": 3.68
+    },
+    {
+      "period": "2021",
+      "article": "37",
+      "price": 0.95
+    },
+    {
+      "period": "2021",
+      "article": "38",
+      "price": 1.48
+    },
+    {
+      "period": "2021",
+      "article": "39",
+      "price": 0.79
+    },
+    {
+      "period": "2021",
+      "article": "4",
+      "price": 1.03
+    },
+    {
+      "period": "2021",
+      "article": "40",
+      "price": 1.17
+    },
+    {
+      "period": "2021",
+      "article": "41",
+      "price": 0.41
+    },
+    {
+      "period": "2021",
+      "article": "42",
+      "price": 0.74
+    },
+    {
+      "period": "2021",
+      "article": "43",
+      "price": 8.93
+    },
+    {
+      "period": "2021",
+      "article": "44",
+      "price": 1.45
+    },
+    {
+      "period": "2021",
+      "article": "45",
+      "price": 0.97
+    },
+    {
+      "period": "2021",
+      "article": "46",
+      "price": 2.43
+    },
+    {
+      "period": "2021",
+      "article": "47",
+      "price": 4.81
+    },
+    {
+      "period": "2021",
+      "article": "48",
+      "price": 2.84
+    },
+    {
+      "period": "2021",
+      "article": "49",
+      "price": 2.52
+    },
+    {
+      "period": "2021",
+      "article": "5",
+      "price": 6.72
+    },
+    {
+      "period": "2021",
+      "article": "50",
+      "price": 1.02
+    },
+    {
+      "period": "2021",
+      "article": "51",
+      "price": 9.67
+    },
+    {
+      "period": "2021",
+      "article": "52",
+      "price": 7.84
+    },
+    {
+      "period": "2021",
+      "article": "53",
+      "price": 0.5
+    },
+    {
+      "period": "2021",
+      "article": "54",
+      "price": 0.31
+    },
+    {
+      "period": "2021",
+      "article": "55",
+      "price": 1.3
+    },
+    {
+      "period": "2021",
+      "article": "56",
+      "price": 0.89
+    },
+    {
+      "period": "2021",
+      "article": "57",
+      "price": 1.29
+    },
+    {
+      "period": "2021",
+      "article": "58",
+      "price": 0.66
+    },
+    {
+      "period": "2021",
+      "article": "59",
+      "price": 1.79
+    },
+    {
+      "period": "2021",
+      "article": "6",
+      "price": 7.6
+    },
+    {
+      "period": "2021",
+      "article": "60",
+      "price": 2.11
+    },
+    {
+      "period": "2021",
+      "article": "61",
+      "price": 1.78
+    },
+    {
+      "period": "2021",
+      "article": "62",
+      "price": 2.8
+    },
+    {
+      "period": "2021",
+      "article": "63",
+      "price": 9.23
+    },
+    {
+      "period": "2021",
+      "article": "64",
+      "price": 3.09
+    },
+    {
+      "period": "2021",
+      "article": "65",
+      "price": 9.14
+    },
+    {
+      "period": "2021",
+      "article": "66",
+      "price": 4.92
+    },
+    {
+      "period": "2021",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2021",
+      "article": "68",
+      "price": 40.93
+    },
+    {
+      "period": "2021",
+      "article": "69",
+      "price": 5.36
+    },
+    {
+      "period": "2021",
+      "article": "7",
+      "price": 2.9
+    },
+    {
+      "period": "2021",
+      "article": "70",
+      "price": 3.69
+    },
+    {
+      "period": "2021",
+      "article": "71",
+      "price": 1.13
+    },
+    {
+      "period": "2021",
+      "article": "72",
+      "price": 1.11
+    },
+    {
+      "period": "2021",
+      "article": "8",
+      "price": 2.7
+    },
+    {
+      "period": "2021",
+      "article": "9",
+      "price": 12.83
+    },
+    {
+      "period": "2022",
+      "article": "0",
+      "price": 1.5
+    },
+    {
+      "period": "2022",
+      "article": "1",
+      "price": 0.78
+    },
+    {
+      "period": "2022",
+      "article": "10",
+      "price": 8.24
+    },
+    {
+      "period": "2022",
+      "article": "11",
+      "price": 5.32
+    },
+    {
+      "period": "2022",
+      "article": "12",
+      "price": 2.89
+    },
+    {
+      "period": "2022",
+      "article": "13",
+      "price": 0.83
+    },
+    {
+      "period": "2022",
+      "article": "14",
+      "price": 3.7
+    },
+    {
+      "period": "2022",
+      "article": "15",
+      "price": 4.93
+    },
+    {
+      "period": "2022",
+      "article": "16",
+      "price": 0.82
+    },
+    {
+      "period": "2022",
+      "article": "17",
+      "price": 1.1
+    },
+    {
+      "period": "2022",
+      "article": "18",
+      "price": 0.68
+    },
+    {
+      "period": "2022",
+      "article": "19",
+      "price": 1.07
+    },
+    {
+      "period": "2022",
+      "article": "2",
+      "price": 0.49
+    },
+    {
+      "period": "2022",
+      "article": "20",
+      "price": 4.88
+    },
+    {
+      "period": "2022",
+      "article": "21",
+      "price": 0.61
+    },
+    {
+      "period": "2022",
+      "article": "22",
+      "price": 3.54
+    },
+    {
+      "period": "2022",
+      "article": "23",
+      "price": 2.4
+    },
+    {
+      "period": "2022",
+      "article": "24",
+      "price": 0.84
+    },
+    {
+      "period": "2022",
+      "article": "25",
+      "price": 3.53
+    },
+    {
+      "period": "2022",
+      "article": "26",
+      "price": 0.82
+    },
+    {
+      "period": "2022",
+      "article": "27",
+      "price": 1.61
+    },
+    {
+      "period": "2022",
+      "article": "28",
+      "price": 1.37
+    },
+    {
+      "period": "2022",
+      "article": "29",
+      "price": 1.08
+    },
+    {
+      "period": "2022",
+      "article": "3",
+      "price": 0.89
+    },
+    {
+      "period": "2022",
+      "article": "30",
+      "price": 1.45
+    },
+    {
+      "period": "2022",
+      "article": "31",
+      "price": 1.78
+    },
+    {
+      "period": "2022",
+      "article": "32",
+      "price": 0.65
+    },
+    {
+      "period": "2022",
+      "article": "33",
+      "price": 1.29
+    },
+    {
+      "period": "2022",
+      "article": "34",
+      "price": 2.83
+    },
+    {
+      "period": "2022",
+      "article": "35",
+      "price": 0.61
+    },
+    {
+      "period": "2022",
+      "article": "36",
+      "price": 3.86
+    },
+    {
+      "period": "2022",
+      "article": "37",
+      "price": 1.02
+    },
+    {
+      "period": "2022",
+      "article": "38",
+      "price": 1.8
+    },
+    {
+      "period": "2022",
+      "article": "39",
+      "price": 0.83
+    },
+    {
+      "period": "2022",
+      "article": "4",
+      "price": 1.39
+    },
+    {
+      "period": "2022",
+      "article": "40",
+      "price": 1.06
+    },
+    {
+      "period": "2022",
+      "article": "41",
+      "price": 0.42
+    },
+    {
+      "period": "2022",
+      "article": "42",
+      "price": 1.04
+    },
+    {
+      "period": "2022",
+      "article": "43",
+      "price": 9.99
+    },
+    {
+      "period": "2022",
+      "article": "44",
+      "price": 1.62
+    },
+    {
+      "period": "2022",
+      "article": "45",
+      "price": 0.99
+    },
+    {
+      "period": "2022",
+      "article": "46",
+      "price": 2.73
+    },
+    {
+      "period": "2022",
+      "article": "47",
+      "price": 5.35
+    },
+    {
+      "period": "2022",
+      "article": "48",
+      "price": 3.14
+    },
+    {
+      "period": "2022",
+      "article": "49",
+      "price": 3.22
+    },
+    {
+      "period": "2022",
+      "article": "5",
+      "price": 8.17
+    },
+    {
+      "period": "2022",
+      "article": "50",
+      "price": 1.38
+    },
+    {
+      "period": "2022",
+      "article": "51",
+      "price": 11.56
+    },
+    {
+      "period": "2022",
+      "article": "52",
+      "price": 8.62
+    },
+    {
+      "period": "2022",
+      "article": "53",
+      "price": 0.56
+    },
+    {
+      "period": "2022",
+      "article": "54",
+      "price": 0.33
+    },
+    {
+      "period": "2022",
+      "article": "55",
+      "price": 1.35
+    },
+    {
+      "period": "2022",
+      "article": "56",
+      "price": 0.97
+    },
+    {
+      "period": "2022",
+      "article": "57",
+      "price": 1.32
+    },
+    {
+      "period": "2022",
+      "article": "58",
+      "price": 0.7
+    },
+    {
+      "period": "2022",
+      "article": "59",
+      "price": 1.91
+    },
+    {
+      "period": "2022",
+      "article": "6",
+      "price": 9.03
+    },
+    {
+      "period": "2022",
+      "article": "60",
+      "price": 2.2
+    },
+    {
+      "period": "2022",
+      "article": "61",
+      "price": 1.89
+    },
+    {
+      "period": "2022",
+      "article": "62",
+      "price": 2.89
+    },
+    {
+      "period": "2022",
+      "article": "63",
+      "price": 10.32
+    },
+    {
+      "period": "2022",
+      "article": "64",
+      "price": 3.94
+    },
+    {
+      "period": "2022",
+      "article": "65",
+      "price": 10.39
+    },
+    {
+      "period": "2022",
+      "article": "66",
+      "price": 6.5
+    },
+    {
+      "period": "2022",
+      "article": "67",
+      "price": 0.06
+    },
+    {
+      "period": "2022",
+      "article": "68",
+      "price": 53.53
+    },
+    {
+      "period": "2022",
+      "article": "69",
+      "price": 5.71
+    },
+    {
+      "period": "2022",
+      "article": "7",
+      "price": 3.08
+    },
+    {
+      "period": "2022",
+      "article": "70",
+      "price": 5.08
+    },
+    {
+      "period": "2022",
+      "article": "71",
+      "price": 1.47
+    },
+    {
+      "period": "2022",
+      "article": "72",
+      "price": 1.59
+    },
+    {
+      "period": "2022",
+      "article": "8",
+      "price": 3.66
+    },
+    {
+      "period": "2022",
+      "article": "9",
+      "price": 14.5
+    },
+    {
+      "period": "2023",
+      "article": "0",
+      "price": 1.67
+    },
+    {
+      "period": "2023",
+      "article": "1",
+      "price": 0.82
+    },
+    {
+      "period": "2023",
+      "article": "10",
+      "price": 9.03
+    },
+    {
+      "period": "2023",
+      "article": "11",
+      "price": 5.65
+    },
+    {
+      "period": "2023",
+      "article": "12",
+      "price": 2.83
+    },
+    {
+      "period": "2023",
+      "article": "13",
+      "price": 0.89
+    },
+    {
+      "period": "2023",
+      "article": "14",
+      "price": 4.09
+    },
+    {
+      "period": "2023",
+      "article": "15",
+      "price": 4.96
+    },
+    {
+      "period": "2023",
+      "article": "16",
+      "price": 0.96
+    },
+    {
+      "period": "2023",
+      "article": "17",
+      "price": 1.22
+    },
+    {
+      "period": "2023",
+      "article": "18",
+      "price": 0.77
+    },
+    {
+      "period": "2023",
+      "article": "19",
+      "price": 1.16
+    },
+    {
+      "period": "2023",
+      "article": "2",
+      "price": 0.51
+    },
+    {
+      "period": "2023",
+      "article": "20",
+      "price": 5.37
+    },
+    {
+      "period": "2023",
+      "article": "21",
+      "price": 0.75
+    },
+    {
+      "period": "2023",
+      "article": "22",
+      "price": 3.43
+    },
+    {
+      "period": "2023",
+      "article": "23",
+      "price": 1.72
+    },
+    {
+      "period": "2023",
+      "article": "24",
+      "price": 0.9
+    },
+    {
+      "period": "2023",
+      "article": "25",
+      "price": 3.8
+    },
+    {
+      "period": "2023",
+      "article": "26",
+      "price": 0.95
+    },
+    {
+      "period": "2023",
+      "article": "27",
+      "price": 1.8
+    },
+    {
+      "period": "2023",
+      "article": "28",
+      "price": 1.53
+    },
+    {
+      "period": "2023",
+      "article": "29",
+      "price": 1.28
+    },
+    {
+      "period": "2023",
+      "article": "3",
+      "price": 0.95
+    },
+    {
+      "period": "2023",
+      "article": "30",
+      "price": 1.45
+    },
+    {
+      "period": "2023",
+      "article": "31",
+      "price": 1.9
+    },
+    {
+      "period": "2023",
+      "article": "32",
+      "price": 0.77
+    },
+    {
+      "period": "2023",
+      "article": "33",
+      "price": 1.39
+    },
+    {
+      "period": "2023",
+      "article": "34",
+      "price": 3.26
+    },
+    {
+      "period": "2023",
+      "article": "35",
+      "price": 0.96
+    },
+    {
+      "period": "2023",
+      "article": "36",
+      "price": 3.83
+    },
+    {
+      "period": "2023",
+      "article": "37",
+      "price": 1.24
+    },
+    {
+      "period": "2023",
+      "article": "38",
+      "price": 1.91
+    },
+    {
+      "period": "2023",
+      "article": "39",
+      "price": 0.94
+    },
+    {
+      "period": "2023",
+      "article": "4",
+      "price": 1.39
+    },
+    {
+      "period": "2023",
+      "article": "40",
+      "price": 1.15
+    },
+    {
+      "period": "2023",
+      "article": "41",
+      "price": 0.45
+    },
+    {
+      "period": "2023",
+      "article": "42",
+      "price": 1.2
+    },
+    {
+      "period": "2023",
+      "article": "43",
+      "price": 10.65
+    },
+    {
+      "period": "2023",
+      "article": "44",
+      "price": 1.73
+    },
+    {
+      "period": "2023",
+      "article": "45",
+      "price": 1.08
+    },
+    {
+      "period": "2023",
+      "article": "46",
+      "price": 3.11
+    },
+    {
+      "period": "2023",
+      "article": "47",
+      "price": 5.21
+    },
+    {
+      "period": "2023",
+      "article": "48",
+      "price": 3.06
+    },
+    {
+      "period": "2023",
+      "article": "49",
+      "price": 4.57
+    },
+    {
+      "period": "2023",
+      "article": "5",
+      "price": 8.95
+    },
+    {
+      "period": "2023",
+      "article": "50",
+      "price": 1.69
+    },
+    {
+      "period": "2023",
+      "article": "51",
+      "price": 11.56
+    },
+    {
+      "period": "2023",
+      "article": "52",
+      "price": 9.3
+    },
+    {
+      "period": "2023",
+      "article": "53",
+      "price": 0.58
+    },
+    {
+      "period": "2023",
+      "article": "54",
+      "price": 0.36
+    },
+    {
+      "period": "2023",
+      "article": "55",
+      "price": 1.43
+    },
+    {
+      "period": "2023",
+      "article": "56",
+      "price": 1.04
+    },
+    {
+      "period": "2023",
+      "article": "57",
+      "price": 1.4
+    },
+    {
+      "period": "2023",
+      "article": "58",
+      "price": 0.77
+    },
+    {
+      "period": "2023",
+      "article": "59",
+      "price": 2.02
+    },
+    {
+      "period": "2023",
+      "article": "6",
+      "price": 10
+    },
+    {
+      "period": "2023",
+      "article": "60",
+      "price": 2.29
+    },
+    {
+      "period": "2023",
+      "article": "61",
+      "price": 1.99
+    },
+    {
+      "period": "2023",
+      "article": "62",
+      "price": 3
+    },
+    {
+      "period": "2023",
+      "article": "63",
+      "price": 11.12
+    },
+    {
+      "period": "2023",
+      "article": "64",
+      "price": 3.61
+    },
+    {
+      "period": "2023",
+      "article": "65",
+      "price": 10.68
+    },
+    {
+      "period": "2023",
+      "article": "66",
+      "price": 7.63
+    },
+    {
+      "period": "2023",
+      "article": "67",
+      "price": 0.07
+    },
+    {
+      "period": "2023",
+      "article": "68",
+      "price": 58.24
+    },
+    {
+      "period": "2023",
+      "article": "69",
+      "price": 5.14
+    },
+    {
+      "period": "2023",
+      "article": "7",
+      "price": 3.22
+    },
+    {
+      "period": "2023",
+      "article": "70",
+      "price": 4.13
+    },
+    {
+      "period": "2023",
+      "article": "71",
+      "price": 1.36
+    },
+    {
+      "period": "2023",
+      "article": "72",
+      "price": 1.38
+    },
+    {
+      "period": "2023",
+      "article": "8",
+      "price": 4.09
+    },
+    {
+      "period": "2023",
+      "article": "9",
+      "price": 16.09
+    },
+    {
+      "period": "2024",
+      "article": "0",
+      "price": 1.67
+    },
+    {
+      "period": "2024",
+      "article": "1",
+      "price": 0.8
+    },
+    {
+      "period": "2024",
+      "article": "10",
+      "price": 9.34
+    },
+    {
+      "period": "2024",
+      "article": "11",
+      "price": 5.76
+    },
+    {
+      "period": "2024",
+      "article": "12",
+      "price": 2.51
+    },
+    {
+      "period": "2024",
+      "article": "13",
+      "price": 0.95
+    },
+    {
+      "period": "2024",
+      "article": "14",
+      "price": 4.39
+    },
+    {
+      "period": "2024",
+      "article": "15",
+      "price": 4.39
+    },
+    {
+      "period": "2024",
+      "article": "16",
+      "price": 1.06
+    },
+    {
+      "period": "2024",
+      "article": "17",
+      "price": 1.2
+    },
+    {
+      "period": "2024",
+      "article": "18",
+      "price": 0.84
+    },
+    {
+      "period": "2024",
+      "article": "19",
+      "price": 1.2
+    },
+    {
+      "period": "2024",
+      "article": "2",
+      "price": 0.52
+    },
+    {
+      "period": "2024",
+      "article": "20",
+      "price": 5.95
+    },
+    {
+      "period": "2024",
+      "article": "21",
+      "price": 0.72
+    },
+    {
+      "period": "2024",
+      "article": "22",
+      "price": 2.83
+    },
+    {
+      "period": "2024",
+      "article": "23",
+      "price": 1.42
+    },
+    {
+      "period": "2024",
+      "article": "24",
+      "price": 0.85
+    },
+    {
+      "period": "2024",
+      "article": "25",
+      "price": 3.86
+    },
+    {
+      "period": "2024",
+      "article": "26",
+      "price": 1.09
+    },
+    {
+      "period": "2024",
+      "article": "27",
+      "price": 2.03
+    },
+    {
+      "period": "2024",
+      "article": "28",
+      "price": 1.44
+    },
+    {
+      "period": "2024",
+      "article": "29",
+      "price": 1.31
+    },
+    {
+      "period": "2024",
+      "article": "3",
+      "price": 0.95
+    },
+    {
+      "period": "2024",
+      "article": "30",
+      "price": 1.58
+    },
+    {
+      "period": "2024",
+      "article": "31",
+      "price": 2.49
+    },
+    {
+      "period": "2024",
+      "article": "32",
+      "price": 0.72
+    },
+    {
+      "period": "2024",
+      "article": "33",
+      "price": 1.49
+    },
+    {
+      "period": "2024",
+      "article": "34",
+      "price": 3.36
+    },
+    {
+      "period": "2024",
+      "article": "35",
+      "price": 0.78
+    },
+    {
+      "period": "2024",
+      "article": "36",
+      "price": 4.23
+    },
+    {
+      "period": "2024",
+      "article": "37",
+      "price": 1.17
+    },
+    {
+      "period": "2024",
+      "article": "38",
+      "price": 2.06
+    },
+    {
+      "period": "2024",
+      "article": "39",
+      "price": 0.94
+    },
+    {
+      "period": "2024",
+      "article": "4",
+      "price": 0.8
+    },
+    {
+      "period": "2024",
+      "article": "40",
+      "price": 1.25
+    },
+    {
+      "period": "2024",
+      "article": "41",
+      "price": 0.52
+    },
+    {
+      "period": "2024",
+      "article": "42",
+      "price": 1.26
+    },
+    {
+      "period": "2024",
+      "article": "43",
+      "price": 10.88
+    },
+    {
+      "period": "2024",
+      "article": "44",
+      "price": 1.91
+    },
+    {
+      "period": "2024",
+      "article": "45",
+      "price": 1.19
+    },
+    {
+      "period": "2024",
+      "article": "46",
+      "price": 3.47
+    },
+    {
+      "period": "2024",
+      "article": "47",
+      "price": 5.4
+    },
+    {
+      "period": "2024",
+      "article": "48",
+      "price": 3.25
+    },
+    {
+      "period": "2024",
+      "article": "49",
+      "price": 4.5
+    },
+    {
+      "period": "2024",
+      "article": "5",
+      "price": 8.95
+    },
+    {
+      "period": "2024",
+      "article": "50",
+      "price": 1.82
+    },
+    {
+      "period": "2024",
+      "article": "51",
+      "price": 12.61
+    },
+    {
+      "period": "2024",
+      "article": "52",
+      "price": 9.29
+    },
+    {
+      "period": "2024",
+      "article": "53",
+      "price": 0.62
+    },
+    {
+      "period": "2024",
+      "article": "54",
+      "price": 0.39
+    },
+    {
+      "period": "2024",
+      "article": "55",
+      "price": 1.53
+    },
+    {
+      "period": "2024",
+      "article": "56",
+      "price": 1.08
+    },
+    {
+      "period": "2024",
+      "article": "57",
+      "price": 1.51
+    },
+    {
+      "period": "2024",
+      "article": "58",
+      "price": 0.83
+    },
+    {
+      "period": "2024",
+      "article": "59",
+      "price": 2.09
+    },
+    {
+      "period": "2024",
+      "article": "6",
+      "price": 10.13
+    },
+    {
+      "period": "2024",
+      "article": "60",
+      "price": 2.09
+    },
+    {
+      "period": "2024",
+      "article": "61",
+      "price": 2.09
+    },
+    {
+      "period": "2024",
+      "article": "62",
+      "price": 2.09
+    },
+    {
+      "period": "2024",
+      "article": "63",
+      "price": 11.61
+    },
+    {
+      "period": "2024",
+      "article": "64",
+      "price": 3.58
+    },
+    {
+      "period": "2024",
+      "article": "65",
+      "price": 10.17
+    },
+    {
+      "period": "2024",
+      "article": "66",
+      "price": 7.53
+    },
+    {
+      "period": "2024",
+      "article": "67",
+      "price": 0.07
+    },
+    {
+      "period": "2024",
+      "article": "68",
+      "price": 60.24
+    },
+    {
+      "period": "2024",
+      "article": "69",
+      "price": 4.93
+    },
+    {
+      "period": "2024",
+      "article": "7",
+      "price": 3.42
+    },
+    {
+      "period": "2024",
+      "article": "70",
+      "price": 4.18
+    },
+    {
+      "period": "2024",
+      "article": "71",
+      "price": 1.31
+    },
+    {
+      "period": "2024",
+      "article": "72",
+      "price": 1.3
+    },
+    {
+      "period": "2024",
+      "article": "8",
+      "price": 4.07
+    },
+    {
+      "period": "2024",
+      "article": "9",
+      "price": 16.57
+    }
+  ]
+}

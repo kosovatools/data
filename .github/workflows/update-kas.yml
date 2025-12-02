@@ -1,0 +1,35 @@
+name: Refresh KAS data
+on:
+  schedule: [{ cron: "0 4 * * *" }] # daily 04:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with: { version: 10.4.1 }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch KAS PxWeb datasets
+        run: pnpm run generate:kas
+
+      - name: Commit data
+        run: |
+          git config user.name "data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          git add data/kas
+          git commit -m "chore: update KAS data" || echo "No changes"
+          git push

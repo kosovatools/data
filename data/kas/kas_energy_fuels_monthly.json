@@ -1,0 +1,1657 @@
+{
+  "meta": {
+    "updated_at": null,
+    "time": {
+      "key": "period",
+      "granularity": "monthly",
+      "first": "2022-01",
+      "last": "2025-08",
+      "count": 44
+    },
+    "fields": [
+      {
+        "key": "production",
+        "label": "Production",
+        "unit": "tonnes"
+      },
+      {
+        "key": "import",
+        "label": "Import",
+        "unit": "tonnes"
+      },
+      {
+        "key": "export",
+        "label": "Export",
+        "unit": "tonnes"
+      },
+      {
+        "key": "stock",
+        "label": "Stock",
+        "unit": "tonnes"
+      },
+      {
+        "key": "ready_for_market",
+        "label": "Ready for Market",
+        "unit": "tonnes"
+      }
+    ],
+    "metrics": ["production", "import", "export", "stock", "ready_for_market"],
+    "dimensions": {
+      "fuel": [
+        {
+          "key": "gasoline",
+          "label": "Gasoline"
+        },
+        {
+          "key": "diesel",
+          "label": "Diesel"
+        },
+        {
+          "key": "lng",
+          "label": "LNG"
+        },
+        {
+          "key": "jet",
+          "label": "Jet / kerosene"
+        }
+      ]
+    },
+    "source": "Data derived from Table 03, Table 04, Table 05, Table 06 in Energy",
+    "source_urls": [
+      "ASKdata/Energy/Monthly indicators/tab03.px",
+      "ASKdata/Energy/Monthly indicators/tab04.px",
+      "ASKdata/Energy/Monthly indicators/tab05.px",
+      "ASKdata/Energy/Monthly indicators/tab06.px"
+    ],
+    "notes": [],
+    "id": "kas_energy_fuels_monthly",
+    "generated_at": "2025-11-23T13:19:54.062Z",
+    "title": null
+  },
+  "records": [
+    {
+      "period": "2022-01",
+      "production": 0,
+      "import": 38641,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 38641,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-01",
+      "production": 0,
+      "import": 3807,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3807,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-01",
+      "production": 0,
+      "import": 231,
+      "export": 20,
+      "stock": 0,
+      "ready_for_market": 210,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-01",
+      "production": 0,
+      "import": 1187,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1187,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-02",
+      "production": 0,
+      "import": 40923,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 40923,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-02",
+      "production": 0,
+      "import": 3388,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3388,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-02",
+      "production": 0,
+      "import": 565,
+      "export": 15,
+      "stock": 0,
+      "ready_for_market": 550,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-02",
+      "production": 0,
+      "import": 1496,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1496,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-03",
+      "production": 0,
+      "import": 44511,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 44511,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-03",
+      "production": 0,
+      "import": 4280,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4280,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-03",
+      "production": 0,
+      "import": 679,
+      "export": 38,
+      "stock": 0,
+      "ready_for_market": 641,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-03",
+      "production": 0,
+      "import": 1219,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1219,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-04",
+      "production": 0,
+      "import": 44348,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 44348,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-04",
+      "production": 0,
+      "import": 3771,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3771,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-04",
+      "production": 0,
+      "import": 534,
+      "export": 55,
+      "stock": 0,
+      "ready_for_market": 480,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-04",
+      "production": 0,
+      "import": 1610,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1610,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-05",
+      "production": 0,
+      "import": 41662,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 41662,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-05",
+      "production": 0,
+      "import": 4110,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4110,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-05",
+      "production": 0,
+      "import": 530,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 529,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-05",
+      "production": 0,
+      "import": 1739,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1739,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-06",
+      "production": 0,
+      "import": 43310,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 43310,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-06",
+      "production": 0,
+      "import": 4603,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4603,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-06",
+      "production": 0,
+      "import": 414,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 414,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-06",
+      "production": 0,
+      "import": 1863,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1863,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-07",
+      "production": 0,
+      "import": 53841,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 53841,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-07",
+      "production": 0,
+      "import": 6936,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 6936,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-07",
+      "production": 0,
+      "import": 353,
+      "export": 7,
+      "stock": 0,
+      "ready_for_market": 346,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-07",
+      "production": 0,
+      "import": 1869,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1869,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-08",
+      "production": 0,
+      "import": 62923,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 62923,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-08",
+      "production": 0,
+      "import": 8511,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 8511,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-08",
+      "production": 0,
+      "import": 333,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 332,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-08",
+      "production": 0,
+      "import": 2671,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2671,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-09",
+      "production": 0,
+      "import": 47346,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 47346,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-09",
+      "production": 0,
+      "import": 5243,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5243,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-09",
+      "production": 0,
+      "import": 428,
+      "export": 22,
+      "stock": 0,
+      "ready_for_market": 406,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-09",
+      "production": 0,
+      "import": 1772,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1772,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-10",
+      "production": 0,
+      "import": 44905,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 44905,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-10",
+      "production": 0,
+      "import": 3880,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3880,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-10",
+      "production": 0,
+      "import": 442,
+      "export": 8,
+      "stock": 0,
+      "ready_for_market": 435,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-10",
+      "production": 0,
+      "import": 1687,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1687,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-11",
+      "production": 0,
+      "import": 48075,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 48075,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-11",
+      "production": 0,
+      "import": 4371,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4371,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-11",
+      "production": 0,
+      "import": 515,
+      "export": 15,
+      "stock": 0,
+      "ready_for_market": 500,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-11",
+      "production": 0,
+      "import": 1743,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1743,
+      "fuel": "lng"
+    },
+    {
+      "period": "2022-12",
+      "production": 0,
+      "import": 51510,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 51510,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2022-12",
+      "production": 0,
+      "import": 5137,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5137,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2022-12",
+      "production": 0,
+      "import": 421,
+      "export": 3,
+      "stock": 0,
+      "ready_for_market": 418,
+      "fuel": "jet"
+    },
+    {
+      "period": "2022-12",
+      "production": 0,
+      "import": 2990,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2990,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-01",
+      "production": 0,
+      "import": 37946,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 37946,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-01",
+      "production": 0,
+      "import": 4205,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4205,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-01",
+      "production": 0,
+      "import": 311,
+      "export": 15,
+      "stock": 0,
+      "ready_for_market": 296,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-01",
+      "production": 0,
+      "import": 1583,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1583,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-02",
+      "production": 0,
+      "import": 37850,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 37850,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-02",
+      "production": 0,
+      "import": 3714,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3714,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-02",
+      "production": 0,
+      "import": 436,
+      "export": 6,
+      "stock": 0,
+      "ready_for_market": 429,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-02",
+      "production": 0,
+      "import": 787,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 787,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-03",
+      "production": 0,
+      "import": 39831,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 39831,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-03",
+      "production": 0,
+      "import": 4159,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4159,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-03",
+      "production": 0,
+      "import": 535,
+      "export": 7,
+      "stock": 0,
+      "ready_for_market": 528,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-03",
+      "production": 0,
+      "import": 1544,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1544,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-04",
+      "production": 0,
+      "import": 48334,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 48334,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-04",
+      "production": 0,
+      "import": 5427,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5427,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-04",
+      "production": 0,
+      "import": 556,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 556,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-04",
+      "production": 0,
+      "import": 1800,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1800,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-05",
+      "production": 0,
+      "import": 52088,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 52088,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-05",
+      "production": 0,
+      "import": 5175,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5175,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-05",
+      "production": 0,
+      "import": 656,
+      "export": 22,
+      "stock": 0,
+      "ready_for_market": 634,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-05",
+      "production": 0,
+      "import": 1975,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1975,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-06",
+      "production": 0,
+      "import": 50013,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 50013,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-06",
+      "production": 0,
+      "import": 5259,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5259,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-06",
+      "production": 0,
+      "import": 477,
+      "export": 18,
+      "stock": 0,
+      "ready_for_market": 459,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-06",
+      "production": 0,
+      "import": 1766,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1766,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-07",
+      "production": 0,
+      "import": 61565,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 61565,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-07",
+      "production": 0,
+      "import": 7647,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 7647,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-07",
+      "production": 0,
+      "import": 639,
+      "export": 26,
+      "stock": 0,
+      "ready_for_market": 613,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-07",
+      "production": 0,
+      "import": 1836,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1836,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-08",
+      "production": 0,
+      "import": 69838,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 69838,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-08",
+      "production": 0,
+      "import": 9140,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 9140,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-08",
+      "production": 0,
+      "import": 466,
+      "export": 27,
+      "stock": 0,
+      "ready_for_market": 439,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-08",
+      "production": 0,
+      "import": 2548,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2548,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-09",
+      "production": 0,
+      "import": 50915,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 50915,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-09",
+      "production": 0,
+      "import": 5213,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5213,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-09",
+      "production": 0,
+      "import": 432,
+      "export": 14,
+      "stock": 0,
+      "ready_for_market": 418,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-09",
+      "production": 0,
+      "import": 2305,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2305,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-10",
+      "production": 0,
+      "import": 49792,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 49792,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-10",
+      "production": 0,
+      "import": 4224,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4224,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-10",
+      "production": 0,
+      "import": 533,
+      "export": 24,
+      "stock": 0,
+      "ready_for_market": 509,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-10",
+      "production": 0,
+      "import": 1816,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1816,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-11",
+      "production": 0,
+      "import": 52629,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 52629,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-11",
+      "production": 0,
+      "import": 4619,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4619,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-11",
+      "production": 0,
+      "import": 465,
+      "export": 35,
+      "stock": 0,
+      "ready_for_market": 430,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-11",
+      "production": 0,
+      "import": 1748,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1748,
+      "fuel": "lng"
+    },
+    {
+      "period": "2023-12",
+      "production": 0,
+      "import": 58414,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 58414,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2023-12",
+      "production": 0,
+      "import": 5337,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5337,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2023-12",
+      "production": 0,
+      "import": 497,
+      "export": 65,
+      "stock": 0,
+      "ready_for_market": 432,
+      "fuel": "jet"
+    },
+    {
+      "period": "2023-12",
+      "production": 0,
+      "import": 1851,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1851,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-01",
+      "production": 0,
+      "import": 47786,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 47786,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-01",
+      "production": 0,
+      "import": 5004,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5004,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-01",
+      "production": 0,
+      "import": 313,
+      "export": 33,
+      "stock": 0,
+      "ready_for_market": 279,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-01",
+      "production": 0,
+      "import": 2088,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2088,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-02",
+      "production": 0,
+      "import": 41443,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 41443,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-02",
+      "production": 0,
+      "import": 3799,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 3799,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-02",
+      "production": 0,
+      "import": 26,
+      "export": 256,
+      "stock": 0,
+      "ready_for_market": -230,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-02",
+      "production": 0,
+      "import": 1640,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1640,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-03",
+      "production": 0,
+      "import": 50453,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 50453,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-03",
+      "production": 0,
+      "import": 4186,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4186,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-03",
+      "production": 0,
+      "import": 0,
+      "export": 1,
+      "stock": 0,
+      "ready_for_market": -1,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-03",
+      "production": 0,
+      "import": 2045,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2045,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-04",
+      "production": 0,
+      "import": 52244,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 52244,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-04",
+      "production": 0,
+      "import": 5326,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5326,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-04",
+      "production": 0,
+      "import": 14091,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 14091,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-04",
+      "production": 0,
+      "import": 2779,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2779,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-05",
+      "production": 0,
+      "import": 54865,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 54865,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-05",
+      "production": 0,
+      "import": 5625,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5625,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-05",
+      "production": 0,
+      "import": 2627,
+      "export": 78,
+      "stock": 0,
+      "ready_for_market": 2548,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-05",
+      "production": 0,
+      "import": 2084,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2084,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-06",
+      "production": 0,
+      "import": 51215,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 51215,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-06",
+      "production": 0,
+      "import": 5808,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5808,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-06",
+      "production": 0,
+      "import": 642,
+      "export": 75,
+      "stock": 0,
+      "ready_for_market": 567,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-06",
+      "production": 0,
+      "import": 1949,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1949,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-07",
+      "production": 0,
+      "import": 65146,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 65146,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-07",
+      "production": 0,
+      "import": 7809,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 7809,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-07",
+      "production": 0,
+      "import": 508,
+      "export": 62,
+      "stock": 0,
+      "ready_for_market": 445,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-07",
+      "production": 0,
+      "import": 1629,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1629,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-08",
+      "production": 0,
+      "import": 75194,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 75194,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-08",
+      "production": 0,
+      "import": 10298,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 10298,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-08",
+      "production": 0,
+      "import": 520,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 520,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-08",
+      "production": 0,
+      "import": 2544,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2544,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-09",
+      "production": 0,
+      "import": 51041,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 51041,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-09",
+      "production": 0,
+      "import": 4522,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4522,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-09",
+      "production": 0,
+      "import": 645,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 645,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-09",
+      "production": 0,
+      "import": 1896,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1896,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-10",
+      "production": 0,
+      "import": 59825,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 59825,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-10",
+      "production": 0,
+      "import": 5072,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5072,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-10",
+      "production": 0,
+      "import": 587,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 585,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-10",
+      "production": 0,
+      "import": 1873,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1873,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-11",
+      "production": 0,
+      "import": 53284,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 53284,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-11",
+      "production": 0,
+      "import": 4873,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4873,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-11",
+      "production": 0,
+      "import": 634,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 634,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-11",
+      "production": 0,
+      "import": 1628,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1628,
+      "fuel": "lng"
+    },
+    {
+      "period": "2024-12",
+      "production": 0,
+      "import": 64075,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 64075,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2024-12",
+      "production": 0,
+      "import": 6253,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 6253,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2024-12",
+      "production": 0,
+      "import": 657,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 657,
+      "fuel": "jet"
+    },
+    {
+      "period": "2024-12",
+      "production": 0,
+      "import": 2304,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2304,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-01",
+      "production": 0,
+      "import": 47313,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 47313,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-01",
+      "production": 0,
+      "import": 4888,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4888,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-01",
+      "production": 0,
+      "import": 468,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 468,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-01",
+      "production": 0,
+      "import": 2322,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2322,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-02",
+      "production": 0,
+      "import": 39212,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 39212,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-02",
+      "production": 0,
+      "import": 4537,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4537,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-02",
+      "production": 0,
+      "import": 568,
+      "export": 1,
+      "stock": 0,
+      "ready_for_market": 567,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-02",
+      "production": 0,
+      "import": 1530,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1530,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-03",
+      "production": 0,
+      "import": 53728,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 53728,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-03",
+      "production": 0,
+      "import": 4363,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 4363,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-03",
+      "production": 0,
+      "import": 660,
+      "export": 13,
+      "stock": 0,
+      "ready_for_market": 647,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-03",
+      "production": 0,
+      "import": 2077,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2077,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-04",
+      "production": 0,
+      "import": 60111,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 60111,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-04",
+      "production": 0,
+      "import": 5996,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 5996,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-04",
+      "production": 0,
+      "import": 675,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 673,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-04",
+      "production": 0,
+      "import": 1863,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1863,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-05",
+      "production": 0,
+      "import": 58968,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 58968,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-05",
+      "production": 0,
+      "import": 6208,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 6208,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-05",
+      "production": 0,
+      "import": 700,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 698,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-05",
+      "production": 0,
+      "import": 2341,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2341,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-06",
+      "production": 0,
+      "import": 62706,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 62706,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-06",
+      "production": 0,
+      "import": 6141,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 6141,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-06",
+      "production": 0,
+      "import": 619,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 617,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-06",
+      "production": 0,
+      "import": 1862,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1862,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-07",
+      "production": 0,
+      "import": 68306,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 68306,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-07",
+      "production": 0,
+      "import": 8934,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 8934,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-07",
+      "production": 0,
+      "import": 655,
+      "export": 2,
+      "stock": 0,
+      "ready_for_market": 653,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-07",
+      "production": 0,
+      "import": 2480,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 2480,
+      "fuel": "lng"
+    },
+    {
+      "period": "2025-08",
+      "production": 0,
+      "import": 74660,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 74660,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2025-08",
+      "production": 0,
+      "import": 10568,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 10568,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2025-08",
+      "production": 0,
+      "import": 645,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 645,
+      "fuel": "jet"
+    },
+    {
+      "period": "2025-08",
+      "production": 0,
+      "import": 1975,
+      "export": 0,
+      "stock": 0,
+      "ready_for_market": 1975,
+      "fuel": "lng"
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "meta": {
+    "updated_at": null,
+    "time": {
+      "key": "period",
+      "granularity": "monthly",
+      "first": "2012-01",
+      "last": "2025-08",
+      "count": 164
+    },
+    "fields": [
+      {
+        "key": "passengers_inbound",
+        "label": "Inbound passengers",
+        "unit": "people"
+      },
+      {
+        "key": "passengers_outbound",
+        "label": "Outbound passengers",
+        "unit": "people"
+      },
+      {
+        "key": "flights",
+        "label": "Flights",
+        "unit": "flights"
+      }
+    ],
+    "metrics": ["passengers_inbound", "passengers_outbound", "flights"],
+    "dimensions": {},
+    "source": "Data derived from Table 04, Table 05, Table 06 in Transport",
+    "source_urls": [
+      "ASKdata/Transport/Monthly indicators/4.numri i udhetareve hyres.px",
+      "ASKdata/Transport/Monthly indicators/5.numri i udhetareve dales.px",
+      "ASKdata/Transport/Monthly indicators/6. numri i fluturimeve te realizuara.px"
+    ],
+    "title": null,
+    "notes": [],
+    "id": "kas_transport_air_traffic_monthly",
+    "generated_at": "2025-11-23T13:19:54.062Z"
+  },
+  "records": [
+    {
+      "period": "2012-01",
+      "passengers_inbound": 45660,
+      "passengers_outbound": 67301,
+      "flights": 556
+    },
+    {
+      "period": "2012-02",
+      "passengers_inbound": 37536,
+      "passengers_outbound": 42660,
+      "flights": 410
+    },
+    {
+      "period": "2012-03",
+      "passengers_inbound": 51814,
+      "passengers_outbound": 47726,
+      "flights": 458
+    },
+    {
+      "period": "2012-04",
+      "passengers_inbound": 59163,
+      "passengers_outbound": 60321,
+      "flights": 532
+    },
+    {
+      "period": "2012-05",
+      "passengers_inbound": 56159,
+      "passengers_outbound": 57981,
+      "flights": 523
+    },
+    {
+      "period": "2012-06",
+      "passengers_inbound": 76199,
+      "passengers_outbound": 55784,
+      "flights": 593
+    },
+    {
+      "period": "2012-07",
+      "passengers_inbound": 117234,
+      "passengers_outbound": 80097,
+      "flights": 809
+    },
+    {
+      "period": "2012-08",
+      "passengers_inbound": 79263,
+      "passengers_outbound": 116784,
+      "flights": 790
+    },
+    {
+      "period": "2012-09",
+      "passengers_inbound": 54830,
+      "passengers_outbound": 81760,
+      "flights": 598
+    },
+    {
+      "period": "2012-10",
+      "passengers_inbound": 56004,
+      "passengers_outbound": 61931,
+      "flights": 556
+    },
+    {
+      "period": "2012-11",
+      "passengers_inbound": 45124,
+      "passengers_outbound": 52799,
+      "flights": 511
+    },
+    {
+      "period": "2012-12",
+      "passengers_inbound": 67838,
+      "passengers_outbound": 55166,
+      "flights": 611
+    },
+    {
+      "period": "2013-01",
+      "passengers_inbound": 49688,
+      "passengers_outbound": 70026,
+      "flights": 597
+    },
+    {
+      "period": "2013-02",
+      "passengers_inbound": 49321,
+      "passengers_outbound": 52896,
+      "flights": 486
+    },
+    {
+      "period": "2013-03",
+      "passengers_inbound": 66302,
+      "passengers_outbound": 59830,
+      "flights": 582
+    },
+    {
+      "period": "2013-04",
+      "passengers_inbound": 65235,
+      "passengers_outbound": 69037,
+      "flights": 602
+    },
+    {
+      "period": "2013-05",
+      "passengers_inbound": 65506,
+      "passengers_outbound": 67104,
+      "flights": 594
+    },
+    {
+      "period": "2013-06",
+      "passengers_inbound": 78925,
+      "passengers_outbound": 62175,
+      "flights": 613
+    },
+    {
+      "period": "2013-07",
+      "passengers_inbound": 125389,
+      "passengers_outbound": 73054,
+      "flights": 856
+    },
+    {
+      "period": "2013-08",
+      "passengers_inbound": 86669,
+      "passengers_outbound": 134527,
+      "flights": 902
+    },
+    {
+      "period": "2013-09",
+      "passengers_inbound": 56377,
+      "passengers_outbound": 83628,
+      "flights": 621
+    },
+    {
+      "period": "2013-10",
+      "passengers_inbound": 58907,
+      "passengers_outbound": 66036,
+      "flights": 569
+    },
+    {
+      "period": "2013-11",
+      "passengers_inbound": 44036,
+      "passengers_outbound": 52492,
+      "flights": 466
+    },
+    {
+      "period": "2013-12",
+      "passengers_inbound": 47824,
+      "passengers_outbound": 43694,
+      "flights": 417
+    },
+    {
+      "period": "2014-01",
+      "passengers_inbound": 41663,
+      "passengers_outbound": 53664,
+      "flights": 456
+    },
+    {
+      "period": "2014-02",
+      "passengers_inbound": 39654,
+      "passengers_outbound": 40843,
+      "flights": 365
+    },
+    {
+      "period": "2014-03",
+      "passengers_inbound": 47999,
+      "passengers_outbound": 46819,
+      "flights": 411
+    },
+    {
+      "period": "2014-04",
+      "passengers_inbound": 57417,
+      "passengers_outbound": 55050,
+      "flights": 468
+    },
+    {
+      "period": "2014-05",
+      "passengers_inbound": 55504,
+      "passengers_outbound": 56766,
+      "flights": 476
+    },
+    {
+      "period": "2014-06",
+      "passengers_inbound": 64813,
+      "passengers_outbound": 54180,
+      "flights": 487
+    },
+    {
+      "period": "2014-07",
+      "passengers_inbound": 103358,
+      "passengers_outbound": 58351,
+      "flights": 689
+    },
+    {
+      "period": "2014-08",
+      "passengers_inbound": 78322,
+      "passengers_outbound": 113594,
+      "flights": 749
+    },
+    {
+      "period": "2014-09",
+      "passengers_inbound": 49711,
+      "passengers_outbound": 68815,
+      "flights": 503
+    },
+    {
+      "period": "2014-10",
+      "passengers_inbound": 52118,
+      "passengers_outbound": 58662,
+      "flights": 491
+    },
+    {
+      "period": "2014-11",
+      "passengers_inbound": 44723,
+      "passengers_outbound": 50649,
+      "flights": 420
+    },
+    {
+      "period": "2014-12",
+      "passengers_inbound": 61986,
+      "passengers_outbound": 50114,
+      "flights": 479
+    },
+    {
+      "period": "2015-01",
+      "passengers_inbound": 45489,
+      "passengers_outbound": 61350,
+      "flights": 463
+    },
+    {
+      "period": "2015-02",
+      "passengers_inbound": 42658,
+      "passengers_outbound": 44020,
+      "flights": 378
+    },
+    {
+      "period": "2015-03",
+      "passengers_inbound": 53266,
+      "passengers_outbound": 48455,
+      "flights": 428
+    },
+    {
+      "period": "2015-04",
+      "passengers_inbound": 62353,
+      "passengers_outbound": 62715,
+      "flights": 503
+    },
+    {
+      "period": "2015-05",
+      "passengers_inbound": 63678,
+      "passengers_outbound": 63833,
+      "flights": 506
+    },
+    {
+      "period": "2015-06",
+      "passengers_inbound": 71123,
+      "passengers_outbound": 56690,
+      "flights": 519
+    },
+    {
+      "period": "2015-07",
+      "passengers_inbound": 119618,
+      "passengers_outbound": 72382,
+      "flights": 788
+    },
+    {
+      "period": "2015-08",
+      "passengers_inbound": 84881,
+      "passengers_outbound": 128897,
+      "flights": 813
+    },
+    {
+      "period": "2015-09",
+      "passengers_inbound": 58903,
+      "passengers_outbound": 76398,
+      "flights": 549
+    },
+    {
+      "period": "2015-10",
+      "passengers_inbound": 59078,
+      "passengers_outbound": 65786,
+      "flights": 522
+    },
+    {
+      "period": "2015-11",
+      "passengers_inbound": 47994,
+      "passengers_outbound": 53232,
+      "flights": 423
+    },
+    {
+      "period": "2015-12",
+      "passengers_inbound": 58434,
+      "passengers_outbound": 47965,
+      "flights": 442
+    },
+    {
+      "period": "2016-01",
+      "passengers_inbound": 49902,
+      "passengers_outbound": 70471,
+      "flights": 510
+    },
+    {
+      "period": "2016-02",
+      "passengers_inbound": 52264,
+      "passengers_outbound": 53597,
+      "flights": 429
+    },
+    {
+      "period": "2016-03",
+      "passengers_inbound": 64423,
+      "passengers_outbound": 59625,
+      "flights": 494
+    },
+    {
+      "period": "2016-04",
+      "passengers_inbound": 70818,
+      "passengers_outbound": 72548,
+      "flights": 547
+    },
+    {
+      "period": "2016-05",
+      "passengers_inbound": 68798,
+      "passengers_outbound": 72876,
+      "flights": 542
+    },
+    {
+      "period": "2016-06",
+      "passengers_inbound": 77927,
+      "passengers_outbound": 63252,
+      "flights": 587
+    },
+    {
+      "period": "2016-07",
+      "passengers_inbound": 126469,
+      "passengers_outbound": 82584,
+      "flights": 784
+    },
+    {
+      "period": "2016-08",
+      "passengers_inbound": 86453,
+      "passengers_outbound": 130519,
+      "flights": 802
+    },
+    {
+      "period": "2016-09",
+      "passengers_inbound": 63199,
+      "passengers_outbound": 84158,
+      "flights": 588
+    },
+    {
+      "period": "2016-10",
+      "passengers_inbound": 69940,
+      "passengers_outbound": 77952,
+      "flights": 583
+    },
+    {
+      "period": "2016-11",
+      "passengers_inbound": 51234,
+      "passengers_outbound": 60401,
+      "flights": 450
+    },
+    {
+      "period": "2016-12",
+      "passengers_inbound": 74032,
+      "passengers_outbound": 60760,
+      "flights": 531
+    },
+    {
+      "period": "2017-01",
+      "passengers_inbound": 50508,
+      "passengers_outbound": 72336,
+      "flights": 497
+    },
+    {
+      "period": "2017-02",
+      "passengers_inbound": 53414,
+      "passengers_outbound": 54856,
+      "flights": 411
+    },
+    {
+      "period": "2017-03",
+      "passengers_inbound": 63657,
+      "passengers_outbound": 62568,
+      "flights": 464
+    },
+    {
+      "period": "2017-04",
+      "passengers_inbound": 85993,
+      "passengers_outbound": 86346,
+      "flights": 568
+    },
+    {
+      "period": "2017-05",
+      "passengers_inbound": 71177,
+      "passengers_outbound": 77035,
+      "flights": 569
+    },
+    {
+      "period": "2017-06",
+      "passengers_inbound": 79883,
+      "passengers_outbound": 64541,
+      "flights": 630
+    },
+    {
+      "period": "2017-07",
+      "passengers_inbound": 138832,
+      "passengers_outbound": 95307,
+      "flights": 838
+    },
+    {
+      "period": "2017-08",
+      "passengers_inbound": 99396,
+      "passengers_outbound": 142164,
+      "flights": 874
+    },
+    {
+      "period": "2017-09",
+      "passengers_inbound": 72083,
+      "passengers_outbound": 97441,
+      "flights": 672
+    },
+    {
+      "period": "2017-10",
+      "passengers_inbound": 72063,
+      "passengers_outbound": 78303,
+      "flights": 589
+    },
+    {
+      "period": "2017-11",
+      "passengers_inbound": 53955,
+      "passengers_outbound": 62885,
+      "flights": 464
+    },
+    {
+      "period": "2017-12",
+      "passengers_inbound": 82045,
+      "passengers_outbound": 68348,
+      "flights": 593
+    },
+    {
+      "period": "2018-01",
+      "passengers_inbound": 61709,
+      "passengers_outbound": 82428,
+      "flights": 561
+    },
+    {
+      "period": "2018-02",
+      "passengers_inbound": 61158,
+      "passengers_outbound": 62407,
+      "flights": 449
+    },
+    {
+      "period": "2018-03",
+      "passengers_inbound": 78300,
+      "passengers_outbound": 71806,
+      "flights": 550
+    },
+    {
+      "period": "2018-04",
+      "passengers_inbound": 87754,
+      "passengers_outbound": 89817,
+      "flights": 637
+    },
+    {
+      "period": "2018-05",
+      "passengers_inbound": 82240,
+      "passengers_outbound": 86028,
+      "flights": 629
+    },
+    {
+      "period": "2018-06",
+      "passengers_inbound": 96319,
+      "passengers_outbound": 81733,
+      "flights": 691
+    },
+    {
+      "period": "2018-07",
+      "passengers_inbound": 151986,
+      "passengers_outbound": 104043,
+      "flights": 903
+    },
+    {
+      "period": "2018-08",
+      "passengers_inbound": 112221,
+      "passengers_outbound": 162534,
+      "flights": 951
+    },
+    {
+      "period": "2018-09",
+      "passengers_inbound": 83583,
+      "passengers_outbound": 106812,
+      "flights": 688
+    },
+    {
+      "period": "2018-10",
+      "passengers_inbound": 81585,
+      "passengers_outbound": 88516,
+      "flights": 617
+    },
+    {
+      "period": "2018-11",
+      "passengers_inbound": 70438,
+      "passengers_outbound": 81259,
+      "flights": 571
+    },
+    {
+      "period": "2018-12",
+      "passengers_inbound": 98040,
+      "passengers_outbound": 79158,
+      "flights": 674
+    },
+    {
+      "period": "2019-01",
+      "passengers_inbound": 70983,
+      "passengers_outbound": 97796,
+      "flights": 660
+    },
+    {
+      "period": "2019-02",
+      "passengers_inbound": 68484,
+      "passengers_outbound": 69785,
+      "flights": 515
+    },
+    {
+      "period": "2019-03",
+      "passengers_inbound": 84806,
+      "passengers_outbound": 84302,
+      "flights": 608
+    },
+    {
+      "period": "2019-04",
+      "passengers_inbound": 98503,
+      "passengers_outbound": 93572,
+      "flights": 692
+    },
+    {
+      "period": "2019-05",
+      "passengers_inbound": 88448,
+      "passengers_outbound": 93483,
+      "flights": 707
+    },
+    {
+      "period": "2019-06",
+      "passengers_inbound": 110180,
+      "passengers_outbound": 98641,
+      "flights": 774
+    },
+    {
+      "period": "2019-07",
+      "passengers_inbound": 167401,
+      "passengers_outbound": 112612,
+      "flights": 1044
+    },
+    {
+      "period": "2019-08",
+      "passengers_inbound": 123735,
+      "passengers_outbound": 178346,
+      "flights": 1105
+    },
+    {
+      "period": "2019-09",
+      "passengers_inbound": 88824,
+      "passengers_outbound": 111708,
+      "flights": 747
+    },
+    {
+      "period": "2019-10",
+      "passengers_inbound": 89469,
+      "passengers_outbound": 97792,
+      "flights": 631
+    },
+    {
+      "period": "2019-11",
+      "passengers_inbound": 73470,
+      "passengers_outbound": 82535,
+      "flights": 536
+    },
+    {
+      "period": "2019-12",
+      "passengers_inbound": 102225,
+      "passengers_outbound": 82667,
+      "flights": 656
+    },
+    {
+      "period": "2020-01",
+      "passengers_inbound": 79290,
+      "passengers_outbound": 103840,
+      "flights": 661
+    },
+    {
+      "period": "2020-02",
+      "passengers_inbound": 82813,
+      "passengers_outbound": 84222,
+      "flights": 567
+    },
+    {
+      "period": "2020-03",
+      "passengers_inbound": 35300,
+      "passengers_outbound": 45822,
+      "flights": 306
+    },
+    {
+      "period": "2020-04",
+      "passengers_inbound": 380,
+      "passengers_outbound": 2603,
+      "flights": 19
+    },
+    {
+      "period": "2020-05",
+      "passengers_inbound": 2325,
+      "passengers_outbound": 2545,
+      "flights": 21
+    },
+    {
+      "period": "2020-06",
+      "passengers_inbound": 8523,
+      "passengers_outbound": 2275,
+      "flights": 54
+    },
+    {
+      "period": "2020-07",
+      "passengers_inbound": 53687,
+      "passengers_outbound": 34826,
+      "flights": 419
+    },
+    {
+      "period": "2020-08",
+      "passengers_inbound": 44221,
+      "passengers_outbound": 64067,
+      "flights": 476
+    },
+    {
+      "period": "2020-09",
+      "passengers_inbound": 38318,
+      "passengers_outbound": 39967,
+      "flights": 317
+    },
+    {
+      "period": "2020-10",
+      "passengers_inbound": 77772,
+      "passengers_outbound": 78144,
+      "flights": 522
+    },
+    {
+      "period": "2020-11",
+      "passengers_inbound": 41677,
+      "passengers_outbound": 51595,
+      "flights": 358
+    },
+    {
+      "period": "2020-12",
+      "passengers_inbound": 84281,
+      "passengers_outbound": 43523,
+      "flights": 516
+    },
+    {
+      "period": "2021-01",
+      "passengers_inbound": 47745,
+      "passengers_outbound": 86346,
+      "flights": 555
+    },
+    {
+      "period": "2021-02",
+      "passengers_inbound": 47352,
+      "passengers_outbound": 48967,
+      "flights": 369
+    },
+    {
+      "period": "2021-03",
+      "passengers_inbound": 48769,
+      "passengers_outbound": 50984,
+      "flights": 393
+    },
+    {
+      "period": "2021-04",
+      "passengers_inbound": 36664,
+      "passengers_outbound": 42403,
+      "flights": 340
+    },
+    {
+      "period": "2021-05",
+      "passengers_inbound": 72120,
+      "passengers_outbound": 63941,
+      "flights": 507
+    },
+    {
+      "period": "2021-06",
+      "passengers_inbound": 96323,
+      "passengers_outbound": 79414,
+      "flights": 657
+    },
+    {
+      "period": "2021-07",
+      "passengers_inbound": 221522,
+      "passengers_outbound": 118282,
+      "flights": 1327
+    },
+    {
+      "period": "2021-08",
+      "passengers_inbound": 138683,
+      "passengers_outbound": 244758,
+      "flights": 1431
+    },
+    {
+      "period": "2021-09",
+      "passengers_inbound": 66884,
+      "passengers_outbound": 110067,
+      "flights": 744
+    },
+    {
+      "period": "2021-10",
+      "passengers_inbound": 97580,
+      "passengers_outbound": 97372,
+      "flights": 711
+    },
+    {
+      "period": "2021-11",
+      "passengers_inbound": 72120,
+      "passengers_outbound": 82308,
+      "flights": 537
+    },
+    {
+      "period": "2021-12",
+      "passengers_inbound": 125934,
+      "passengers_outbound": 80526,
+      "flights": 796
+    },
+    {
+      "period": "2022-01",
+      "passengers_inbound": 69680,
+      "passengers_outbound": 124433,
+      "flights": 773
+    },
+    {
+      "period": "2022-02",
+      "passengers_inbound": 79194,
+      "passengers_outbound": 77081,
+      "flights": 519
+    },
+    {
+      "period": "2022-03",
+      "passengers_inbound": 97523,
+      "passengers_outbound": 97070,
+      "flights": 644
+    },
+    {
+      "period": "2022-04",
+      "passengers_inbound": 135738,
+      "passengers_outbound": 125371,
+      "flights": 931
+    },
+    {
+      "period": "2022-05",
+      "passengers_inbound": 71015,
+      "passengers_outbound": 63941,
+      "flights": 507
+    },
+    {
+      "period": "2022-06",
+      "passengers_inbound": 139782,
+      "passengers_outbound": 120374,
+      "flights": 928
+    },
+    {
+      "period": "2022-07",
+      "passengers_inbound": 221375,
+      "passengers_outbound": 143266,
+      "flights": 1287
+    },
+    {
+      "period": "2022-08",
+      "passengers_inbound": 148768,
+      "passengers_outbound": 221985,
+      "flights": 1260
+    },
+    {
+      "period": "2022-09",
+      "passengers_inbound": 110274,
+      "passengers_outbound": 142752,
+      "flights": 876
+    },
+    {
+      "period": "2022-10",
+      "passengers_inbound": 119264,
+      "passengers_outbound": 124339,
+      "flights": 769
+    },
+    {
+      "period": "2022-11",
+      "passengers_inbound": 91544,
+      "passengers_outbound": 106497,
+      "flights": 639
+    },
+    {
+      "period": "2022-12",
+      "passengers_inbound": 134042,
+      "passengers_outbound": 101076,
+      "flights": 817
+    },
+    {
+      "period": "2023-01",
+      "passengers_inbound": 100111,
+      "passengers_outbound": 135456,
+      "flights": 808
+    },
+    {
+      "period": "2023-02",
+      "passengers_inbound": 96503,
+      "passengers_outbound": 96497,
+      "flights": 598
+    },
+    {
+      "period": "2023-03",
+      "passengers_inbound": 114267,
+      "passengers_outbound": 107015,
+      "flights": 722
+    },
+    {
+      "period": "2023-04",
+      "passengers_inbound": 150223,
+      "passengers_outbound": 145064,
+      "flights": 976
+    },
+    {
+      "period": "2023-05",
+      "passengers_inbound": 140148,
+      "passengers_outbound": 150383,
+      "flights": 941
+    },
+    {
+      "period": "2023-06",
+      "passengers_inbound": 156967,
+      "passengers_outbound": 132279,
+      "flights": 978
+    },
+    {
+      "period": "2023-07",
+      "passengers_inbound": 235068,
+      "passengers_outbound": 161032,
+      "flights": 1315
+    },
+    {
+      "period": "2023-08",
+      "passengers_inbound": 169067,
+      "passengers_outbound": 241683,
+      "flights": 1343
+    },
+    {
+      "period": "2023-09",
+      "passengers_inbound": 133487,
+      "passengers_outbound": 170933,
+      "flights": 990
+    },
+    {
+      "period": "2023-10",
+      "passengers_inbound": 142024,
+      "passengers_outbound": 150341,
+      "flights": 886
+    },
+    {
+      "period": "2023-11",
+      "passengers_inbound": 105641,
+      "passengers_outbound": 119841,
+      "flights": 713
+    },
+    {
+      "period": "2023-12",
+      "passengers_inbound": 157359,
+      "passengers_outbound": 108732,
+      "flights": 949
+    },
+    {
+      "period": "2024-01",
+      "passengers_inbound": 114055,
+      "passengers_outbound": 173138,
+      "flights": 996
+    },
+    {
+      "period": "2024-02",
+      "passengers_inbound": 131536,
+      "passengers_outbound": 133885,
+      "flights": 796
+    },
+    {
+      "period": "2024-03",
+      "passengers_inbound": 150259,
+      "passengers_outbound": 136673,
+      "flights": 896
+    },
+    {
+      "period": "2024-04",
+      "passengers_inbound": 162648,
+      "passengers_outbound": 163665,
+      "flights": 976
+    },
+    {
+      "period": "2024-05",
+      "passengers_inbound": 168070,
+      "passengers_outbound": 168606,
+      "flights": 1002
+    },
+    {
+      "period": "2024-06",
+      "passengers_inbound": 175657,
+      "passengers_outbound": 159338,
+      "flights": 1068
+    },
+    {
+      "period": "2024-07",
+      "passengers_inbound": 246732,
+      "passengers_outbound": 172084,
+      "flights": 1429
+    },
+    {
+      "period": "2024-08",
+      "passengers_inbound": 189778,
+      "passengers_outbound": 258019,
+      "flights": 1454
+    },
+    {
+      "period": "2024-09",
+      "passengers_inbound": 152231,
+      "passengers_outbound": 192063,
+      "flights": 1075
+    },
+    {
+      "period": "2024-10",
+      "passengers_inbound": 172345,
+      "passengers_outbound": 182935,
+      "flights": 1115
+    },
+    {
+      "period": "2024-11",
+      "passengers_inbound": 148017,
+      "passengers_outbound": 163203,
+      "flights": 995
+    },
+    {
+      "period": "2024-12",
+      "passengers_inbound": 196105,
+      "passengers_outbound": 166440,
+      "flights": 1199
+    },
+    {
+      "period": "2025-01",
+      "passengers_inbound": 154854,
+      "passengers_outbound": 188752,
+      "flights": 1138
+    },
+    {
+      "period": "2025-02",
+      "passengers_inbound": 153457,
+      "passengers_outbound": 153750,
+      "flights": 944
+    },
+    {
+      "period": "2025-03",
+      "passengers_inbound": 163933,
+      "passengers_outbound": 155866,
+      "flights": 1064
+    },
+    {
+      "period": "2025-04",
+      "passengers_inbound": 201175,
+      "passengers_outbound": 198032,
+      "flights": 1166
+    },
+    {
+      "period": "2025-05",
+      "passengers_inbound": 183948,
+      "passengers_outbound": 197510,
+      "flights": 1169
+    },
+    {
+      "period": "2025-06",
+      "passengers_inbound": 205929,
+      "passengers_outbound": 186236,
+      "flights": 1227
+    },
+    {
+      "period": "2025-07",
+      "passengers_inbound": 275603,
+      "passengers_outbound": 182381,
+      "flights": 1557
+    },
+    {
+      "period": "2025-08",
+      "passengers_inbound": 216871,
+      "passengers_outbound": 296084,
+      "flights": 1601
+    }
+  ]
+}
