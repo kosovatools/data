@@ -26,6 +26,7 @@ jobs:
       - name: Generate customs data
         env:
           CUSTOMS_DATA_SOURCE_URL: ${{ secrets.CUSTOMS_DATA_SOURCE_URL }}
+          WORKSPACE_ROOT: ${{ github.workspace }}
         run: pnpm run generate:customs
 
       - name: Commit data

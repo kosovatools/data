@@ -24,6 +24,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Fetch KAS PxWeb datasets
+        env:
+          WORKSPACE_ROOT: ${{ github.workspace }}
         run: pnpm run generate:kas
 
       - name: Commit data

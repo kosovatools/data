@@ -1,17 +1,17 @@
 {
-  "name": "@kosovatools/energy-data",
+  "name": "@kosovatools/data-workspace",
   "private": true,
   "type": "module",
-  "devDependencies": {
-    "fast-xml-parser": "^4.5.1",
-    "tsx": "^4.19.2"
-  },
+  "packageManager": "pnpm@10.4.1",
   "scripts": {
-    "generate:energy": "tsx ./src/fetch-entsoe.ts --out ./data/energy",
-    "generate:customs": "tsx ./src/fetch-customs.ts",
-    "generate:kas": "tsx ./src/kas/scripts/fetch_kas.ts --out ./data/kas"
-  },
-  "dependencies": {
-    "@types/node": "^24.10.0"
+    "generate:energy": "pnpm --filter @kosovatools/entsoe-pipeline run generate --",
+    "generate:customs": "pnpm --filter @kosovatools/customs-pipeline run generate --",
+    "generate:kas": "pnpm --filter @kosovatools/kas-pxweb run generate --",
+    "python:turnover": "pnpm --filter @kosovatools/python-scripts run turnover",
+    "python:drug-prices": "pnpm --filter @kosovatools/python-scripts run drug-prices",
+    "python:prishtina-permits": "pnpm --filter @kosovatools/python-scripts run prishtina-permits",
+    "python:atk-faq": "pnpm --filter @kosovatools/python-scripts run atk-faq",
+    "python:loans-interest": "pnpm --filter @kosovatools/python-scripts run loans-interest",
+    "python:me-accreditation": "pnpm --filter @kosovatools/python-scripts run me-accreditation"
   }
 }

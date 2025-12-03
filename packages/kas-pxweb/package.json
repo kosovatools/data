@@ -1,0 +1,16 @@
+{
+  "name": "@kosovatools/kas-pxweb",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/fetch_kas.ts"
+  },
+  "dependencies": {
+    "@kosovatools/data-types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@kosovatools/python-scripts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "turnover": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_turnover_json.py",
+    "drug-prices": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_drug_prices.py",
+    "prishtina-permits": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_prishtina_building_permits.py",
+    "atk-faq": "cd ../.. && venv/bin/python packages/python-scripts/scripts/scrape_atk_faq.py",
+    "loans-interest": "cd ../.. && venv/bin/python packages/python-scripts/scripts/export_loans_interest_dataset.py",
+    "me-accreditation": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_me_accreditation.py"
+  }
+}

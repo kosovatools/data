@@ -1,0 +1,17 @@
+{
+  "name": "@kosovatools/data-types",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "exports": {
+    ".": {
+      "import": "./types/index.ts",
+      "types": "./types/index.ts"
+    }
+  },
+  "files": [
+    "types"
+  ],
+  "sideEffects": false
+}

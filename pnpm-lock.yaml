@@ -6,18 +6,46 @@ settings:
 
 importers:
 
-  .:
-    dependencies:
+  .: {}
+
+  packages/customs:
+    devDependencies:
       '@types/node':
         specifier: ^24.10.0
         version: 24.10.0
-    devDependencies:
-      fast-xml-parser:
-        specifier: ^4.5.1
-        version: 4.5.3
       tsx:
         specifier: ^4.19.2
         version: 4.20.6
+
+  packages/data-types: {}
+
+  packages/entsoe:
+    dependencies:
+      fast-xml-parser:
+        specifier: ^4.5.1
+        version: 4.5.3
+    devDependencies:
+      '@types/node':
+        specifier: ^24.10.0
+        version: 24.10.0
+      tsx:
+        specifier: ^4.19.2
+        version: 4.20.6
+
+  packages/kas-pxweb:
+    dependencies:
+      '@kosovatools/data-types':
+        specifier: workspace:*
+        version: link:../data-types
+    devDependencies:
+      '@types/node':
+        specifier: ^24.10.0
+        version: 24.10.0
+      tsx:
+        specifier: ^4.19.2
+        version: 4.20.6
+
+  packages/python-scripts: {}
 
 packages:
 

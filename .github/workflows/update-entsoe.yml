@@ -26,6 +26,7 @@ jobs:
       - name: Generate energy data
         env:
           ENTSOE_API_KEY: ${{ secrets.ENTSOE_API_KEY }}
+          WORKSPACE_ROOT: ${{ github.workspace }}
         run: pnpm run generate:energy
 
       - name: Commit data
