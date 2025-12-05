@@ -2,7 +2,7 @@
   "meta": {
     "id": "energy_crossborder_monthly",
     "title": "Flukset kufitare mujore (ENTSO-E)",
-    "generated_at": "2025-11-21T10:51:32Z",
+    "generated_at": "2025-12-05T05:41:48.321Z",
     "updated_at": null,
     "source": "ENTSO-E Transparency Platform",
     "source_urls": [
@@ -12,8 +12,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2023-11",
-      "last": "2025-10",
-      "count": 24
+      "last": "2025-11",
+      "count": 25
     },
     "fields": [
       {
@@ -830,6 +830,38 @@
       "import": 30122.8,
       "export": 58447.16,
       "net": -28324.36,
+      "has_data": true
+    },
+    {
+      "period": "2025-11",
+      "neighbor": "al",
+      "import": 178734.62,
+      "export": 5291.83,
+      "net": 173442.79,
+      "has_data": true
+    },
+    {
+      "period": "2025-11",
+      "neighbor": "me",
+      "import": 80919.2,
+      "export": 33540.8,
+      "net": 47378.4,
+      "has_data": true
+    },
+    {
+      "period": "2025-11",
+      "neighbor": "mk",
+      "import": 39182.4,
+      "export": 49819.6,
+      "net": -10637.2,
+      "has_data": true
+    },
+    {
+      "period": "2025-11",
+      "neighbor": "rs",
+      "import": 13238.06,
+      "export": 147717.86,
+      "net": -134479.81,
       "has_data": true
     }
   ]
