@@ -1,0 +1,812 @@
+{
+  "meta": {
+    "updated_at": "2024-06-17T22:00:00Z",
+    "time": {
+      "key": "period",
+      "granularity": "yearly",
+      "first": "2021/2022",
+      "last": "2024/2025",
+      "count": 4
+    },
+    "fields": [
+      {
+        "key": "students",
+        "label": "Students",
+        "unit": "students"
+      }
+    ],
+    "metrics": [
+      "students"
+    ],
+    "dimensions": {
+      "field": [
+        {
+          "key": "arsimi",
+          "label": "Arsimi"
+        },
+        {
+          "key": "arte_dhe_shkenca_humane",
+          "label": "Arte dhe shkenca humane"
+        },
+        {
+          "key": "shkencat_shoqerore_gazetari_dhe_informim",
+          "label": "Shkencat shoqërore, gazetari dhe informim"
+        },
+        {
+          "key": "biznes_administrata_dhe_ligji",
+          "label": "Biznes, administrata dhe ligji"
+        },
+        {
+          "key": "shkencat_natyrore_matematike_dhe_statistikat",
+          "label": "Shkencat natyrore, matematikë dhe statistikat"
+        },
+        {
+          "key": "teknologjia_informative_dhe_komunikimi_tik",
+          "label": "Teknologjia Informative dhe Komunikimi (TIK)"
+        },
+        {
+          "key": "inxhinieri_prodhimi_dhe_ndertimi",
+          "label": "Inxhinieri, prodhimi dhe ndërtimi"
+        },
+        {
+          "key": "bujqesi_pylltari_peshkim_dhe_veterinari",
+          "label": "Bujqësi, pylltari, peshkim dhe veterinari"
+        },
+        {
+          "key": "shendeti_dhe_mireqenia",
+          "label": "Shëndeti dhe mirëqenia"
+        },
+        {
+          "key": "sherbime",
+          "label": "Shërbime"
+        }
+      ],
+      "gender": [
+        {
+          "key": "female",
+          "label": "Femra"
+        },
+        {
+          "key": "male",
+          "label": "Meshkuj"
+        },
+        {
+          "key": "total",
+          "label": "Gjithsej"
+        }
+      ]
+    },
+    "source": "Table 01 in Education",
+    "source_urls": [
+      "ASKdata/Education/15 Higher Education/Tab01 AL.px"
+    ],
+    "notes": [
+      "Periods represent academic years (p.sh. 2024/2025)."
+    ],
+    "id": "kas_education_bachelor_first_time_field_gender_yearly",
+    "generated_at": "2025-12-06T15:51:44.125Z",
+    "title": null
+  },
+  "records": [
+    {
+      "period": "2021/2022",
+      "field": "arsimi",
+      "gender": "female",
+      "students": 504
+    },
+    {
+      "period": "2021/2022",
+      "field": "arsimi",
+      "gender": "male",
+      "students": 58
+    },
+    {
+      "period": "2021/2022",
+      "field": "arsimi",
+      "gender": "total",
+      "students": 562
+    },
+    {
+      "period": "2021/2022",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "female",
+      "students": 1896
+    },
+    {
+      "period": "2021/2022",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "male",
+      "students": 923
+    },
+    {
+      "period": "2021/2022",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "total",
+      "students": 2819
+    },
+    {
+      "period": "2021/2022",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "female",
+      "students": 2743
+    },
+    {
+      "period": "2021/2022",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "male",
+      "students": 2441
+    },
+    {
+      "period": "2021/2022",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "total",
+      "students": 5184
+    },
+    {
+      "period": "2021/2022",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "female",
+      "students": 156
+    },
+    {
+      "period": "2021/2022",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "male",
+      "students": 135
+    },
+    {
+      "period": "2021/2022",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "total",
+      "students": 291
+    },
+    {
+      "period": "2021/2022",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "female",
+      "students": 820
+    },
+    {
+      "period": "2021/2022",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "male",
+      "students": 1116
+    },
+    {
+      "period": "2021/2022",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "total",
+      "students": 1936
+    },
+    {
+      "period": "2021/2022",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "female",
+      "students": 2197
+    },
+    {
+      "period": "2021/2022",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "male",
+      "students": 612
+    },
+    {
+      "period": "2021/2022",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "total",
+      "students": 2809
+    },
+    {
+      "period": "2021/2022",
+      "field": "sherbime",
+      "gender": "female",
+      "students": 164
+    },
+    {
+      "period": "2021/2022",
+      "field": "sherbime",
+      "gender": "male",
+      "students": 345
+    },
+    {
+      "period": "2021/2022",
+      "field": "sherbime",
+      "gender": "total",
+      "students": 509
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "female",
+      "students": 282
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "male",
+      "students": 114
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "total",
+      "students": 396
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "female",
+      "students": 993
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "male",
+      "students": 313
+    },
+    {
+      "period": "2021/2022",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "total",
+      "students": 1306
+    },
+    {
+      "period": "2021/2022",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "female",
+      "students": 704
+    },
+    {
+      "period": "2021/2022",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "male",
+      "students": 1946
+    },
+    {
+      "period": "2021/2022",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "total",
+      "students": 2650
+    },
+    {
+      "period": "2022/2023",
+      "field": "arsimi",
+      "gender": "female",
+      "students": 366
+    },
+    {
+      "period": "2022/2023",
+      "field": "arsimi",
+      "gender": "male",
+      "students": 24
+    },
+    {
+      "period": "2022/2023",
+      "field": "arsimi",
+      "gender": "total",
+      "students": 390
+    },
+    {
+      "period": "2022/2023",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "female",
+      "students": 1469
+    },
+    {
+      "period": "2022/2023",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "male",
+      "students": 616
+    },
+    {
+      "period": "2022/2023",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "total",
+      "students": 2085
+    },
+    {
+      "period": "2022/2023",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "female",
+      "students": 2283
+    },
+    {
+      "period": "2022/2023",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "male",
+      "students": 1985
+    },
+    {
+      "period": "2022/2023",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "total",
+      "students": 4268
+    },
+    {
+      "period": "2022/2023",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "female",
+      "students": 230
+    },
+    {
+      "period": "2022/2023",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "male",
+      "students": 135
+    },
+    {
+      "period": "2022/2023",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "total",
+      "students": 365
+    },
+    {
+      "period": "2022/2023",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "female",
+      "students": 903
+    },
+    {
+      "period": "2022/2023",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "male",
+      "students": 1068
+    },
+    {
+      "period": "2022/2023",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "total",
+      "students": 1971
+    },
+    {
+      "period": "2022/2023",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "female",
+      "students": 1844
+    },
+    {
+      "period": "2022/2023",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "male",
+      "students": 618
+    },
+    {
+      "period": "2022/2023",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "total",
+      "students": 2462
+    },
+    {
+      "period": "2022/2023",
+      "field": "sherbime",
+      "gender": "female",
+      "students": 178
+    },
+    {
+      "period": "2022/2023",
+      "field": "sherbime",
+      "gender": "male",
+      "students": 338
+    },
+    {
+      "period": "2022/2023",
+      "field": "sherbime",
+      "gender": "total",
+      "students": 516
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "female",
+      "students": 345
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "male",
+      "students": 164
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "total",
+      "students": 509
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "female",
+      "students": 1450
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "male",
+      "students": 335
+    },
+    {
+      "period": "2022/2023",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "total",
+      "students": 1785
+    },
+    {
+      "period": "2022/2023",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "female",
+      "students": 871
+    },
+    {
+      "period": "2022/2023",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "male",
+      "students": 1830
+    },
+    {
+      "period": "2022/2023",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "total",
+      "students": 2701
+    },
+    {
+      "period": "2023/2024",
+      "field": "arsimi",
+      "gender": "female",
+      "students": 454
+    },
+    {
+      "period": "2023/2024",
+      "field": "arsimi",
+      "gender": "male",
+      "students": 13
+    },
+    {
+      "period": "2023/2024",
+      "field": "arsimi",
+      "gender": "total",
+      "students": 467
+    },
+    {
+      "period": "2023/2024",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "female",
+      "students": 1438
+    },
+    {
+      "period": "2023/2024",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "male",
+      "students": 529
+    },
+    {
+      "period": "2023/2024",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "total",
+      "students": 1967
+    },
+    {
+      "period": "2023/2024",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "female",
+      "students": 2452
+    },
+    {
+      "period": "2023/2024",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "male",
+      "students": 1928
+    },
+    {
+      "period": "2023/2024",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "total",
+      "students": 4380
+    },
+    {
+      "period": "2023/2024",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "female",
+      "students": 281
+    },
+    {
+      "period": "2023/2024",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "male",
+      "students": 100
+    },
+    {
+      "period": "2023/2024",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "total",
+      "students": 381
+    },
+    {
+      "period": "2023/2024",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "female",
+      "students": 895
+    },
+    {
+      "period": "2023/2024",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "male",
+      "students": 813
+    },
+    {
+      "period": "2023/2024",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "total",
+      "students": 1708
+    },
+    {
+      "period": "2023/2024",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "female",
+      "students": 1966
+    },
+    {
+      "period": "2023/2024",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "male",
+      "students": 486
+    },
+    {
+      "period": "2023/2024",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "total",
+      "students": 2452
+    },
+    {
+      "period": "2023/2024",
+      "field": "sherbime",
+      "gender": "female",
+      "students": 140
+    },
+    {
+      "period": "2023/2024",
+      "field": "sherbime",
+      "gender": "male",
+      "students": 285
+    },
+    {
+      "period": "2023/2024",
+      "field": "sherbime",
+      "gender": "total",
+      "students": 425
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "female",
+      "students": 333
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "male",
+      "students": 104
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "total",
+      "students": 437
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "female",
+      "students": 876
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "male",
+      "students": 305
+    },
+    {
+      "period": "2023/2024",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "total",
+      "students": 1181
+    },
+    {
+      "period": "2023/2024",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "female",
+      "students": 1314
+    },
+    {
+      "period": "2023/2024",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "male",
+      "students": 1890
+    },
+    {
+      "period": "2023/2024",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "total",
+      "students": 3204
+    },
+    {
+      "period": "2024/2025",
+      "field": "arsimi",
+      "gender": "female",
+      "students": 410
+    },
+    {
+      "period": "2024/2025",
+      "field": "arsimi",
+      "gender": "male",
+      "students": 2
+    },
+    {
+      "period": "2024/2025",
+      "field": "arsimi",
+      "gender": "total",
+      "students": 412
+    },
+    {
+      "period": "2024/2025",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "female",
+      "students": 1490
+    },
+    {
+      "period": "2024/2025",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "male",
+      "students": 573
+    },
+    {
+      "period": "2024/2025",
+      "field": "arte_dhe_shkenca_humane",
+      "gender": "total",
+      "students": 2063
+    },
+    {
+      "period": "2024/2025",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "female",
+      "students": 2787
+    },
+    {
+      "period": "2024/2025",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "male",
+      "students": 2122
+    },
+    {
+      "period": "2024/2025",
+      "field": "biznes_administrata_dhe_ligji",
+      "gender": "total",
+      "students": 4909
+    },
+    {
+      "period": "2024/2025",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "female",
+      "students": 299
+    },
+    {
+      "period": "2024/2025",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "male",
+      "students": 79
+    },
+    {
+      "period": "2024/2025",
+      "field": "bujqesi_pylltari_peshkim_dhe_veterinari",
+      "gender": "total",
+      "students": 378
+    },
+    {
+      "period": "2024/2025",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "female",
+      "students": 1260
+    },
+    {
+      "period": "2024/2025",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "male",
+      "students": 882
+    },
+    {
+      "period": "2024/2025",
+      "field": "inxhinieri_prodhimi_dhe_ndertimi",
+      "gender": "total",
+      "students": 2142
+    },
+    {
+      "period": "2024/2025",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "female",
+      "students": 1506
+    },
+    {
+      "period": "2024/2025",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "male",
+      "students": 445
+    },
+    {
+      "period": "2024/2025",
+      "field": "shendeti_dhe_mireqenia",
+      "gender": "total",
+      "students": 1951
+    },
+    {
+      "period": "2024/2025",
+      "field": "sherbime",
+      "gender": "female",
+      "students": 177
+    },
+    {
+      "period": "2024/2025",
+      "field": "sherbime",
+      "gender": "male",
+      "students": 240
+    },
+    {
+      "period": "2024/2025",
+      "field": "sherbime",
+      "gender": "total",
+      "students": 417
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "female",
+      "students": 340
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "male",
+      "students": 131
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_natyrore_matematike_dhe_statistikat",
+      "gender": "total",
+      "students": 471
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "female",
+      "students": 712
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "male",
+      "students": 140
+    },
+    {
+      "period": "2024/2025",
+      "field": "shkencat_shoqerore_gazetari_dhe_informim",
+      "gender": "total",
+      "students": 852
+    },
+    {
+      "period": "2024/2025",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "female",
+      "students": 1075
+    },
+    {
+      "period": "2024/2025",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "male",
+      "students": 1871
+    },
+    {
+      "period": "2024/2025",
+      "field": "teknologjia_informative_dhe_komunikimi_tik",
+      "gender": "total",
+      "students": 2946
+    }
+  ]
+}
