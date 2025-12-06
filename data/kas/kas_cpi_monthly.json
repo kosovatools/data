@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2019-08-26T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "monthly",
@@ -20,7 +20,10 @@
         "unit": "%"
       }
     ],
-    "metrics": ["index", "change"],
+    "metrics": [
+      "index",
+      "change"
+    ],
     "dimensions": {
       "group": [
         {
@@ -290,14 +293,27 @@
           "key": "1",
           "label": "Ushqime dhe pije joalkoolike",
           "parent": null,
-          "children": ["2", "12"],
+          "children": [
+            "2",
+            "12"
+          ],
           "level": 0
         },
         {
           "key": "2",
           "label": "Ushqimi",
           "parent": "1",
-          "children": ["3", "4", "5", "6", "7", "8", "9", "10", "11"],
+          "children": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
           "level": 1
         },
         {
@@ -367,7 +383,10 @@
           "key": "12",
           "label": "Pije joalkoolike",
           "parent": "1",
-          "children": ["13", "14"],
+          "children": [
+            "13",
+            "14"
+          ],
           "level": 1
         },
         {
@@ -388,7 +407,10 @@
           "key": "15",
           "label": "Pije alkoolike, duhan",
           "parent": null,
-          "children": ["16", "17"],
+          "children": [
+            "16",
+            "17"
+          ],
           "level": 0
         },
         {
@@ -409,7 +431,10 @@
           "key": "18",
           "label": "Veshje dhe këpucë",
           "parent": null,
-          "children": ["19", "20"],
+          "children": [
+            "19",
+            "20"
+          ],
           "level": 0
         },
         {
@@ -430,7 +455,11 @@
           "key": "21",
           "label": "Banesa, ujë, energji elektrike, gaz dhe lëndë djegëse të tjera",
           "parent": null,
-          "children": ["22", "23", "25"],
+          "children": [
+            "22",
+            "23",
+            "25"
+          ],
           "level": 0
         },
         {
@@ -465,7 +494,14 @@
           "key": "26",
           "label": "Mobilim, pajisje shtëpiake dhe mirëmbajtje rutinë të shtëpisë",
           "parent": null,
-          "children": ["27", "28", "29", "30", "31", "32"],
+          "children": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
+          ],
           "level": 0
         },
         {
@@ -514,7 +550,11 @@
           "key": "33",
           "label": "Shëndeti",
           "parent": null,
-          "children": ["34", "35", "36"],
+          "children": [
+            "34",
+            "35",
+            "36"
+          ],
           "level": 0
         },
         {
@@ -542,7 +582,11 @@
           "key": "37",
           "label": "Transporti",
           "parent": null,
-          "children": ["38", "39", "40"],
+          "children": [
+            "38",
+            "39",
+            "40"
+          ],
           "level": 0
         },
         {
@@ -570,7 +614,11 @@
           "key": "41",
           "label": "Komunikimi",
           "parent": null,
-          "children": ["42", "43", "44"],
+          "children": [
+            "42",
+            "43",
+            "44"
+          ],
           "level": 0
         },
         {
@@ -598,7 +646,14 @@
           "key": "45",
           "label": "Rekreacion dhe kulturë",
           "parent": null,
-          "children": ["46", "47", "48", "49", "50", "51"],
+          "children": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51"
+          ],
           "level": 0
         },
         {
@@ -654,7 +709,10 @@
           "key": "53",
           "label": "Restorante dhe hotele",
           "parent": null,
-          "children": ["54", "55"],
+          "children": [
+            "54",
+            "55"
+          ],
           "level": 0
         },
         {
@@ -675,7 +733,14 @@
           "key": "56",
           "label": "Mallra dhe shërbime të ndryshme",
           "parent": null,
-          "children": ["57", "58", "59", "60", "61", "62"],
+          "children": [
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62"
+          ],
           "level": 0
         },
         {
@@ -730,7 +795,7 @@
     "title": null,
     "notes": [],
     "id": "kas_cpi_monthly",
-    "generated_at": "2025-11-23T13:19:54.062Z"
+    "generated_at": "2025-12-06T15:43:46.647Z"
   },
   "records": [
     {

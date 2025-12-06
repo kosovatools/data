@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2017-07-14T07:00:00Z",
     "time": {
       "key": "period",
       "granularity": "quarterly",
       "first": "2016-Q4",
-      "last": "2025-Q2",
-      "count": 35
+      "last": "2025-Q3",
+      "count": 36
     },
     "fields": [
       {
@@ -15,11 +15,13 @@
         "unit": "EUR"
       }
     ],
-    "metrics": ["amount_eur"],
+    "metrics": [
+      "amount_eur"
+    ],
     "dimensions": {
       "category": [
         {
-          "key": "d1_kompensimi_i_pun_tor_ve",
+          "key": "d1_kompensimi_i_punetoreve",
           "label": "Kompensimi i punëtorëve"
         },
         {
@@ -27,11 +29,11 @@
           "label": "Subvencionet"
         },
         {
-          "key": "d4_t_ardhurat_nga_prona_t_pagueshme",
+          "key": "d4_te_ardhurat_nga_prona_te_pagueshme",
           "label": "Të ardhurat nga prona, të pagueshme"
         },
         {
-          "key": "d6_kontributet_sociale_dhe_p_rfitimet",
+          "key": "d6_kontributet_sociale_dhe_perfitimet",
           "label": "Kontributet sociale dhe përfitimet"
         },
         {
@@ -51,7 +53,7 @@
           "label": "NP Posedimi i aktiveve jo-prodhuese"
         },
         {
-          "key": "p2_konsumi_i_nd_rmjet_m",
+          "key": "p2_konsumi_i_ndermjetem",
           "label": "Konsumi i ndërmjetëm"
         },
         {
@@ -68,13 +70,13 @@
       "Vlerat burimore duken të raportuara në milion EUR; këtu janë shkallëzuar në EUR."
     ],
     "id": "kas_government_expenditure_quarterly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null
   },
   "records": [
     {
       "period": "2016-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 136900000
     },
     {
@@ -84,12 +86,12 @@
     },
     {
       "period": "2016-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 2500000
     },
     {
       "period": "2016-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 111300000
     },
     {
@@ -114,7 +116,7 @@
     },
     {
       "period": "2016-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 75900000
     },
     {
@@ -124,7 +126,7 @@
     },
     {
       "period": "2017-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 136800000
     },
     {
@@ -134,12 +136,12 @@
     },
     {
       "period": "2017-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 7100000
     },
     {
       "period": "2017-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 94000000
     },
     {
@@ -164,7 +166,7 @@
     },
     {
       "period": "2017-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 36100000
     },
     {
@@ -174,7 +176,7 @@
     },
     {
       "period": "2017-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 137700000
     },
     {
@@ -184,12 +186,12 @@
     },
     {
       "period": "2017-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 3000000
     },
     {
       "period": "2017-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 106500000
     },
     {
@@ -214,7 +216,7 @@
     },
     {
       "period": "2017-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 44900000
     },
     {
@@ -224,7 +226,7 @@
     },
     {
       "period": "2017-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 136000000
     },
     {
@@ -234,12 +236,12 @@
     },
     {
       "period": "2017-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 5300000
     },
     {
       "period": "2017-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 94600000
     },
     {
@@ -264,7 +266,7 @@
     },
     {
       "period": "2017-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 36900000
     },
     {
@@ -274,7 +276,7 @@
     },
     {
       "period": "2017-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 140200000
     },
     {
@@ -284,12 +286,12 @@
     },
     {
       "period": "2017-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 3200000
     },
     {
       "period": "2017-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 125700000
     },
     {
@@ -314,7 +316,7 @@
     },
     {
       "period": "2017-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 74000000
     },
     {
@@ -324,7 +326,7 @@
     },
     {
       "period": "2018-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 143800000
     },
     {
@@ -334,12 +336,12 @@
     },
     {
       "period": "2018-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 6000000
     },
     {
       "period": "2018-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 111300000
     },
     {
@@ -364,7 +366,7 @@
     },
     {
       "period": "2018-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 40800000
     },
     {
@@ -374,7 +376,7 @@
     },
     {
       "period": "2018-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 149700000
     },
     {
@@ -384,12 +386,12 @@
     },
     {
       "period": "2018-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 3300000
     },
     {
       "period": "2018-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 117000000
     },
     {
@@ -414,7 +416,7 @@
     },
     {
       "period": "2018-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 46800000
     },
     {
@@ -424,7 +426,7 @@
     },
     {
       "period": "2018-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 145600000
     },
     {
@@ -434,12 +436,12 @@
     },
     {
       "period": "2018-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 6100000
     },
     {
       "period": "2018-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 120000000
     },
     {
@@ -464,7 +466,7 @@
     },
     {
       "period": "2018-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 43800000
     },
     {
@@ -474,7 +476,7 @@
     },
     {
       "period": "2018-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 152800000
     },
     {
@@ -484,12 +486,12 @@
     },
     {
       "period": "2018-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 3400000
     },
     {
       "period": "2018-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 133400000
     },
     {
@@ -514,7 +516,7 @@
     },
     {
       "period": "2018-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 78000000
     },
     {
@@ -524,7 +526,7 @@
     },
     {
       "period": "2019-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 149700000
     },
     {
@@ -534,12 +536,12 @@
     },
     {
       "period": "2019-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 7300000
     },
     {
       "period": "2019-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 120300000
     },
     {
@@ -564,7 +566,7 @@
     },
     {
       "period": "2019-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 45400000
     },
     {
@@ -574,7 +576,7 @@
     },
     {
       "period": "2019-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 155700000
     },
     {
@@ -584,12 +586,12 @@
     },
     {
       "period": "2019-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 3900000
     },
     {
       "period": "2019-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 131100000
     },
     {
@@ -614,7 +616,7 @@
     },
     {
       "period": "2019-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 53100000
     },
     {
@@ -624,7 +626,7 @@
     },
     {
       "period": "2019-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 152300000
     },
     {
@@ -634,12 +636,12 @@
     },
     {
       "period": "2019-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 13500000
     },
     {
       "period": "2019-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 132100000
     },
     {
@@ -664,7 +666,7 @@
     },
     {
       "period": "2019-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 59300000
     },
     {
@@ -674,7 +676,7 @@
     },
     {
       "period": "2019-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 159900000
     },
     {
@@ -684,12 +686,12 @@
     },
     {
       "period": "2019-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": -1600000
     },
     {
       "period": "2019-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 146500000
     },
     {
@@ -714,7 +716,7 @@
     },
     {
       "period": "2019-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 92300000
     },
     {
@@ -724,7 +726,7 @@
     },
     {
       "period": "2020-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 154700000
     },
     {
@@ -734,12 +736,12 @@
     },
     {
       "period": "2020-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 9100000
     },
     {
       "period": "2020-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 133000000
     },
     {
@@ -764,7 +766,7 @@
     },
     {
       "period": "2020-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 40300000
     },
     {
@@ -774,7 +776,7 @@
     },
     {
       "period": "2020-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 172100000
     },
     {
@@ -784,12 +786,12 @@
     },
     {
       "period": "2020-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 4400000
     },
     {
       "period": "2020-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 187800000
     },
     {
@@ -814,7 +816,7 @@
     },
     {
       "period": "2020-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 47200000
     },
     {
@@ -824,7 +826,7 @@
     },
     {
       "period": "2020-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 164000000
     },
     {
@@ -834,12 +836,12 @@
     },
     {
       "period": "2020-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 8400000
     },
     {
       "period": "2020-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 179100000
     },
     {
@@ -864,7 +866,7 @@
     },
     {
       "period": "2020-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 52400000
     },
     {
@@ -874,7 +876,7 @@
     },
     {
       "period": "2020-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 170600000
     },
     {
@@ -884,12 +886,12 @@
     },
     {
       "period": "2020-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 5600000
     },
     {
       "period": "2020-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 173700000
     },
     {
@@ -914,7 +916,7 @@
     },
     {
       "period": "2020-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 88600000
     },
     {
@@ -924,7 +926,7 @@
     },
     {
       "period": "2021-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 169800000
     },
     {
@@ -934,12 +936,12 @@
     },
     {
       "period": "2021-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 8500000
     },
     {
       "period": "2021-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 150100000
     },
     {
@@ -964,7 +966,7 @@
     },
     {
       "period": "2021-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 59800000
     },
     {
@@ -974,7 +976,7 @@
     },
     {
       "period": "2021-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 162300000
     },
     {
@@ -984,12 +986,12 @@
     },
     {
       "period": "2021-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 6400000
     },
     {
       "period": "2021-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 138100000
     },
     {
@@ -1014,7 +1016,7 @@
     },
     {
       "period": "2021-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 77700000
     },
     {
@@ -1024,7 +1026,7 @@
     },
     {
       "period": "2021-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 154400000
     },
     {
@@ -1034,12 +1036,12 @@
     },
     {
       "period": "2021-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 9200000
     },
     {
       "period": "2021-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 134700000
     },
     {
@@ -1064,7 +1066,7 @@
     },
     {
       "period": "2021-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 71200000
     },
     {
@@ -1074,7 +1076,7 @@
     },
     {
       "period": "2021-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 161500000
     },
     {
@@ -1084,12 +1086,12 @@
     },
     {
       "period": "2021-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 6700000
     },
     {
       "period": "2021-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 196200000
     },
     {
@@ -1114,7 +1116,7 @@
     },
     {
       "period": "2021-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 125200000
     },
     {
@@ -1124,7 +1126,7 @@
     },
     {
       "period": "2022-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 160000000
     },
     {
@@ -1134,12 +1136,12 @@
     },
     {
       "period": "2022-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 9700000
     },
     {
       "period": "2022-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 145000000
     },
     {
@@ -1164,7 +1166,7 @@
     },
     {
       "period": "2022-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 58100000
     },
     {
@@ -1174,7 +1176,7 @@
     },
     {
       "period": "2022-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 160500000
     },
     {
@@ -1184,12 +1186,12 @@
     },
     {
       "period": "2022-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 7200000
     },
     {
       "period": "2022-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 180900000
     },
     {
@@ -1214,7 +1216,7 @@
     },
     {
       "period": "2022-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 80300000
     },
     {
@@ -1224,7 +1226,7 @@
     },
     {
       "period": "2022-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 142700000
     },
     {
@@ -1234,12 +1236,12 @@
     },
     {
       "period": "2022-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10300000
     },
     {
       "period": "2022-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 150100000
     },
     {
@@ -1264,7 +1266,7 @@
     },
     {
       "period": "2022-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 79600000
     },
     {
@@ -1274,7 +1276,7 @@
     },
     {
       "period": "2022-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 174100000
     },
     {
@@ -1284,12 +1286,12 @@
     },
     {
       "period": "2022-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 7900000
     },
     {
       "period": "2022-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 187800000
     },
     {
@@ -1314,7 +1316,7 @@
     },
     {
       "period": "2022-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 140300000
     },
     {
@@ -1324,7 +1326,7 @@
     },
     {
       "period": "2023-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 176700000
     },
     {
@@ -1334,12 +1336,12 @@
     },
     {
       "period": "2023-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10900000
     },
     {
       "period": "2023-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 148300000
     },
     {
@@ -1364,7 +1366,7 @@
     },
     {
       "period": "2023-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 64000000
     },
     {
@@ -1374,7 +1376,7 @@
     },
     {
       "period": "2023-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 186100000
     },
     {
@@ -1384,12 +1386,12 @@
     },
     {
       "period": "2023-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 11900000
     },
     {
       "period": "2023-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 158700000
     },
     {
@@ -1414,7 +1416,7 @@
     },
     {
       "period": "2023-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 101400000
     },
     {
@@ -1424,7 +1426,7 @@
     },
     {
       "period": "2023-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 187000000
     },
     {
@@ -1434,12 +1436,12 @@
     },
     {
       "period": "2023-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10100000
     },
     {
       "period": "2023-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 169300000
     },
     {
@@ -1464,7 +1466,7 @@
     },
     {
       "period": "2023-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 105800000
     },
     {
@@ -1474,7 +1476,7 @@
     },
     {
       "period": "2023-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 199400000
     },
     {
@@ -1484,12 +1486,12 @@
     },
     {
       "period": "2023-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 9100000
     },
     {
       "period": "2023-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 240200000
     },
     {
@@ -1514,7 +1516,7 @@
     },
     {
       "period": "2023-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 160600000
     },
     {
@@ -1524,7 +1526,7 @@
     },
     {
       "period": "2024-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 200100000
     },
     {
@@ -1534,12 +1536,12 @@
     },
     {
       "period": "2024-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10900000
     },
     {
       "period": "2024-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 159400000
     },
     {
@@ -1564,7 +1566,7 @@
     },
     {
       "period": "2024-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 76000000
     },
     {
@@ -1574,7 +1576,7 @@
     },
     {
       "period": "2024-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 201300000
     },
     {
@@ -1584,12 +1586,12 @@
     },
     {
       "period": "2024-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10200000
     },
     {
       "period": "2024-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 163900000
     },
     {
@@ -1614,7 +1616,7 @@
     },
     {
       "period": "2024-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 97600000
     },
     {
@@ -1624,7 +1626,7 @@
     },
     {
       "period": "2024-Q3",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 197400000
     },
     {
@@ -1634,12 +1636,12 @@
     },
     {
       "period": "2024-Q3",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 11200000
     },
     {
       "period": "2024-Q3",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 173900000
     },
     {
@@ -1664,7 +1666,7 @@
     },
     {
       "period": "2024-Q3",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 122600000
     },
     {
@@ -1674,7 +1676,7 @@
     },
     {
       "period": "2024-Q4",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 203600000
     },
     {
@@ -1684,12 +1686,12 @@
     },
     {
       "period": "2024-Q4",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 10900000
     },
     {
       "period": "2024-Q4",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 277800000
     },
     {
@@ -1714,7 +1716,7 @@
     },
     {
       "period": "2024-Q4",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 155400000
     },
     {
@@ -1724,7 +1726,7 @@
     },
     {
       "period": "2025-Q1",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 219700000
     },
     {
@@ -1734,12 +1736,12 @@
     },
     {
       "period": "2025-Q1",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 11400000
     },
     {
       "period": "2025-Q1",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 201900000
     },
     {
@@ -1764,7 +1766,7 @@
     },
     {
       "period": "2025-Q1",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 97600000
     },
     {
@@ -1774,7 +1776,7 @@
     },
     {
       "period": "2025-Q2",
-      "category": "d1_kompensimi_i_pun_tor_ve",
+      "category": "d1_kompensimi_i_punetoreve",
       "amount_eur": 221100000
     },
     {
@@ -1784,12 +1786,12 @@
     },
     {
       "period": "2025-Q2",
-      "category": "d4_t_ardhurat_nga_prona_t_pagueshme",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
       "amount_eur": 14500000
     },
     {
       "period": "2025-Q2",
-      "category": "d6_kontributet_sociale_dhe_p_rfitimet",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
       "amount_eur": 207400000
     },
     {
@@ -1814,13 +1816,63 @@
     },
     {
       "period": "2025-Q2",
-      "category": "p2_konsumi_i_nd_rmjet_m",
+      "category": "p2_konsumi_i_ndermjetem",
       "amount_eur": 109400000
     },
     {
       "period": "2025-Q2",
       "category": "p5_formimi_i_kapitalit_bruto",
       "amount_eur": 115200000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d1_kompensimi_i_punetoreve",
+      "amount_eur": 233200000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d3_subvencionet",
+      "amount_eur": 67500000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
+      "amount_eur": 11700000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
+      "amount_eur": 213900000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d6_transfertat_e_tjera_aktuale",
+      "amount_eur": 45700000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "d7_transfertat_kapitale",
+      "amount_eur": 2800000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "f_aktivet_dhe_detyrimet_financiare",
+      "amount_eur": 18400000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "np_posedimi_i_aktiveve_jo_prodhuese",
+      "amount_eur": 7600000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "p2_konsumi_i_ndermjetem",
+      "amount_eur": 112300000
+    },
+    {
+      "period": "2025-Q3",
+      "category": "p5_formimi_i_kapitalit_bruto",
+      "amount_eur": 113600000
     }
   ]
 }

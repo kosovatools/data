@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2015-04-13T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "yearly",
@@ -15,7 +15,9 @@
         "unit": "vehicles"
       }
     ],
-    "metrics": ["vehicles"],
+    "metrics": [
+      "vehicles"
+    ],
     "dimensions": {
       "vehicle_type": [
         {
@@ -27,8 +29,8 @@
           "label": "Automjete transporti (≥3.5t)"
         },
         {
-          "key": "automjet_trans_n_n_3_5t",
-          "label": "Automjete transporti (<3.5t)"
+          "key": "automjet_trans_nen_3_5t",
+          "label": "Automjet trans,nën 3.5t"
         },
         {
           "key": "kombibuset",
@@ -39,16 +41,16 @@
           "label": "Autobusë"
         },
         {
-          "key": "moto_ikleta",
+          "key": "motocikleta",
           "label": "Motoçikleta"
         },
         {
-          "key": "traktor",
+          "key": "traktore",
           "label": "Traktorë"
         },
         {
-          "key": "rimorkio_n_n3_5t",
-          "label": "Rimorkio (<3.5t)"
+          "key": "rimorkio_nen3_5t",
+          "label": "Rimorkio nën3.5t"
         },
         {
           "key": "rimorkio_3_5_dhe_mbi_3_5t",
@@ -57,10 +59,12 @@
       ]
     },
     "source": "Table tr05 in Transport",
-    "source_urls": ["ASKdata/Transport/Annual indicators/tr05.px"],
+    "source_urls": [
+      "ASKdata/Transport/Annual indicators/tr05.px"
+    ],
     "notes": [],
     "id": "kas_transport_vehicle_types_yearly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null
   },
   "records": [
@@ -76,7 +80,7 @@
     },
     {
       "period": "2011",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 17901
     },
     {
@@ -91,17 +95,17 @@
     },
     {
       "period": "2011",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 546
     },
     {
       "period": "2011",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 39
     },
     {
       "period": "2011",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 101
     },
     {
@@ -121,7 +125,7 @@
     },
     {
       "period": "2012",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 18225
     },
     {
@@ -136,17 +140,17 @@
     },
     {
       "period": "2012",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 809
     },
     {
       "period": "2012",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 137
     },
     {
       "period": "2012",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 117
     },
     {
@@ -166,7 +170,7 @@
     },
     {
       "period": "2013",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 24659
     },
     {
@@ -181,17 +185,17 @@
     },
     {
       "period": "2013",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1488
     },
     {
       "period": "2013",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 776
     },
     {
       "period": "2013",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 217
     },
     {
@@ -211,7 +215,7 @@
     },
     {
       "period": "2014",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 26949
     },
     {
@@ -226,17 +230,17 @@
     },
     {
       "period": "2014",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1540
     },
     {
       "period": "2014",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 1036
     },
     {
       "period": "2014",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 250
     },
     {
@@ -256,7 +260,7 @@
     },
     {
       "period": "2015",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 30846
     },
     {
@@ -271,17 +275,17 @@
     },
     {
       "period": "2015",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1849
     },
     {
       "period": "2015",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 941
     },
     {
       "period": "2015",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 286
     },
     {
@@ -301,7 +305,7 @@
     },
     {
       "period": "2016",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 31285
     },
     {
@@ -316,17 +320,17 @@
     },
     {
       "period": "2016",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1790
     },
     {
       "period": "2016",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 613
     },
     {
       "period": "2016",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 288
     },
     {
@@ -346,7 +350,7 @@
     },
     {
       "period": "2017",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 32299
     },
     {
@@ -361,17 +365,17 @@
     },
     {
       "period": "2017",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1690
     },
     {
       "period": "2017",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 523
     },
     {
       "period": "2017",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 288
     },
     {
@@ -391,7 +395,7 @@
     },
     {
       "period": "2018",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 19371
     },
     {
@@ -406,17 +410,17 @@
     },
     {
       "period": "2018",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 2038
     },
     {
       "period": "2018",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 1791
     },
     {
       "period": "2018",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 572
     },
     {
@@ -436,7 +440,7 @@
     },
     {
       "period": "2019",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 19379
     },
     {
@@ -451,17 +455,17 @@
     },
     {
       "period": "2019",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 2087
     },
     {
       "period": "2019",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 1851
     },
     {
       "period": "2019",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 681
     },
     {
@@ -481,7 +485,7 @@
     },
     {
       "period": "2020",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 35705
     },
     {
@@ -496,17 +500,17 @@
     },
     {
       "period": "2020",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1694
     },
     {
       "period": "2020",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 641
     },
     {
       "period": "2020",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 297
     },
     {
@@ -526,7 +530,7 @@
     },
     {
       "period": "2021",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 42730
     },
     {
@@ -541,17 +545,17 @@
     },
     {
       "period": "2021",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 2647
     },
     {
       "period": "2021",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 781
     },
     {
       "period": "2021",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 369
     },
     {
@@ -571,7 +575,7 @@
     },
     {
       "period": "2022",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 46004
     },
     {
@@ -586,17 +590,17 @@
     },
     {
       "period": "2022",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 1148
     },
     {
       "period": "2022",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 4289
     },
     {
       "period": "2022",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 443
     },
     {
@@ -616,7 +620,7 @@
     },
     {
       "period": "2023",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 51265
     },
     {
@@ -631,17 +635,17 @@
     },
     {
       "period": "2023",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 5379
     },
     {
       "period": "2023",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 2117
     },
     {
       "period": "2023",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 612
     },
     {
@@ -661,7 +665,7 @@
     },
     {
       "period": "2024",
-      "vehicle_type": "automjet_trans_n_n_3_5t",
+      "vehicle_type": "automjet_trans_nen_3_5t",
       "vehicles": 60182
     },
     {
@@ -676,17 +680,17 @@
     },
     {
       "period": "2024",
-      "vehicle_type": "moto_ikleta",
+      "vehicle_type": "motocikleta",
       "vehicles": 7967
     },
     {
       "period": "2024",
-      "vehicle_type": "traktor",
+      "vehicle_type": "traktore",
       "vehicles": 2533
     },
     {
       "period": "2024",
-      "vehicle_type": "rimorkio_n_n3_5t",
+      "vehicle_type": "rimorkio_nen3_5t",
       "vehicles": 791
     },
     {

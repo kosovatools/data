@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2022-04-26T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "monthly",
@@ -20,7 +20,10 @@
         "unit": "overnights"
       }
     ],
-    "metrics": ["visitors", "nights"],
+    "metrics": [
+      "visitors",
+      "nights"
+    ],
     "dimensions": {
       "country": [
         {
@@ -110,10 +113,12 @@
       ]
     },
     "source": "Table 02 in Tourism and hotels",
-    "source_urls": ["ASKdata/Tourism and hotels/Treguesit mujorë/tab02.px"],
+    "source_urls": [
+      "ASKdata/Tourism and hotels/Treguesit mujorë/tab02.px"
+    ],
     "notes": [],
     "id": "kas_tourism_country_monthly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null
   },
   "records": [

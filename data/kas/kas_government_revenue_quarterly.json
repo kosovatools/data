@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2017-07-13T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "quarterly",
@@ -15,7 +15,9 @@
         "unit": "EUR"
       }
     ],
-    "metrics": ["amount_eur"],
+    "metrics": [
+      "amount_eur"
+    ],
     "dimensions": {
       "quarter": [
         {
@@ -37,7 +39,7 @@
       ],
       "category": [
         {
-          "key": "d21_tatimet_n_produkte",
+          "key": "d21_tatimet_ne_produkte",
           "label": "Tatimet në produkte"
         },
         {
@@ -53,23 +55,23 @@
           "label": "Detyrimet e importit"
         },
         {
-          "key": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+          "key": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
           "label": "Taksat për importet pa TVSH dhe detyrimet"
         },
         {
-          "key": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+          "key": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
           "label": "Tatimi mbi produktet, me përjashtim të TVSH-së dhe tatimet e importit"
         },
         {
-          "key": "d29_tatimet_tjera_n_prodhim",
+          "key": "d29_tatimet_tjera_ne_prodhim",
           "label": "Tatimet tjera në prodhim"
         },
         {
-          "key": "d4_t_hyrat_nga_prona",
+          "key": "d4_te_hyrat_nga_prona",
           "label": "Të hyrat nga prona"
         },
         {
-          "key": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+          "key": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
           "label": "Tatimet rrjedhëse në të ardhura, pasuri, etj."
         },
         {
@@ -81,7 +83,7 @@
           "label": "F Aktivet dhe detyrimet financiare *"
         },
         {
-          "key": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+          "key": "p131_pagesat_per_output_jo_tregut_shitjet",
           "label": "Pagesat për output jo-tregut (Shitjet)"
         }
       ]
@@ -94,35 +96,35 @@
       "Vlerat burimore duken të raportuara në milion EUR; këtu janë shkallëzuar në EUR."
     ],
     "id": "kas_government_revenue_quarterly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null,
     "dimension_hierarchies": {
       "category": [
         {
-          "key": "d21_tatimet_n_produkte",
+          "key": "d21_tatimet_ne_produkte",
           "label": "Tatimet në produkte",
           "parent": null,
           "children": [
             "d211_tatimi_mbi_vleren_e_shtuar_tvsh",
             "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
-            "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit"
+            "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit"
           ],
           "level": 0
         },
         {
           "key": "d211_tatimi_mbi_vleren_e_shtuar_tvsh",
           "label": "Tatimi mbi vleren e shtuar(TVSH)",
-          "parent": "d21_tatimet_n_produkte",
+          "parent": "d21_tatimet_ne_produkte",
           "children": [],
           "level": 1
         },
         {
           "key": "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
           "label": "Tatimi dhe dogana ne importe duke perjashtuar TVSH",
-          "parent": "d21_tatimet_n_produkte",
+          "parent": "d21_tatimet_ne_produkte",
           "children": [
             "d2121_detyrimet_e_importit",
-            "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet"
+            "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet"
           ],
           "level": 1
         },
@@ -134,35 +136,35 @@
           "level": 2
         },
         {
-          "key": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+          "key": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
           "label": "Taksat për importet pa TVSH dhe detyrimet",
           "parent": "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
           "children": [],
           "level": 2
         },
         {
-          "key": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+          "key": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
           "label": "Tatimi mbi produktet, me përjashtim të TVSH-së dhe tatimet e importit",
-          "parent": "d21_tatimet_n_produkte",
+          "parent": "d21_tatimet_ne_produkte",
           "children": [],
           "level": 1
         },
         {
-          "key": "d29_tatimet_tjera_n_prodhim",
+          "key": "d29_tatimet_tjera_ne_prodhim",
           "label": "Tatimet tjera në prodhim",
           "parent": null,
           "children": [],
           "level": 0
         },
         {
-          "key": "d4_t_hyrat_nga_prona",
+          "key": "d4_te_hyrat_nga_prona",
           "label": "Të hyrat nga prona",
           "parent": null,
           "children": [],
           "level": 0
         },
         {
-          "key": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+          "key": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
           "label": "Tatimet rrjedhëse në të ardhura, pasuri, etj.",
           "parent": null,
           "children": [],
@@ -183,7 +185,7 @@
           "level": 0
         },
         {
-          "key": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+          "key": "p131_pagesat_per_output_jo_tregut_shitjet",
           "label": "Pagesat për output jo-tregut (Shitjet)",
           "parent": null,
           "children": [],
@@ -195,7 +197,7 @@
   "records": [
     {
       "period": "2016-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": null
     },
     {
@@ -215,27 +217,27 @@
     },
     {
       "period": "2016-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": null
     },
     {
       "period": "2016-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": null
     },
     {
       "period": "2016-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": null
     },
     {
       "period": "2016-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2016-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": null
     },
     {
@@ -250,12 +252,12 @@
     },
     {
       "period": "2016-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": null
     },
     {
       "period": "2016-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": null
     },
     {
@@ -275,27 +277,27 @@
     },
     {
       "period": "2016-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": null
     },
     {
       "period": "2016-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": null
     },
     {
       "period": "2016-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": null
     },
     {
       "period": "2016-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2016-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": null
     },
     {
@@ -310,12 +312,12 @@
     },
     {
       "period": "2016-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": null
     },
     {
       "period": "2016-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": null
     },
     {
@@ -335,27 +337,27 @@
     },
     {
       "period": "2016-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": null
     },
     {
       "period": "2016-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": null
     },
     {
       "period": "2016-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": null
     },
     {
       "period": "2016-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2016-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": null
     },
     {
@@ -370,12 +372,12 @@
     },
     {
       "period": "2016-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": null
     },
     {
       "period": "2016-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 319600000
     },
     {
@@ -395,27 +397,27 @@
     },
     {
       "period": "2016-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 102700000
     },
     {
       "period": "2016-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 8300000.000000001
     },
     {
       "period": "2016-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12200000
     },
     {
       "period": "2016-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 3300000
     },
     {
       "period": "2016-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 53400000
     },
     {
@@ -430,12 +432,12 @@
     },
     {
       "period": "2016-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 22400000
     },
     {
       "period": "2017-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 247200000
     },
     {
@@ -455,27 +457,27 @@
     },
     {
       "period": "2017-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 79200000
     },
     {
       "period": "2017-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 8400000
     },
     {
       "period": "2017-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 13200000
     },
     {
       "period": "2017-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 8199999.999999999
     },
     {
       "period": "2017-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 55700000
     },
     {
@@ -490,12 +492,12 @@
     },
     {
       "period": "2017-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 27100000
     },
     {
       "period": "2017-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 317600000
     },
     {
@@ -515,27 +517,27 @@
     },
     {
       "period": "2017-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 101000000
     },
     {
       "period": "2017-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9000000
     },
     {
       "period": "2017-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12000000
     },
     {
       "period": "2017-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2017-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 61400000
     },
     {
@@ -550,12 +552,12 @@
     },
     {
       "period": "2017-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 21600000
     },
     {
       "period": "2017-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 377900000
     },
     {
@@ -575,27 +577,27 @@
     },
     {
       "period": "2017-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 131699999.99999999
     },
     {
       "period": "2017-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9800000
     },
     {
       "period": "2017-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 11000000
     },
     {
       "period": "2017-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2017-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 60000000
     },
     {
@@ -610,12 +612,12 @@
     },
     {
       "period": "2017-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 23000000
     },
     {
       "period": "2017-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 357200000
     },
     {
@@ -635,27 +637,27 @@
     },
     {
       "period": "2017-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 112800000
     },
     {
       "period": "2017-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9300000
     },
     {
       "period": "2017-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10100000
     },
     {
       "period": "2017-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 1200000
     },
     {
       "period": "2017-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 56000000
     },
     {
@@ -670,12 +672,12 @@
     },
     {
       "period": "2017-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 26900000
     },
     {
       "period": "2018-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 258700000
     },
     {
@@ -695,27 +697,27 @@
     },
     {
       "period": "2018-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 75900000
     },
     {
       "period": "2018-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 8500000
     },
     {
       "period": "2018-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10000000
     },
     {
       "period": "2018-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2018-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 70700000
     },
     {
@@ -730,12 +732,12 @@
     },
     {
       "period": "2018-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 25800000
     },
     {
       "period": "2018-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 335000000
     },
     {
@@ -755,27 +757,27 @@
     },
     {
       "period": "2018-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 104900000
     },
     {
       "period": "2018-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9000000
     },
     {
       "period": "2018-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10100000
     },
     {
       "period": "2018-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 6500000
     },
     {
       "period": "2018-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 68700000
     },
     {
@@ -790,12 +792,12 @@
     },
     {
       "period": "2018-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 22400000
     },
     {
       "period": "2018-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 394300000
     },
     {
@@ -815,27 +817,27 @@
     },
     {
       "period": "2018-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 132500000
     },
     {
       "period": "2018-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 10100000
     },
     {
       "period": "2018-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10100000
     },
     {
       "period": "2018-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2018-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 62400000
     },
     {
@@ -850,12 +852,12 @@
     },
     {
       "period": "2018-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 28100000
     },
     {
       "period": "2018-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 353300000
     },
     {
@@ -875,27 +877,27 @@
     },
     {
       "period": "2018-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 102200000
     },
     {
       "period": "2018-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9300000
     },
     {
       "period": "2018-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 9800000
     },
     {
       "period": "2018-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 6500000
     },
     {
       "period": "2018-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 69700000
     },
     {
@@ -910,12 +912,12 @@
     },
     {
       "period": "2018-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 30100000
     },
     {
       "period": "2019-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 287200000
     },
     {
@@ -935,27 +937,27 @@
     },
     {
       "period": "2019-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 87600000
     },
     {
       "period": "2019-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 8800000
     },
     {
       "period": "2019-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10800000
     },
     {
       "period": "2019-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2019-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 63300000
     },
     {
@@ -970,12 +972,12 @@
     },
     {
       "period": "2019-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 23400000
     },
     {
       "period": "2019-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 347300000
     },
     {
@@ -995,27 +997,27 @@
     },
     {
       "period": "2019-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 104800000
     },
     {
       "period": "2019-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 11300000
     },
     {
       "period": "2019-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 11800000
     },
     {
       "period": "2019-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 6700000
     },
     {
       "period": "2019-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 75400000
     },
     {
@@ -1030,12 +1032,12 @@
     },
     {
       "period": "2019-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 25900000
     },
     {
       "period": "2019-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 405800000
     },
     {
@@ -1055,27 +1057,27 @@
     },
     {
       "period": "2019-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 129699999.99999999
     },
     {
       "period": "2019-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 10900000
     },
     {
       "period": "2019-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12500000
     },
     {
       "period": "2019-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2019-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 71600000
     },
     {
@@ -1090,12 +1092,12 @@
     },
     {
       "period": "2019-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 31900000
     },
     {
       "period": "2019-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 378700000
     },
     {
@@ -1115,27 +1117,27 @@
     },
     {
       "period": "2019-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 113100000
     },
     {
       "period": "2019-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9800000
     },
     {
       "period": "2019-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10900000
     },
     {
       "period": "2019-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 6900000
     },
     {
       "period": "2019-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 70600000
     },
     {
@@ -1150,12 +1152,12 @@
     },
     {
       "period": "2019-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 32200000.000000004
     },
     {
       "period": "2020-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 295500000
     },
     {
@@ -1175,27 +1177,27 @@
     },
     {
       "period": "2020-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 90700000
     },
     {
       "period": "2020-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 8000000
     },
     {
       "period": "2020-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 11300000
     },
     {
       "period": "2020-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2020-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 63900000
     },
     {
@@ -1210,12 +1212,12 @@
     },
     {
       "period": "2020-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 23300000
     },
     {
       "period": "2020-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 278500000
     },
     {
@@ -1235,27 +1237,27 @@
     },
     {
       "period": "2020-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 93000000
     },
     {
       "period": "2020-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 6600000
     },
     {
       "period": "2020-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 9800000
     },
     {
       "period": "2020-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 7200000
     },
     {
       "period": "2020-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 60000000
     },
     {
@@ -1270,12 +1272,12 @@
     },
     {
       "period": "2020-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 11900000
     },
     {
       "period": "2020-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 337100000
     },
     {
@@ -1295,27 +1297,27 @@
     },
     {
       "period": "2020-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 104700000
     },
     {
       "period": "2020-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9900000
     },
     {
       "period": "2020-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 13300000
     },
     {
       "period": "2020-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 0
     },
     {
       "period": "2020-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 68900000
     },
     {
@@ -1330,12 +1332,12 @@
     },
     {
       "period": "2020-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 20300000
     },
     {
       "period": "2020-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 367000000
     },
     {
@@ -1355,27 +1357,27 @@
     },
     {
       "period": "2020-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 109200000
     },
     {
       "period": "2020-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 10300000
     },
     {
       "period": "2020-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10700000
     },
     {
       "period": "2020-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 7200000
     },
     {
       "period": "2020-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 71700000
     },
     {
@@ -1390,12 +1392,12 @@
     },
     {
       "period": "2020-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 26200000
     },
     {
       "period": "2021-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 336600000
     },
     {
@@ -1415,27 +1417,27 @@
     },
     {
       "period": "2021-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 100200000
     },
     {
       "period": "2021-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 9500000
     },
     {
       "period": "2021-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 13000000
     },
     {
       "period": "2021-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 6200000
     },
     {
       "period": "2021-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 73100000
     },
     {
@@ -1450,12 +1452,12 @@
     },
     {
       "period": "2021-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 20900000
     },
     {
       "period": "2021-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 395500000
     },
     {
@@ -1475,27 +1477,27 @@
     },
     {
       "period": "2021-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 117700000
     },
     {
       "period": "2021-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 11100000
     },
     {
       "period": "2021-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 4500000
     },
     {
       "period": "2021-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 8900000
     },
     {
       "period": "2021-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 94800000
     },
     {
@@ -1510,12 +1512,12 @@
     },
     {
       "period": "2021-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 24200000
     },
     {
       "period": "2021-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 485000000
     },
     {
@@ -1535,27 +1537,27 @@
     },
     {
       "period": "2021-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 153300000
     },
     {
       "period": "2021-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 12100000
     },
     {
       "period": "2021-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12200000
     },
     {
       "period": "2021-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 14500000
     },
     {
       "period": "2021-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 82300000
     },
     {
@@ -1570,12 +1572,12 @@
     },
     {
       "period": "2021-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 28600000
     },
     {
       "period": "2021-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 437900000
     },
     {
@@ -1595,27 +1597,27 @@
     },
     {
       "period": "2021-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 128900000
     },
     {
       "period": "2021-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 11100000
     },
     {
       "period": "2021-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10500000
     },
     {
       "period": "2021-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 13300000
     },
     {
       "period": "2021-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 80300000
     },
     {
@@ -1630,12 +1632,12 @@
     },
     {
       "period": "2021-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 30300000
     },
     {
       "period": "2022-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 394400000
     },
     {
@@ -1655,27 +1657,27 @@
     },
     {
       "period": "2022-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 105600000
     },
     {
       "period": "2022-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 10900000
     },
     {
       "period": "2022-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 20200000
     },
     {
       "period": "2022-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 2100000
     },
     {
       "period": "2022-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 96100000
     },
     {
@@ -1690,12 +1692,12 @@
     },
     {
       "period": "2022-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 22200000
     },
     {
       "period": "2022-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 427200000
     },
     {
@@ -1715,27 +1717,27 @@
     },
     {
       "period": "2022-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 116300000
     },
     {
       "period": "2022-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 11000000
     },
     {
       "period": "2022-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12000000
     },
     {
       "period": "2022-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 9500000
     },
     {
       "period": "2022-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 112000000
     },
     {
@@ -1750,12 +1752,12 @@
     },
     {
       "period": "2022-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 26500000
     },
     {
       "period": "2022-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 547300000
     },
     {
@@ -1775,27 +1777,27 @@
     },
     {
       "period": "2022-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 163300000
     },
     {
       "period": "2022-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 13300000
     },
     {
       "period": "2022-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 15400000
     },
     {
       "period": "2022-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 11000000
     },
     {
       "period": "2022-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 94800000
     },
     {
@@ -1810,12 +1812,12 @@
     },
     {
       "period": "2022-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 27700000
     },
     {
       "period": "2022-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 487400000
     },
     {
@@ -1835,27 +1837,27 @@
     },
     {
       "period": "2022-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 131300000.00000001
     },
     {
       "period": "2022-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 12300000
     },
     {
       "period": "2022-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 11100000
     },
     {
       "period": "2022-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 11700000
     },
     {
       "period": "2022-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 96800000
     },
     {
@@ -1870,12 +1872,12 @@
     },
     {
       "period": "2022-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 30600000
     },
     {
       "period": "2023-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 430700000
     },
     {
@@ -1895,27 +1897,27 @@
     },
     {
       "period": "2023-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 105000000
     },
     {
       "period": "2023-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 12500000
     },
     {
       "period": "2023-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 12700000
     },
     {
       "period": "2023-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 4300000
     },
     {
       "period": "2023-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 112500000
     },
     {
@@ -1930,12 +1932,12 @@
     },
     {
       "period": "2023-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 25100000
     },
     {
       "period": "2023-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 490500000
     },
     {
@@ -1955,27 +1957,27 @@
     },
     {
       "period": "2023-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 134100000
     },
     {
       "period": "2023-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 12100000
     },
     {
       "period": "2023-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10300000
     },
     {
       "period": "2023-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 38900000
     },
     {
       "period": "2023-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 140600000
     },
     {
@@ -1990,12 +1992,12 @@
     },
     {
       "period": "2023-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 27300000
     },
     {
       "period": "2023-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 583900000
     },
     {
@@ -2015,27 +2017,27 @@
     },
     {
       "period": "2023-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 168000000
     },
     {
       "period": "2023-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 14600000
     },
     {
       "period": "2023-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 15300000
     },
     {
       "period": "2023-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 12600000
     },
     {
       "period": "2023-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 111100000
     },
     {
@@ -2050,12 +2052,12 @@
     },
     {
       "period": "2023-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 29100000
     },
     {
       "period": "2023-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 566800000
     },
     {
@@ -2075,27 +2077,27 @@
     },
     {
       "period": "2023-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 147800000
     },
     {
       "period": "2023-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 13700000
     },
     {
       "period": "2023-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 10400000
     },
     {
       "period": "2023-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 14200000
     },
     {
       "period": "2023-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 110600000
     },
     {
@@ -2110,12 +2112,12 @@
     },
     {
       "period": "2023-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 33000000
     },
     {
       "period": "2024-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 515600000
     },
     {
@@ -2135,27 +2137,27 @@
     },
     {
       "period": "2024-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 146400000
     },
     {
       "period": "2024-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 14200000
     },
     {
       "period": "2024-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 5100000
     },
     {
       "period": "2024-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 13000000
     },
     {
       "period": "2024-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 122000000
     },
     {
@@ -2170,12 +2172,12 @@
     },
     {
       "period": "2024-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 28700000
     },
     {
       "period": "2024-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 518700000.00000006
     },
     {
@@ -2195,27 +2197,27 @@
     },
     {
       "period": "2024-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 128400000
     },
     {
       "period": "2024-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 13300000
     },
     {
       "period": "2024-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 5000000
     },
     {
       "period": "2024-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 22800000
     },
     {
       "period": "2024-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 141900000
     },
     {
@@ -2230,12 +2232,12 @@
     },
     {
       "period": "2024-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 29900000
     },
     {
       "period": "2024-Q3",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 634200000
     },
     {
@@ -2255,27 +2257,27 @@
     },
     {
       "period": "2024-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 183600000
     },
     {
       "period": "2024-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 15400000
     },
     {
       "period": "2024-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 6600000
     },
     {
       "period": "2024-Q3",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 33900000
     },
     {
       "period": "2024-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 103200000
     },
     {
@@ -2290,12 +2292,12 @@
     },
     {
       "period": "2024-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 37400000
     },
     {
       "period": "2024-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 629200000
     },
     {
@@ -2315,27 +2317,27 @@
     },
     {
       "period": "2024-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 159700000
     },
     {
       "period": "2024-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 15100000
     },
     {
       "period": "2024-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 4300000
     },
     {
       "period": "2024-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 25000000
     },
     {
       "period": "2024-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 123500000
     },
     {
@@ -2350,12 +2352,12 @@
     },
     {
       "period": "2024-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 33700000
     },
     {
       "period": "2025-Q1",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 527299999.99999994
     },
     {
@@ -2375,27 +2377,27 @@
     },
     {
       "period": "2025-Q1",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 124600000
     },
     {
       "period": "2025-Q1",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 15800000
     },
     {
       "period": "2025-Q1",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 3900000
     },
     {
       "period": "2025-Q1",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 16600000.000000002
     },
     {
       "period": "2025-Q1",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 125300000
     },
     {
@@ -2410,12 +2412,12 @@
     },
     {
       "period": "2025-Q1",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 27600000
     },
     {
       "period": "2025-Q2",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": 624100000
     },
     {
@@ -2435,27 +2437,27 @@
     },
     {
       "period": "2025-Q2",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": 166400000
     },
     {
       "period": "2025-Q2",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": 16500000
     },
     {
       "period": "2025-Q2",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": 9400000
     },
     {
       "period": "2025-Q2",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": 39000000
     },
     {
       "period": "2025-Q2",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": 155000000
     },
     {
@@ -2470,72 +2472,72 @@
     },
     {
       "period": "2025-Q2",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 31500000
     },
     {
       "period": "2025-Q3",
-      "category": "d21_tatimet_n_produkte",
-      "amount_eur": null
+      "category": "d21_tatimet_ne_produkte",
+      "amount_eur": 682100000
     },
     {
       "period": "2025-Q3",
       "category": "d211_tatimi_mbi_vleren_e_shtuar_tvsh",
-      "amount_eur": null
+      "amount_eur": 427400000
     },
     {
       "period": "2025-Q3",
       "category": "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
-      "amount_eur": null
+      "amount_eur": 237200000
     },
     {
       "period": "2025-Q3",
       "category": "d2121_detyrimet_e_importit",
-      "amount_eur": null
+      "amount_eur": 50600000
     },
     {
       "period": "2025-Q3",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
-      "amount_eur": null
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
+      "amount_eur": 186600000
     },
     {
       "period": "2025-Q3",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
-      "amount_eur": null
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
+      "amount_eur": 17500000
     },
     {
       "period": "2025-Q3",
-      "category": "d29_tatimet_tjera_n_prodhim",
-      "amount_eur": null
+      "category": "d29_tatimet_tjera_ne_prodhim",
+      "amount_eur": 8000000
     },
     {
       "period": "2025-Q3",
-      "category": "d4_t_hyrat_nga_prona",
-      "amount_eur": null
+      "category": "d4_te_hyrat_nga_prona",
+      "amount_eur": 25500000
     },
     {
       "period": "2025-Q3",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
-      "amount_eur": null
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
+      "amount_eur": 130500000
     },
     {
       "period": "2025-Q3",
       "category": "d7_transfertat_e_tjera_aktuale",
-      "amount_eur": null
+      "amount_eur": 34100000
     },
     {
       "period": "2025-Q3",
       "category": "f_aktivet_dhe_detyrimet_financiare",
-      "amount_eur": null
+      "amount_eur": 11800000
     },
     {
       "period": "2025-Q3",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
-      "amount_eur": null
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
+      "amount_eur": 35300000
     },
     {
       "period": "2025-Q4",
-      "category": "d21_tatimet_n_produkte",
+      "category": "d21_tatimet_ne_produkte",
       "amount_eur": null
     },
     {
@@ -2555,27 +2557,27 @@
     },
     {
       "period": "2025-Q4",
-      "category": "d2122_taksat_p_r_importet_pa_tvsh_dhe_detyrimet",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
       "amount_eur": null
     },
     {
       "period": "2025-Q4",
-      "category": "d214_tatimi_mbi_produktet_me_p_rjashtim_t_tvsh_s_dhe_tatimet_e_importit",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
       "amount_eur": null
     },
     {
       "period": "2025-Q4",
-      "category": "d29_tatimet_tjera_n_prodhim",
+      "category": "d29_tatimet_tjera_ne_prodhim",
       "amount_eur": null
     },
     {
       "period": "2025-Q4",
-      "category": "d4_t_hyrat_nga_prona",
+      "category": "d4_te_hyrat_nga_prona",
       "amount_eur": null
     },
     {
       "period": "2025-Q4",
-      "category": "d5_tatimet_rrjedh_se_n_t_ardhura_pasuri_etj",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
       "amount_eur": null
     },
     {
@@ -2590,7 +2592,7 @@
     },
     {
       "period": "2025-Q4",
-      "category": "p131_pagesat_p_r_output_jo_tregut_shitjet",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": null
     }
   ]

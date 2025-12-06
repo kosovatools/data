@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2021-05-26T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "yearly",
@@ -15,7 +15,9 @@
         "unit": "€"
       }
     ],
-    "metrics": ["price"],
+    "metrics": [
+      "price"
+    ],
     "dimensions": {
       "article": [
         {
@@ -318,7 +320,7 @@
     ],
     "notes": [],
     "id": "kas_cpi_average_prices_yearly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null
   },
   "records": [

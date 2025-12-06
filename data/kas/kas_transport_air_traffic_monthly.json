@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2022-07-28T22:00:00Z",
     "time": {
       "key": "period",
       "granularity": "monthly",
       "first": "2012-01",
-      "last": "2025-08",
-      "count": 164
+      "last": "2025-09",
+      "count": 165
     },
     "fields": [
       {
@@ -25,7 +25,11 @@
         "unit": "flights"
       }
     ],
-    "metrics": ["passengers_inbound", "passengers_outbound", "flights"],
+    "metrics": [
+      "passengers_inbound",
+      "passengers_outbound",
+      "flights"
+    ],
     "dimensions": {},
     "source": "Data derived from Table 04, Table 05, Table 06 in Transport",
     "source_urls": [
@@ -36,7 +40,7 @@
     "title": null,
     "notes": [],
     "id": "kas_transport_air_traffic_monthly",
-    "generated_at": "2025-11-23T13:19:54.062Z"
+    "generated_at": "2025-12-06T15:43:46.647Z"
   },
   "records": [
     {
@@ -1022,6 +1026,12 @@
       "passengers_inbound": 216871,
       "passengers_outbound": 296084,
       "flights": 1601
+    },
+    {
+      "period": "2025-09",
+      "passengers_inbound": 165570,
+      "passengers_outbound": 209412,
+      "flights": 1196
     }
   ]
 }

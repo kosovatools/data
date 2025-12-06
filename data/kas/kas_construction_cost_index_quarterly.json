@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": null,
+    "updated_at": "2017-05-10T07:00:00Z",
     "time": {
       "key": "period",
       "granularity": "quarterly",
       "first": "2013-Q1",
-      "last": "2025-Q2",
-      "count": 50
+      "last": "2025-Q3",
+      "count": 51
     },
     "fields": [
       {
@@ -15,7 +15,9 @@
         "unit": "indeks (2015=100)"
       }
     ],
-    "metrics": ["index"],
+    "metrics": [
+      "index"
+    ],
     "dimensions": {
       "cost_category": [
         {
@@ -61,12 +63,14 @@
       ]
     },
     "source": "Table CCI01 in Prices",
-    "source_urls": ["ASKdata/Prices/Construction Cost Index/CCI01.px"],
+    "source_urls": [
+      "ASKdata/Prices/Construction Cost Index/CCI01.px"
+    ],
     "notes": [
       "Seria përfshin vetëm vlerat tremujore TM1–TM4; peshat 'Peshat' përjashtohen sepse përfaqësojnë përqindjen e kostove në total."
     ],
     "id": "kas_construction_cost_index_quarterly",
-    "generated_at": "2025-11-23T13:19:54.062Z",
+    "generated_at": "2025-12-06T15:43:46.647Z",
     "title": null,
     "dimension_hierarchies": {
       "cost_category": [
@@ -74,7 +78,11 @@
           "key": "0",
           "label": "Materialet",
           "parent": null,
-          "children": ["1", "2", "3"],
+          "children": [
+            "1",
+            "2",
+            "3"
+          ],
           "level": 0
         },
         {
@@ -2643,6 +2651,56 @@
       "period": "2025-Q2",
       "cost_category": "9",
       "index": 150.8
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "0",
+      "index": 156.2
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "1",
+      "index": 156.8
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "2",
+      "index": 158.1
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "3",
+      "index": 145
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "4",
+      "index": 143.9
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "5",
+      "index": 128.6
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "6",
+      "index": 149.9
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "7",
+      "index": 138.8
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "8",
+      "index": 134.3
+    },
+    {
+      "period": "2025-Q3",
+      "cost_category": "9",
+      "index": 151.5
     }
   ]
 }
