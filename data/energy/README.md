@@ -33,10 +33,25 @@
     - `export` (`number`)
     - `net` (`number`)
 
+## `energy_crossborder_daily_v2.json`
+- **Type:** Object
+- **Fields:**
+  - `meta` (`object`): Metadata for the latest month with neighbor dimension.
+    - `time.granularity` (`"daily"`), `time.first` / `time.last` (`YYYY-MM-DD`).
+    - `fields` matches monthly metrics.
+    - `dimensions.neighbor`: array of `{ key, label }` pairs for each interconnection (AL, ME, MK, RS).
+  - `records` (`array`): Daily totals for the latest snapshot, split by neighbor.
+    - `period` (`string`): Day in `YYYY-MM-DD` format.
+    - `neighbor` (`string`): Neighbor key (e.g., `AL`).
+    - `import` (`number`)
+    - `export` (`number`)
+    - `net` (`number`)
+
 ### Notes
 - Files are UTF-8 encoded without BOM.
 - Arrays are sorted chronologically so clients can consume them directly.
 - Monthly totals can be recomputed by grouping records on `period` and summing `import`, `export`, and `net`.
+- `energy_crossborder_daily.json` aggregates flows across all neighbors; use `energy_crossborder_daily_v2.json` for per-neighbor breakdowns.
 
 ## Regenerating the dataset
 

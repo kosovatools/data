@@ -60,10 +60,16 @@ type DailyRecord = {
     export: number
     net: number
 }
+type DailyNeighborRecord = DailyRecord & { neighbor: string }
 type DailyDatasetPayload = {
     records: DailyRecord[]
     snapshotId: string
 }
+type DailyNeighborDatasetPayload = {
+    records: DailyNeighborRecord[]
+    snapshotId: string
+}
+type DailyAggregation = { date: string; imports: number; exports: number; net: number }
 
 const parser = new XMLParser({ ignoreAttributes: false })
 
@@ -209,7 +215,7 @@ function calculateTotals(neighbors: Array<{ importMWh: number; exportMWh: number
         { importMWh: 0, exportMWh: 0, netMWh: 0 }
     )
 }
-function sumByDay(importSamples: Sample[], exportSamples: Sample[]) {
+function sumByDay(importSamples: Sample[], exportSamples: Sample[]): DailyAggregation[] {
     const map = new Map<string, { imports: number; exports: number }>()
     for (const s of importSamples) {
         const day = s.timestamp.slice(0, 10)
@@ -252,19 +258,15 @@ function mapNeighborKey(code: string, fallback: string) {
     return slugifyKey(code)
 }
 
-function buildNeighborDimensions(records: MonthlyRecord[]) {
+function buildNeighborDimensionsFromKeys(keys: string[]) {
     const entries = new Map<string, string>()
-    for (const key of Object.keys(NEIGHBOR_LABELS) as NeighborKey[]) {
-        entries.set(key, NEIGHBOR_LABELS[key])
-    }
-    for (const record of records) {
-        if (!entries.has(record.neighbor)) {
-            entries.set(record.neighbor, record.neighbor)
-        }
-    }
-    return [...entries.entries()]
-        .sort(([a], [b]) => a.localeCompare(b))
-        .map(([key, label]) => ({ key, label }))
+    for (const key of Object.keys(NEIGHBOR_LABELS) as NeighborKey[]) entries.set(key, NEIGHBOR_LABELS[key])
+    for (const key of keys) if (!entries.has(key)) entries.set(key, key)
+    return [...entries.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([key, label]) => ({ key, label }))
+}
+
+function buildNeighborDimensions(records: MonthlyRecord[]) {
+    return buildNeighborDimensionsFromKeys(records.map(record => record.neighbor))
 }
 
 async function loadMonthlyDataset(file: string): Promise<MonthlyDatasetStore> {
@@ -372,6 +374,43 @@ async function writeDailyDataset(file: string, payload: DailyDatasetPayload) {
     await writeJsonAtomic(file, { meta, records })
 }
 
+function buildDailyDatasetV2(latestDaily: LatestDailyPayload): DailyNeighborDatasetPayload {
+    const records: DailyNeighborRecord[] = latestDaily.perNeighbor.flatMap(neighbor =>
+        neighbor.days.map(day => ({
+            period: day.date,
+            neighbor: neighbor.neighbor,
+            import: roundEnergy(toEnergyNumber(day.imports)),
+            export: roundEnergy(toEnergyNumber(day.exports)),
+            net: roundEnergy(toEnergyNumber(day.net)),
+        }))
+    )
+    return { records, snapshotId: latestDaily.snapshotId }
+}
+
+async function writeDailyDatasetV2(file: string, payload: DailyNeighborDatasetPayload) {
+    if (!payload.records.length) {
+        throw new Error("Daily dataset v2 is empty; cannot write file.")
+    }
+    const records = payload.records
+        .slice()
+        .sort((a, b) => a.period.localeCompare(b.period) || a.neighbor.localeCompare(b.neighbor))
+    const periods = [...new Set(records.map(record => record.period))]
+    const neighborKeys = [...new Set(records.map(record => record.neighbor))]
+    const meta = {
+        id: "energy_crossborder_daily_v2",
+        title: "Flukset kufitare ditore sipas fqinjëve (ENTSO-E)",
+        generated_at: new Date().toISOString(),
+        updated_at: null,
+        source: ENERGY_SOURCE,
+        source_urls: ENERGY_SOURCE_URLS,
+        time: buildTimeMetadata(periods, "daily"),
+        fields: DAILY_FIELDS,
+        metrics: ENERGY_METRICS,
+        dimensions: { neighbor: buildNeighborDimensionsFromKeys(neighborKeys) },
+    }
+    await writeJsonAtomic(file, { meta, records })
+}
+
 async function createSnapshot({ token, start, end }: { token: string; start: Date; end: Date }) {
     const snapshotId = formatPeriodId(start)
     const periodStart = toEntsoeDate(start)
@@ -380,10 +419,13 @@ async function createSnapshot({ token, start, end }: { token: string; start: Dat
     const neighbors: any[] = []
     const allImport: Sample[] = []
     const allExport: Sample[] = []
+    const perNeighborDaily: Array<{ neighbor: string; days: DailyAggregation[] }> = []
 
     for (const n of DEFAULT_NEIGHBORS) {
         const imp = await fetchFlowVolume({ token, periodStart, periodEnd, inDomain: KOSOVO_EIC, outDomain: n.code })
         const exp = await fetchFlowVolume({ token, periodStart, periodEnd, inDomain: n.code, outDomain: KOSOVO_EIC })
+
+        const neighborKey = mapNeighborKey(n.code, n.label)
 
         neighbors.push({
             code: n.code, country: n.label,
@@ -395,15 +437,17 @@ async function createSnapshot({ token, start, end }: { token: string; start: Dat
 
         allImport.push(...imp.samples)
         allExport.push(...exp.samples)
+        perNeighborDaily.push({ neighbor: neighborKey, days: sumByDay(imp.samples, exp.samples) })
     }
 
     neighbors.sort((a, b) => b.netMWh - a.netMWh)
+    perNeighborDaily.sort((a, b) => a.neighbor.localeCompare(b.neighbor))
     const totals = calculateTotals(neighbors)
     const daily = sumByDay(allImport, allExport)
 
     return {
         monthly: { id: snapshotId, periodStart: start.toISOString(), periodEnd: end.toISOString(), neighbors, totals },
-        latestDaily: { snapshotId, periodStart: start.toISOString(), periodEnd: end.toISOString(), days: daily }
+        latestDaily: { snapshotId, periodStart: start.toISOString(), periodEnd: end.toISOString(), days: daily, perNeighbor: perNeighborDaily }
     }
 }
 
@@ -462,9 +506,11 @@ async function main() {
     }
     const monthlyDatasetPath = path.join(outDir, "energy_crossborder_monthly.json")
     const dailyDatasetPath = path.join(outDir, "energy_crossborder_daily.json")
+    const dailyDatasetV2Path = path.join(outDir, "energy_crossborder_daily_v2.json")
     const monthlyStore = await loadMonthlyDataset(monthlyDatasetPath)
     const updatedPeriods: string[] = []
     let latestDailyDataset: DailyDatasetPayload | null = null
+    let latestDailyDatasetV2: DailyNeighborDatasetPayload | null = null
 
     for (let i = 0; i < months.length; i++) {
         const { start, end } = months[i]
@@ -482,6 +528,7 @@ async function main() {
         updatedPeriods.push(id)
         if (isNewest) {
             latestDailyDataset = buildDailyDataset(latestDaily)
+            latestDailyDatasetV2 = buildDailyDatasetV2(latestDaily)
         }
         const status = alreadyPresent && !force ? "refreshed" : "fetched"
         console.log(`${status === "refreshed" ? "Refreshed" : "Fetched"} ${id} snapshot${isNewest ? " (includes daily)" : ""}.`)
@@ -497,6 +544,11 @@ async function main() {
     if (latestDailyDataset) {
         await writeDailyDataset(dailyDatasetPath, latestDailyDataset)
         console.log(`Updated daily dataset for snapshot ${latestDailyDataset.snapshotId}.`)
+    }
+
+    if (latestDailyDatasetV2) {
+        await writeDailyDatasetV2(dailyDatasetV2Path, latestDailyDatasetV2)
+        console.log(`Updated daily v2 dataset for snapshot ${latestDailyDatasetV2.snapshotId}.`)
     }
 }
 
