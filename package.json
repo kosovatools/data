@@ -4,9 +4,9 @@
   "type": "module",
   "packageManager": "pnpm@10.4.1",
   "scripts": {
-    "generate:energy": "pnpm --filter @kosovatools/entsoe-pipeline run generate --",
-    "generate:customs": "pnpm --filter @kosovatools/customs-pipeline run generate --",
-    "generate:kas": "pnpm --filter @kosovatools/kas-pxweb run generate --",
+    "generate:energy": "pnpm --filter @kosovatools/entsoe-pipeline run generate",
+    "generate:customs": "pnpm --filter @kosovatools/customs-pipeline run generate",
+    "generate:kas": "pnpm --filter @kosovatools/kas-pxweb run generate",
     "python:turnover": "pnpm --filter @kosovatools/python-scripts run turnover",
     "python:drug-prices": "pnpm --filter @kosovatools/python-scripts run drug-prices",
     "python:prishtina-permits": "pnpm --filter @kosovatools/python-scripts run prishtina-permits",

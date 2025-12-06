@@ -373,10 +373,31 @@ export function readCubeMetadata(cube: unknown): {
   unit: string | null;
   title: string | null;
 } {
-  const metadata =
+  const rawMetadata =
     typeof cube === "object" && cube !== null && "metadata" in cube
       ? (cube as { metadata?: CubeMetadata }).metadata
       : undefined;
+
+  const normalizeMetadata = (value: unknown): CubeMetadata | null => {
+    if (Array.isArray(value)) {
+      const withUpdated = value.find(
+        (entry) =>
+          entry !== null &&
+          typeof entry === "object" &&
+          Object.prototype.hasOwnProperty.call(entry, "updated"),
+      );
+      if (withUpdated) return withUpdated as CubeMetadata;
+      const firstObject = value.find(
+        (entry) => entry !== null && typeof entry === "object",
+      );
+      return (firstObject as CubeMetadata) ?? null;
+    }
+    if (value !== null && typeof value === "object")
+      return value as CubeMetadata;
+    return null;
+  };
+
+  const metadata = normalizeMetadata(rawMetadata);
   const updatedRaw = metadata?.updated;
   const unitRaw = metadata?.unit;
   const titleRaw = metadata?.title;
