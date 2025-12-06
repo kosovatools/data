@@ -127,6 +127,12 @@ export const PATHS = {
     "Quarterly government accounts",
     "kga02.px",
   ],
+  education_bachelor_first_time: [
+    "ASKdata",
+    "Education",
+    "15 Higher Education",
+    "Tab01 AL.px",
+  ],
 } as const satisfies Record<string, readonly string[]>;
 
 export type PxPathKey = keyof typeof PATHS;

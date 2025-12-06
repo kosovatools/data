@@ -2,6 +2,7 @@ export * from "./constants";
 export * from "./construction-cost-index";
 export * from "./cpi";
 export * from "./dataset";
+export * from "./education";
 export * from "./energy";
 export * from "./gdp";
 export * from "./government";

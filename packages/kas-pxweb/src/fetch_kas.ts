@@ -52,6 +52,7 @@ import {
   fetchGovernmentExpenditure,
   fetchGovernmentRevenue,
 } from "./fetchers/government";
+import { fetchEducationBachelorFirstTime } from "./fetchers/education";
 
 type CliArgs = {
   out: string | null;
@@ -170,6 +171,9 @@ export async function main(): Promise<void> {
     fetchLabourEmploymentActivityGender(outDir, started),
   );
   await runTask("Labour Wages", () => fetchWageLevels(outDir, started));
+  await runTask("Education Bachelor First-time", () =>
+    fetchEducationBachelorFirstTime(outDir, started),
+  );
 
   await runTask("CPI Monthly", () => fetchCpiMonthly(outDir, started));
   await runTask("CPI Average Prices", () =>
