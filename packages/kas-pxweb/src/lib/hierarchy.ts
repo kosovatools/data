@@ -1,4 +1,4 @@
-import type { DimensionHierarchyNode } from "@kosovatools/data-types/dataset";
+import type { DimensionHierarchyNode } from "@kosovatools/data-types";
 
 type DimensionOptionLike = Readonly<{
   key: string;

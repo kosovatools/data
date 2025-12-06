@@ -20,7 +20,7 @@ import {
   type DimensionOption,
 } from "../lib/utils";
 import { writeJson } from "../lib/io";
-import { TimeGranularity } from "@kosovatools/data-types/time";
+import { TimeGranularity } from "@kosovatools/data-types";
 
 export class PxPipelineSkip extends PxError {
   constructor(message: string) {
@@ -476,18 +476,18 @@ export async function runPxDatasetPipeline<
 
   const dataset = finalizeDataset
     ? finalizeDataset({
-        datasetId,
-        meta: metaObj,
-        sourceMeta: meta,
-        cube,
-        cubeSummary,
-        axes: [resolvedTime, ...resolvedAxes],
-        metrics: resolvedMetrics,
-        records,
-        fields,
-        dimensions: dimensionOptions,
-        granularity: resolvedGranularity,
-      })
+      datasetId,
+      meta: metaObj,
+      sourceMeta: meta,
+      cube,
+      cubeSummary,
+      axes: [resolvedTime, ...resolvedAxes],
+      metrics: resolvedMetrics,
+      records,
+      fields,
+      dimensions: dimensionOptions,
+      granularity: resolvedGranularity,
+    })
     : (defaultDataset as DatasetShape);
 
   if (writeFile) await writeJson(outDir, filename, dataset);
@@ -687,17 +687,17 @@ function normalizeDimensionValues(
     const label =
       typeof spec.toLabel === "function"
         ? spec.toLabel(code, {
-            datasetId,
-            value: {
-              ...(base ?? { code, label: interimLabel, metaLabel }),
-              ...value,
-              code,
-              label: interimLabel,
-              metaLabel,
-            },
-            variable,
-            meta,
-          })
+          datasetId,
+          value: {
+            ...(base ?? { code, label: interimLabel, metaLabel }),
+            ...value,
+            code,
+            label: interimLabel,
+            metaLabel,
+          },
+          variable,
+          meta,
+        })
         : interimLabel;
     return {
       ...(base ?? { code, label: interimLabel, metaLabel }),

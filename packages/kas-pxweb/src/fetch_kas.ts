@@ -9,8 +9,8 @@ import process from "node:process";
 import { pathToFileURL } from "node:url";
 
 import { API_BASE } from "./lib/constants";
-import { FUEL_SPECS } from "@kosovatools/data-types/constants";
-import { PATHS } from "@kosovatools/data-types/paths";
+import { FUEL_SPECS } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data-types";
 import {
   PxError,
   requestJson,
@@ -192,7 +192,7 @@ export async function main(): Promise<void> {
 
   console.log(
     `✔ trade chapters monthly (${tradeChaptersMonthlyDataset && "records" in tradeChaptersMonthlyDataset ? tradeChaptersMonthlyDataset.records.length : 0} rows) ` +
-      `| energy (${energyDataset && "records" in energyDataset ? energyDataset.records?.length : 0} rows)`,
+    `| energy (${energyDataset && "records" in energyDataset ? energyDataset.records?.length : 0} rows)`,
   );
   console.log("Done.");
 }

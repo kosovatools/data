@@ -1,4 +1,4 @@
-import { PATHS } from "@kosovatools/data-types/paths";
+import { PATHS } from "@kosovatools/data-types";
 import {
   createMeta,
   describePxSources,
@@ -21,7 +21,7 @@ import {
   TransportMetric,
   TransportRecord,
   VehicleTypesRecord,
-} from "@kosovatools/data-types/transport";
+} from "@kosovatools/data-types";
 
 const DATASET_ID = "kas_transport_air_traffic_monthly";
 const FILENAME = "kas_transport_air_traffic_monthly.json";

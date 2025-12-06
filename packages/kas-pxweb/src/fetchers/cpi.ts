@@ -1,4 +1,4 @@
-import { PATHS } from "@kosovatools/data-types/paths";
+import { PATHS } from "@kosovatools/data-types";
 import {
   createMeta,
   describePxSources,
@@ -22,7 +22,7 @@ import {
   CpiMetric,
   CpiRecord,
   CpiMetaExtras,
-} from "@kosovatools/data-types/cpi";
+} from "@kosovatools/data-types";
 
 const CPI_METRIC_FIELDS: ReadonlyArray<MetaField & { key: CpiMetric }> = [
   { key: "index", label: "CPI Indeksi", unit: "index" },

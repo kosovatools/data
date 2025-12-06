@@ -1,5 +1,5 @@
-import { TradeChapterRecord } from "@kosovatools/data-types/trade";
-import { PATHS } from "@kosovatools/data-types/paths";
+import { TradeChapterRecord } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data-types";
 import {
   normalizeYM,
   parseTradeChapterLabel,

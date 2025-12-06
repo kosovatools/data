@@ -1,5 +1,5 @@
-import type { TradePartnerRecord } from "@kosovatools/data-types/trade";
-import { PATHS } from "@kosovatools/data-types/paths";
+import type { TradePartnerRecord } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data-types";
 import {
   createMeta,
   describePxSources,

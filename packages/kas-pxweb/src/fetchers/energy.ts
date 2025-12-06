@@ -1,4 +1,4 @@
-import { FUEL_SPECS, FuelSpec } from "@kosovatools/data-types/constants";
+import { FUEL_SPECS, FuelSpec } from "@kosovatools/data-types";
 import { PxError, findTimeDimension } from "../lib/pxweb";
 import {
   normalizeFuelField,
@@ -10,10 +10,10 @@ import {
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import { writeJson } from "../lib/io";
 export type FuelDatasetResult = Awaited<ReturnType<typeof fetchFuelTable>>;
-import { EnergyRecord, FuelRecord } from "@kosovatools/data-types/energy";
-import type { FuelMetric as FuelMetricKey } from "@kosovatools/data-types/energy";
+import { EnergyRecord, FuelRecord } from "@kosovatools/data-types";
+import type { FuelMetric as FuelMetricKey } from "@kosovatools/data-types";
 
-import { PATHS } from "@kosovatools/data-types/paths";
+import { PATHS } from "@kosovatools/data-types";
 
 type EnergyMetricSpec = MetaField & { code: string; key: keyof EnergyRecord };
 

@@ -1,5 +1,5 @@
-import type { WageGroup, WageMetric, WageRecord } from "@kosovatools/data-types/labour";
-import { PATHS } from "@kosovatools/data-types/paths";
+import type { WageGroup, WageMetric, WageRecord } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data-types";
 import {
   normalizeQuarterCode,
   normalizeWhitespace,
@@ -9,7 +9,7 @@ import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import type {
   EmploymentActivityGenderRecord,
   EmploymentGender,
-} from "@kosovatools/data-types/labour";
+} from "@kosovatools/data-types";
 
 const WAGE_GROUPS: Record<
   string,
@@ -30,9 +30,9 @@ const WAGE_METRICS: ReadonlyArray<{
   label: string;
   unit: string;
 }> = [
-  { code: "0", key: "gross_eur", label: "Pagë bruto", unit: "EUR" },
-  { code: "1", key: "net_eur", label: "Pagë neto", unit: "EUR" },
-];
+    { code: "0", key: "gross_eur", label: "Pagë bruto", unit: "EUR" },
+    { code: "1", key: "net_eur", label: "Pagë neto", unit: "EUR" },
+  ];
 
 const EMPLOYMENT_METRIC = {
   code: "__value__",
