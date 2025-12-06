@@ -23,6 +23,7 @@ export type EnergyMonthlyDatasetMeta = DatasetMetaMonthly<
 
 export type EnergyDailyRecord = {
   period: string;
+  neighbor: string;
   import: number;
   export: number;
   net: number;
@@ -30,7 +31,7 @@ export type EnergyDailyRecord = {
 
 export type EnergyDailyDatasetMeta = DatasetMeta<
   EnergyMonthlyMetric,
-  never,
+  "neighbor",
   "daily",
   DatasetMetaBaseExtras
 >;
