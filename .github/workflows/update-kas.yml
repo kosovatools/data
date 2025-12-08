@@ -43,5 +43,10 @@ jobs:
           git config user.name "data-bot"
           git config user.email "data-bot@users.noreply.github.com"
           git add data/kas
-          git commit -m "chore: update KAS data" || echo "No changes"
+          datasets=$(git diff --cached --name-only -- data/kas | sed 's|^data/kas/||; s|\.json$||' | paste -sd ", " -)
+          if [ -z "$datasets" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update KAS data (${datasets})"
           git push
