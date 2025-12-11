@@ -7,7 +7,7 @@
     "generate": "tsx src/fetch_kas.ts"
   },
   "dependencies": {
-    "@kosovatools/data-types": "workspace:*"
+    "@kosovatools/data": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",

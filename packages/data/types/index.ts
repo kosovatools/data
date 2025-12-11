@@ -8,6 +8,7 @@ export * from "./gdp";
 export * from "./government";
 export * from "./labour";
 export * from "./paths";
+export * from "./property-price-index";
 export * from "./time";
 export * from "./tourism";
 export * from "./trade";

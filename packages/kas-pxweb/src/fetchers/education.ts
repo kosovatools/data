@@ -2,7 +2,7 @@ import {
   PATHS,
   type EducationBachelorFirstTimeRecord,
   type EducationGender,
-} from "@kosovatools/data-types";
+} from "@kosovatools/data";
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import { normalizeWhitespace, slugifyLabel } from "../lib/utils";
 

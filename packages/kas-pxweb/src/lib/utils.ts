@@ -3,8 +3,8 @@ import type {
   DatasetMetaField,
   DimensionOption as DatasetDimensionOption,
   DatasetMetaBaseExtras,
-} from "@kosovatools/data-types";
-import { TimeGranularity } from "@kosovatools/data-types";
+} from "@kosovatools/data";
+import { TimeGranularity } from "@kosovatools/data";
 
 export type MetaField<TKey extends string = string> = DatasetMetaField<TKey>;
 

@@ -99,6 +99,12 @@ export const PATHS = {
     "Construction Cost Index",
     "CCI01.px",
   ],
+  property_price_index: [
+    "ASKdata",
+    "Prices",
+    "Indeksi i Çmimeve të Pronës Banesore",
+    "IPBN01.px",
+  ],
   gdp_quarterly_nominal: [
     "ASKdata",
     "National and government accounts",

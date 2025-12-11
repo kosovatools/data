@@ -1,5 +1,5 @@
-import type { WageGroup, WageMetric, WageRecord } from "@kosovatools/data-types";
-import { PATHS } from "@kosovatools/data-types";
+import type { WageGroup, WageMetric, WageRecord } from "@kosovatools/data";
+import { PATHS } from "@kosovatools/data";
 import {
   normalizeQuarterCode,
   normalizeWhitespace,
@@ -9,7 +9,7 @@ import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import type {
   EmploymentActivityGenderRecord,
   EmploymentGender,
-} from "@kosovatools/data-types";
+} from "@kosovatools/data";
 
 const WAGE_GROUPS: Record<
   string,

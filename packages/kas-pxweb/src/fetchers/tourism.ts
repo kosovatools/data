@@ -1,4 +1,4 @@
-import { PATHS } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data";
 import { PxError, buildValuePairs, type PxVariable } from "../lib/pxweb";
 import { normalizeGroupLabel, normalizeYM } from "../lib/utils";
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
@@ -6,7 +6,7 @@ import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import {
   TourismCountryRecord,
   TourismRegionRecord,
-} from "@kosovatools/data-types";
+} from "@kosovatools/data";
 
 const TOURISM_METRICS = [
   {

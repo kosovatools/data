@@ -17,7 +17,7 @@ importers:
         specifier: ^4.19.2
         version: 4.20.6
 
-  packages/data-types: {}
+  packages/data: {}
 
   packages/entsoe:
     dependencies:
@@ -34,9 +34,9 @@ importers:
 
   packages/kas-pxweb:
     dependencies:
-      '@kosovatools/data-types':
+      '@kosovatools/data':
         specifier: workspace:*
-        version: link:../data-types
+        version: link:../data
     devDependencies:
       '@types/node':
         specifier: ^24.10.0

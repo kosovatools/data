@@ -9,8 +9,8 @@ import process from "node:process";
 import { pathToFileURL } from "node:url";
 
 import { API_BASE } from "./lib/constants";
-import { FUEL_SPECS } from "@kosovatools/data-types";
-import { PATHS } from "@kosovatools/data-types";
+import { FUEL_SPECS } from "@kosovatools/data";
+import { PATHS } from "@kosovatools/data";
 import {
   PxError,
   requestJson,
@@ -36,6 +36,7 @@ import {
   FuelDatasetResult,
 } from "./fetchers/energy";
 import { fetchConstructionCostIndex } from "./fetchers/construction-cost-index";
+import { fetchPropertyPriceIndex } from "./fetchers/prices/property-price-index";
 import { fetchTradePartners } from "./fetchers/trade-partners";
 import { fetchTradeChaptersMonthly } from "./fetchers/trade";
 import { fetchTourismCountry, fetchTourismRegion } from "./fetchers/tourism";
@@ -178,6 +179,9 @@ export async function main(): Promise<void> {
   await runTask("CPI Monthly", () => fetchCpiMonthly(outDir, started));
   await runTask("CPI Average Prices", () =>
     fetchCpiAveragePricesYearly(outDir, started),
+  );
+  await runTask("Property Price Index", () =>
+    fetchPropertyPriceIndex(outDir, started),
   );
   await runTask("Construction Cost Index", () =>
     fetchConstructionCostIndex(outDir, started),

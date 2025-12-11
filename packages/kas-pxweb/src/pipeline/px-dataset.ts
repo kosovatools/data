@@ -20,7 +20,7 @@ import {
   type DimensionOption,
 } from "../lib/utils";
 import { writeJson } from "../lib/io";
-import { TimeGranularity } from "@kosovatools/data-types";
+import { TimeGranularity } from "@kosovatools/data";
 
 export class PxPipelineSkip extends PxError {
   constructor(message: string) {

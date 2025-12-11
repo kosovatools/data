@@ -2,8 +2,8 @@ import type {
   GdpByActivityCategory,
   GdpByActivityMetric,
   GdpByActivityRecord,
-} from "@kosovatools/data-types";
-import { PATHS } from "@kosovatools/data-types";
+} from "@kosovatools/data";
+import { PATHS } from "@kosovatools/data";
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import {
   createMeta,

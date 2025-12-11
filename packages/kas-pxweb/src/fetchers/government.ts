@@ -1,8 +1,8 @@
 import {
   type GovernmentExpenditureRecord,
   type GovernmentRevenueRecord,
-} from "@kosovatools/data-types";
-import { PATHS } from "@kosovatools/data-types";
+} from "@kosovatools/data";
+import { PATHS } from "@kosovatools/data";
 import {
   createMeta,
   describePxSources,
@@ -13,7 +13,7 @@ import {
   stripCodePrefix,
   type MetaField,
 } from "../lib/utils";
-import { type DimensionHierarchyNode } from "@kosovatools/data-types";
+import { type DimensionHierarchyNode } from "@kosovatools/data";
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
 import { writeJson } from "../lib/io";
 

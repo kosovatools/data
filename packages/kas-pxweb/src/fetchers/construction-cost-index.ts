@@ -1,7 +1,7 @@
 import { PxError } from "../lib/pxweb";
 import { runPxDatasetPipeline } from "../pipeline/px-dataset";
-import { PATHS } from "@kosovatools/data-types";
-import type { ConstructionCostIndexRecord } from "@kosovatools/data-types";
+import { PATHS } from "@kosovatools/data";
+import type { ConstructionCostIndexRecord } from "@kosovatools/data";
 import { buildNumberedHierarchy } from "../lib/hierarchy";
 import { normalizeQuarterCode, stripCodePrefix } from "../lib/utils";
 
