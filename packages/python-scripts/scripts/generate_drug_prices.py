@@ -93,6 +93,11 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing `drug-prices-*.xlsx` files.",
     )
     parser.add_argument(
+        "--no-merge-existing",
+        action="store_true",
+        help="Ignore existing records.json/versions.json in the output directory.",
+    )
+    parser.add_argument(
         "--pattern",
         default="drug-prices-*.xlsx",
         help="Glob pattern for Excel input files (relative to --source).",
@@ -258,6 +263,10 @@ def record_key(record: dict[str, Any]) -> tuple:
     return tuple(record.get(field) for field in DESCRIPTOR_FIELDS)
 
 
+def snapshot_values(snapshot: dict[str, Any]) -> tuple[Any, ...]:
+    return tuple(snapshot.get(field) for field in SNAPSHOT_COMPARISON_FIELDS)
+
+
 def pick_best(value_a: Any, value_b: Any) -> Any:
     return value_a if value_a not in (None, "", []) else value_b
 
@@ -317,11 +326,6 @@ def aggregate_records(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]
 
     results: list[dict[str, Any]] = []
     for entry in aggregated.values():
-        def snapshot_values(snapshot: dict[str, Any]) -> tuple[Any, ...]:
-            # Prices are already normalised (rounded) when records are built, so
-            # direct comparison is sufficient here.
-            return tuple(snapshot.get(field) for field in SNAPSHOT_COMPARISON_FIELDS)
-
         # Ensure history is in ascending version order before compression.
         sorted_history = sorted(
             entry["history"], key=lambda snap: version_key(snap["version"])
@@ -366,6 +370,136 @@ def aggregate_records(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]
     return results
 
 
+def load_existing_outputs(output_dir: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    records_path = output_dir / "records.json"
+    versions_path = output_dir / "versions.json"
+
+    existing_records: list[dict[str, Any]] = []
+    existing_versions: list[dict[str, Any]] = []
+
+    if records_path.exists():
+        with records_path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+            existing_records = payload.get("records", []) or []
+
+    if versions_path.exists():
+        with versions_path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+            existing_versions = payload.get("versions", []) or []
+
+    return existing_records, existing_versions
+
+
+def snapshot_from_record(record: dict[str, Any]) -> dict[str, Any]:
+    snapshot = {"version": record["version"]}
+    for field in PRICE_FIELDS + PRICE_META_FIELDS:
+        value = record.get(field)
+        if value is not None:
+            snapshot[field] = value
+    return snapshot
+
+
+def compress_history(history: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    compressed: list[dict[str, Any]] = []
+    for snapshot in sorted(history, key=lambda snap: version_key(snap["version"])):
+        if not compressed or snapshot_values(compressed[-1]) != snapshot_values(snapshot):
+            compressed.append(snapshot)
+    return compressed
+
+
+def aggregated_from_existing(existing_records: Iterable[dict[str, Any]]) -> dict[tuple, dict[str, Any]]:
+    aggregated: dict[tuple, dict[str, Any]] = {}
+    for record in existing_records:
+        key = record_key(record)
+        data = {field: record.get(field) for field in STATIC_FIELDS if record.get(field) is not None}
+        latest_version = record.get("latest_version")
+        latest_snapshot = {"version": latest_version} if latest_version else {}
+        for field in PRICE_FIELDS + PRICE_META_FIELDS:
+            value = record.get(field)
+            if value is not None:
+                latest_snapshot[field] = value
+
+        history = record.get("version_history") or []
+        history_sorted = sorted(history, key=lambda snap: version_key(snap["version"]))
+        if not history_sorted and latest_snapshot:
+            history_sorted = [latest_snapshot]
+
+        aggregated[key] = {
+            "data": data,
+            "latest_version": latest_version,
+            "latest_snapshot": latest_snapshot,
+            "history": compress_history(history_sorted),
+        }
+
+    return aggregated
+
+
+def merge_record_into_aggregated(aggregated: dict[tuple, dict[str, Any]], record: dict[str, Any]) -> None:
+    key = record_key(record)
+    snapshot = snapshot_from_record(record)
+    entry = aggregated.get(key)
+
+    if entry is None:
+        aggregated[key] = {
+            "data": {field: record.get(field) for field in STATIC_FIELDS if record.get(field) is not None},
+            "latest_version": record["version"],
+            "latest_snapshot": snapshot,
+            "history": [snapshot],
+        }
+        return
+
+    for field in STATIC_FIELDS:
+        entry["data"][field] = pick_best(record.get(field), entry["data"].get(field))
+
+    if entry["history"]:
+        last_snapshot = entry["history"][-1]
+        if snapshot_values(last_snapshot) != snapshot_values(snapshot):
+            entry["history"].append(snapshot)
+    else:
+        entry["history"] = [snapshot]
+
+    if entry["latest_version"] is None or version_key(record["version"]) >= version_key(entry["latest_version"]):
+        entry["latest_version"] = record["version"]
+        entry["latest_snapshot"] = snapshot
+
+    entry["history"] = compress_history(entry["history"])
+
+
+def aggregated_to_records(aggregated: dict[tuple, dict[str, Any]]) -> list[dict[str, Any]]:
+    results: list[dict[str, Any]] = []
+    for entry in aggregated.values():
+        record_data: dict[str, Any] = {}
+
+        for field in STATIC_FIELDS:
+            value = entry["data"].get(field)
+            if value is not None:
+                record_data[field] = value
+
+        latest_snapshot = entry["latest_snapshot"]
+        for field in PRICE_FIELDS + PRICE_META_FIELDS:
+            value = latest_snapshot.get(field)
+            if value is not None:
+                record_data[field] = value
+
+        history_desc = sorted(entry["history"], key=lambda snap: version_key(snap["version"]), reverse=True)
+        if history_desc:
+            record_data["version_history"] = history_desc
+            record_data["latest_price_change_version"] = history_desc[0]["version"]
+
+        record_data["latest_version"] = entry["latest_version"]
+        results.append(record_data)
+
+    results.sort(key=lambda rec: (rec.get("product_name") or "", rec.get("packaging") or ""))
+    return results
+
+
+def merge_versions(existing_versions: Iterable[dict[str, Any]], new_versions: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {entry["version"]: entry for entry in existing_versions}
+    for entry in new_versions:
+        merged[entry["version"]] = entry
+    return sorted(merged.values(), key=lambda entry: version_key(entry["version"]))
+
+
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
@@ -374,11 +508,18 @@ def write_json(path: Path, payload: Any) -> None:
 
 def main() -> None:
     args = parse_args()
-    excel_files = discover_excel_files(args.source, args.pattern)
-    if not excel_files:
-        raise SystemExit("No Excel files matched the provided pattern.")
+    existing_records: list[dict[str, Any]] = []
+    existing_versions: list[dict[str, Any]] = []
+    if not args.no_merge_existing:
+        existing_records, existing_versions = load_existing_outputs(args.output)
 
-    master_records: list[dict[str, Any]] = []
+    excel_files = discover_excel_files(args.source, args.pattern)
+    if not excel_files and not existing_records:
+        if args.no_merge_existing:
+            raise SystemExit("No Excel files matched the provided pattern.")
+        raise SystemExit("No Excel files matched the provided pattern and no existing JSON was found.")
+
+    aggregated = aggregated_from_existing(existing_records)
     summary: list[dict[str, Any]] = []
     for excel_path in sorted(excel_files, key=lambda path: version_key(extract_version(path))):
         version = extract_version(excel_path)
@@ -390,7 +531,8 @@ def main() -> None:
         ]
         version_records = [record for record in version_records if record.get("product_name")]
         version_records = deduplicate_records(version_records)
-        master_records.extend(version_records)
+        for record in version_records:
+            merge_record_into_aggregated(aggregated, record)
         valid_values = sorted(
             {record["valid_until"] for record in version_records if record.get("valid_until")}
         )
@@ -403,8 +545,8 @@ def main() -> None:
             }
         )
 
-    master_records.sort(key=lambda record: (version_key(record["version"]), record.get("serial_number") or 0))
-    aggregated_records = aggregate_records(master_records)
+    aggregated_records = aggregated_to_records(aggregated)
+    merged_versions = merge_versions(existing_versions, summary)
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     write_json(
@@ -418,7 +560,7 @@ def main() -> None:
         args.output / "versions.json",
         {
             "generated_at": generated_at,
-            "versions": summary,
+            "versions": merged_versions,
         },
     )
 
