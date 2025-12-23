@@ -103,7 +103,7 @@
     ],
     "notes": [],
     "id": "kas_energy_electricity_monthly",
-    "generated_at": "2025-12-19T04:29:51.621Z",
+    "generated_at": "2025-12-23T04:33:07.472Z",
     "title": null
   },
   "records": [
@@ -857,10 +857,10 @@
     },
     {
       "period": "2025-09",
-      "production_gwh": 396.34299999999996,
+      "production_gwh": 399.308,
       "production_thermal_gwh": 375.995,
-      "production_hydro_gwh": 2.667,
-      "production_wind_solar_gwh": 17.681,
+      "production_hydro_gwh": 3.864,
+      "production_wind_solar_gwh": 19.449,
       "import_gwh": 316.797,
       "export_gwh": 268.217,
       "gross_available_gwh": 444.922,
