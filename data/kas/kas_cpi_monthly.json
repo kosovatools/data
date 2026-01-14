@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2002-05",
-      "last": "2025-11",
-      "count": 283
+      "last": "2025-12",
+      "count": 284
     },
     "fields": [
       {
@@ -795,7 +795,7 @@
     "title": null,
     "notes": [],
     "id": "kas_cpi_monthly",
-    "generated_at": "2025-12-12T09:47:26.982Z"
+    "generated_at": "2026-01-14T04:41:54.416Z"
   },
   "records": [
     {
@@ -107771,6 +107771,384 @@
       "group": "9",
       "index": 140,
       "change": 0.03
+    },
+    {
+      "period": "2025-12",
+      "group": "0",
+      "index": 138.2,
+      "change": 0.006999999999999999
+    },
+    {
+      "period": "2025-12",
+      "group": "1",
+      "index": 161,
+      "change": 0.006
+    },
+    {
+      "period": "2025-12",
+      "group": "10",
+      "index": 163.7,
+      "change": 0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "11",
+      "index": 147.9,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "12",
+      "index": 147.2,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "13",
+      "index": 200,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "14",
+      "index": 133,
+      "change": -0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "15",
+      "index": 150.5,
+      "change": 0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "16",
+      "index": 147.7,
+      "change": -0.003
+    },
+    {
+      "period": "2025-12",
+      "group": "17",
+      "index": 155.4,
+      "change": 0.003
+    },
+    {
+      "period": "2025-12",
+      "group": "18",
+      "index": 113.7,
+      "change": 0.01
+    },
+    {
+      "period": "2025-12",
+      "group": "19",
+      "index": 113.8,
+      "change": 0.012
+    },
+    {
+      "period": "2025-12",
+      "group": "2",
+      "index": 163.8,
+      "change": 0.008
+    },
+    {
+      "period": "2025-12",
+      "group": "20",
+      "index": 111.9,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "21",
+      "index": 138.5,
+      "change": 0.037000000000000005
+    },
+    {
+      "period": "2025-12",
+      "group": "22",
+      "index": 101.7,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "23",
+      "index": 138.6,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "24",
+      "index": 106.7,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "25",
+      "index": 146.8,
+      "change": 0.05
+    },
+    {
+      "period": "2025-12",
+      "group": "26",
+      "index": 126.9,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "27",
+      "index": 117.3,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "28",
+      "index": 111.3,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "29",
+      "index": 114,
+      "change": -0.009000000000000001
+    },
+    {
+      "period": "2025-12",
+      "group": "3",
+      "index": 176.7,
+      "change": 0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "30",
+      "index": 121.9,
+      "change": -0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "31",
+      "index": 131.2,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "32",
+      "index": 153.7,
+      "change": 0.005
+    },
+    {
+      "period": "2025-12",
+      "group": "33",
+      "index": 124.5,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "34",
+      "index": 124.1,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "35",
+      "index": 126.3,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "36",
+      "index": 103.6,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "37",
+      "index": 118.9,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "38",
+      "index": 108.4,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "39",
+      "index": 119.3,
+      "change": -0.01
+    },
+    {
+      "period": "2025-12",
+      "group": "4",
+      "index": 168.5,
+      "change": 0.011000000000000001
+    },
+    {
+      "period": "2025-12",
+      "group": "40",
+      "index": 141.5,
+      "change": 0.046
+    },
+    {
+      "period": "2025-12",
+      "group": "41",
+      "index": 112,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "42",
+      "index": 104.6,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "43",
+      "index": 65.8,
+      "change": -0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "44",
+      "index": 119.7,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "45",
+      "index": 108.6,
+      "change": 0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "46",
+      "index": 84.8,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "47",
+      "index": 108.8,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "48",
+      "index": 118.8,
+      "change": -0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "49",
+      "index": 115,
+      "change": 0.003
+    },
+    {
+      "period": "2025-12",
+      "group": "5",
+      "index": 145.8,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "50",
+      "index": 117.4,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "51",
+      "index": 137.6,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "52",
+      "index": 108.1,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "53",
+      "index": 142.7,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "54",
+      "index": 144.9,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "55",
+      "index": 115.1,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "56",
+      "index": 125.5,
+      "change": 0.002
+    },
+    {
+      "period": "2025-12",
+      "group": "57",
+      "index": 133.4,
+      "change": 0.003
+    },
+    {
+      "period": "2025-12",
+      "group": "58",
+      "index": 124.1,
+      "change": 0.004
+    },
+    {
+      "period": "2025-12",
+      "group": "59",
+      "index": 124.9,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "6",
+      "index": 167.9,
+      "change": 0.006999999999999999
+    },
+    {
+      "period": "2025-12",
+      "group": "60",
+      "index": 122.9,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "61",
+      "index": 119,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "62",
+      "index": 100.8,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "7",
+      "index": 198.3,
+      "change": 0
+    },
+    {
+      "period": "2025-12",
+      "group": "8",
+      "index": 113.2,
+      "change": -0.001
+    },
+    {
+      "period": "2025-12",
+      "group": "9",
+      "index": 144,
+      "change": 0.028999999999999998
     }
   ]
 }
