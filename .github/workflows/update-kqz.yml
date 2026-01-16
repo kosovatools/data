@@ -1,0 +1,43 @@
+name: Refresh KQZ data
+on:
+  schedule: [{ cron: "30 2 * * *" }] # daily 02:30 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch KQZ datasets
+        run: python packages/python-scripts/scripts/fetch_kqz_data.py
+
+      - name: Build recount diff
+        run: python packages/python-scripts/scripts/diff_kqz_recount.py
+
+      - name: Clean raw KQZ files
+        run: |
+          rm -f data/kqz/metadata-national.json \
+            data/kqz/full-candidates-parliamentary.json \
+            data/kqz/qnr-metadata-parliamentary.json \
+            data/kqz/total-metadata-parliamentary.json \
+            data/kqz/parliamentary-qkn-latest.json \
+            data/kqz/parliamentary-qnr-latest.json
+
+      - name: Commit diff
+        run: |
+          git config user.name "data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          git add data/kqz/qkn_qnr_recount_diff.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update KQZ recount diff"
+          git push

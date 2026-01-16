@@ -8,6 +8,10 @@
     "prishtina-permits": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_prishtina_building_permits.py",
     "atk-faq": "cd ../.. && venv/bin/python packages/python-scripts/scripts/scrape_atk_faq.py",
     "loans-interest": "cd ../.. && venv/bin/python packages/python-scripts/scripts/export_loans_interest_dataset.py",
-    "me-accreditation": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_me_accreditation.py"
+    "me-accreditation": "cd ../.. && venv/bin/python packages/python-scripts/scripts/generate_me_accreditation.py",
+    "kek-losses": "cd ../.. && venv/bin/python packages/python-scripts/scripts/kek/generate_kek_losses_consumption.py",
+    "kek-purchases": "cd ../.. && venv/bin/python packages/python-scripts/scripts/kek/generate_kek_energy_purchases.py",
+    "kqz-fetch": "cd ../.. && python packages/python-scripts/scripts/fetch_kqz_data.py",
+    "kqz-diff": "cd ../.. && python packages/python-scripts/scripts/diff_kqz_recount.py"
   }
 }

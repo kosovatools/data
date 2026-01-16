@@ -30,6 +30,7 @@ import type {
   TurnoverCitiesDataset,
   VehicleTypesDataset,
   WageLevelsDataset,
+  KqzRecountDiffDataset,
 } from "../types";
 
 type DatasetRegistryEntry<TData> = Readonly<{
@@ -160,6 +161,10 @@ export const DATASET_REGISTRY = {
   "kas.property-price-index": defineDatasetEntry<PropertyPriceIndexDataset>({
     prefix: ["kas"],
     path: "kas_property_price_index_quarterly.json",
+  }),
+  "kqz.parliamentary-recount-diff": defineDatasetEntry<KqzRecountDiffDataset>({
+    prefix: ["kqz"],
+    path: "qkn_qnr_recount_diff.json",
   }),
   "prishtina.building-permits-index": defineDatasetEntry<BuildingPermitsIndex>({
     prefix: ["prishtina", "building_permits"],
