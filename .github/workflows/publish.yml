@@ -7,6 +7,7 @@ on:
       - "Refresh ENTSO-E data"
       - "Refresh KAS data"
       - "Refresh customs data"
+      - "Refresh KQZ data"
     types: [completed]
   workflow_dispatch:
 permissions:

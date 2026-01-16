@@ -34,6 +34,20 @@ def build_recount_metadata_lookup(metadata, vote_type="1"):
     return lookup
 
 
+def build_candidate_lookup(full_candidates):
+    party_lookup = {}
+    candidate_lookup = {}
+    for party_id, party_info in full_candidates.items():
+        party_lookup[party_id] = {"name": party_info.get("name")}
+        candidate_lookup[party_id] = {}
+        candidates = party_info.get("0", {})
+        for candidate_id, candidate_info in candidates.items():
+            candidate_lookup[party_id][candidate_id] = {
+                "name": candidate_info.get("name")
+            }
+    return party_lookup, candidate_lookup
+
+
 def flatten_qkn_polling_stations(qkn):
     stations = {}
     for municipality_id, municipality in qkn.get("municipalities", {}).items():
@@ -129,6 +143,12 @@ def main():
         help="Path to QNR metadata for station names",
     )
     parser.add_argument(
+        "--candidates",
+        type=Path,
+        default=data_dir / "full-candidates-parliamentary.json",
+        help="Path to full candidates list for names",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=data_dir / "qkn_qnr_recount_diff.json",
@@ -139,9 +159,11 @@ def main():
     qkn = load_json(args.qkn)
     qnr = load_json(args.qnr)
     metadata = load_json(args.metadata) if args.metadata.exists() else {}
+    candidates_data = load_json(args.candidates) if args.candidates.exists() else {}
 
     qkn_stations = flatten_qkn_polling_stations(qkn)
     recount_lookup = build_recount_metadata_lookup(metadata, args.vote_type)
+    party_lookup, candidate_lookup = build_candidate_lookup(candidates_data)
 
     aggregate_party_deltas = defaultdict(int)
     aggregate_candidate_deltas = defaultdict(lambda: defaultdict(int))
@@ -217,7 +239,11 @@ def main():
                 aggregate_candidate_deltas_flat.append(
                     {
                         "party_id": party_id,
+                        "party_name": party_lookup.get(party_id, {}).get("name"),
                         "candidate_id": candidate_id,
+                        "candidate_name": candidate_lookup.get(party_id, {})
+                        .get(candidate_id, {})
+                        .get("name"),
                         "delta": delta,
                     }
                 )
@@ -232,6 +258,8 @@ def main():
         },
         "aggregate_candidate_deltas_flat": aggregate_candidate_deltas_flat,
         "aggregate_party_deltas": dict(aggregate_party_deltas),
+        "party_lookup": party_lookup,
+        "candidate_lookup": candidate_lookup,
         "polling_station_diffs": polling_station_diffs,
         "municipality_diffs": municipality_diffs,
     }

@@ -34,9 +34,14 @@ export type KqzMunicipalityDiff = {
 
 export type KqzCandidateDelta = {
   party_id: string;
+  party_name?: string | null;
   candidate_id: string;
+  candidate_name?: string | null;
   delta: number;
 };
+
+export type KqzPartyLookup = Record<string, { name: string | null }>;
+export type KqzCandidateLookup = Record<string, Record<string, { name: string | null }>>;
 
 export type KqzRecountDiffDataset = {
   vote_type: string;
@@ -45,6 +50,8 @@ export type KqzRecountDiffDataset = {
   aggregate_candidate_deltas: Record<string, Record<string, number>>;
   aggregate_candidate_deltas_flat: KqzCandidateDelta[];
   aggregate_party_deltas: Record<string, number>;
+  party_lookup: KqzPartyLookup;
+  candidate_lookup: KqzCandidateLookup;
   polling_station_diffs: Record<string, KqzPollingStationDiff>;
   municipality_diffs: Record<string, KqzMunicipalityDiff>;
 };
