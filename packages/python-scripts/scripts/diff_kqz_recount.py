@@ -34,6 +34,12 @@ def build_recount_metadata_lookup(metadata, vote_type="1"):
     return lookup
 
 
+
+
+def build_municipality_lookup(metadata):
+    return {mun.get("id"): mun.get("name") for mun in metadata.get("municipalities", [])}
+
+
 def build_candidate_lookup(full_candidates):
     party_lookup = {}
     candidate_lookup = {}
@@ -163,6 +169,7 @@ def main():
 
     qkn_stations = flatten_qkn_polling_stations(qkn)
     recount_lookup = build_recount_metadata_lookup(metadata, args.vote_type)
+    municipality_lookup = build_municipality_lookup(metadata)
     party_lookup, candidate_lookup = build_candidate_lookup(candidates_data)
 
     aggregate_party_deltas = defaultdict(int)
@@ -185,7 +192,7 @@ def main():
                 polling_station_id,
                 {
                     "municipality_id": recount_station["municipality_id"],
-                    "municipality_name": None,
+                    "municipality_name": municipality_lookup.get(recount_station["municipality_id"]),
                     "voting_station_id": recount_station["voting_station_id"],
                     "voting_station_name": None,
                     "polling_station_id": polling_station_id,
