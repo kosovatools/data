@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+from datetime import datetime, timezone
 from collections import defaultdict
 from pathlib import Path
 
@@ -256,6 +257,10 @@ def main():
                 )
 
     output_payload = {
+        "generated_at": datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z"),
         "vote_type": args.vote_type,
         "recount_polling_station_count": len(recount_stations),
         "missing_in_qkn": sorted(set(missing_in_qkn)),

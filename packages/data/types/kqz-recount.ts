@@ -44,6 +44,7 @@ export type KqzPartyLookup = Record<string, { name: string | null }>;
 export type KqzCandidateLookup = Record<string, Record<string, { name: string | null }>>;
 
 export type KqzRecountDiffDataset = {
+  generated_at?: string | null;
   vote_type: string;
   recount_polling_station_count: number;
   missing_in_qkn: string[];
