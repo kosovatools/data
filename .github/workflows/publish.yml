@@ -2,6 +2,9 @@ name: Publish data
 on:
   push:
     branches: [main]
+    paths:
+      - ".github/workflows/publish.yml"
+      - "data/**"
   workflow_run:
     workflows:
       - "Refresh ENTSO-E data"
@@ -22,7 +25,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.ref }}
+          # Use the latest commit on the branch; workflow_run.head_sha does not
+          # include commits pushed by the workflow itself.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
