@@ -28,7 +28,8 @@ const NOTES = [
 ];
 
 function scaleFromMillions(value: number | null | undefined): number | null {
-  if (typeof value !== "number" || !Number.isFinite(value)) return null;
+  if (typeof value !== "number" || !Number.isFinite(value) || value === 0)
+    return null;
   return value * 1_000_000;
 }
 
@@ -95,10 +96,13 @@ export async function fetchGovernmentExpenditure(
       const category = axes.category;
       if (!category) return null;
 
+      const amount_eur = scaleFromMillions(values.amount_eur ?? values.__value__);
+      if (amount_eur === null) return null;
+
       return {
         period,
         category: category.value.key || category.code,
-        amount_eur: scaleFromMillions(values.amount_eur ?? values.__value__),
+        amount_eur,
       };
     },
     buildNotes: () => NOTES,
@@ -203,10 +207,13 @@ export async function fetchGovernmentRevenue(
       const quarterCode = quarterAxis.label || quarterAxis.metaLabel || "Q1";
       const normalizedPeriod = `${period}-${quarterCode}`;
 
+      const amount_eur = scaleFromMillions(values.amount_eur ?? values.__value__);
+      if (amount_eur === null) return null;
+
       return {
         period: normalizedPeriod,
         category: category.value.key || category.code,
-        amount_eur: scaleFromMillions(values.amount_eur ?? values.__value__),
+        amount_eur,
       };
     },
     buildNotes: () => NOTES,
