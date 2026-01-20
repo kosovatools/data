@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
+import requests
 from openpyxl import load_workbook
 
 SOURCE_URLS: Dict[int, str] = {
@@ -139,7 +140,33 @@ def parse_args() -> argparse.Namespace:
         default=Path("data/prishtina/building_permits"),
         help="Directory that will receive the JSON exports.",
     )
+    parser.add_argument(
+        "--download-source",
+        action="store_true",
+        help="Download the source Excel workbooks if they are missing from --raw-dir.",
+    )
     return parser.parse_args()
+
+
+
+def download_file(url: str, target_path: Path) -> bool:
+    if target_path.exists():
+        return True
+    
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Downloading {url} to {target_path}...")
+    try:
+        response = requests.get(url, stream=True, timeout=30)
+        response.raise_for_status()
+        with target_path.open("wb") as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+        return True
+    except Exception as e:
+        print(f"Failed to download {url}: {e}")
+        if target_path.exists():
+            target_path.unlink()
+        return False
 
 
 def normalize_header(value: Any) -> str:
@@ -441,6 +468,12 @@ def write_json(path: Path, payload: Dict[str, Any]) -> None:
 
 def main() -> None:
     args = parse_args()
+    if args.download_source:
+        args.raw_dir.mkdir(parents=True, exist_ok=True)
+        for year, url in SOURCE_URLS.items():
+            filename = f"building-permits-{year}.xlsx"
+            download_file(url, args.raw_dir / filename)
+
     files = discover_files(args.raw_dir, args.pattern)
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
