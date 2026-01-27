@@ -1,120 +1,120 @@
 {
-  "generated_at": "2026-01-27T01:49:51Z",
+  "generated_at": "2026-01-27T09:32:19Z",
   "vote_type": "1",
-  "recount_polling_station_count": 3774,
+  "recount_polling_station_count": 3780,
   "missing_in_qkn": [],
   "aggregate_candidate_deltas": {
     "116": {
-      "2": -56,
+      "2": -44,
       "3": -94,
-      "7": 148,
-      "10": 366,
-      "17": 0,
+      "7": 164,
+      "10": 370,
+      "17": 10,
       "35": -46,
       "58": 70,
-      "68": -4,
+      "68": -2,
       "86": 84,
       "87": -122,
       "91": -500,
-      "95": 118,
-      "102": 622,
+      "95": 120,
+      "102": 624,
       "106": 302,
-      "1": -792,
-      "5": 108,
-      "8": 90,
-      "12": 362,
+      "1": -774,
+      "5": 134,
+      "8": 92,
+      "12": 370,
       "20": 94,
       "21": 72,
       "26": 128,
-      "27": -126,
-      "29": 64,
+      "27": -124,
+      "29": 66,
       "44": -12,
-      "47": 240,
-      "54": 72,
-      "55": 214,
+      "47": 250,
+      "54": 74,
+      "55": 222,
       "56": -682,
-      "69": -154,
-      "74": -34,
+      "69": -150,
+      "74": -32,
       "75": 24,
       "79": -30,
-      "94": -72,
-      "96": 368,
-      "97": 82,
+      "94": -70,
+      "96": 372,
+      "97": 84,
       "4": -278,
-      "6": 260,
-      "9": 548,
-      "11": 198,
-      "13": 76,
-      "15": -8,
-      "16": -66,
-      "28": -6,
-      "43": 196,
+      "6": 272,
+      "9": 554,
+      "11": 202,
+      "13": 82,
+      "15": -10,
+      "16": -56,
+      "28": -4,
+      "43": 186,
       "80": 66,
       "85": 62,
       "103": -338,
       "36": -108,
-      "66": -38,
+      "66": -40,
       "76": -76,
       "18": -2,
-      "98": 68,
-      "48": 168,
-      "100": -646,
-      "25": -504,
+      "98": 70,
+      "48": 176,
+      "100": -642,
+      "25": -498,
       "51": 8,
-      "62": -6,
-      "63": 30,
-      "65": -64,
-      "67": -128,
-      "83": 86,
-      "89": 42,
-      "92": 16,
-      "110": 304,
+      "62": -8,
+      "63": 32,
+      "65": -76,
+      "67": -126,
+      "83": 70,
+      "89": 46,
+      "92": 14,
+      "110": 306,
       "78": 128,
       "90": -40,
-      "14": -34,
-      "19": -24,
-      "34": -1248,
-      "37": 54,
-      "41": -156,
-      "81": 128,
+      "14": -32,
+      "19": -22,
+      "34": -1250,
+      "37": 60,
+      "41": -152,
+      "81": 114,
       "82": -454,
       "24": 122,
-      "42": 112,
-      "45": -14,
-      "46": -36,
+      "42": 120,
+      "45": -12,
+      "46": -34,
       "52": 140,
-      "99": 92,
-      "88": 14,
+      "99": 94,
+      "88": 16,
       "22": 4,
-      "33": -38,
+      "33": -42,
       "101": -1102,
-      "38": -116,
-      "40": 92,
-      "73": 8,
-      "60": 128,
+      "38": -114,
+      "40": 96,
+      "73": 12,
+      "60": 130,
       "61": -450,
-      "72": 164,
+      "72": 162,
       "109": 218,
       "84": -890,
       "108": 32,
       "59": 80,
-      "71": -140,
-      "104": -88,
-      "23": 64,
+      "71": -142,
+      "104": -86,
+      "23": 66,
       "30": -32,
-      "31": -292,
-      "57": 44,
-      "105": 78,
+      "31": -294,
+      "57": 46,
+      "105": 58,
       "77": 42,
-      "50": -554,
+      "50": -556,
       "93": 8,
-      "107": 102,
-      "53": -24,
-      "49": -472,
-      "64": -542,
-      "70": -36,
+      "107": 104,
+      "53": -40,
+      "49": -468,
+      "64": -540,
+      "70": -34,
       "39": 192,
-      "32": 176
+      "32": 182
     },
     "123": {
       "5": -20,
@@ -124,8 +124,8 @@
       "41": 252,
       "89": 38,
       "98": 76,
-      "110": 874,
-      "11": -56,
+      "110": 876,
+      "11": -58,
       "14": 128,
       "16": -882,
       "18": 230,
@@ -133,7 +133,7 @@
       "33": 128,
       "35": -314,
       "37": 20,
-      "52": -216,
+      "52": -218,
       "82": -10,
       "3": 178,
       "12": 220,
@@ -142,7 +142,7 @@
       "30": -10,
       "106": 12,
       "15": -180,
-      "17": 276,
+      "17": 278,
       "19": 228,
       "20": 188,
       "22": 36,
@@ -158,8 +158,8 @@
       "1": -322,
       "8": 24,
       "21": 72,
-      "55": -216,
-      "100": 114,
+      "55": -214,
+      "100": 112,
       "105": 2,
       "2": -78,
       "29": 162,
@@ -191,7 +191,7 @@
       "103": 38,
       "104": -16,
       "23": -106,
-      "58": 56,
+      "58": 54,
       "86": 66,
       "79": 20,
       "24": 16,
@@ -292,7 +292,7 @@
       "6": -60,
       "13": 26,
       "54": -4,
-      "85": 30,
+      "85": 28,
       "28": -42,
       "25": -24,
       "107": 2,
@@ -341,87 +341,87 @@
       "42": 0
     },
     "130": {
-      "1": -150,
-      "2": 1304,
+      "1": -152,
+      "2": 1302,
       "5": 468,
-      "8": 772,
-      "15": 1188,
+      "8": 770,
+      "15": 1186,
       "17": 510,
       "26": 78,
-      "30": 1720,
-      "32": -72,
-      "33": 54,
+      "30": 1724,
+      "32": -74,
+      "33": 52,
       "34": -6,
-      "40": 434,
+      "40": 436,
       "42": -6634,
       "46": 388,
       "47": 146,
-      "56": 48,
+      "56": 46,
       "57": 22,
       "60": 182,
       "67": 636,
       "70": 562,
-      "75": 648,
+      "75": 652,
       "81": 10,
-      "95": 124,
+      "95": 126,
       "107": 50,
       "3": 808,
       "22": 164,
-      "25": 224,
-      "9": 602,
+      "25": 222,
+      "9": 598,
       "10": -4872,
-      "20": 446,
+      "20": 444,
       "38": 398,
       "43": 138,
       "44": 190,
       "45": 264,
       "52": 102,
       "105": 56,
-      "21": 264,
-      "48": 144,
+      "21": 262,
+      "48": 142,
       "98": 108,
-      "14": -1380,
-      "16": 176,
-      "35": 92,
+      "14": -1378,
+      "16": 174,
+      "35": 90,
       "53": 150,
-      "82": -1246,
+      "82": -1244,
       "18": -358,
-      "73": -24,
+      "73": -26,
       "76": -322,
       "83": 248,
       "86": 164,
       "93": 90,
       "101": -570,
       "103": 352,
-      "4": -2194,
-      "7": 346,
-      "12": 420,
+      "4": -2200,
+      "7": 350,
+      "12": 418,
       "31": -2066,
       "49": 32,
-      "59": 206,
+      "59": 204,
       "79": 328,
-      "100": 596,
+      "100": 600,
       "102": 88,
-      "110": 946,
+      "110": 942,
       "97": -114,
       "106": -58,
       "19": -2654,
-      "24": -58,
-      "28": -688,
+      "24": -60,
+      "28": -686,
       "62": 32,
       "23": -658,
       "89": -13542,
       "13": 418,
       "11": 142,
       "50": 164,
-      "109": 834,
+      "109": 836,
       "27": 502,
       "37": 154,
       "58": 328,
       "84": 58,
-      "6": -40,
+      "6": -38,
       "90": 196,
-      "91": 400,
+      "91": 402,
       "65": 36,
       "99": 364,
       "80": -3340,
@@ -435,21 +435,21 @@
       "29": 126,
       "77": 92,
       "36": -4158,
-      "39": 94,
+      "39": 92,
       "41": 184,
       "74": 108,
-      "61": 2,
-      "85": 276,
+      "61": 0,
+      "85": 274,
       "71": 14,
+      "55": 38,
       "64": 36,
       "72": 54,
       "87": -818,
-      "55": 36,
       "51": 612,
       "68": 116,
-      "69": 36,
+      "69": 34,
       "92": 72,
-      "104": 140,
+      "104": 142,
       "54": -654
     },
     "134": {
@@ -599,7 +599,7 @@
       "14": 0,
       "7": 26,
       "6": 26,
-      "9": 28,
+      "9": 30,
       "12": 14,
       "10": 42,
       "4": 24,
@@ -609,9 +609,9 @@
       "1": -62
     },
     "117": {
-      "1": 48,
+      "1": 46,
       "2": 36,
-      "3": 16,
+      "3": 14,
       "8": 16,
       "5": 26,
       "6": 10,
@@ -731,11 +731,11 @@
       "10": 12
     },
     "114": {
-      "1": 58,
-      "2": 34,
+      "1": 60,
+      "2": 36,
       "3": 30,
-      "4": 20,
-      "5": 30,
+      "4": 22,
+      "5": 32,
       "8": 14,
       "11": 14,
       "13": 14,
@@ -768,6 +768,7 @@
       "11": -2,
       "18": -6,
       "60": -2,
+      "39": 4,
       "3": 0,
       "19": 0,
       "21": 4,
@@ -801,7 +802,6 @@
       "22": -6,
       "33": 2,
       "20": 2,
-      "39": 2,
       "46": 6,
       "16": -4,
       "54": 2,
@@ -842,6 +842,8 @@
       "38": 6,
       "48": 24,
       "9": -6,
+      "11": 12,
+      "14": -522,
       "8": -24,
       "19": -10,
       "83": -2,
@@ -881,14 +883,12 @@
       "106": -4,
       "107": -4,
       "35": -2,
-      "11": 10,
       "15": 0,
       "36": 26,
       "59": 36,
       "17": 12,
       "93": 6,
       "98": -86,
-      "14": -520,
       "30": 42,
       "95": 30,
       "73": 88,
@@ -980,12 +980,12 @@
     },
     "126": {
       "1": 16,
-      "2": 4,
+      "2": 6,
       "8": 4,
       "13": -6,
       "5": 2,
       "15": -4,
-      "19": 8,
+      "19": 10,
       "20": 6,
       "34": 4,
       "6": 0,
@@ -996,6 +996,7 @@
       "21": 2,
       "22": -2,
       "28": -2,
+      "30": 6,
       "10": -58,
       "9": -4,
       "11": 16,
@@ -1006,7 +1007,6 @@
       "32": 12,
       "35": 4,
       "25": 6,
-      "30": 4,
       "17": 0,
       "29": 4,
       "27": -6,
@@ -1076,10 +1076,10 @@
     },
     "118": {
       "11": -4,
+      "1": 14,
       "3": -4,
       "8": 4,
       "12": -6,
-      "1": 12,
       "2": 2,
       "5": -6,
       "6": 2,
@@ -1200,7 +1200,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "2",
       "candidate_name": "GLAUK KONJUFCA",
-      "delta": -56
+      "delta": -44
     },
     {
       "party_id": "116",
@@ -1214,14 +1214,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "7",
       "candidate_name": "XHELAL SVEÇLA",
-      "delta": 148
+      "delta": 164
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "10",
       "candidate_name": "SHQIPE MEHMETI SELIMI",
-      "delta": 366
+      "delta": 370
+    },
+    {
+      "party_id": "116",
+      "party_name": "Lëvizja VETËVENDOSJE!",
+      "candidate_id": "17",
+      "candidate_name": "JETA STATOVCI",
+      "delta": 10
     },
     {
       "party_id": "116",
@@ -1242,7 +1249,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "68",
       "candidate_name": "ILIR KËRÇELI",
-      "delta": -4
+      "delta": -2
     },
     {
       "party_id": "116",
@@ -1270,14 +1277,14 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "95",
       "candidate_name": "ENVER DUGOLLI",
-      "delta": 118
+      "delta": 120
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "102",
       "candidate_name": "ALBAN BAJRAMI",
-      "delta": 622
+      "delta": 624
     },
     {
       "party_id": "116",
@@ -1291,28 +1298,28 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "1",
       "candidate_name": "ALBIN KURTI",
-      "delta": -792
+      "delta": -774
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "5",
       "candidate_name": "ALBULENA HAXHIU",
-      "delta": 108
+      "delta": 134
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "8",
       "candidate_name": "MIMOZA KUSARI LILA",
-      "delta": 90
+      "delta": 92
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "12",
       "candidate_name": "ARBEN VITIA",
-      "delta": 362
+      "delta": 370
     },
     {
       "party_id": "116",
@@ -1340,14 +1347,14 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "27",
       "candidate_name": "HAXHI AVDYLI",
-      "delta": -126
+      "delta": -124
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "29",
       "candidate_name": "EDONA LLALLOSHI",
-      "delta": 64
+      "delta": 66
     },
     {
       "party_id": "116",
@@ -1361,21 +1368,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "47",
       "candidate_name": "NEZIR KRAKI",
-      "delta": 240
+      "delta": 250
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "54",
       "candidate_name": "EJUP AHMETI",
-      "delta": 72
+      "delta": 74
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "55",
       "candidate_name": "LABINOTË DEMI MURTEZI",
-      "delta": 214
+      "delta": 222
     },
     {
       "party_id": "116",
@@ -1389,14 +1396,14 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "69",
       "candidate_name": "FITIM HAZIRI",
-      "delta": -154
+      "delta": -150
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "74",
       "candidate_name": "NITA SHEHU",
-      "delta": -34
+      "delta": -32
     },
     {
       "party_id": "116",
@@ -1417,21 +1424,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "94",
       "candidate_name": "DONJETA ISMAJLI",
-      "delta": -72
+      "delta": -70
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "96",
       "candidate_name": "FATOS GECI",
-      "delta": 368
+      "delta": 372
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "97",
       "candidate_name": "BAJRAM MAVRIQI",
-      "delta": 82
+      "delta": 84
     },
     {
       "party_id": "116",
@@ -1445,56 +1452,56 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "6",
       "candidate_name": "HEKURAN MURATI",
-      "delta": 260
+      "delta": 272
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "9",
       "candidate_name": "HAJRULLA ÇEKO",
-      "delta": 548
+      "delta": 554
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "11",
       "candidate_name": "ANDIN HOTI",
-      "delta": 198
+      "delta": 202
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "13",
       "candidate_name": "SARANDA BOGUJEVCI",
-      "delta": 76
+      "delta": 82
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "15",
       "candidate_name": "ZEF MORINA",
-      "delta": -8
+      "delta": -10
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "16",
       "candidate_name": "EJUP MAQEDONCI",
-      "delta": -66
+      "delta": -56
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "28",
       "candidate_name": "ARDIAN GOLA",
-      "delta": -6
+      "delta": -4
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "43",
       "candidate_name": "ADRIANA MATOSHI",
-      "delta": 196
+      "delta": 186
     },
     {
       "party_id": "116",
@@ -1529,7 +1536,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "66",
       "candidate_name": "MIMOZA SHALA",
-      "delta": -38
+      "delta": -40
     },
     {
       "party_id": "116",
@@ -1550,28 +1557,28 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "98",
       "candidate_name": "FJOLLA UJKANI",
-      "delta": 68
+      "delta": 70
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "48",
       "candidate_name": "MEFAIL BAJQINOVCI",
-      "delta": 168
+      "delta": 176
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "100",
       "candidate_name": "VALON HOTI",
-      "delta": -646
+      "delta": -642
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "25",
       "candidate_name": "ARTAN ABRASHI",
-      "delta": -504
+      "delta": -498
     },
     {
       "party_id": "116",
@@ -1585,56 +1592,56 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "62",
       "candidate_name": "VIGAN QORROLLI",
-      "delta": -6
+      "delta": -8
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "63",
       "candidate_name": "SHQIPE ISUFI",
-      "delta": 30
+      "delta": 32
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "65",
       "candidate_name": "FAHRUSH REXHEPI",
-      "delta": -64
+      "delta": -76
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "67",
       "candidate_name": "KALTRINA GRUDA",
-      "delta": -128
+      "delta": -126
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "83",
       "candidate_name": "LULZIM HETEMI",
-      "delta": 86
+      "delta": 70
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "89",
       "candidate_name": "MAJLINDA NUSHI LIMANI",
-      "delta": 42
+      "delta": 46
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "92",
       "candidate_name": "ALBERT SELISHTA",
-      "delta": 16
+      "delta": 14
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "110",
       "candidate_name": "SALIH ZYBA",
-      "delta": 304
+      "delta": 306
     },
     {
       "party_id": "116",
@@ -1655,42 +1662,42 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "14",
       "candidate_name": "ARBËRIE NAGAVCI",
-      "delta": -34
+      "delta": -32
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "19",
       "candidate_name": "ARTANE RIZVANOLLI BERISHA",
-      "delta": -24
+      "delta": -22
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "34",
       "candidate_name": "ARBËR REXHAJ",
-      "delta": -1248
+      "delta": -1250
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "37",
       "candidate_name": "ENVER HALITI",
-      "delta": 54
+      "delta": 60
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "41",
       "candidate_name": "SYLEJMAN MEHOLLI",
-      "delta": -156
+      "delta": -152
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "81",
       "candidate_name": "AGIM BAHTIRI",
-      "delta": 128
+      "delta": 114
     },
     {
       "party_id": "116",
@@ -1711,21 +1718,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "42",
       "candidate_name": "RUFKI SUMA",
-      "delta": 112
+      "delta": 120
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "45",
       "candidate_name": "HEKURAN GASHI",
-      "delta": -14
+      "delta": -12
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "46",
       "candidate_name": "DAFINA GEXHA BUNJAKU",
-      "delta": -36
+      "delta": -34
     },
     {
       "party_id": "116",
@@ -1739,14 +1746,14 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "99",
       "candidate_name": "GRAMOS AGUSHOLLI",
-      "delta": 92
+      "delta": 94
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "88",
       "candidate_name": "LUAN ALIU",
-      "delta": 14
+      "delta": 16
     },
     {
       "party_id": "116",
@@ -1760,7 +1767,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "33",
       "candidate_name": "ADNAN RRUSTEMI",
-      "delta": -38
+      "delta": -42
     },
     {
       "party_id": "116",
@@ -1774,28 +1781,28 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "38",
       "candidate_name": "JETON RAKA",
-      "delta": -116
+      "delta": -114
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "40",
       "candidate_name": "ADELINA GRAINCA",
-      "delta": 92
+      "delta": 96
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "73",
       "candidate_name": "AVDULLAH KLINAKU",
-      "delta": 8
+      "delta": 12
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "60",
       "candidate_name": "NAIM BARDIQI",
-      "delta": 128
+      "delta": 130
     },
     {
       "party_id": "116",
@@ -1809,7 +1816,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "72",
       "candidate_name": "BLERIM GASHI",
-      "delta": 164
+      "delta": 162
     },
     {
       "party_id": "116",
@@ -1844,21 +1851,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "71",
       "candidate_name": "DRITA PAJAZITI",
-      "delta": -140
+      "delta": -142
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "104",
       "candidate_name": "ILIR GASHI",
-      "delta": -88
+      "delta": -86
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "23",
       "candidate_name": "FITORE PACOLLI DALIPI",
-      "delta": 64
+      "delta": 66
     },
     {
       "party_id": "116",
@@ -1872,21 +1879,21 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "31",
       "candidate_name": "ARSIM ADEMI",
-      "delta": -292
+      "delta": -294
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "57",
       "candidate_name": "EGZON AZEMI",
-      "delta": 44
+      "delta": 46
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "105",
       "candidate_name": "TAFIL PECI",
-      "delta": 78
+      "delta": 58
     },
     {
       "party_id": "116",
@@ -1900,7 +1907,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "50",
       "candidate_name": "MYTAHER HASKUKA",
-      "delta": -554
+      "delta": -556
     },
     {
       "party_id": "116",
@@ -1914,35 +1921,35 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "107",
       "candidate_name": "SHQIPE JASHARI RAMADANI",
-      "delta": 102
+      "delta": 104
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "53",
       "candidate_name": "AFËRDITA HAJRIZI",
-      "delta": -24
+      "delta": -40
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "49",
       "candidate_name": "GANI KRASNIQI",
-      "delta": -472
+      "delta": -468
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "64",
       "candidate_name": "ARSIM BERISHA",
-      "delta": -542
+      "delta": -540
     },
     {
       "party_id": "116",
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "70",
       "candidate_name": "ALI DULA",
-      "delta": -36
+      "delta": -34
     },
     {
       "party_id": "116",
@@ -1956,7 +1963,7 @@
       "party_name": "Lëvizja VETËVENDOSJE!",
       "candidate_id": "32",
       "candidate_name": "ARJETA FEJZA",
-      "delta": 176
+      "delta": 182
     },
     {
       "party_id": "123",
@@ -2012,14 +2019,14 @@
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "110",
       "candidate_name": "PARIS GURI",
-      "delta": 874
+      "delta": 876
     },
     {
       "party_id": "123",
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "11",
       "candidate_name": "XHAFER GASHI",
-      "delta": -56
+      "delta": -58
     },
     {
       "party_id": "123",
@@ -2075,7 +2082,7 @@
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "52",
       "candidate_name": "REXHEP KADRIU",
-      "delta": -216
+      "delta": -218
     },
     {
       "party_id": "123",
@@ -2138,7 +2145,7 @@
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "17",
       "candidate_name": "ARMEND ZEMAJ",
-      "delta": 276
+      "delta": 278
     },
     {
       "party_id": "123",
@@ -2250,14 +2257,14 @@
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "55",
       "candidate_name": "NASER OSMANI",
-      "delta": -216
+      "delta": -214
     },
     {
       "party_id": "123",
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "100",
       "candidate_name": "BUJAR GASHI",
-      "delta": 114
+      "delta": 112
     },
     {
       "party_id": "123",
@@ -2481,7 +2488,7 @@
       "party_name": "LIDHJA DEMOKRATIKE E KOSOVËS - LDK",
       "candidate_id": "58",
       "candidate_name": "VESA HAXHIKADRIU BERISHA",
-      "delta": 56
+      "delta": 54
     },
     {
       "party_id": "123",
@@ -3146,7 +3153,7 @@
       "party_name": "AAK - ALEANCA PËR ARDHMËRINË E KOSOVËS",
       "candidate_id": "85",
       "candidate_name": "AVNI GASHI",
-      "delta": 30
+      "delta": 28
     },
     {
       "party_id": "129",
@@ -3468,14 +3475,14 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "1",
       "candidate_name": "BEDRI HAMZA",
-      "delta": -150
+      "delta": -152
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "2",
       "candidate_name": "URAN ISMAILI",
-      "delta": 1304
+      "delta": 1302
     },
     {
       "party_id": "130",
@@ -3489,14 +3496,14 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "8",
       "candidate_name": "EMAN RRAHMANI",
-      "delta": 772
+      "delta": 770
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "15",
       "candidate_name": "PËRPARIM GRUDA",
-      "delta": 1188
+      "delta": 1186
     },
     {
       "party_id": "130",
@@ -3517,21 +3524,21 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "30",
       "candidate_name": "ARIAN TAHIRI",
-      "delta": 1720
+      "delta": 1724
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "32",
       "candidate_name": "RIAD RASHITI",
-      "delta": -72
+      "delta": -74
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "33",
       "candidate_name": "AURORË OSMANI BUCA",
-      "delta": 54
+      "delta": 52
     },
     {
       "party_id": "130",
@@ -3545,7 +3552,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "40",
       "candidate_name": "GENC PRELVUKAJ",
-      "delta": 434
+      "delta": 436
     },
     {
       "party_id": "130",
@@ -3573,7 +3580,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "56",
       "candidate_name": "KOSOVARE MURSELI",
-      "delta": 48
+      "delta": 46
     },
     {
       "party_id": "130",
@@ -3608,7 +3615,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "75",
       "candidate_name": "ARTAN BEHRAMI",
-      "delta": 648
+      "delta": 652
     },
     {
       "party_id": "130",
@@ -3622,7 +3629,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "95",
       "candidate_name": "ADNAN SOGOJEVA",
-      "delta": 124
+      "delta": 126
     },
     {
       "party_id": "130",
@@ -3650,14 +3657,14 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "25",
       "candidate_name": "BESIANË MUSMURATI",
-      "delta": 224
+      "delta": 222
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "9",
       "candidate_name": "SALA JASHARI",
-      "delta": 602
+      "delta": 598
     },
     {
       "party_id": "130",
@@ -3671,7 +3678,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "20",
       "candidate_name": "ALTIN KRASNIQI",
-      "delta": 446
+      "delta": 444
     },
     {
       "party_id": "130",
@@ -3720,14 +3727,14 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "21",
       "candidate_name": "ELIZA HOXHA",
-      "delta": 264
+      "delta": 262
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "48",
       "candidate_name": "AMIR AHMETI",
-      "delta": 144
+      "delta": 142
     },
     {
       "party_id": "130",
@@ -3741,21 +3748,21 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "14",
       "candidate_name": "XHAVIT HALITI",
-      "delta": -1380
+      "delta": -1378
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "16",
       "candidate_name": "FERAT SHALA",
-      "delta": 176
+      "delta": 174
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "35",
       "candidate_name": "XHEVAHIR GECI",
-      "delta": 92
+      "delta": 90
     },
     {
       "party_id": "130",
@@ -3769,7 +3776,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "82",
       "candidate_name": "ADNAN THAQI",
-      "delta": -1246
+      "delta": -1244
     },
     {
       "party_id": "130",
@@ -3783,7 +3790,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "73",
       "candidate_name": "AULONË SYLA",
-      "delta": -24
+      "delta": -26
     },
     {
       "party_id": "130",
@@ -3832,21 +3839,21 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "4",
       "candidate_name": "ENVER HOXHAJ",
-      "delta": -2194
+      "delta": -2200
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "7",
       "candidate_name": "RRAHMAN RAMA",
-      "delta": 346
+      "delta": 350
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "12",
       "candidate_name": "GANIMETE MUSLIU",
-      "delta": 420
+      "delta": 418
     },
     {
       "party_id": "130",
@@ -3867,7 +3874,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "59",
       "candidate_name": "BASHKIM GLLAREVA",
-      "delta": 206
+      "delta": 204
     },
     {
       "party_id": "130",
@@ -3881,7 +3888,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "100",
       "candidate_name": "MERGIM LUSHTAKU",
-      "delta": 596
+      "delta": 600
     },
     {
       "party_id": "130",
@@ -3895,7 +3902,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "110",
       "candidate_name": "ABELARD TAHIRI",
-      "delta": 946
+      "delta": 942
     },
     {
       "party_id": "130",
@@ -3923,14 +3930,14 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "24",
       "candidate_name": "BESIM ILAZI",
-      "delta": -58
+      "delta": -60
     },
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "28",
       "candidate_name": "HAJDAR BEQA",
-      "delta": -688
+      "delta": -686
     },
     {
       "party_id": "130",
@@ -3979,7 +3986,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "109",
       "candidate_name": "BEKIM HAXHIU",
-      "delta": 834
+      "delta": 836
     },
     {
       "party_id": "130",
@@ -4014,7 +4021,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "6",
       "candidate_name": "BESA KABASHI RAMAJ",
-      "delta": -40
+      "delta": -38
     },
     {
       "party_id": "130",
@@ -4028,7 +4035,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "91",
       "candidate_name": "LEUTRIM RETKOCERI",
-      "delta": 400
+      "delta": 402
     },
     {
       "party_id": "130",
@@ -4126,7 +4133,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "39",
       "candidate_name": "DRITA KADRIU",
-      "delta": 94
+      "delta": 92
     },
     {
       "party_id": "130",
@@ -4145,16 +4152,9 @@
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
-      "candidate_id": "61",
-      "candidate_name": "LULZIM RRUSTEMI",
-      "delta": 2
-    },
-    {
-      "party_id": "130",
-      "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "85",
       "candidate_name": "MENTOR ISMAILI",
-      "delta": 276
+      "delta": 274
     },
     {
       "party_id": "130",
@@ -4162,6 +4162,13 @@
       "candidate_id": "71",
       "candidate_name": "ALBULENA SALIUKU",
       "delta": 14
+    },
+    {
+      "party_id": "130",
+      "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
+      "candidate_id": "55",
+      "candidate_name": "BURIM BAJRAMI",
+      "delta": 38
     },
     {
       "party_id": "130",
@@ -4187,13 +4194,6 @@
     {
       "party_id": "130",
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
-      "candidate_id": "55",
-      "candidate_name": "BURIM BAJRAMI",
-      "delta": 36
-    },
-    {
-      "party_id": "130",
-      "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "51",
       "candidate_name": "AFËRDITA SARAMATI",
       "delta": 612
@@ -4210,7 +4210,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "69",
       "candidate_name": "ADELINA GASHI",
-      "delta": 36
+      "delta": 34
     },
     {
       "party_id": "130",
@@ -4224,7 +4224,7 @@
       "party_name": "PARTIA DEMOKRATIKE E KOSOVËS - PDK",
       "candidate_id": "104",
       "candidate_name": "BEKIM SOPAJ",
-      "delta": 140
+      "delta": 142
     },
     {
       "party_id": "130",
@@ -5155,7 +5155,7 @@
       "party_name": "Lëvizja Përparimtare e Romëve të Kosovës",
       "candidate_id": "9",
       "candidate_name": "GJEVAHIR PALIÇKO",
-      "delta": 28
+      "delta": 30
     },
     {
       "party_id": "115",
@@ -5197,7 +5197,7 @@
       "party_name": "Iniciativa Qytetare Për Kosovë",
       "candidate_id": "1",
       "candidate_name": "SOKOL HALILI",
-      "delta": 48
+      "delta": 46
     },
     {
       "party_id": "117",
@@ -5211,7 +5211,7 @@
       "party_name": "Iniciativa Qytetare Për Kosovë",
       "candidate_id": "3",
       "candidate_name": "FAZILE ZABELAJ",
-      "delta": 16
+      "delta": 14
     },
     {
       "party_id": "117",
@@ -5925,14 +5925,14 @@
       "party_name": "FJALA",
       "candidate_id": "1",
       "candidate_name": "GËZIM KELMENDI",
-      "delta": 58
+      "delta": 60
     },
     {
       "party_id": "114",
       "party_name": "FJALA",
       "candidate_id": "2",
       "candidate_name": "AVNI ÇAKMAKU",
-      "delta": 34
+      "delta": 36
     },
     {
       "party_id": "114",
@@ -5946,14 +5946,14 @@
       "party_name": "FJALA",
       "candidate_id": "4",
       "candidate_name": "BERAT DAJAKU",
-      "delta": 20
+      "delta": 22
     },
     {
       "party_id": "114",
       "party_name": "FJALA",
       "candidate_id": "5",
       "candidate_name": "MUSA KRASNIQI",
-      "delta": 30
+      "delta": 32
     },
     {
       "party_id": "114",
@@ -6161,6 +6161,13 @@
     {
       "party_id": "131",
       "party_name": "PSA",
+      "candidate_id": "39",
+      "candidate_name": "SELVINAZE BAJRAMI",
+      "delta": 4
+    },
+    {
+      "party_id": "131",
+      "party_name": "PSA",
       "candidate_id": "21",
       "candidate_name": "JASMINË RAMA",
       "delta": 4
@@ -6338,13 +6345,6 @@
       "party_name": "PSA",
       "candidate_id": "20",
       "candidate_name": "RASIM GASHI",
-      "delta": 2
-    },
-    {
-      "party_id": "131",
-      "party_name": "PSA",
-      "candidate_id": "39",
-      "candidate_name": "SELVINAZE BAJRAMI",
       "delta": 2
     },
     {
@@ -6609,6 +6609,20 @@
     {
       "party_id": "122",
       "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
+      "candidate_id": "11",
+      "candidate_name": "NEZIR ÇOÇAJ",
+      "delta": 12
+    },
+    {
+      "party_id": "122",
+      "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
+      "candidate_id": "14",
+      "candidate_name": "VESEL KRASNIQI",
+      "delta": -522
+    },
+    {
+      "party_id": "122",
+      "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
       "candidate_id": "8",
       "candidate_name": "ÇERKIN DUKOLLI",
       "delta": -24
@@ -6854,13 +6868,6 @@
     {
       "party_id": "122",
       "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
-      "candidate_id": "11",
-      "candidate_name": "NEZIR ÇOÇAJ",
-      "delta": 10
-    },
-    {
-      "party_id": "122",
-      "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
       "candidate_id": "36",
       "candidate_name": "DORENTINA BRAHAJ",
       "delta": 26
@@ -6892,13 +6899,6 @@
       "candidate_id": "98",
       "candidate_name": "SIMON VESELI",
       "delta": -86
-    },
-    {
-      "party_id": "122",
-      "party_name": "NISMA SOCIALDEMOKRATE - NISMA",
-      "candidate_id": "14",
-      "candidate_name": "VESEL KRASNIQI",
-      "delta": -520
     },
     {
       "party_id": "122",
@@ -7437,7 +7437,7 @@
       "party_name": "SOCIJALDEMOKRATSKA UNIJA - SDU",
       "candidate_id": "2",
       "candidate_name": "MIRALEM RAHTE",
-      "delta": 4
+      "delta": 6
     },
     {
       "party_id": "126",
@@ -7472,7 +7472,7 @@
       "party_name": "SOCIJALDEMOKRATSKA UNIJA - SDU",
       "candidate_id": "19",
       "candidate_name": "ERMA ŠABANI",
-      "delta": 8
+      "delta": 10
     },
     {
       "party_id": "126",
@@ -7536,6 +7536,13 @@
       "candidate_id": "28",
       "candidate_name": "AIDA BRUTI",
       "delta": -2
+    },
+    {
+      "party_id": "126",
+      "party_name": "SOCIJALDEMOKRATSKA UNIJA - SDU",
+      "candidate_id": "30",
+      "candidate_name": "ERNIS KURTIŠI",
+      "delta": 6
     },
     {
       "party_id": "126",
@@ -7606,13 +7613,6 @@
       "candidate_id": "25",
       "candidate_name": "AIDA AŠANI",
       "delta": 6
-    },
-    {
-      "party_id": "126",
-      "party_name": "SOCIJALDEMOKRATSKA UNIJA - SDU",
-      "candidate_id": "30",
-      "candidate_name": "ERNIS KURTIŠI",
-      "delta": 4
     },
     {
       "party_id": "126",
@@ -7995,6 +7995,13 @@
     {
       "party_id": "118",
       "party_name": "JEDINSTVENA GORANSKA PARTIJA",
+      "candidate_id": "1",
+      "candidate_name": "ADEM HODŽA",
+      "delta": 14
+    },
+    {
+      "party_id": "118",
+      "party_name": "JEDINSTVENA GORANSKA PARTIJA",
       "candidate_id": "3",
       "candidate_name": "ZEHRA DESTANI",
       "delta": -4
@@ -8012,13 +8019,6 @@
       "candidate_id": "12",
       "candidate_name": "ZARIFA ALIJA",
       "delta": -6
-    },
-    {
-      "party_id": "118",
-      "party_name": "JEDINSTVENA GORANSKA PARTIJA",
-      "candidate_id": "1",
-      "candidate_name": "ADEM HODŽA",
-      "delta": 12
     },
     {
       "party_id": "118",
@@ -8666,18 +8666,18 @@
     }
   ],
   "aggregate_party_deltas": {
-    "116": 116,
+    "116": 114,
     "123": 72,
     "129": 88,
     "130": 6,
     "134": 28,
-    "114": 8,
+    "114": 10,
     "127": 56,
     "113": -2,
     "111": 2,
     "115": 26,
     "119": 0,
-    "117": 18,
+    "117": 16,
     "112": 2,
     "125": 6,
     "121": 2,
@@ -16666,6 +16666,132 @@
         }
       }
     },
+    "1105/03": {
+      "municipality_id": "11",
+      "municipality_name": "Mitrovicë e Jugut",
+      "voting_station_id": "1105",
+      "voting_station_name": "1105 - SH.F.M.U. \"Musa Hoti\"/OSNŠ. \"Musa Hoti\"",
+      "polling_station_id": "1105/03",
+      "polling_station_name": "1105/03",
+      "vote_type": "1",
+      "party_deltas": {
+        "114": {
+          "total_votes_delta": 1,
+          "candidate_deltas": {
+            "1": 1,
+            "2": 1,
+            "4": 1,
+            "5": 1
+          }
+        },
+        "116": {
+          "total_votes_delta": -1,
+          "candidate_deltas": {
+            "1": 10,
+            "2": 7,
+            "3": 1,
+            "4": 2,
+            "5": 12,
+            "6": 7,
+            "7": 9,
+            "8": 2,
+            "9": 4,
+            "10": 2,
+            "11": 2,
+            "12": 4,
+            "13": 3,
+            "14": 1,
+            "15": -1,
+            "16": 5,
+            "17": 5,
+            "19": 1,
+            "23": 1,
+            "25": 3,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "32": 3,
+            "33": -1,
+            "37": 1,
+            "38": 1,
+            "40": 2,
+            "41": 2,
+            "42": 4,
+            "43": -5,
+            "45": 1,
+            "46": 1,
+            "47": 5,
+            "48": 4,
+            "49": 2,
+            "50": -1,
+            "52": -1,
+            "53": -8,
+            "55": 5,
+            "57": 1,
+            "60": 1,
+            "62": -1,
+            "63": 1,
+            "64": 1,
+            "66": -1,
+            "67": 1,
+            "68": 1,
+            "69": 2,
+            "70": 1,
+            "71": -1,
+            "72": -1,
+            "73": 2,
+            "74": 1,
+            "81": -7,
+            "83": -8,
+            "88": 1,
+            "89": 2,
+            "92": -1,
+            "94": 1,
+            "95": 1,
+            "96": 2,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "102": 1,
+            "104": 1,
+            "105": -10,
+            "110": 1
+          }
+        },
+        "130": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "4": -3,
+            "6": 1,
+            "7": 2,
+            "8": -1,
+            "9": -1,
+            "11": -1,
+            "12": -1,
+            "14": 1,
+            "15": -1,
+            "16": -1,
+            "20": -1,
+            "21": -1,
+            "28": 1,
+            "30": 2,
+            "32": -1,
+            "35": -1,
+            "39": -1,
+            "40": 1,
+            "48": -1,
+            "55": 1,
+            "56": -1,
+            "59": -1,
+            "75": 2,
+            "82": 1,
+            "95": 1,
+            "100": 2,
+            "110": -2
+          }
+        }
+      }
+    },
     "1105/02": {
       "municipality_id": "11",
       "municipality_name": "Mitrovicë e Jugut",
@@ -22749,6 +22875,85 @@
         }
       }
     },
+    "1307/02": {
+      "municipality_id": "13",
+      "municipality_name": "Lipjan",
+      "voting_station_id": "1307",
+      "voting_station_name": "1307 - SH.F.M.U. \"Skenderbeu\"/OSNŠ. \"Skenderbeu\"",
+      "polling_station_id": "1307/02",
+      "polling_station_name": "1307/02",
+      "vote_type": "1",
+      "party_deltas": {
+        "116": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "1": -1,
+            "2": -1,
+            "3": -1,
+            "4": -2,
+            "5": 1,
+            "6": -1,
+            "7": -1,
+            "8": -1,
+            "9": -1,
+            "31": -1,
+            "33": -1,
+            "34": -1,
+            "37": 2,
+            "52": 1,
+            "54": 1,
+            "55": -1,
+            "65": -6,
+            "100": 2,
+            "107": 1
+          }
+        },
+        "117": {
+          "total_votes_delta": -1,
+          "candidate_deltas": {
+            "1": -1,
+            "3": -1
+          }
+        },
+        "122": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "11": 1,
+            "14": -1
+          }
+        },
+        "123": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "11": -1,
+            "17": 1,
+            "55": 1,
+            "58": -1,
+            "100": -1,
+            "110": 1
+          }
+        },
+        "130": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "1": -1,
+            "2": -1,
+            "9": -1,
+            "11": 1,
+            "24": -1,
+            "25": -1,
+            "33": -1,
+            "61": -1,
+            "69": -1,
+            "73": -1,
+            "85": -1,
+            "91": 1,
+            "104": 1,
+            "109": 1
+          }
+        }
+      }
+    },
     "1308/02": {
       "municipality_id": "13",
       "municipality_name": "Lipjan",
@@ -23460,6 +23665,55 @@
             "59": 1,
             "67": 1,
             "85": 1
+          }
+        }
+      }
+    },
+    "1315/02": {
+      "municipality_id": "13",
+      "municipality_name": "Lipjan",
+      "voting_station_id": "1315",
+      "voting_station_name": "1315 - SH.F.M.U. \"Fehmi Agani\"/OSNŠ. \"Fehmi Agani\"",
+      "polling_station_id": "1315/02",
+      "polling_station_name": "1315/02",
+      "vote_type": "1",
+      "party_deltas": {
+        "115": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "9": 1
+          }
+        },
+        "118": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "1": 1
+          }
+        },
+        "123": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "52": -1
+          }
+        },
+        "126": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "2": 1,
+            "19": 1,
+            "30": 1
+          }
+        },
+        "129": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "85": -1
+          }
+        },
+        "131": {
+          "total_votes_delta": 0,
+          "candidate_deltas": {
+            "39": 1
           }
         }
       }
@@ -179017,6 +179271,127 @@
         "1105": {
           "voting_station_name": "1105 - SH.F.M.U. \"Musa Hoti\"/OSNŠ. \"Musa Hoti\"",
           "polling_stations": {
+            "1105/03": {
+              "polling_station_name": "1105/03",
+              "vote_type": "1",
+              "party_deltas": {
+                "114": {
+                  "total_votes_delta": 1,
+                  "candidate_deltas": {
+                    "1": 1,
+                    "2": 1,
+                    "4": 1,
+                    "5": 1
+                  }
+                },
+                "116": {
+                  "total_votes_delta": -1,
+                  "candidate_deltas": {
+                    "1": 10,
+                    "2": 7,
+                    "3": 1,
+                    "4": 2,
+                    "5": 12,
+                    "6": 7,
+                    "7": 9,
+                    "8": 2,
+                    "9": 4,
+                    "10": 2,
+                    "11": 2,
+                    "12": 4,
+                    "13": 3,
+                    "14": 1,
+                    "15": -1,
+                    "16": 5,
+                    "17": 5,
+                    "19": 1,
+                    "23": 1,
+                    "25": 3,
+                    "27": 1,
+                    "28": 1,
+                    "29": 1,
+                    "32": 3,
+                    "33": -1,
+                    "37": 1,
+                    "38": 1,
+                    "40": 2,
+                    "41": 2,
+                    "42": 4,
+                    "43": -5,
+                    "45": 1,
+                    "46": 1,
+                    "47": 5,
+                    "48": 4,
+                    "49": 2,
+                    "50": -1,
+                    "52": -1,
+                    "53": -8,
+                    "55": 5,
+                    "57": 1,
+                    "60": 1,
+                    "62": -1,
+                    "63": 1,
+                    "64": 1,
+                    "66": -1,
+                    "67": 1,
+                    "68": 1,
+                    "69": 2,
+                    "70": 1,
+                    "71": -1,
+                    "72": -1,
+                    "73": 2,
+                    "74": 1,
+                    "81": -7,
+                    "83": -8,
+                    "88": 1,
+                    "89": 2,
+                    "92": -1,
+                    "94": 1,
+                    "95": 1,
+                    "96": 2,
+                    "97": 1,
+                    "98": 1,
+                    "99": 1,
+                    "102": 1,
+                    "104": 1,
+                    "105": -10,
+                    "110": 1
+                  }
+                },
+                "130": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "4": -3,
+                    "6": 1,
+                    "7": 2,
+                    "8": -1,
+                    "9": -1,
+                    "11": -1,
+                    "12": -1,
+                    "14": 1,
+                    "15": -1,
+                    "16": -1,
+                    "20": -1,
+                    "21": -1,
+                    "28": 1,
+                    "30": 2,
+                    "32": -1,
+                    "35": -1,
+                    "39": -1,
+                    "40": 1,
+                    "48": -1,
+                    "55": 1,
+                    "56": -1,
+                    "59": -1,
+                    "75": 2,
+                    "82": 1,
+                    "95": 1,
+                    "100": 2,
+                    "110": -2
+                  }
+                }
+              }
+            },
             "1105/02": {
               "polling_station_name": "1105/02",
               "vote_type": "1",
@@ -184917,6 +185292,85 @@
             }
           }
         },
+        "1307": {
+          "voting_station_name": "1307 - SH.F.M.U. \"Skenderbeu\"/OSNŠ. \"Skenderbeu\"",
+          "polling_stations": {
+            "1307/02": {
+              "polling_station_name": "1307/02",
+              "vote_type": "1",
+              "party_deltas": {
+                "116": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "1": -1,
+                    "2": -1,
+                    "3": -1,
+                    "4": -2,
+                    "5": 1,
+                    "6": -1,
+                    "7": -1,
+                    "8": -1,
+                    "9": -1,
+                    "31": -1,
+                    "33": -1,
+                    "34": -1,
+                    "37": 2,
+                    "52": 1,
+                    "54": 1,
+                    "55": -1,
+                    "65": -6,
+                    "100": 2,
+                    "107": 1
+                  }
+                },
+                "117": {
+                  "total_votes_delta": -1,
+                  "candidate_deltas": {
+                    "1": -1,
+                    "3": -1
+                  }
+                },
+                "122": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "11": 1,
+                    "14": -1
+                  }
+                },
+                "123": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "11": -1,
+                    "17": 1,
+                    "55": 1,
+                    "58": -1,
+                    "100": -1,
+                    "110": 1
+                  }
+                },
+                "130": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "1": -1,
+                    "2": -1,
+                    "9": -1,
+                    "11": 1,
+                    "24": -1,
+                    "25": -1,
+                    "33": -1,
+                    "61": -1,
+                    "69": -1,
+                    "73": -1,
+                    "85": -1,
+                    "91": 1,
+                    "104": 1,
+                    "109": 1
+                  }
+                }
+              }
+            }
+          }
+        },
         "1308": {
           "voting_station_name": "1308 - SH.F.M.U. \"Ernest Koliqi\"/OSNŠ. \"Ernest Koliqi\"",
           "polling_stations": {
@@ -185616,6 +186070,50 @@
                     "59": 1,
                     "67": 1,
                     "85": 1
+                  }
+                }
+              }
+            },
+            "1315/02": {
+              "polling_station_name": "1315/02",
+              "vote_type": "1",
+              "party_deltas": {
+                "115": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "9": 1
+                  }
+                },
+                "118": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "1": 1
+                  }
+                },
+                "123": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "52": -1
+                  }
+                },
+                "126": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "2": 1,
+                    "19": 1,
+                    "30": 1
+                  }
+                },
+                "129": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "85": -1
+                  }
+                },
+                "131": {
+                  "total_votes_delta": 0,
+                  "candidate_deltas": {
+                    "39": 1
                   }
                 }
               }
