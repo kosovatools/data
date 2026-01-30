@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2010-01",
-      "last": "2025-11",
-      "count": 191
+      "last": "2025-12",
+      "count": 192
     },
     "fields": [
       {
@@ -1071,7 +1071,7 @@
     ],
     "notes": [],
     "id": "kas_trade_partners",
-    "generated_at": "2026-01-13T04:34:52.048Z",
+    "generated_at": "2026-01-30T05:05:06.428Z",
     "title": null
   },
   "records": [
@@ -297887,6 +297887,1560 @@
       "period": "2025-11",
       "partner": "99",
       "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "0",
+      "imports": 309,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "1",
+      "imports": 323517,
+      "exports": 244868
+    },
+    {
+      "period": "2025-12",
+      "partner": "10",
+      "imports": 1067339,
+      "exports": 149
+    },
+    {
+      "period": "2025-12",
+      "partner": "100",
+      "imports": 9321532,
+      "exports": 449890
+    },
+    {
+      "period": "2025-12",
+      "partner": "101",
+      "imports": 1089015,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "102",
+      "imports": 386492,
+      "exports": 60793
+    },
+    {
+      "period": "2025-12",
+      "partner": "103",
+      "imports": 219176,
+      "exports": 77263
+    },
+    {
+      "period": "2025-12",
+      "partner": "104",
+      "imports": 30535226,
+      "exports": 29408
+    },
+    {
+      "period": "2025-12",
+      "partner": "105",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "106",
+      "imports": 49759,
+      "exports": 66414
+    },
+    {
+      "period": "2025-12",
+      "partner": "107",
+      "imports": 997691,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "108",
+      "imports": 22476,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "109",
+      "imports": 29757235,
+      "exports": 2000536
+    },
+    {
+      "period": "2025-12",
+      "partner": "11",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "110",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "111",
+      "imports": 37278,
+      "exports": 138
+    },
+    {
+      "period": "2025-12",
+      "partner": "112",
+      "imports": 3638878,
+      "exports": 2012
+    },
+    {
+      "period": "2025-12",
+      "partner": "113",
+      "imports": 23040,
+      "exports": 1051
+    },
+    {
+      "period": "2025-12",
+      "partner": "114",
+      "imports": 224832,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "115",
+      "imports": 833826,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "116",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "117",
+      "imports": 992,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "118",
+      "imports": 784,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "119",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "12",
+      "imports": 10482113,
+      "exports": 1594921
+    },
+    {
+      "period": "2025-12",
+      "partner": "120",
+      "imports": 1817805,
+      "exports": 1222
+    },
+    {
+      "period": "2025-12",
+      "partner": "121",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "122",
+      "imports": 0,
+      "exports": 25887
+    },
+    {
+      "period": "2025-12",
+      "partner": "123",
+      "imports": 1008,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "124",
+      "imports": 642,
+      "exports": 104150
+    },
+    {
+      "period": "2025-12",
+      "partner": "125",
+      "imports": 38451,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "126",
+      "imports": 17019,
+      "exports": 6412
+    },
+    {
+      "period": "2025-12",
+      "partner": "127",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "128",
+      "imports": 53419,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "129",
+      "imports": 580321,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "13",
+      "imports": 50016,
+      "exports": 131622
+    },
+    {
+      "period": "2025-12",
+      "partner": "130",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "131",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "132",
+      "imports": 1057055,
+      "exports": 2646
+    },
+    {
+      "period": "2025-12",
+      "partner": "133",
+      "imports": 116233,
+      "exports": 81221
+    },
+    {
+      "period": "2025-12",
+      "partner": "134",
+      "imports": 258123,
+      "exports": 33807
+    },
+    {
+      "period": "2025-12",
+      "partner": "135",
+      "imports": 461049,
+      "exports": 82234
+    },
+    {
+      "period": "2025-12",
+      "partner": "136",
+      "imports": 1278515,
+      "exports": 1
+    },
+    {
+      "period": "2025-12",
+      "partner": "137",
+      "imports": 299,
+      "exports": 698
+    },
+    {
+      "period": "2025-12",
+      "partner": "138",
+      "imports": 128155,
+      "exports": 21219
+    },
+    {
+      "period": "2025-12",
+      "partner": "139",
+      "imports": 3905263,
+      "exports": 6103093
+    },
+    {
+      "period": "2025-12",
+      "partner": "14",
+      "imports": 0,
+      "exports": 484
+    },
+    {
+      "period": "2025-12",
+      "partner": "140",
+      "imports": 5629,
+      "exports": 1424
+    },
+    {
+      "period": "2025-12",
+      "partner": "141",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "142",
+      "imports": 24666994,
+      "exports": 13689302
+    },
+    {
+      "period": "2025-12",
+      "partner": "143",
+      "imports": 0,
+      "exports": 8630
+    },
+    {
+      "period": "2025-12",
+      "partner": "144",
+      "imports": 920006,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "145",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "146",
+      "imports": 457,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "147",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "148",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "149",
+      "imports": 248,
+      "exports": 7169
+    },
+    {
+      "period": "2025-12",
+      "partner": "15",
+      "imports": 10800,
+      "exports": 1838
+    },
+    {
+      "period": "2025-12",
+      "partner": "150",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "151",
+      "imports": 134932,
+      "exports": 8202
+    },
+    {
+      "period": "2025-12",
+      "partner": "152",
+      "imports": 2170,
+      "exports": 18939
+    },
+    {
+      "period": "2025-12",
+      "partner": "153",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "154",
+      "imports": 2116,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "155",
+      "imports": 709830,
+      "exports": 4289
+    },
+    {
+      "period": "2025-12",
+      "partner": "156",
+      "imports": 611715,
+      "exports": 580
+    },
+    {
+      "period": "2025-12",
+      "partner": "157",
+      "imports": 1440,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "158",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "159",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "16",
+      "imports": 4851389,
+      "exports": 1053613
+    },
+    {
+      "period": "2025-12",
+      "partner": "160",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "161",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "162",
+      "imports": 278,
+      "exports": 10264
+    },
+    {
+      "period": "2025-12",
+      "partner": "163",
+      "imports": 4662,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "164",
+      "imports": 5888124,
+      "exports": 1542701
+    },
+    {
+      "period": "2025-12",
+      "partner": "165",
+      "imports": 222881,
+      "exports": 132518
+    },
+    {
+      "period": "2025-12",
+      "partner": "166",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "167",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "168",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "169",
+      "imports": 15499,
+      "exports": 998
+    },
+    {
+      "period": "2025-12",
+      "partner": "17",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "170",
+      "imports": 0,
+      "exports": 600
+    },
+    {
+      "period": "2025-12",
+      "partner": "171",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "172",
+      "imports": 57595,
+      "exports": 4979
+    },
+    {
+      "period": "2025-12",
+      "partner": "173",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "174",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "175",
+      "imports": 268687,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "176",
+      "imports": 852503,
+      "exports": 14
+    },
+    {
+      "period": "2025-12",
+      "partner": "177",
+      "imports": 25539349,
+      "exports": 257063
+    },
+    {
+      "period": "2025-12",
+      "partner": "178",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "179",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "18",
+      "imports": 2778785,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "180",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "181",
+      "imports": 0,
+      "exports": 16018
+    },
+    {
+      "period": "2025-12",
+      "partner": "182",
+      "imports": 1207683,
+      "exports": 108726
+    },
+    {
+      "period": "2025-12",
+      "partner": "183",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "184",
+      "imports": 262609,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "185",
+      "imports": 406178,
+      "exports": 124807
+    },
+    {
+      "period": "2025-12",
+      "partner": "186",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "187",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "188",
+      "imports": 8414246,
+      "exports": 550168
+    },
+    {
+      "period": "2025-12",
+      "partner": "189",
+      "imports": 6072,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "19",
+      "imports": 2518069,
+      "exports": 1254047
+    },
+    {
+      "period": "2025-12",
+      "partner": "190",
+      "imports": 1364,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "191",
+      "imports": 11468798,
+      "exports": 183103
+    },
+    {
+      "period": "2025-12",
+      "partner": "192",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "193",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "194",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "195",
+      "imports": 3791695,
+      "exports": 328706
+    },
+    {
+      "period": "2025-12",
+      "partner": "196",
+      "imports": 278719,
+      "exports": 60393
+    },
+    {
+      "period": "2025-12",
+      "partner": "197",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "198",
+      "imports": 10926388,
+      "exports": 353587
+    },
+    {
+      "period": "2025-12",
+      "partner": "199",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "2",
+      "imports": 5,
+      "exports": 6000
+    },
+    {
+      "period": "2025-12",
+      "partner": "20",
+      "imports": 260,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "200",
+      "imports": 3303233,
+      "exports": 36091
+    },
+    {
+      "period": "2025-12",
+      "partner": "201",
+      "imports": 100,
+      "exports": 198951
+    },
+    {
+      "period": "2025-12",
+      "partner": "202",
+      "imports": 33449,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "203",
+      "imports": 0,
+      "exports": 1235
+    },
+    {
+      "period": "2025-12",
+      "partner": "204",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "205",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "206",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "207",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "208",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "209",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "21",
+      "imports": 9801208,
+      "exports": 2274562
+    },
+    {
+      "period": "2025-12",
+      "partner": "210",
+      "imports": 18573,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "211",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "212",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "213",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "214",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "215",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "216",
+      "imports": 1441050,
+      "exports": 910
+    },
+    {
+      "period": "2025-12",
+      "partner": "217",
+      "imports": 0,
+      "exports": 10000
+    },
+    {
+      "period": "2025-12",
+      "partner": "218",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "219",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "22",
+      "imports": 0,
+      "exports": 135
+    },
+    {
+      "period": "2025-12",
+      "partner": "220",
+      "imports": 328358,
+      "exports": 250
+    },
+    {
+      "period": "2025-12",
+      "partner": "221",
+      "imports": 163925,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "222",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "223",
+      "imports": 83137552,
+      "exports": 2723760
+    },
+    {
+      "period": "2025-12",
+      "partner": "224",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "225",
+      "imports": 6793,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "226",
+      "imports": 701981,
+      "exports": 1268
+    },
+    {
+      "period": "2025-12",
+      "partner": "227",
+      "imports": 9974,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "228",
+      "imports": 1280214,
+      "exports": 21744
+    },
+    {
+      "period": "2025-12",
+      "partner": "229",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "23",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "230",
+      "imports": 324660,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "231",
+      "imports": 2,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "232",
+      "imports": 12214461,
+      "exports": 2289968
+    },
+    {
+      "period": "2025-12",
+      "partner": "233",
+      "imports": 35033,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "234",
+      "imports": 50782,
+      "exports": 687
+    },
+    {
+      "period": "2025-12",
+      "partner": "235",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "236",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "237",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "238",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "239",
+      "imports": 48,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "24",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "240",
+      "imports": 3189491,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "241",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "242",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "243",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "244",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "245",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "246",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "247",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "248",
+      "imports": 21051572,
+      "exports": 4954774
+    },
+    {
+      "period": "2025-12",
+      "partner": "249",
+      "imports": 13146,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "25",
+      "imports": 480,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "250",
+      "imports": 2099,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "251",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "252",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "253",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "254",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "255",
+      "imports": 57792,
+      "exports": 15874
+    },
+    {
+      "period": "2025-12",
+      "partner": "256",
+      "imports": 234,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "257",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "258",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "26",
+      "imports": 72,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "27",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "28",
+      "imports": 2156,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "29",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "3",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "30",
+      "imports": 13692234,
+      "exports": 1410
+    },
+    {
+      "period": "2025-12",
+      "partner": "31",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "32",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "33",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "34",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "35",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "36",
+      "imports": 119549,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "37",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "38",
+      "imports": 110201,
+      "exports": 28484
+    },
+    {
+      "period": "2025-12",
+      "partner": "39",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "4",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "40",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "41",
+      "imports": 4580,
+      "exports": 7378
+    },
+    {
+      "period": "2025-12",
+      "partner": "42",
+      "imports": 0,
+      "exports": 19713
+    },
+    {
+      "period": "2025-12",
+      "partner": "43",
+      "imports": 3751183,
+      "exports": 7702216
+    },
+    {
+      "period": "2025-12",
+      "partner": "44",
+      "imports": 1243,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "45",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "46",
+      "imports": 63816,
+      "exports": 45763
+    },
+    {
+      "period": "2025-12",
+      "partner": "47",
+      "imports": 5648,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "48",
+      "imports": 78903930,
+      "exports": 7078
+    },
+    {
+      "period": "2025-12",
+      "partner": "49",
+      "imports": 732910,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "5",
+      "imports": 21226668,
+      "exports": 13189182
+    },
+    {
+      "period": "2025-12",
+      "partner": "50",
+      "imports": 410309,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "51",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "52",
+      "imports": 238,
+      "exports": 148020
+    },
+    {
+      "period": "2025-12",
+      "partner": "53",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "54",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "55",
+      "imports": 2312,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "56",
+      "imports": 247034,
+      "exports": 133475
+    },
+    {
+      "period": "2025-12",
+      "partner": "57",
+      "imports": 5599672,
+      "exports": 359914
+    },
+    {
+      "period": "2025-12",
+      "partner": "58",
+      "imports": 104599285,
+      "exports": 7663839
+    },
+    {
+      "period": "2025-12",
+      "partner": "59",
+      "imports": 300,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "6",
+      "imports": 125313,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "60",
+      "imports": 2727534,
+      "exports": 213659
+    },
+    {
+      "period": "2025-12",
+      "partner": "61",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "62",
+      "imports": 14327,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "63",
+      "imports": 3697536,
+      "exports": 300
+    },
+    {
+      "period": "2025-12",
+      "partner": "64",
+      "imports": 1154651,
+      "exports": 26
+    },
+    {
+      "period": "2025-12",
+      "partner": "65",
+      "imports": 60359,
+      "exports": 677
+    },
+    {
+      "period": "2025-12",
+      "partner": "66",
+      "imports": 4851300,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "67",
+      "imports": 110,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "68",
+      "imports": 572,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "69",
+      "imports": 6211962,
+      "exports": 678733
+    },
+    {
+      "period": "2025-12",
+      "partner": "7",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "70",
+      "imports": 11910,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "71",
+      "imports": 183270,
+      "exports": 142555
+    },
+    {
+      "period": "2025-12",
+      "partner": "72",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "73",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "74",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "75",
+      "imports": 558,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "76",
+      "imports": 8908455,
+      "exports": 1605422
+    },
+    {
+      "period": "2025-12",
+      "partner": "77",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "78",
+      "imports": 4248634,
+      "exports": 2337391
+    },
+    {
+      "period": "2025-12",
+      "partner": "79",
+      "imports": 337,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "8",
+      "imports": 0,
+      "exports": 2550
+    },
+    {
+      "period": "2025-12",
+      "partner": "80",
+      "imports": 8227,
+      "exports": 2649
+    },
+    {
+      "period": "2025-12",
+      "partner": "81",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "82",
+      "imports": 9599,
+      "exports": 250
+    },
+    {
+      "period": "2025-12",
+      "partner": "83",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "84",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "85",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "86",
+      "imports": 9370,
+      "exports": 750
+    },
+    {
+      "period": "2025-12",
+      "partner": "87",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "88",
+      "imports": 0,
+      "exports": 800
+    },
+    {
+      "period": "2025-12",
+      "partner": "89",
+      "imports": 22771828,
+      "exports": 773293
+    },
+    {
+      "period": "2025-12",
+      "partner": "9",
+      "imports": 23284,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "90",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "91",
+      "imports": 9274,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "92",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "93",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "94",
+      "imports": 2435,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "95",
+      "imports": 615993,
+      "exports": 34884
+    },
+    {
+      "period": "2025-12",
+      "partner": "96",
+      "imports": 0,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "97",
+      "imports": 183,
+      "exports": 0
+    },
+    {
+      "period": "2025-12",
+      "partner": "98",
+      "imports": 8964131,
+      "exports": 963038
+    },
+    {
+      "period": "2025-12",
+      "partner": "99",
+      "imports": 86,
       "exports": 0
     }
   ]
