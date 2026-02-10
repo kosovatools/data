@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2021-01",
-      "last": "2025-11",
-      "count": 59
+      "last": "2025-12",
+      "count": 60
     },
     "fields": [
       {
@@ -118,7 +118,7 @@
     ],
     "notes": [],
     "id": "kas_tourism_country_monthly",
-    "generated_at": "2026-01-15T04:35:15.660Z",
+    "generated_at": "2026-02-10T05:24:50.676Z",
     "title": null
   },
   "records": [
@@ -7555,6 +7555,132 @@
       "country": "21",
       "visitors": 4344,
       "nights": 10167
+    },
+    {
+      "period": "2025-12",
+      "country": "1",
+      "visitors": 822,
+      "nights": 1715
+    },
+    {
+      "period": "2025-12",
+      "country": "2",
+      "visitors": 609,
+      "nights": 1222
+    },
+    {
+      "period": "2025-12",
+      "country": "3",
+      "visitors": 437,
+      "nights": 634
+    },
+    {
+      "period": "2025-12",
+      "country": "4",
+      "visitors": 881,
+      "nights": 1177
+    },
+    {
+      "period": "2025-12",
+      "country": "5",
+      "visitors": 820,
+      "nights": 1398
+    },
+    {
+      "period": "2025-12",
+      "country": "6",
+      "visitors": 4692,
+      "nights": 9087
+    },
+    {
+      "period": "2025-12",
+      "country": "7",
+      "visitors": 405,
+      "nights": 741
+    },
+    {
+      "period": "2025-12",
+      "country": "8",
+      "visitors": 350,
+      "nights": 651
+    },
+    {
+      "period": "2025-12",
+      "country": "9",
+      "visitors": 954,
+      "nights": 1733
+    },
+    {
+      "period": "2025-12",
+      "country": "10",
+      "visitors": 504,
+      "nights": 822
+    },
+    {
+      "period": "2025-12",
+      "country": "11",
+      "visitors": 948,
+      "nights": 3179
+    },
+    {
+      "period": "2025-12",
+      "country": "12",
+      "visitors": 1905,
+      "nights": 3312
+    },
+    {
+      "period": "2025-12",
+      "country": "13",
+      "visitors": 71,
+      "nights": 94
+    },
+    {
+      "period": "2025-12",
+      "country": "14",
+      "visitors": 1104,
+      "nights": 2528
+    },
+    {
+      "period": "2025-12",
+      "country": "15",
+      "visitors": 670,
+      "nights": 1110
+    },
+    {
+      "period": "2025-12",
+      "country": "16",
+      "visitors": 14619,
+      "nights": 22871
+    },
+    {
+      "period": "2025-12",
+      "country": "17",
+      "visitors": 314,
+      "nights": 524
+    },
+    {
+      "period": "2025-12",
+      "country": "18",
+      "visitors": 336,
+      "nights": 893
+    },
+    {
+      "period": "2025-12",
+      "country": "19",
+      "visitors": 2721,
+      "nights": 3957
+    },
+    {
+      "period": "2025-12",
+      "country": "20",
+      "visitors": 4388,
+      "nights": 7247
+    },
+    {
+      "period": "2025-12",
+      "country": "21",
+      "visitors": 2968,
+      "nights": 6727
     }
   ]
 }
