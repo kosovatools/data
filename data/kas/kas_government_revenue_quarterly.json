@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2016-Q4",
-      "last": "2025-Q3",
-      "count": 36
+      "last": "2025-Q4",
+      "count": 37
     },
     "fields": [
       {
@@ -96,7 +96,7 @@
       "Vlerat burimore duken të raportuara në milion EUR; këtu janë shkallëzuar në EUR."
     ],
     "id": "kas_government_revenue_quarterly",
-    "generated_at": "2026-01-20T11:05:40.057Z",
+    "generated_at": "2026-03-07T04:57:18.438Z",
     "title": null,
     "dimension_hierarchies": {
       "category": [
@@ -2314,6 +2314,66 @@
       "period": "2025-Q3",
       "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 35300000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d21_tatimet_ne_produkte",
+      "amount_eur": 650300000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d211_tatimi_mbi_vleren_e_shtuar_tvsh",
+      "amount_eur": 408600000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
+      "amount_eur": 224900000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d2121_detyrimet_e_importit",
+      "amount_eur": 49400000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
+      "amount_eur": 175500000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
+      "amount_eur": 16800000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d29_tatimet_tjera_ne_prodhim",
+      "amount_eur": 3900000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d4_te_hyrat_nga_prona",
+      "amount_eur": 24700000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
+      "amount_eur": 129300000.00000001
+    },
+    {
+      "period": "2025-Q4",
+      "category": "d7_transfertat_e_tjera_aktuale",
+      "amount_eur": 16600000.000000002
+    },
+    {
+      "period": "2025-Q4",
+      "category": "f_aktivet_dhe_detyrimet_financiare",
+      "amount_eur": 57400000
+    },
+    {
+      "period": "2025-Q4",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
+      "amount_eur": 38300000
     }
   ]
 }
