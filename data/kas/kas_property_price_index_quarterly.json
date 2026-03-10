@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2018-Q1",
-      "last": "2025-Q3",
-      "count": 31
+      "last": "2025-Q4",
+      "count": 32
     },
     "fields": [
       {
@@ -27,7 +27,7 @@
       "Vlerat me sufiks '-A' janë 'Mesatarja vjetore' të publikuara nga ASKdata."
     ],
     "id": "kas_property_price_index_quarterly",
-    "generated_at": "2026-01-30T05:05:06.428Z",
+    "generated_at": "2026-03-10T05:06:46.476Z",
     "title": null
   },
   "records": [
@@ -154,6 +154,10 @@
     {
       "period": "2025-Q3",
       "index": 120.8
+    },
+    {
+      "period": "2025-Q4",
+      "index": 127.5
     }
   ]
 }
