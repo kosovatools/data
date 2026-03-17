@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2010-Q1",
-      "last": "2025-Q3",
-      "count": 63
+      "last": "2025-Q4",
+      "count": 64
     },
     "fields": [
       {
@@ -140,7 +140,7 @@
       "gdp_total"
     ],
     "id": "kas_gdp_by_activity_quarterly",
-    "generated_at": "2025-12-17T04:28:23.188Z",
+    "generated_at": "2026-03-17T05:19:10.410Z",
     "title": null
   },
   "records": [
@@ -10573,6 +10573,160 @@
       "category": "activity",
       "nominal_eur": 468289355,
       "real_eur": 462464390
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "administrimi_publik_dhe_i_mbrojtjes_sigurimi_i_detyrueshem_social",
+      "category": "activity",
+      "nominal_eur": 148999947,
+      "real_eur": 133809930
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "afarizmi_me_pasuri_te_patundshme",
+      "category": "activity",
+      "nominal_eur": 153940350,
+      "real_eur": 151914020
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "aktivitetet_administrative_dhe_mbeshtetese",
+      "category": "activity",
+      "nominal_eur": 21266201,
+      "real_eur": 20911190
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "aktivitetet_profesional_shkencore_dhe_teknike",
+      "category": "activity",
+      "nominal_eur": 36798627,
+      "real_eur": 35833760
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "aktivitetetet_financiare_dhe_te_sigurimit",
+      "category": "activity",
+      "nominal_eur": 137735471,
+      "real_eur": 124802740
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "art_zbavitje_dhe_rekreacion",
+      "category": "activity",
+      "nominal_eur": 5408468,
+      "real_eur": 4892300
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "bujqesia_pylltaria_dhe_peshkimi",
+      "category": "activity",
+      "nominal_eur": 258084883,
+      "real_eur": 252692500
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "edukimi",
+      "category": "activity",
+      "nominal_eur": 104311437,
+      "real_eur": 93691540
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "furnizimi_me_energji_elektrike_dhe_gaz",
+      "category": "activity",
+      "nominal_eur": 66356767.00000001,
+      "real_eur": 66356770.00000001
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "furnizimi_me_uje",
+      "category": "activity",
+      "nominal_eur": 15730516,
+      "real_eur": 15106480
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "gdp_total",
+      "category": "aggregate",
+      "nominal_eur": 3086299669,
+      "real_eur": 2980713100
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "gva_total",
+      "category": "aggregate",
+      "nominal_eur": 2468708935,
+      "real_eur": 2370453710
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "hotelet_dhe_restorantet",
+      "category": "activity",
+      "nominal_eur": 88844527,
+      "real_eur": 81173650
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "industria_nxjerrese",
+      "category": "activity",
+      "nominal_eur": 38427318,
+      "real_eur": 37561490
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "industria_perpunuese",
+      "category": "activity",
+      "nominal_eur": 398964558,
+      "real_eur": 390693710
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "informimi_dhe_komunikimi",
+      "category": "activity",
+      "nominal_eur": 72635229,
+      "real_eur": 69342100
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "ndertimtaria",
+      "category": "activity",
+      "nominal_eur": 249701142,
+      "real_eur": 246279720
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "net_taxes_on_products",
+      "category": "aggregate",
+      "nominal_eur": 617590733,
+      "real_eur": 610259400
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "shendetesia_dhe_aktivitetet_e_punes_sociale",
+      "category": "activity",
+      "nominal_eur": 82468477,
+      "real_eur": 74508130
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "sherbime_tjera",
+      "category": "activity",
+      "nominal_eur": 8071156,
+      "real_eur": 7854850
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "transporti_dhe_magazinimi",
+      "category": "activity",
+      "nominal_eur": 118370713,
+      "real_eur": 108470740
+    },
+    {
+      "period": "2025-Q4",
+      "activity": "tregtia_me_shumice_dhe_pakice_riparimi_i_automjeteve_dhe_motocikletave",
+      "category": "activity",
+      "nominal_eur": 462593150,
+      "real_eur": 454558080
     }
   ]
 }
