@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2021-01",
-      "last": "2026-02",
-      "count": 62
+      "last": "2026-03",
+      "count": 63
     },
     "fields": [
       {
@@ -76,7 +76,7 @@
     ],
     "notes": [],
     "id": "kas_tourism_region_monthly",
-    "generated_at": "2026-04-09T05:45:08.409Z",
+    "generated_at": "2026-05-13T06:43:16.492Z",
     "title": null
   },
   "records": [
@@ -9193,6 +9193,153 @@
       "visitor_group": "external",
       "visitors": 3124,
       "nights": 6320
+    },
+    {
+      "period": "2026-03",
+      "region": "0",
+      "visitor_group": "total",
+      "visitors": 677,
+      "nights": 1289
+    },
+    {
+      "period": "2026-03",
+      "region": "0",
+      "visitor_group": "local",
+      "visitors": 226,
+      "nights": 396
+    },
+    {
+      "period": "2026-03",
+      "region": "0",
+      "visitor_group": "external",
+      "visitors": 451,
+      "nights": 894
+    },
+    {
+      "period": "2026-03",
+      "region": "1",
+      "visitor_group": "total",
+      "visitors": 1566,
+      "nights": 5775
+    },
+    {
+      "period": "2026-03",
+      "region": "1",
+      "visitor_group": "local",
+      "visitors": 1226,
+      "nights": 5207
+    },
+    {
+      "period": "2026-03",
+      "region": "1",
+      "visitor_group": "external",
+      "visitors": 340,
+      "nights": 568
+    },
+    {
+      "period": "2026-03",
+      "region": "2",
+      "visitor_group": "total",
+      "visitors": 5639,
+      "nights": 7394
+    },
+    {
+      "period": "2026-03",
+      "region": "2",
+      "visitor_group": "local",
+      "visitors": 2121,
+      "nights": 2972
+    },
+    {
+      "period": "2026-03",
+      "region": "2",
+      "visitor_group": "external",
+      "visitors": 3518,
+      "nights": 4422
+    },
+    {
+      "period": "2026-03",
+      "region": "3",
+      "visitor_group": "total",
+      "visitors": 9738,
+      "nights": 32338
+    },
+    {
+      "period": "2026-03",
+      "region": "3",
+      "visitor_group": "local",
+      "visitors": 5554,
+      "nights": 19212
+    },
+    {
+      "period": "2026-03",
+      "region": "3",
+      "visitor_group": "external",
+      "visitors": 4184,
+      "nights": 13126
+    },
+    {
+      "period": "2026-03",
+      "region": "4",
+      "visitor_group": "total",
+      "visitors": 5714,
+      "nights": 10029
+    },
+    {
+      "period": "2026-03",
+      "region": "4",
+      "visitor_group": "local",
+      "visitors": 1718,
+      "nights": 2966
+    },
+    {
+      "period": "2026-03",
+      "region": "4",
+      "visitor_group": "external",
+      "visitors": 3996,
+      "nights": 7063
+    },
+    {
+      "period": "2026-03",
+      "region": "5",
+      "visitor_group": "total",
+      "visitors": 20746,
+      "nights": 33919
+    },
+    {
+      "period": "2026-03",
+      "region": "5",
+      "visitor_group": "local",
+      "visitors": 6747,
+      "nights": 9818
+    },
+    {
+      "period": "2026-03",
+      "region": "5",
+      "visitor_group": "external",
+      "visitors": 13999,
+      "nights": 24100
+    },
+    {
+      "period": "2026-03",
+      "region": "6",
+      "visitor_group": "total",
+      "visitors": 2569,
+      "nights": 4061
+    },
+    {
+      "period": "2026-03",
+      "region": "6",
+      "visitor_group": "local",
+      "visitors": 1587,
+      "nights": 2008
+    },
+    {
+      "period": "2026-03",
+      "region": "6",
+      "visitor_group": "external",
+      "visitors": 982,
+      "nights": 2053
     }
   ]
 }
