@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2022-01",
-      "last": "2026-02",
-      "count": 50
+      "last": "2026-03",
+      "count": 51
     },
     "fields": [
       {
@@ -71,7 +71,7 @@
     ],
     "notes": [],
     "id": "kas_energy_fuels_monthly",
-    "generated_at": "2026-04-16T05:57:27.334Z",
+    "generated_at": "2026-05-29T07:49:07.252Z",
     "title": null
   },
   "records": [
@@ -1873,6 +1873,42 @@
       "export": null,
       "stock": null,
       "ready_for_market": 3582,
+      "fuel": "lng"
+    },
+    {
+      "period": "2026-03",
+      "production": null,
+      "import": 56542,
+      "export": null,
+      "stock": null,
+      "ready_for_market": 56542,
+      "fuel": "diesel"
+    },
+    {
+      "period": "2026-03",
+      "production": null,
+      "import": 4802,
+      "export": null,
+      "stock": null,
+      "ready_for_market": 4802,
+      "fuel": "gasoline"
+    },
+    {
+      "period": "2026-03",
+      "production": null,
+      "import": 850,
+      "export": 19,
+      "stock": null,
+      "ready_for_market": 831,
+      "fuel": "jet"
+    },
+    {
+      "period": "2026-03",
+      "production": null,
+      "import": 2326,
+      "export": null,
+      "stock": null,
+      "ready_for_market": 2326,
       "fuel": "lng"
     }
   ]

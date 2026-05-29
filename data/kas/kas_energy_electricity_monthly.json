@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2022-01",
-      "last": "2026-02",
-      "count": 50
+      "last": "2026-03",
+      "count": 51
     },
     "fields": [
       {
@@ -103,7 +103,7 @@
     ],
     "notes": [],
     "id": "kas_energy_electricity_monthly",
-    "generated_at": "2026-04-16T05:57:27.334Z",
+    "generated_at": "2026-05-29T07:49:07.252Z",
     "title": null
   },
   "records": [
@@ -956,6 +956,23 @@
       "high_voltage_consumption_gwh": 4.971,
       "mining_consumption_gwh": 9.087,
       "consumption_total_gwh": 516.187
+    },
+    {
+      "period": "2026-03",
+      "production_gwh": 570.976,
+      "production_thermal_gwh": 529.602,
+      "production_hydro_gwh": 18.523,
+      "production_wind_solar_gwh": 22.851,
+      "import_gwh": 354.687,
+      "export_gwh": 225.548,
+      "gross_available_gwh": 700.114,
+      "household_consumption_gwh": 328.062,
+      "commercial_consumption_gwh": 122.544,
+      "industry_consumption_gwh": 52.519,
+      "public_lighting_consumption_gwh": 4.392,
+      "high_voltage_consumption_gwh": 8.361,
+      "mining_consumption_gwh": 10.853,
+      "consumption_total_gwh": 526.731
     }
   ]
 }
