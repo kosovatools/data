@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "yearly",
       "first": "2012",
-      "last": "2024",
-      "count": 13
+      "last": "2025",
+      "count": 14
     },
     "fields": [
       {
@@ -50,7 +50,7 @@
     ],
     "notes": [],
     "id": "kas_labour_wages_yearly",
-    "generated_at": "2025-12-06T15:51:44.125Z",
+    "generated_at": "2026-06-01T09:15:19.418Z",
     "title": null
   },
   "records": [
@@ -365,6 +365,30 @@
       "group": "public_sector",
       "gross_eur": 755,
       "net_eur": 668
+    },
+    {
+      "period": "2025",
+      "group": "average",
+      "gross_eur": 713,
+      "net_eur": 636
+    },
+    {
+      "period": "2025",
+      "group": "private_sector",
+      "gross_eur": 666,
+      "net_eur": 596
+    },
+    {
+      "period": "2025",
+      "group": "public_enterprises",
+      "gross_eur": 915,
+      "net_eur": 812
+    },
+    {
+      "period": "2025",
+      "group": "public_sector",
+      "gross_eur": 840,
+      "net_eur": 744
     }
   ]
 }
