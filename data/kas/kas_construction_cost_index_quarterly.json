@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2013-Q1",
-      "last": "2025-Q3",
-      "count": 51
+      "last": "2026-Q1",
+      "count": 53
     },
     "fields": [
       {
@@ -70,7 +70,7 @@
       "Seria përfshin vetëm vlerat tremujore TM1–TM4; peshat 'Peshat' përjashtohen sepse përfaqësojnë përqindjen e kostove në total."
     ],
     "id": "kas_construction_cost_index_quarterly",
-    "generated_at": "2025-12-06T15:51:44.125Z",
+    "generated_at": "2026-06-02T08:22:07.944Z",
     "title": null,
     "dimension_hierarchies": {
       "cost_category": [
@@ -2701,6 +2701,106 @@
       "period": "2025-Q3",
       "cost_category": "9",
       "index": 151.5
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "0",
+      "index": 156.6
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "1",
+      "index": 157
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "2",
+      "index": 162.1
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "3",
+      "index": 144.9
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "4",
+      "index": 145.7
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "5",
+      "index": 128.4
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "6",
+      "index": 155.1
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "7",
+      "index": 139.1
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "8",
+      "index": 135.9
+    },
+    {
+      "period": "2025-Q4",
+      "cost_category": "9",
+      "index": 152.3
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "0",
+      "index": 160.4
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "1",
+      "index": 161.5
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "2",
+      "index": 162.2
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "3",
+      "index": 144
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "4",
+      "index": 149.8
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "5",
+      "index": 129.1
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "6",
+      "index": 164.1
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "7",
+      "index": 133.7
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "8",
+      "index": 139.5
+    },
+    {
+      "period": "2026-Q1",
+      "cost_category": "9",
+      "index": 156
     }
   ]
 }
