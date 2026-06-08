@@ -27,7 +27,7 @@
       "Vlerat me sufiks '-A' janë 'Mesatarja vjetore' të publikuara nga ASKdata."
     ],
     "id": "kas_property_price_index_quarterly",
-    "generated_at": "2026-06-06T06:48:15.069Z",
+    "generated_at": "2026-06-08T08:47:34.951Z",
     "title": null
   },
   "records": [
@@ -157,7 +157,7 @@
     },
     {
       "period": "2025-Q4",
-      "index": 127.5
+      "index": 127.6
     },
     {
       "period": "2026-Q1",
