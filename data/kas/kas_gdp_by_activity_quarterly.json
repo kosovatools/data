@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2010-Q1",
-      "last": "2025-Q4",
-      "count": 64
+      "last": "2026-Q1",
+      "count": 65
     },
     "fields": [
       {
@@ -140,7 +140,7 @@
       "gdp_total"
     ],
     "id": "kas_gdp_by_activity_quarterly",
-    "generated_at": "2026-03-17T05:19:10.410Z",
+    "generated_at": "2026-06-14T08:09:49.492Z",
     "title": null
   },
   "records": [
@@ -10727,6 +10727,160 @@
       "category": "activity",
       "nominal_eur": 462593150,
       "real_eur": 454558080
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "administrimi_publik_dhe_i_mbrojtjes_sigurimi_i_detyrueshem_social",
+      "category": "activity",
+      "nominal_eur": 179093754,
+      "real_eur": 169128340
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "afarizmi_me_pasuri_te_patundshme",
+      "category": "activity",
+      "nominal_eur": 163543713,
+      "real_eur": 156167720
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "aktivitetet_administrative_dhe_mbeshtetese",
+      "category": "activity",
+      "nominal_eur": 14044758,
+      "real_eur": 13695420
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "aktivitetet_profesional_shkencore_dhe_teknike",
+      "category": "activity",
+      "nominal_eur": 56792774,
+      "real_eur": 55278780
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "aktivitetetet_financiare_dhe_te_sigurimit",
+      "category": "activity",
+      "nominal_eur": 141190437,
+      "real_eur": 120654800
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "art_zbavitje_dhe_rekreacion",
+      "category": "activity",
+      "nominal_eur": 6474599,
+      "real_eur": 6181190
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "bujqesia_pylltaria_dhe_peshkimi",
+      "category": "activity",
+      "nominal_eur": 117989204,
+      "real_eur": 113373440
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "edukimi",
+      "category": "activity",
+      "nominal_eur": 117076076,
+      "real_eur": 110781720
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "furnizimi_me_energji_elektrike_dhe_gaz",
+      "category": "activity",
+      "nominal_eur": 72871240,
+      "real_eur": 72871240
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "furnizimi_me_uje",
+      "category": "activity",
+      "nominal_eur": 15434248,
+      "real_eur": 14839260
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "gdp_total",
+      "category": "aggregate",
+      "nominal_eur": 2429473590,
+      "real_eur": 2335854240
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "gva_total",
+      "category": "aggregate",
+      "nominal_eur": 1896007061,
+      "real_eur": 1811847240
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "hotelet_dhe_restorantet",
+      "category": "activity",
+      "nominal_eur": 44072977,
+      "real_eur": 42413130
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "industria_nxjerrese",
+      "category": "activity",
+      "nominal_eur": 51072936,
+      "real_eur": 50033890
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "industria_perpunuese",
+      "category": "activity",
+      "nominal_eur": 254845078,
+      "real_eur": 242599950
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "informimi_dhe_komunikimi",
+      "category": "activity",
+      "nominal_eur": 39944174,
+      "real_eur": 38688930
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "ndertimtaria",
+      "category": "activity",
+      "nominal_eur": 173616452,
+      "real_eur": 174355670
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "net_taxes_on_products",
+      "category": "aggregate",
+      "nominal_eur": 533466529,
+      "real_eur": 524007000
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "shendetesia_dhe_aktivitetet_e_punes_sociale",
+      "category": "activity",
+      "nominal_eur": 64312456,
+      "real_eur": 60573420
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "sherbime_tjera",
+      "category": "activity",
+      "nominal_eur": 6805728,
+      "real_eur": 6782890
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "transporti_dhe_magazinimi",
+      "category": "activity",
+      "nominal_eur": 101962587,
+      "real_eur": 94092880
+    },
+    {
+      "period": "2026-Q1",
+      "activity": "tregtia_me_shumice_dhe_pakice_riparimi_i_automjeteve_dhe_motocikletave",
+      "category": "activity",
+      "nominal_eur": 274863869,
+      "real_eur": 269334570
     }
   ]
 }
