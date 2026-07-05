@@ -2,7 +2,7 @@
   "meta": {
     "id": "energy_crossborder_daily_v2",
     "title": "Flukset kufitare ditore sipas fqinjëve (ENTSO-E)",
-    "generated_at": "2026-06-05T08:42:37.472Z",
+    "generated_at": "2026-07-05T07:55:50.206Z",
     "updated_at": null,
     "source": "ENTSO-E Transparency Platform",
     "source_urls": [
@@ -11,9 +11,9 @@
     "time": {
       "key": "period",
       "granularity": "daily",
-      "first": "2026-05-01",
-      "last": "2026-05-31",
-      "count": 31
+      "first": "2026-06-01",
+      "last": "2026-06-30",
+      "count": 30
     },
     "fields": [
       {
@@ -60,872 +60,844 @@
   },
   "records": [
     {
-      "period": "2026-05-01",
+      "period": "2026-06-01",
       "neighbor": "al",
-      "import": 4642.83,
-      "export": 60.74,
-      "net": 4582.09
-    },
-    {
-      "period": "2026-05-01",
-      "neighbor": "me",
-      "import": 1610.8,
-      "export": 1893.2,
-      "net": -282.4
-    },
-    {
-      "period": "2026-05-01",
-      "neighbor": "mk",
-      "import": 2592,
-      "export": 905.6,
-      "net": 1686.4
-    },
-    {
-      "period": "2026-05-01",
-      "neighbor": "rs",
-      "import": 45.18,
-      "export": 3970.85,
-      "net": -3925.67
-    },
-    {
-      "period": "2026-05-02",
-      "neighbor": "al",
-      "import": 5110.65,
-      "export": 54.69,
-      "net": 5055.96
-    },
-    {
-      "period": "2026-05-02",
-      "neighbor": "me",
-      "import": 1109.2,
-      "export": 1609.6,
-      "net": -500.4
-    },
-    {
-      "period": "2026-05-02",
-      "neighbor": "mk",
-      "import": 2453.2,
-      "export": 638,
-      "net": 1815.2
-    },
-    {
-      "period": "2026-05-02",
-      "neighbor": "rs",
-      "import": 257.3,
-      "export": 3791.76,
-      "net": -3534.46
-    },
-    {
-      "period": "2026-05-03",
-      "neighbor": "al",
-      "import": 5545.94,
+      "import": 5643.77,
       "export": 0,
-      "net": 5545.94
+      "net": 5643.77
     },
     {
-      "period": "2026-05-03",
+      "period": "2026-06-01",
       "neighbor": "me",
-      "import": 344.4,
-      "export": 2858,
-      "net": -2513.6
+      "import": 407.6,
+      "export": 2367.2,
+      "net": -1959.6
     },
     {
-      "period": "2026-05-03",
+      "period": "2026-06-01",
       "neighbor": "mk",
-      "import": 4818.8,
-      "export": 103.2,
-      "net": 4715.6
-    },
-    {
-      "period": "2026-05-03",
-      "neighbor": "rs",
-      "import": 1268.52,
-      "export": 729.52,
-      "net": 539.01
-    },
-    {
-      "period": "2026-05-04",
-      "neighbor": "al",
-      "import": 3013.27,
+      "import": 6190.4,
       "export": 0,
-      "net": 3013.27
+      "net": 6190.4
     },
     {
-      "period": "2026-05-04",
-      "neighbor": "me",
-      "import": 1274.4,
-      "export": 5361.2,
-      "net": -4086.8
-    },
-    {
-      "period": "2026-05-04",
-      "neighbor": "mk",
-      "import": 8150,
-      "export": 45.2,
-      "net": 8104.8
-    },
-    {
-      "period": "2026-05-04",
+      "period": "2026-06-01",
       "neighbor": "rs",
-      "import": 2284.52,
-      "export": 17.42,
-      "net": 2267.1
+      "import": 309.9,
+      "export": 1183.13,
+      "net": -873.23
     },
     {
-      "period": "2026-05-05",
+      "period": "2026-06-02",
       "neighbor": "al",
-      "import": 4891.54,
+      "import": 5541.59,
       "export": 0,
-      "net": 4891.54
+      "net": 5541.59
     },
     {
-      "period": "2026-05-05",
+      "period": "2026-06-02",
       "neighbor": "me",
-      "import": 1111.2,
-      "export": 5450.4,
-      "net": -4339.2
+      "import": 248,
+      "export": 2301.6,
+      "net": -2053.6
     },
     {
-      "period": "2026-05-05",
+      "period": "2026-06-02",
       "neighbor": "mk",
-      "import": 7317.6,
-      "export": 294.4,
-      "net": 7023.2
+      "import": 5647.6,
+      "export": 0,
+      "net": 5647.6
     },
     {
-      "period": "2026-05-05",
+      "period": "2026-06-02",
       "neighbor": "rs",
-      "import": 1866.49,
-      "export": 98.32,
-      "net": 1768.17
+      "import": 784.7,
+      "export": 733.41,
+      "net": 51.28
     },
     {
-      "period": "2026-05-06",
+      "period": "2026-06-03",
       "neighbor": "al",
-      "import": 3607.77,
+      "import": 4459.29,
       "export": 0,
-      "net": 3607.77
+      "net": 4459.29
     },
     {
-      "period": "2026-05-06",
+      "period": "2026-06-03",
       "neighbor": "me",
-      "import": 940.4,
-      "export": 5370.4,
-      "net": -4430
+      "import": 53.2,
+      "export": 4964,
+      "net": -4910.8
     },
     {
-      "period": "2026-05-06",
+      "period": "2026-06-03",
       "neighbor": "mk",
-      "import": 8229.6,
-      "export": 46.4,
-      "net": 8183.2
+      "import": 8115.2,
+      "export": 0,
+      "net": 8115.2
     },
     {
-      "period": "2026-05-06",
+      "period": "2026-06-03",
       "neighbor": "rs",
-      "import": 2405.13,
-      "export": 215.86,
-      "net": 2189.27
+      "import": 1072.98,
+      "export": 187.91,
+      "net": 885.08
     },
     {
-      "period": "2026-05-07",
+      "period": "2026-06-04",
       "neighbor": "al",
-      "import": 4500.02,
-      "export": 0,
-      "net": 4500.02
+      "import": 2102.64,
+      "export": 15.59,
+      "net": 2087.05
     },
     {
-      "period": "2026-05-07",
+      "period": "2026-06-04",
       "neighbor": "me",
-      "import": 779.6,
-      "export": 3260,
-      "net": -2480.4
+      "import": 456,
+      "export": 637.6,
+      "net": -181.6
     },
     {
-      "period": "2026-05-07",
+      "period": "2026-06-04",
       "neighbor": "mk",
-      "import": 8392.4,
-      "export": 20.4,
-      "net": 8372
+      "import": 2744,
+      "export": 416.4,
+      "net": 2327.6
     },
     {
-      "period": "2026-05-07",
+      "period": "2026-06-04",
       "neighbor": "rs",
-      "import": 1161.57,
-      "export": 1748.9,
-      "net": -587.32
-    },
-    {
-      "period": "2026-05-08",
-      "neighbor": "al",
-      "import": 5185.22,
+      "import": 3070.76,
       "export": 0,
-      "net": 5185.22
+      "net": 3070.76
     },
     {
-      "period": "2026-05-08",
+      "period": "2026-06-05",
+      "neighbor": "al",
+      "import": 1436.05,
+      "export": 298.31,
+      "net": 1137.74
+    },
+    {
+      "period": "2026-06-05",
       "neighbor": "me",
-      "import": 720,
-      "export": 819.2,
-      "net": -99.2
+      "import": 713.6,
+      "export": 3802,
+      "net": -3088.4
     },
     {
-      "period": "2026-05-08",
+      "period": "2026-06-05",
       "neighbor": "mk",
-      "import": 4250.8,
-      "export": 71.2,
-      "net": 4179.6
+      "import": 4693.6,
+      "export": 1184,
+      "net": 3509.6
     },
     {
-      "period": "2026-05-08",
+      "period": "2026-06-05",
       "neighbor": "rs",
-      "import": 2875.6,
-      "export": 999.1,
-      "net": 1876.5
+      "import": 750.92,
+      "export": 1174.88,
+      "net": -423.96
     },
     {
-      "period": "2026-05-09",
+      "period": "2026-06-06",
       "neighbor": "al",
-      "import": 6669.87,
-      "export": 0,
-      "net": 6669.87
+      "import": 844.8,
+      "export": 239.32,
+      "net": 605.48
     },
     {
-      "period": "2026-05-09",
+      "period": "2026-06-06",
       "neighbor": "me",
-      "import": 4029.2,
-      "export": 74,
-      "net": 3955.2
+      "import": 474.8,
+      "export": 2168,
+      "net": -1693.2
     },
     {
-      "period": "2026-05-09",
+      "period": "2026-06-06",
       "neighbor": "mk",
-      "import": 2430.4,
-      "export": 204.8,
-      "net": 2225.6
+      "import": 1727.2,
+      "export": 1634.4,
+      "net": 92.8
     },
     {
-      "period": "2026-05-09",
+      "period": "2026-06-06",
       "neighbor": "rs",
-      "import": 5.85,
-      "export": 1950.33,
-      "net": -1944.48
+      "import": 166.02,
+      "export": 1576.76,
+      "net": -1410.73
     },
     {
-      "period": "2026-05-10",
+      "period": "2026-06-07",
       "neighbor": "al",
-      "import": 3695.09,
-      "export": 0,
-      "net": 3695.09
+      "import": 238.16,
+      "export": 1128.6,
+      "net": -890.44
     },
     {
-      "period": "2026-05-10",
+      "period": "2026-06-07",
       "neighbor": "me",
-      "import": 2507.6,
-      "export": 1417.2,
-      "net": 1090.4
+      "import": 1818.8,
+      "export": 1132.4,
+      "net": 686.4
     },
     {
-      "period": "2026-05-10",
+      "period": "2026-06-07",
       "neighbor": "mk",
-      "import": 2616,
-      "export": 392.4,
-      "net": 2223.6
+      "import": 292.4,
+      "export": 3976.8,
+      "net": -3684.4
     },
     {
-      "period": "2026-05-10",
+      "period": "2026-06-07",
       "neighbor": "rs",
-      "import": 1965.79,
-      "export": 1402.43,
-      "net": 563.36
+      "import": 582.33,
+      "export": 396.59,
+      "net": 185.74
     },
     {
-      "period": "2026-05-11",
+      "period": "2026-06-08",
       "neighbor": "al",
-      "import": 4120.91,
-      "export": 0,
-      "net": 4120.91
+      "import": 1612.52,
+      "export": 206.19,
+      "net": 1406.34
     },
     {
-      "period": "2026-05-11",
+      "period": "2026-06-08",
       "neighbor": "me",
-      "import": 1266.4,
-      "export": 2571.2,
-      "net": -1304.8
+      "import": 4.8,
+      "export": 4360.8,
+      "net": -4356
     },
     {
-      "period": "2026-05-11",
+      "period": "2026-06-08",
       "neighbor": "mk",
-      "import": 6786.4,
-      "export": 550.4,
-      "net": 6236
+      "import": 2313.2,
+      "export": 264,
+      "net": 2049.2
     },
     {
-      "period": "2026-05-11",
+      "period": "2026-06-08",
+      "neighbor": "rs",
+      "import": 182.17,
+      "export": 1946.76,
+      "net": -1764.59
+    },
+    {
+      "period": "2026-06-09",
+      "neighbor": "al",
+      "import": 2797.85,
+      "export": 28.81,
+      "net": 2769.04
+    },
+    {
+      "period": "2026-06-09",
+      "neighbor": "me",
+      "import": 0,
+      "export": 4474.4,
+      "net": -4474.4
+    },
+    {
+      "period": "2026-06-09",
+      "neighbor": "mk",
+      "import": 3350,
+      "export": 158.8,
+      "net": 3191.2
+    },
+    {
+      "period": "2026-06-09",
+      "neighbor": "rs",
+      "import": 233.82,
+      "export": 1488.83,
+      "net": -1255.01
+    },
+    {
+      "period": "2026-06-10",
+      "neighbor": "al",
+      "import": 3938.86,
+      "export": 0,
+      "net": 3938.86
+    },
+    {
+      "period": "2026-06-10",
+      "neighbor": "me",
+      "import": 136,
+      "export": 3697.6,
+      "net": -3561.6
+    },
+    {
+      "period": "2026-06-10",
+      "neighbor": "mk",
+      "import": 1827.6,
+      "export": 388.4,
+      "net": 1439.2
+    },
+    {
+      "period": "2026-06-10",
+      "neighbor": "rs",
+      "import": 817.52,
+      "export": 2658.12,
+      "net": -1840.59
+    },
+    {
+      "period": "2026-06-11",
+      "neighbor": "al",
+      "import": 1561,
+      "export": 313.39,
+      "net": 1247.61
+    },
+    {
+      "period": "2026-06-11",
+      "neighbor": "me",
+      "import": 12.8,
+      "export": 2746.8,
+      "net": -2734
+    },
+    {
+      "period": "2026-06-11",
+      "neighbor": "mk",
+      "import": 3612,
+      "export": 1155.2,
+      "net": 2456.8
+    },
+    {
+      "period": "2026-06-11",
+      "neighbor": "rs",
+      "import": 346.34,
+      "export": 1732.49,
+      "net": -1386.15
+    },
+    {
+      "period": "2026-06-12",
+      "neighbor": "al",
+      "import": 968.31,
+      "export": 251.32,
+      "net": 716.99
+    },
+    {
+      "period": "2026-06-12",
+      "neighbor": "me",
+      "import": 1238,
+      "export": 1515.6,
+      "net": -277.6
+    },
+    {
+      "period": "2026-06-12",
+      "neighbor": "mk",
+      "import": 809.6,
+      "export": 2174.4,
+      "net": -1364.8
+    },
+    {
+      "period": "2026-06-12",
+      "neighbor": "rs",
+      "import": 630.56,
+      "export": 969.26,
+      "net": -338.71
+    },
+    {
+      "period": "2026-06-13",
+      "neighbor": "al",
+      "import": 533.66,
+      "export": 734.47,
+      "net": -200.81
+    },
+    {
+      "period": "2026-06-13",
+      "neighbor": "me",
+      "import": 2461.2,
+      "export": 1238.4,
+      "net": 1222.8
+    },
+    {
+      "period": "2026-06-13",
+      "neighbor": "mk",
+      "import": 526.4,
+      "export": 3440,
+      "net": -2913.6
+    },
+    {
+      "period": "2026-06-13",
+      "neighbor": "rs",
+      "import": 924.13,
+      "export": 321.25,
+      "net": 602.89
+    },
+    {
+      "period": "2026-06-14",
+      "neighbor": "al",
+      "import": 435.96,
+      "export": 982.42,
+      "net": -546.46
+    },
+    {
+      "period": "2026-06-14",
+      "neighbor": "me",
+      "import": 2244.8,
+      "export": 597.6,
+      "net": 1647.2
+    },
+    {
+      "period": "2026-06-14",
+      "neighbor": "mk",
+      "import": 56.4,
+      "export": 4228.4,
+      "net": -4172
+    },
+    {
+      "period": "2026-06-14",
+      "neighbor": "rs",
+      "import": 1519.9,
+      "export": 173.81,
+      "net": 1346.08
+    },
+    {
+      "period": "2026-06-15",
+      "neighbor": "al",
+      "import": 618.76,
+      "export": 1224.65,
+      "net": -605.9
+    },
+    {
+      "period": "2026-06-15",
+      "neighbor": "me",
+      "import": 981.2,
+      "export": 2782,
+      "net": -1800.8
+    },
+    {
+      "period": "2026-06-15",
+      "neighbor": "mk",
+      "import": 4340.8,
+      "export": 2437.6,
+      "net": 1903.2
+    },
+    {
+      "period": "2026-06-15",
+      "neighbor": "rs",
+      "import": 850.17,
+      "export": 681.92,
+      "net": 168.25
+    },
+    {
+      "period": "2026-06-16",
+      "neighbor": "al",
+      "import": 650.68,
+      "export": 1242.94,
+      "net": -592.26
+    },
+    {
+      "period": "2026-06-16",
+      "neighbor": "me",
+      "import": 126.4,
+      "export": 4488,
+      "net": -4361.6
+    },
+    {
+      "period": "2026-06-16",
+      "neighbor": "mk",
+      "import": 3428.8,
+      "export": 707.6,
+      "net": 2721.2
+    },
+    {
+      "period": "2026-06-16",
+      "neighbor": "rs",
+      "import": 2279.03,
+      "export": 237.72,
+      "net": 2041.3
+    },
+    {
+      "period": "2026-06-17",
+      "neighbor": "al",
+      "import": 802.65,
+      "export": 787.81,
+      "net": 14.84
+    },
+    {
+      "period": "2026-06-17",
+      "neighbor": "me",
+      "import": 0,
+      "export": 5087.2,
+      "net": -5087.2
+    },
+    {
+      "period": "2026-06-17",
+      "neighbor": "mk",
+      "import": 3722,
+      "export": 475.6,
+      "net": 3246.4
+    },
+    {
+      "period": "2026-06-17",
+      "neighbor": "rs",
+      "import": 2130.36,
+      "export": 623.06,
+      "net": 1507.3
+    },
+    {
+      "period": "2026-06-18",
+      "neighbor": "al",
+      "import": 1576.02,
+      "export": 258.18,
+      "net": 1317.84
+    },
+    {
+      "period": "2026-06-18",
+      "neighbor": "me",
+      "import": 0,
+      "export": 8713.2,
+      "net": -8713.2
+    },
+    {
+      "period": "2026-06-18",
+      "neighbor": "mk",
+      "import": 8738.4,
+      "export": 0,
+      "net": 8738.4
+    },
+    {
+      "period": "2026-06-18",
+      "neighbor": "rs",
+      "import": 112.08,
+      "export": 2083.9,
+      "net": -1971.82
+    },
+    {
+      "period": "2026-06-19",
+      "neighbor": "al",
+      "import": 1402.68,
+      "export": 153.72,
+      "net": 1248.96
+    },
+    {
+      "period": "2026-06-19",
+      "neighbor": "me",
+      "import": 0,
+      "export": 7342.8,
+      "net": -7342.8
+    },
+    {
+      "period": "2026-06-19",
+      "neighbor": "mk",
+      "import": 7679.6,
+      "export": 0,
+      "net": 7679.6
+    },
+    {
+      "period": "2026-06-19",
+      "neighbor": "rs",
+      "import": 54.74,
+      "export": 2071.92,
+      "net": -2017.18
+    },
+    {
+      "period": "2026-06-20",
+      "neighbor": "al",
+      "import": 811.19,
+      "export": 385.24,
+      "net": 425.94
+    },
+    {
+      "period": "2026-06-20",
+      "neighbor": "me",
+      "import": 0,
+      "export": 6746.4,
+      "net": -6746.4
+    },
+    {
+      "period": "2026-06-20",
+      "neighbor": "mk",
+      "import": 6956,
+      "export": 0,
+      "net": 6956
+    },
+    {
+      "period": "2026-06-20",
+      "neighbor": "rs",
+      "import": 390.91,
+      "export": 1137.86,
+      "net": -746.94
+    },
+    {
+      "period": "2026-06-21",
+      "neighbor": "al",
+      "import": 648.14,
+      "export": 687.6,
+      "net": -39.46
+    },
+    {
+      "period": "2026-06-21",
+      "neighbor": "me",
+      "import": 0,
+      "export": 7593.2,
+      "net": -7593.2
+    },
+    {
+      "period": "2026-06-21",
+      "neighbor": "mk",
+      "import": 7862.8,
+      "export": 0,
+      "net": 7862.8
+    },
+    {
+      "period": "2026-06-21",
+      "neighbor": "rs",
+      "import": 108.14,
+      "export": 1045.24,
+      "net": -937.11
+    },
+    {
+      "period": "2026-06-22",
+      "neighbor": "al",
+      "import": 2176.48,
+      "export": 111.7,
+      "net": 2064.78
+    },
+    {
+      "period": "2026-06-22",
+      "neighbor": "me",
+      "import": 0,
+      "export": 5708,
+      "net": -5708
+    },
+    {
+      "period": "2026-06-22",
+      "neighbor": "mk",
+      "import": 6548.8,
+      "export": 0,
+      "net": 6548.8
+    },
+    {
+      "period": "2026-06-22",
+      "neighbor": "rs",
+      "import": 10.47,
+      "export": 2408.35,
+      "net": -2397.88
+    },
+    {
+      "period": "2026-06-23",
+      "neighbor": "al",
+      "import": 2229.3,
+      "export": 0,
+      "net": 2229.3
+    },
+    {
+      "period": "2026-06-23",
+      "neighbor": "me",
+      "import": 254.4,
+      "export": 4069.2,
+      "net": -3814.8
+    },
+    {
+      "period": "2026-06-23",
+      "neighbor": "mk",
+      "import": 5128,
+      "export": 145.6,
+      "net": 4982.4
+    },
+    {
+      "period": "2026-06-23",
+      "neighbor": "rs",
+      "import": 78.58,
+      "export": 3207.15,
+      "net": -3128.56
+    },
+    {
+      "period": "2026-06-24",
+      "neighbor": "al",
+      "import": 2025.41,
+      "export": 19.05,
+      "net": 2006.36
+    },
+    {
+      "period": "2026-06-24",
+      "neighbor": "me",
+      "import": 273.2,
+      "export": 3356,
+      "net": -3082.8
+    },
+    {
+      "period": "2026-06-24",
+      "neighbor": "mk",
+      "import": 3610,
+      "export": 320.4,
+      "net": 3289.6
+    },
+    {
+      "period": "2026-06-24",
+      "neighbor": "rs",
+      "import": 767.63,
+      "export": 3240.24,
+      "net": -2472.6
+    },
+    {
+      "period": "2026-06-25",
+      "neighbor": "al",
+      "import": 1777.76,
+      "export": 179.92,
+      "net": 1597.84
+    },
+    {
+      "period": "2026-06-25",
+      "neighbor": "me",
+      "import": 0,
+      "export": 5343.6,
+      "net": -5343.6
+    },
+    {
+      "period": "2026-06-25",
+      "neighbor": "mk",
+      "import": 5846.4,
+      "export": 0,
+      "net": 5846.4
+    },
+    {
+      "period": "2026-06-25",
+      "neighbor": "rs",
+      "import": 1087.97,
+      "export": 2445.55,
+      "net": -1357.58
+    },
+    {
+      "period": "2026-06-26",
+      "neighbor": "al",
+      "import": 1973.68,
+      "export": 183.01,
+      "net": 1790.67
+    },
+    {
+      "period": "2026-06-26",
+      "neighbor": "me",
+      "import": 0,
+      "export": 6469.2,
+      "net": -6469.2
+    },
+    {
+      "period": "2026-06-26",
+      "neighbor": "mk",
+      "import": 7528.4,
+      "export": 0,
+      "net": 7528.4
+    },
+    {
+      "period": "2026-06-26",
+      "neighbor": "rs",
+      "import": 294.31,
+      "export": 2500.19,
+      "net": -2205.87
+    },
+    {
+      "period": "2026-06-27",
+      "neighbor": "al",
+      "import": 1584.38,
+      "export": 327.02,
+      "net": 1257.36
+    },
+    {
+      "period": "2026-06-27",
+      "neighbor": "me",
+      "import": 0,
+      "export": 6924,
+      "net": -6924
+    },
+    {
+      "period": "2026-06-27",
+      "neighbor": "mk",
+      "import": 8341.2,
+      "export": 0,
+      "net": 8341.2
+    },
+    {
+      "period": "2026-06-27",
+      "neighbor": "rs",
+      "import": 123.29,
+      "export": 1804.43,
+      "net": -1681.15
+    },
+    {
+      "period": "2026-06-28",
+      "neighbor": "al",
+      "import": 1277.5,
+      "export": 1041.48,
+      "net": 236.02
+    },
+    {
+      "period": "2026-06-28",
+      "neighbor": "me",
+      "import": 0,
+      "export": 6729.2,
+      "net": -6729.2
+    },
+    {
+      "period": "2026-06-28",
+      "neighbor": "mk",
+      "import": 7527.2,
+      "export": 0,
+      "net": 7527.2
+    },
+    {
+      "period": "2026-06-28",
+      "neighbor": "rs",
+      "import": 525.79,
+      "export": 1584.97,
+      "net": -1059.18
+    },
+    {
+      "period": "2026-06-29",
+      "neighbor": "al",
+      "import": 2820.46,
+      "export": 125.46,
+      "net": 2695
+    },
+    {
+      "period": "2026-06-29",
+      "neighbor": "me",
+      "import": 269.6,
+      "export": 4316.8,
+      "net": -4047.2
+    },
+    {
+      "period": "2026-06-29",
+      "neighbor": "mk",
+      "import": 6829.6,
+      "export": 0,
+      "net": 6829.6
+    },
+    {
+      "period": "2026-06-29",
       "neighbor": "rs",
       "import": 0,
-      "export": 3552.27,
-      "net": -3552.27
+      "export": 3494.91,
+      "net": -3494.91
     },
     {
-      "period": "2026-05-12",
+      "period": "2026-06-30",
       "neighbor": "al",
-      "import": 5406.6,
+      "import": 3108.44,
       "export": 0,
-      "net": 5406.6
+      "net": 3108.44
     },
     {
-      "period": "2026-05-12",
+      "period": "2026-06-30",
       "neighbor": "me",
-      "import": 482,
-      "export": 1352.4,
-      "net": -870.4
+      "import": 437.2,
+      "export": 2724.8,
+      "net": -2287.6
     },
     {
-      "period": "2026-05-12",
+      "period": "2026-06-30",
       "neighbor": "mk",
-      "import": 5748.4,
-      "export": 0,
-      "net": 5748.4
+      "import": 5530,
+      "export": 54.4,
+      "net": 5475.6
     },
     {
-      "period": "2026-05-12",
+      "period": "2026-06-30",
       "neighbor": "rs",
-      "import": 0,
-      "export": 5252.26,
-      "net": -5252.26
-    },
-    {
-      "period": "2026-05-13",
-      "neighbor": "al",
-      "import": 5382.8,
-      "export": 0,
-      "net": 5382.8
-    },
-    {
-      "period": "2026-05-13",
-      "neighbor": "me",
-      "import": 482.8,
-      "export": 2565.6,
-      "net": -2082.8
-    },
-    {
-      "period": "2026-05-13",
-      "neighbor": "mk",
-      "import": 7081.6,
-      "export": 0,
-      "net": 7081.6
-    },
-    {
-      "period": "2026-05-13",
-      "neighbor": "rs",
-      "import": 14.04,
-      "export": 2097.94,
-      "net": -2083.9
-    },
-    {
-      "period": "2026-05-14",
-      "neighbor": "al",
-      "import": 5623.03,
-      "export": 0,
-      "net": 5623.03
-    },
-    {
-      "period": "2026-05-14",
-      "neighbor": "me",
-      "import": 1686.8,
-      "export": 2570,
-      "net": -883.2
-    },
-    {
-      "period": "2026-05-14",
-      "neighbor": "mk",
-      "import": 6729.6,
-      "export": 0,
-      "net": 6729.6
-    },
-    {
-      "period": "2026-05-14",
-      "neighbor": "rs",
-      "import": 107.05,
-      "export": 4197.97,
-      "net": -4090.92
-    },
-    {
-      "period": "2026-05-15",
-      "neighbor": "al",
-      "import": 5079.8,
-      "export": 0,
-      "net": 5079.8
-    },
-    {
-      "period": "2026-05-15",
-      "neighbor": "me",
-      "import": 978.8,
-      "export": 3194.8,
-      "net": -2216
-    },
-    {
-      "period": "2026-05-15",
-      "neighbor": "mk",
-      "import": 7663.6,
-      "export": 0,
-      "net": 7663.6
-    },
-    {
-      "period": "2026-05-15",
-      "neighbor": "rs",
-      "import": 176.31,
-      "export": 4447.75,
-      "net": -4271.44
-    },
-    {
-      "period": "2026-05-16",
-      "neighbor": "al",
-      "import": 4483.93,
-      "export": 0,
-      "net": 4483.93
-    },
-    {
-      "period": "2026-05-16",
-      "neighbor": "me",
-      "import": 277.2,
-      "export": 3266.8,
-      "net": -2989.6
-    },
-    {
-      "period": "2026-05-16",
-      "neighbor": "mk",
-      "import": 6320,
-      "export": 0,
-      "net": 6320
-    },
-    {
-      "period": "2026-05-16",
-      "neighbor": "rs",
-      "import": 255.09,
-      "export": 1559.63,
-      "net": -1304.55
-    },
-    {
-      "period": "2026-05-17",
-      "neighbor": "al",
-      "import": 5152.08,
-      "export": 0,
-      "net": 5152.08
-    },
-    {
-      "period": "2026-05-17",
-      "neighbor": "me",
-      "import": 1258.8,
-      "export": 1774,
-      "net": -515.2
-    },
-    {
-      "period": "2026-05-17",
-      "neighbor": "mk",
-      "import": 4740.4,
-      "export": 0,
-      "net": 4740.4
-    },
-    {
-      "period": "2026-05-17",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 2232.52,
-      "net": -2232.52
-    },
-    {
-      "period": "2026-05-18",
-      "neighbor": "al",
-      "import": 9337.74,
-      "export": 0,
-      "net": 9337.74
-    },
-    {
-      "period": "2026-05-18",
-      "neighbor": "me",
-      "import": 1141.2,
-      "export": 5944,
-      "net": -4802.8
-    },
-    {
-      "period": "2026-05-18",
-      "neighbor": "mk",
-      "import": 7126.4,
-      "export": 23.6,
-      "net": 7102.8
-    },
-    {
-      "period": "2026-05-18",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 3939.85,
-      "net": -3939.85
-    },
-    {
-      "period": "2026-05-19",
-      "neighbor": "al",
-      "import": 8429.02,
-      "export": 0,
-      "net": 8429.02
-    },
-    {
-      "period": "2026-05-19",
-      "neighbor": "me",
-      "import": 1176,
-      "export": 1888.8,
-      "net": -712.8
-    },
-    {
-      "period": "2026-05-19",
-      "neighbor": "mk",
-      "import": 2856.8,
-      "export": 73.6,
-      "net": 2783.2
-    },
-    {
-      "period": "2026-05-19",
-      "neighbor": "rs",
-      "import": 1597.91,
-      "export": 2959.18,
-      "net": -1361.27
-    },
-    {
-      "period": "2026-05-20",
-      "neighbor": "al",
-      "import": 9934.25,
-      "export": 0,
-      "net": 9934.25
-    },
-    {
-      "period": "2026-05-20",
-      "neighbor": "me",
-      "import": 262.4,
-      "export": 5979.2,
-      "net": -5716.8
-    },
-    {
-      "period": "2026-05-20",
-      "neighbor": "mk",
-      "import": 6558,
-      "export": 0,
-      "net": 6558
-    },
-    {
-      "period": "2026-05-20",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 3710.45,
-      "net": -3710.45
-    },
-    {
-      "period": "2026-05-21",
-      "neighbor": "al",
-      "import": 8580.76,
-      "export": 0,
-      "net": 8580.76
-    },
-    {
-      "period": "2026-05-21",
-      "neighbor": "me",
-      "import": 1484,
-      "export": 2821.2,
-      "net": -1337.2
-    },
-    {
-      "period": "2026-05-21",
-      "neighbor": "mk",
-      "import": 4140,
-      "export": 376.8,
-      "net": 3763.2
-    },
-    {
-      "period": "2026-05-21",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 5187.96,
-      "net": -5187.96
-    },
-    {
-      "period": "2026-05-22",
-      "neighbor": "al",
-      "import": 9854.9,
-      "export": 0,
-      "net": 9854.9
-    },
-    {
-      "period": "2026-05-22",
-      "neighbor": "me",
-      "import": 3884.8,
-      "export": 75.2,
-      "net": 3809.6
-    },
-    {
-      "period": "2026-05-22",
-      "neighbor": "mk",
-      "import": 879.2,
-      "export": 1449.6,
-      "net": -570.4
-    },
-    {
-      "period": "2026-05-22",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 7579.53,
-      "net": -7579.53
-    },
-    {
-      "period": "2026-05-23",
-      "neighbor": "al",
-      "import": 7438.19,
-      "export": 0,
-      "net": 7438.19
-    },
-    {
-      "period": "2026-05-23",
-      "neighbor": "me",
-      "import": 2326.8,
-      "export": 1669.2,
-      "net": 657.6
-    },
-    {
-      "period": "2026-05-23",
-      "neighbor": "mk",
-      "import": 2261.6,
-      "export": 1416,
-      "net": 845.6
-    },
-    {
-      "period": "2026-05-23",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 3760.8,
-      "net": -3760.8
-    },
-    {
-      "period": "2026-05-24",
-      "neighbor": "al",
-      "import": 6698.96,
-      "export": 0,
-      "net": 6698.96
-    },
-    {
-      "period": "2026-05-24",
-      "neighbor": "me",
-      "import": 1389.2,
-      "export": 3284.4,
-      "net": -1895.2
-    },
-    {
-      "period": "2026-05-24",
-      "neighbor": "mk",
-      "import": 3602.8,
-      "export": 1127.2,
-      "net": 2475.6
-    },
-    {
-      "period": "2026-05-24",
-      "neighbor": "rs",
-      "import": 667.58,
-      "export": 2050.23,
-      "net": -1382.66
-    },
-    {
-      "period": "2026-05-25",
-      "neighbor": "al",
-      "import": 5008.22,
-      "export": 0,
-      "net": 5008.22
-    },
-    {
-      "period": "2026-05-25",
-      "neighbor": "me",
-      "import": 214.8,
-      "export": 3412.4,
-      "net": -3197.6
-    },
-    {
-      "period": "2026-05-25",
-      "neighbor": "mk",
-      "import": 6890,
-      "export": 0,
-      "net": 6890
-    },
-    {
-      "period": "2026-05-25",
-      "neighbor": "rs",
-      "import": 210.44,
-      "export": 2899.8,
-      "net": -2689.36
-    },
-    {
-      "period": "2026-05-26",
-      "neighbor": "al",
-      "import": 4892.9,
-      "export": 0,
-      "net": 4892.9
-    },
-    {
-      "period": "2026-05-26",
-      "neighbor": "me",
-      "import": 65.2,
-      "export": 4607.2,
-      "net": -4542
-    },
-    {
-      "period": "2026-05-26",
-      "neighbor": "mk",
-      "import": 10096.8,
-      "export": 0,
-      "net": 10096.8
-    },
-    {
-      "period": "2026-05-26",
-      "neighbor": "rs",
-      "import": 110.78,
-      "export": 3502.51,
-      "net": -3391.73
-    },
-    {
-      "period": "2026-05-27",
-      "neighbor": "al",
-      "import": 4886.09,
-      "export": 0,
-      "net": 4886.09
-    },
-    {
-      "period": "2026-05-27",
-      "neighbor": "me",
-      "import": 641.2,
-      "export": 3564,
-      "net": -2922.8
-    },
-    {
-      "period": "2026-05-27",
-      "neighbor": "mk",
-      "import": 6580.8,
-      "export": 0,
-      "net": 6580.8
-    },
-    {
-      "period": "2026-05-27",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 3298.7,
-      "net": -3298.7
-    },
-    {
-      "period": "2026-05-28",
-      "neighbor": "al",
-      "import": 5019.42,
-      "export": 0,
-      "net": 5019.42
-    },
-    {
-      "period": "2026-05-28",
-      "neighbor": "me",
-      "import": 673.2,
-      "export": 2344,
-      "net": -1670.8
-    },
-    {
-      "period": "2026-05-28",
-      "neighbor": "mk",
-      "import": 4838,
-      "export": 0,
-      "net": 4838
-    },
-    {
-      "period": "2026-05-28",
-      "neighbor": "rs",
-      "import": 537.65,
-      "export": 3532.88,
-      "net": -2995.24
-    },
-    {
-      "period": "2026-05-29",
-      "neighbor": "al",
-      "import": 4440.49,
-      "export": 141.52,
-      "net": 4298.97
-    },
-    {
-      "period": "2026-05-29",
-      "neighbor": "me",
-      "import": 391.2,
-      "export": 2851.6,
-      "net": -2460.4
-    },
-    {
-      "period": "2026-05-29",
-      "neighbor": "mk",
-      "import": 7890.8,
-      "export": 0,
-      "net": 7890.8
-    },
-    {
-      "period": "2026-05-29",
-      "neighbor": "rs",
-      "import": 0,
-      "export": 4207.03,
-      "net": -4207.03
-    },
-    {
-      "period": "2026-05-30",
-      "neighbor": "al",
-      "import": 4550.56,
-      "export": 0,
-      "net": 4550.56
-    },
-    {
-      "period": "2026-05-30",
-      "neighbor": "me",
-      "import": 46.8,
-      "export": 2356.4,
-      "net": -2309.6
-    },
-    {
-      "period": "2026-05-30",
-      "neighbor": "mk",
-      "import": 5739.2,
-      "export": 0,
-      "net": 5739.2
-    },
-    {
-      "period": "2026-05-30",
-      "neighbor": "rs",
-      "import": 66.3,
-      "export": 1889.91,
-      "net": -1823.61
-    },
-    {
-      "period": "2026-05-31",
-      "neighbor": "al",
-      "import": 4503.25,
-      "export": 0,
-      "net": 4503.25
-    },
-    {
-      "period": "2026-05-31",
-      "neighbor": "me",
-      "import": 88,
-      "export": 3335.6,
-      "net": -3247.6
-    },
-    {
-      "period": "2026-05-31",
-      "neighbor": "mk",
-      "import": 6718,
-      "export": 0,
-      "net": 6718
-    },
-    {
-      "period": "2026-05-31",
-      "neighbor": "rs",
-      "import": 376.92,
-      "export": 621.88,
-      "net": -244.96
+      "import": 0.54,
+      "export": 4806.12,
+      "net": -4805.58
     }
   ]
 }
