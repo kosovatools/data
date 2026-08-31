@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2013-Q1",
-      "last": "2026-Q1",
-      "count": 53
+      "last": "2026-Q2",
+      "count": 54
     },
     "fields": [
       {
@@ -70,7 +70,7 @@
       "Seria përfshin vetëm vlerat tremujore TM1–TM4; peshat 'Peshat' përjashtohen sepse përfaqësojnë përqindjen e kostove në total."
     ],
     "id": "kas_construction_cost_index_quarterly",
-    "generated_at": "2026-06-02T08:22:07.944Z",
+    "generated_at": "2026-08-31T10:20:05.271Z",
     "title": null,
     "dimension_hierarchies": {
       "cost_category": [
@@ -2801,6 +2801,56 @@
       "period": "2026-Q1",
       "cost_category": "9",
       "index": 156
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "0",
+      "index": 162.9
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "1",
+      "index": 163.7
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "2",
+      "index": 165.1
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "3",
+      "index": 148.3
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "4",
+      "index": 152.8
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "5",
+      "index": 128.3
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "6",
+      "index": 166.6
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "7",
+      "index": 136.8
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "8",
+      "index": 142.2
+    },
+    {
+      "period": "2026-Q2",
+      "cost_category": "9",
+      "index": 158.4
     }
   ]
 }
