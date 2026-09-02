@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2016-Q4",
-      "last": "2026-Q1",
-      "count": 38
+      "last": "2026-Q2",
+      "count": 39
     },
     "fields": [
       {
@@ -70,7 +70,7 @@
       "Vlerat burimore duken të raportuara në milion EUR; këtu janë shkallëzuar në EUR."
     ],
     "id": "kas_government_expenditure_quarterly",
-    "generated_at": "2026-06-03T08:49:27.488Z",
+    "generated_at": "2026-09-02T08:17:11.696Z",
     "title": null
   },
   "records": [
@@ -1963,6 +1963,56 @@
       "period": "2026-Q1",
       "category": "p5_formimi_i_kapitalit_bruto",
       "amount_eur": 20000000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d1_kompensimi_i_punetoreve",
+      "amount_eur": 244100000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d3_subvencionet",
+      "amount_eur": 47600000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d4_te_ardhurat_nga_prona_te_pagueshme",
+      "amount_eur": 13900000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d6_kontributet_sociale_dhe_perfitimet",
+      "amount_eur": 356600000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d6_transfertat_e_tjera_aktuale",
+      "amount_eur": 56300000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d7_transfertat_kapitale",
+      "amount_eur": 100000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "f_aktivet_dhe_detyrimet_financiare",
+      "amount_eur": 12700000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "np_posedimi_i_aktiveve_jo_prodhuese",
+      "amount_eur": 15000000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "p2_konsumi_i_ndermjetem",
+      "amount_eur": 132699999.99999999
+    },
+    {
+      "period": "2026-Q2",
+      "category": "p5_formimi_i_kapitalit_bruto",
+      "amount_eur": 118800000
     }
   ]
 }

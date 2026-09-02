@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "quarterly",
       "first": "2016-Q4",
-      "last": "2026-Q1",
-      "count": 38
+      "last": "2026-Q2",
+      "count": 39
     },
     "fields": [
       {
@@ -96,7 +96,7 @@
       "Vlerat burimore duken të raportuara në milion EUR; këtu janë shkallëzuar në EUR."
     ],
     "id": "kas_government_revenue_quarterly",
-    "generated_at": "2026-06-03T08:49:27.488Z",
+    "generated_at": "2026-09-02T08:17:11.696Z",
     "title": null,
     "dimension_hierarchies": {
       "category": [
@@ -2434,6 +2434,66 @@
       "period": "2026-Q1",
       "category": "p131_pagesat_per_output_jo_tregut_shitjet",
       "amount_eur": 24000000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d21_tatimet_ne_produkte",
+      "amount_eur": 652000000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d211_tatimi_mbi_vleren_e_shtuar_tvsh",
+      "amount_eur": 428200000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d212_tatimi_dhe_dogana_ne_importe_duke_perjashtuar_tvsh",
+      "amount_eur": 206100000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d2121_detyrimet_e_importit",
+      "amount_eur": 48700000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d2122_taksat_per_importet_pa_tvsh_dhe_detyrimet",
+      "amount_eur": 157400000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d214_tatimi_mbi_produktet_me_perjashtim_te_tvsh_se_dhe_tatimet_e_importit",
+      "amount_eur": 17600000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d29_tatimet_tjera_ne_prodhim",
+      "amount_eur": 4900000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d4_te_hyrat_nga_prona",
+      "amount_eur": 39700000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d5_tatimet_rrjedhese_ne_te_ardhura_pasuri_etj",
+      "amount_eur": 173600000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "d7_transfertat_e_tjera_aktuale",
+      "amount_eur": 12300000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "f_aktivet_dhe_detyrimet_financiare",
+      "amount_eur": 67900000
+    },
+    {
+      "period": "2026-Q2",
+      "category": "p131_pagesat_per_output_jo_tregut_shitjet",
+      "amount_eur": 24300000
     }
   ]
 }
