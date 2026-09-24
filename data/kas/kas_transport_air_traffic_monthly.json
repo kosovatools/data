@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2012-01",
-      "last": "2026-06",
-      "count": 174
+      "last": "2026-07",
+      "count": 175
     },
     "fields": [
       {
@@ -40,7 +40,7 @@
     "title": null,
     "notes": [],
     "id": "kas_transport_air_traffic_monthly",
-    "generated_at": "2026-08-26T04:32:30.615Z"
+    "generated_at": "2026-09-24T08:54:35.110Z"
   },
   "records": [
     {
@@ -1086,6 +1086,12 @@
       "passengers_inbound": 196092,
       "passengers_outbound": 176341,
       "flights": 2314
+    },
+    {
+      "period": "2026-07",
+      "passengers_inbound": 288017,
+      "passengers_outbound": 187252,
+      "flights": 3254
     }
   ]
 }
