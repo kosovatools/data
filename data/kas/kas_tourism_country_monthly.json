@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2021-01",
-      "last": "2026-06",
-      "count": 66
+      "last": "2026-07",
+      "count": 67
     },
     "fields": [
       {
@@ -118,7 +118,7 @@
     ],
     "notes": [],
     "id": "kas_tourism_country_monthly",
-    "generated_at": "2026-08-25T04:31:53.010Z",
+    "generated_at": "2026-09-30T10:10:40.741Z",
     "title": null
   },
   "records": [
@@ -8437,6 +8437,132 @@
       "country": "21",
       "visitors": 7339,
       "nights": 16156
+    },
+    {
+      "period": "2026-07",
+      "country": "1",
+      "visitors": 1547,
+      "nights": 3961
+    },
+    {
+      "period": "2026-07",
+      "country": "2",
+      "visitors": 1429,
+      "nights": 3386
+    },
+    {
+      "period": "2026-07",
+      "country": "3",
+      "visitors": 308,
+      "nights": 511
+    },
+    {
+      "period": "2026-07",
+      "country": "4",
+      "visitors": 1380,
+      "nights": 2487
+    },
+    {
+      "period": "2026-07",
+      "country": "5",
+      "visitors": 1612,
+      "nights": 3440
+    },
+    {
+      "period": "2026-07",
+      "country": "6",
+      "visitors": 9258,
+      "nights": 19114
+    },
+    {
+      "period": "2026-07",
+      "country": "7",
+      "visitors": 396,
+      "nights": 647
+    },
+    {
+      "period": "2026-07",
+      "country": "8",
+      "visitors": 1221,
+      "nights": 2255
+    },
+    {
+      "period": "2026-07",
+      "country": "9",
+      "visitors": 1679,
+      "nights": 3168
+    },
+    {
+      "period": "2026-07",
+      "country": "10",
+      "visitors": 1140,
+      "nights": 1631
+    },
+    {
+      "period": "2026-07",
+      "country": "11",
+      "visitors": 1283,
+      "nights": 5333
+    },
+    {
+      "period": "2026-07",
+      "country": "12",
+      "visitors": 2237,
+      "nights": 4970
+    },
+    {
+      "period": "2026-07",
+      "country": "13",
+      "visitors": 1357,
+      "nights": 1683
+    },
+    {
+      "period": "2026-07",
+      "country": "14",
+      "visitors": 1480,
+      "nights": 3382
+    },
+    {
+      "period": "2026-07",
+      "country": "15",
+      "visitors": 2930,
+      "nights": 6865
+    },
+    {
+      "period": "2026-07",
+      "country": "16",
+      "visitors": 11569,
+      "nights": 29389
+    },
+    {
+      "period": "2026-07",
+      "country": "17",
+      "visitors": 417,
+      "nights": 969
+    },
+    {
+      "period": "2026-07",
+      "country": "18",
+      "visitors": 660,
+      "nights": 930
+    },
+    {
+      "period": "2026-07",
+      "country": "19",
+      "visitors": 3937,
+      "nights": 7034
+    },
+    {
+      "period": "2026-07",
+      "country": "20",
+      "visitors": 7233,
+      "nights": 15358
+    },
+    {
+      "period": "2026-07",
+      "country": "21",
+      "visitors": 13881,
+      "nights": 32998
     }
   ]
 }
