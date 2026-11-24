@@ -5,8 +5,8 @@
       "key": "period",
       "granularity": "monthly",
       "first": "2010-01",
-      "last": "2026-09",
-      "count": 201
+      "last": "2026-10",
+      "count": 202
     },
     "fields": [
       {
@@ -120,7 +120,7 @@
       "Source values are thousand EUR; scaled to EUR."
     ],
     "id": "kas_trade_chapters_monthly",
-    "generated_at": "2026-10-27T09:30:09.678Z",
+    "generated_at": "2026-11-24T14:27:37.155Z",
     "title": null
   },
   "records": [
@@ -25449,6 +25449,132 @@
       "chapter": "21",
       "imports": 646903,
       "exports": 2172
+    },
+    {
+      "period": "2026-10",
+      "chapter": "01",
+      "imports": 33721383,
+      "exports": 1764987
+    },
+    {
+      "period": "2026-10",
+      "chapter": "02",
+      "imports": 20095097,
+      "exports": 6093640
+    },
+    {
+      "period": "2026-10",
+      "chapter": "03",
+      "imports": 5707972,
+      "exports": 134498
+    },
+    {
+      "period": "2026-10",
+      "chapter": "04",
+      "imports": 80166637,
+      "exports": 10792948
+    },
+    {
+      "period": "2026-10",
+      "chapter": "05",
+      "imports": 130415252,
+      "exports": 25642275
+    },
+    {
+      "period": "2026-10",
+      "chapter": "06",
+      "imports": 53351198,
+      "exports": 3380484
+    },
+    {
+      "period": "2026-10",
+      "chapter": "07",
+      "imports": 34554861,
+      "exports": 13336289
+    },
+    {
+      "period": "2026-10",
+      "chapter": "08",
+      "imports": 2169420,
+      "exports": 419200
+    },
+    {
+      "period": "2026-10",
+      "chapter": "09",
+      "imports": 12096488,
+      "exports": 2113133
+    },
+    {
+      "period": "2026-10",
+      "chapter": "10",
+      "imports": 6575197,
+      "exports": 1202202
+    },
+    {
+      "period": "2026-10",
+      "chapter": "11",
+      "imports": 40375120,
+      "exports": 6843291
+    },
+    {
+      "period": "2026-10",
+      "chapter": "12",
+      "imports": 7932026,
+      "exports": 247626
+    },
+    {
+      "period": "2026-10",
+      "chapter": "13",
+      "imports": 15557019,
+      "exports": 4319240
+    },
+    {
+      "period": "2026-10",
+      "chapter": "14",
+      "imports": 4118611,
+      "exports": 235702
+    },
+    {
+      "period": "2026-10",
+      "chapter": "15",
+      "imports": 65069945,
+      "exports": 28939722
+    },
+    {
+      "period": "2026-10",
+      "chapter": "16",
+      "imports": 85985118,
+      "exports": 6826102
+    },
+    {
+      "period": "2026-10",
+      "chapter": "17",
+      "imports": 77007512,
+      "exports": 1314376
+    },
+    {
+      "period": "2026-10",
+      "chapter": "18",
+      "imports": 8257041.999999999,
+      "exports": 501498
+    },
+    {
+      "period": "2026-10",
+      "chapter": "19",
+      "imports": 184031,
+      "exports": 0
+    },
+    {
+      "period": "2026-10",
+      "chapter": "20",
+      "imports": 15356439,
+      "exports": 10066955
+    },
+    {
+      "period": "2026-10",
+      "chapter": "21",
+      "imports": 600659,
+      "exports": 9703
     }
   ]
 }
