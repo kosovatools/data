@@ -1,11 +1,2815 @@
 {
   "year": 2025,
-  "generated_at": "2025-11-09T07:41:45Z",
-  "source_url": "https://prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2025%20%283%29.xlsx",
-  "record_count": 58,
+  "generated_at": "2026-11-27T15:27:50Z",
+  "source_url": "https://www.prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2025%20(8).xlsx",
+  "record_count": 160,
   "records": [
     {
       "permit_number": "1",
+      "application_date": "2025-07-09",
+      "issuance_date": "2025-12-19",
+      "owner": "Sherif Zejna",
+      "investor": "Vivo sh.p.k",
+      "designer": "Hus Bureau Sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 5870.16,
+      "density_fee_eur": 29743.56,
+      "administrative_fee_eur": 38394.79,
+      "total_fee_eur": 68138.35,
+      "storeys": "2B+2S+P+7",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-98777/25",
+      "document_url": "https://drive.google.com/file/d/1yBaISQLE37DZm_g2IxBEgWLytLJN37BP/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1pnWNfQQWFAifc3FoRocG0rYLEU06Ehk3/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1yBaISQLE37DZm_g2IxBEgWLytLJN37BP/view?usp=sharing",
+          "page": 8,
+          "area_m2": 398.75,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18105462,
+                  42.64135729
+                ],
+                [
+                  21.1810375,
+                  42.64125792
+                ],
+                [
+                  21.18103429,
+                  42.6412004
+                ],
+                [
+                  21.1810866,
+                  42.64119888
+                ],
+                [
+                  21.18108698,
+                  42.64120608
+                ],
+                [
+                  21.18128037,
+                  42.64120028
+                ],
+                [
+                  21.18127998,
+                  42.64119317
+                ],
+                [
+                  21.18132912,
+                  42.64119165
+                ],
+                [
+                  21.18133182,
+                  42.64124089
+                ],
+                [
+                  21.18133841,
+                  42.6412407
+                ],
+                [
+                  21.18133996,
+                  42.64126969
+                ],
+                [
+                  21.18134471,
+                  42.64126959
+                ],
+                [
+                  21.18134858,
+                  42.64134152
+                ],
+                [
+                  21.18109947,
+                  42.64134894
+                ],
+                [
+                  21.18109986,
+                  42.64135596
+                ],
+                [
+                  21.18105462,
+                  42.64135729
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "2",
+      "application_date": "2025-09-11",
+      "issuance_date": "2025-12-18",
+      "owner": "Ramadan Idrizaj, Naser Gashi, Serbez Ahmeti, Habibe Rexhepi, Diana Bytyqi Hydaverdi, Musa dhe Blodin Pakashtica",
+      "investor": "DFK Group sh.p.k",
+      "designer": "ViaProject sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 32849.75,
+      "density_fee_eur": 137046.38,
+      "administrative_fee_eur": 215252.08,
+      "total_fee_eur": 352298.46,
+      "storeys": "2B+S+P+5, 2B+S+P+8, 2B+S+P+11, 2B+P+8",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-139420/25 LN2 00255",
+      "document_url": "https://drive.google.com/file/d/1kTyo0TKpWmvIOdxwwTmMPFsicCA6ui5N/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1_brJgTf5zaDzWR4oL5xttmlpI4-xpfTF/view?usp=sharing"
+    },
+    {
+      "permit_number": "3",
+      "application_date": "2025-08-13",
+      "issuance_date": "2025-12-18",
+      "owner": "Maliq Sadiku",
+      "investor": "Butrinti Building sh.p.k",
+      "designer": "Aspen Architecture\"shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 10239.96,
+      "density_fee_eur": 51357.65,
+      "administrative_fee_eur": 67173.92,
+      "total_fee_eur": 118531.57,
+      "storeys": "2B+P+7",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-120243 LN2 00239",
+      "document_url": "https://drive.google.com/file/d/1ii5-kXYC3fJsxMUCMx1vQyH8clh-nPWt/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1jKvdtIZGAkxrGnUjOu7RdV7vABcrylsh/view?usp=sharing"
+    },
+    {
+      "permit_number": "4",
+      "application_date": "2025-01-20",
+      "issuance_date": "2025-12-17",
+      "owner": "Remzi, Beneta Gashi dhe \"MC sh.p.k",
+      "investor": "MC sh.p.k",
+      "designer": "LSN+Partners\"SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 5006.09,
+      "density_fee_eur": 21504.5,
+      "administrative_fee_eur": 32898.98,
+      "total_fee_eur": 54403.48,
+      "storeys": "2B+S+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-10298/25",
+      "document_url": "https://drive.google.com/file/d/1L4At1H47g7wJUDUNU00nKm5xoSEzaNCJ/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Ncm71LUSInvcdJVQNTUTBl85U0_stCqj/view?usp=sharing"
+    },
+    {
+      "permit_number": "5",
+      "application_date": "2025-01-13",
+      "issuance_date": "2025-12-16",
+      "owner": "Idriz Hoxha, Muje Konjuhi, Ismet Fazliu, Shaip Mustafa, Rexhep Rullani, Agim Prokshaj, Zymer Bajra, Nazmije Korqaj, Azem Rexhaj, Avdyl Çetaj, Mehmet Begolli, Muhamet Avdyli, Amir Hajdini",
+      "investor": "Vllezërit Asllani\"sh.p.k",
+      "designer": "Shm architecture\"sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 33524.59,
+      "density_fee_eur": 180584.36,
+      "administrative_fee_eur": 218268.37,
+      "total_fee_eur": 398852.73,
+      "storeys": "2B+S+P+14, 2B+S+P+16, 2B+S+P+16, 3B+0",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-5813/25",
+      "document_url": "https://drive.google.com/file/d/1TBLtHhzRPu0iKThNO7CqQZAjObdTPeTy/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1mVcKusVCV_Q8dRaN_4ln8Vz2XRW8_OH1/view?usp=sharing"
+    },
+    {
+      "permit_number": "6",
+      "application_date": "2024-08-14",
+      "issuance_date": "2025-12-11",
+      "owner": "Cuneyd Ustaibo, Mentor Dobruna, Rajmonda Maloku, Arbnor dhe Arben Polloshka, Bekim Berisha, Linda Simnica, Luan Sylejmani, Burim Shkodra, Haki Vatovci, Lindita Guda Ismaili, Zana, Ema dhe Blendi Guda, Burim Latifi, Arton Kodra, Arben Hajrullahu Fadil Maqedonci",
+      "investor": "C.C.Company sh.p.k",
+      "designer": "Eko Building Project sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 49048.47,
+      "density_fee_eur": 203711.85,
+      "administrative_fee_eur": 320934.38,
+      "total_fee_eur": 524646.23,
+      "storeys": "3B+S+P+10, 3B+S+P+13, 3B+S+13, 3B+2S+P+8, 2B+S+P+9, 3B+0",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-106862/24",
+      "document_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1tmhMEdzpKNpl13KMNrsDwRDkiLzCmNfd/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+          "page": 11,
+          "area_m2": 672.62,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18167676,
+                  42.63120781
+                ],
+                [
+                  21.18173599,
+                  42.63103306
+                ],
+                [
+                  21.18194032,
+                  42.63107082
+                ],
+                [
+                  21.18217572,
+                  42.63118433
+                ],
+                [
+                  21.18208774,
+                  42.63128377
+                ],
+                [
+                  21.18167676,
+                  42.63120781
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+          "page": 11,
+          "area_m2": 756.37,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18197255,
+                  42.63108589
+                ],
+                [
+                  21.18222544,
+                  42.63079973
+                ],
+                [
+                  21.18242897,
+                  42.63089781
+                ],
+                [
+                  21.18217609,
+                  42.63118388
+                ],
+                [
+                  21.18197255,
+                  42.63108589
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+          "page": 11,
+          "area_m2": 618.06,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18222568,
+                  42.63079937
+                ],
+                [
+                  21.18243227,
+                  42.6305656
+                ],
+                [
+                  21.1826358,
+                  42.63066368
+                ],
+                [
+                  21.18242922,
+                  42.63089745
+                ],
+                [
+                  21.18222568,
+                  42.63079937
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+          "page": 11,
+          "area_m2": 802.98,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18243263,
+                  42.63056524
+                ],
+                [
+                  21.18244418,
+                  42.63055216
+                ],
+                [
+                  21.18231684,
+                  42.63049079
+                ],
+                [
+                  21.18247481,
+                  42.63031201
+                ],
+                [
+                  21.18280569,
+                  42.63047146
+                ],
+                [
+                  21.18263617,
+                  42.63066332
+                ],
+                [
+                  21.18243263,
+                  42.63056524
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1Mr7rKvvX12XFXE3lSxbTVzY3Q7HwcAJK/view?usp=sharing",
+          "page": 11,
+          "area_m2": 652.08,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18193239,
+                  42.63044035
+                ],
+                [
+                  21.18198764,
+                  42.63028055
+                ],
+                [
+                  21.18246642,
+                  42.63032066
+                ],
+                [
+                  21.18233141,
+                  42.63047339
+                ],
+                [
+                  21.18228587,
+                  42.63045149
+                ],
+                [
+                  21.18227068,
+                  42.63046871
+                ],
+                [
+                  21.18193239,
+                  42.63044035
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "7",
+      "application_date": "2025-09-19",
+      "issuance_date": "2025-12-02",
+      "owner": "Blendrit Elezaj",
+      "investor": "Blendrit Elezaj",
+      "designer": "OXIDE Creative Lab sh.p.k",
+      "neighbourhood": "Sofali",
+      "total_floor_area_m2": 429.16,
+      "density_fee_eur": 995.51,
+      "administrative_fee_eur": 2795.6,
+      "total_fee_eur": 3791.11,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-144386/25 LN1 0293",
+      "document_url": "https://drive.google.com/file/d/1fhyWCOiYBWsSss8FB5h0P8jODjRpJ4op/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1tY_jfLjItEcdl7bOZMtthZq_d2KEG_pA/view?usp=sharing",
+      "site": {
+        "source_url": "https://drive.google.com/file/d/1tY_jfLjItEcdl7bOZMtthZq_d2KEG_pA/view?usp=sharing",
+        "page": 1,
+        "parcels": [
+          {
+            "reference": "898-1 ZK Sofali",
+            "area_m2": 882
+          }
+        ]
+      },
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1fhyWCOiYBWsSss8FB5h0P8jODjRpJ4op/view?usp=sharing",
+          "page": 6,
+          "area_m2": 161.16,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.19542769,
+                  42.66815835
+                ],
+                [
+                  21.19550869,
+                  42.66811653
+                ],
+                [
+                  21.19553806,
+                  42.66814754
+                ],
+                [
+                  21.19555901,
+                  42.6681367
+                ],
+                [
+                  21.19552964,
+                  42.66810569
+                ],
+                [
+                  21.19559565,
+                  42.66807173
+                ],
+                [
+                  21.19556627,
+                  42.66804072
+                ],
+                [
+                  21.19562937,
+                  42.6680082
+                ],
+                [
+                  21.19567368,
+                  42.66805503
+                ],
+                [
+                  21.19565467,
+                  42.66806487
+                ],
+                [
+                  21.19566239,
+                  42.66807296
+                ],
+                [
+                  21.19568139,
+                  42.66806321
+                ],
+                [
+                  21.19570268,
+                  42.66808568
+                ],
+                [
+                  21.19563971,
+                  42.6681182
+                ],
+                [
+                  21.19563617,
+                  42.66811451
+                ],
+                [
+                  21.1955732,
+                  42.66814703
+                ],
+                [
+                  21.19557883,
+                  42.66815287
+                ],
+                [
+                  21.19547384,
+                  42.66820707
+                ],
+                [
+                  21.19542769,
+                  42.66815835
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "8",
+      "application_date": "2025-09-18",
+      "issuance_date": "2025-12-02",
+      "owner": "Tome Gashi, Elvis Beqiri, Nderim Rexha",
+      "investor": "EvergreenValleys\"L.L.C",
+      "designer": "UA Architects L.L.C",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 4259.45,
+      "density_fee_eur": 11564.45,
+      "administrative_fee_eur": 27792.71,
+      "total_fee_eur": 39357.16,
+      "storeys": "B+P+1, B+P+1, S+P+1, S+P+1, B+P+1, S+P+1, S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-143590/25 LN1 00291",
+      "document_url": "https://drive.google.com/file/d/17KKArnDUBI6iQ7UMyCnijeQSbPXn17-p/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1mInkaLr9-im-Af29ST53B1QEnRbfQSJn/view?usp=sharing"
+    },
+    {
+      "permit_number": "9",
+      "application_date": "2025-07-08",
+      "issuance_date": "2025-11-27",
+      "owner": "Suad Haliti dhe Andeta Krasniqi Haliti",
+      "investor": "Suad Haliti dhe Andeta Krasniqi Haliti",
+      "designer": "Pin Group Arch sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 354.68,
+      "density_fee_eur": 465.83,
+      "administrative_fee_eur": 2305.42,
+      "total_fee_eur": 2771.25,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-98170/25 LN1 00179",
+      "document_url": "https://drive.google.com/file/d/1BvHWKNqbEl40jsMKVog8lSPbYUL6oCF8/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Txl2X2TJh0X-3LudAGCNm5ZPW1aQ4PD1/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1BvHWKNqbEl40jsMKVog8lSPbYUL6oCF8/view?usp=sharing",
+          "page": 6,
+          "area_m2": 119.79,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.1427919,
+                  42.62310879
+                ],
+                [
+                  21.14279872,
+                  42.62305494
+                ],
+                [
+                  21.14280726,
+                  42.62305556
+                ],
+                [
+                  21.14281456,
+                  42.6229973
+                ],
+                [
+                  21.14284736,
+                  42.62299951
+                ],
+                [
+                  21.14284891,
+                  42.62298655
+                ],
+                [
+                  21.14291146,
+                  42.62299088
+                ],
+                [
+                  21.14290248,
+                  42.62306211
+                ],
+                [
+                  21.14291345,
+                  42.6230629
+                ],
+                [
+                  21.14290519,
+                  42.62312782
+                ],
+                [
+                  21.14286032,
+                  42.62312473
+                ],
+                [
+                  21.14286176,
+                  42.62311356
+                ],
+                [
+                  21.1427919,
+                  42.62310879
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "10",
+      "application_date": "2025-07-23",
+      "issuance_date": "2025-11-24",
+      "owner": "Lirim Mustafa",
+      "investor": "Lirim Mustafa",
+      "designer": "NSH PIKA STUDIO Sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 2162.08,
+      "density_fee_eur": 5280.23,
+      "administrative_fee_eur": 14053.52,
+      "total_fee_eur": 19333.75,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-106775/25 LN1 00250",
+      "document_url": "https://drive.google.com/file/d/1RmVRiYqnspwLuQkKNL0bPJhnpgGi22P7/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Yxb4OUFKq1laoa2d9wC3k21Vbqifldml/view?usp=sharing"
+    },
+    {
+      "permit_number": "11",
+      "application_date": "2024-11-18",
+      "issuance_date": "2025-11-18",
+      "owner": "Sabit Kodra, Halil Selimi, Ramiz Lladrovci",
+      "investor": "Foleja Residence sh.p.k",
+      "designer": "Archides Studio shpk",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 34142.55,
+      "density_fee_eur": 128413.83,
+      "administrative_fee_eur": 223006.09,
+      "total_fee_eur": 351419.92,
+      "storeys": "B+S+P+6, 2B+S+P+6, 2B+0",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-152470/24",
+      "document_url": "https://drive.google.com/file/d/1SSnfmdE-wxn-gCt9x_Wh5SO5GeAJr3VU/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1x8Ya-JmCS3rypVIEutj_kBWKMEXZanE1/view?usp=sharing"
+    },
+    {
+      "permit_number": "12",
+      "application_date": "2025-03-25",
+      "issuance_date": "2025-11-14",
+      "owner": "Besart Prekadini",
+      "investor": "Besart Prekadini",
+      "designer": "ZENITH ARCHITECTURE sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 231.29,
+      "density_fee_eur": 757.04,
+      "administrative_fee_eur": 1503.39,
+      "total_fee_eur": 2260.43,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-41685/25 LN1 00051",
+      "document_url": "https://drive.google.com/file/d/1OnbpChGVAMMNXTJ_ybXXi0Fm1Wx1ZE2c/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1-os2qekefWB0eEbVRYpL69nltNI-peh5/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1OnbpChGVAMMNXTJ_ybXXi0Fm1Wx1ZE2c/view?usp=sharing",
+          "page": 6,
+          "area_m2": 111.93,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.130249,
+                  42.63523651
+                ],
+                [
+                  21.13031592,
+                  42.63516721
+                ],
+                [
+                  21.13043188,
+                  42.63522829
+                ],
+                [
+                  21.13040049,
+                  42.63526092
+                ],
+                [
+                  21.13039634,
+                  42.63525876
+                ],
+                [
+                  21.13038721,
+                  42.63526814
+                ],
+                [
+                  21.13039649,
+                  42.63527299
+                ],
+                [
+                  21.13037009,
+                  42.63530039
+                ],
+                [
+                  21.130249,
+                  42.63523651
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "13",
+      "application_date": "2025-07-03",
+      "issuance_date": "2025-11-11",
+      "owner": "Ismajl Krasniqi",
+      "investor": "Ismajl Krasniqi",
+      "designer": "Studio Zero n.t.sh",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 407.56,
+      "density_fee_eur": 958.08,
+      "administrative_fee_eur": 2649.14,
+      "total_fee_eur": 3607.22,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-96082/25 LN1 00239",
+      "document_url": "https://drive.google.com/file/d/1omfVmBcQKvpTfR7EbohXKhkSEOeCFXfc/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/125z9Nec88jhkDBDIzXhz8tMknBMlGhIC/view?usp=sharing",
+      "site": {
+        "source_url": "https://drive.google.com/file/d/125z9Nec88jhkDBDIzXhz8tMknBMlGhIC/view?usp=sharing",
+        "page": 1,
+        "parcels": [
+          {
+            "reference": "851-74 ZK Prishtinë",
+            "area_m2": 359
+          }
+        ]
+      }
+    },
+    {
+      "permit_number": "14",
+      "application_date": "2025-07-24",
+      "issuance_date": "2025-11-10",
+      "owner": "ART CONSTRUCTION L.L.C",
+      "investor": "ART CONSTRUCTION L.L.C",
+      "designer": "Archides Studio shpk",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 102496.54,
+      "density_fee_eur": 113879.32,
+      "administrative_fee_eur": 670588.11,
+      "total_fee_eur": 784467.43,
+      "storeys": "3B+S+P+16, 3B+S+P+16, 3B+S+P+16, 3B+S+P+16, 2B+P+0, P+0, 3B+P+1, B+P+1",
+      "destination": "Objekt Shumëbanesorë - Afarist dhe Administrativ",
+      "document_reference": "05-351/02-107691/25 LN2 00277",
+      "document_url": "https://drive.google.com/file/d/1MzsBgIaIT34VjiALFfWXQ7JQmYTt1b9w/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/174ta9_Jwh8iMGpyeyVuovihRmtp4cMpB/view?usp=sharing"
+    },
+    {
+      "permit_number": "15",
+      "application_date": "2025-07-08",
+      "issuance_date": "2025-11-07",
+      "owner": "Ministria e Drejtesise e Republikes se Kosoves, Instituti Psikiatrik i Forenzikes ne QKUK ne Prishtine",
+      "investor": "Ministria e Drejtesise e Republikes se Kosoves, Instituti Psikiatrik i Forenzikes ne QKUK ne Prishtine",
+      "designer": "Korab B.Syla B.I\", NTP.\"Koarch",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 2628.52,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 0.0,
+      "total_fee_eur": 0.0,
+      "storeys": "P+2",
+      "destination": "Objekt Administrativ",
+      "document_reference": "05-351/02-98110/25 LN2 00200",
+      "document_url": "https://drive.google.com/file/d/1lpPJu_HHTR6A0_BUTHmGkYXrDJyrlROz/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Uk5Es9e5qEuK_4OMcluGs6-fkiC2BXKP/view?usp=sharing"
+    },
+    {
+      "permit_number": "16",
+      "application_date": "2025-08-18",
+      "issuance_date": "2025-11-05",
+      "owner": "Sami Mustafa dhe Hazbi Hasani",
+      "investor": "Butrinti Building sh.p.k",
+      "designer": "Aspen Architecture\"shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 10239.96,
+      "density_fee_eur": 51357.65,
+      "administrative_fee_eur": 67173.92,
+      "total_fee_eur": 118531.57,
+      "storeys": "B+S+P+5, B+S+P+5",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-123292/25 LN2 00241",
+      "document_url": "https://drive.google.com/file/d/1zqIK8JGGKaPO4W1wPWTOEV-tHl4cwooj/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1jqWKBdxywblqyT9Qob02o7PWOfJ6N_TD/view?usp=sharing"
+    },
+    {
+      "permit_number": "17",
+      "application_date": "2025-10-03",
+      "issuance_date": "2025-11-04",
+      "owner": "Hanefi Jashari, Aferdita Gashi, Besim Gashi, Izet Alshiqi, Refki Alshiqi, Ernest Ballata",
+      "investor": "Onyx Holding sh.p.k",
+      "designer": "Smart Project sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 27992.95,
+      "density_fee_eur": 116406.56,
+      "administrative_fee_eur": 182704.6,
+      "total_fee_eur": 299111.16,
+      "storeys": "4B+P+12+Ph, 4B+P+12, 4B",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-156065/24",
+      "document_url": "https://drive.google.com/file/d/1C7t5TwH4WsO7j-lcTwfGuLznoOBMotAL/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1PkiYsDazZesny2Vg_5XZhTNwiEH9r7Vk/view?usp=sharing"
+    },
+    {
+      "permit_number": "18",
+      "application_date": "2025-09-29",
+      "issuance_date": "2025-11-03",
+      "owner": "Delta Invest shpk",
+      "investor": "Delta Invest shpk",
+      "designer": "N.N.SH \"Zenita Architecture L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 1166.49,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 16306.24,
+      "total_fee_eur": 16306.24,
+      "storeys": "3B+P+5",
+      "destination": "Objekt Hotelerik",
+      "document_reference": "05-351/02-148229 LN2 00258",
+      "document_url": "https://drive.google.com/file/d/1ldGuw-7AUdpOjOweLfp9F0Mx6Iipad0a/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Qx13IpCurF8sWb4cx2PAbSJs55lMCoKD/view?usp=sharing"
+    },
+    {
+      "permit_number": "19",
+      "application_date": "2025-07-09",
+      "issuance_date": "2025-10-29",
+      "owner": "Haki, Xhevat, Arton, Xhemshir, Mehedin, Hysni, Avdyl, Basri, Januz, Granit, Lulzim, Muhamed, Zyhrije Krasniqi, Haki Shkodra, Blerim, Kemall Islami, Ferid Ahmeti, Shaban, Halil, Besnik Shabani, Igballe, Burim, Hatije Uka, Mentor Beqiri, Driton Dacaj",
+      "investor": "Premtimi O.P (N.T.P. \"Premtimi\")",
+      "designer": "BetA Designs Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 22604.49,
+      "density_fee_eur": 100453.24,
+      "administrative_fee_eur": 147970.7,
+      "total_fee_eur": 248423.94,
+      "storeys": "2B+S+P+14, 2B+S+P+8, 3B",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-98812/25",
+      "document_url": "https://drive.google.com/file/d/1Z74eCaY4hUDACIU-LqYp6ujB6bHdli_v/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1gSB1DV41zmInWPPYnCwaAregyfgqaQbp/view?usp=sharing"
+    },
+    {
+      "permit_number": "20",
+      "application_date": "2024-08-29",
+      "issuance_date": "2025-10-28",
+      "owner": "Valoni Company\"shpk, Afrim Çelaj dhe Eugen Mehmeti",
+      "investor": "Valoni Company sh.p.k",
+      "designer": "Valoni Company sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 4772.2,
+      "density_fee_eur": 27686.77,
+      "administrative_fee_eur": 31284.13,
+      "total_fee_eur": 58970.9,
+      "storeys": "2B+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-114114/25",
+      "document_url": "https://drive.google.com/file/d/1mxL6D2n-CJ7ZVTWk9ipFqXaF51ukZemT/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1LRpFDMI08UB5AxVDdv71fEEyB2Eg-Eyc/view?usp=sharing"
+    },
+    {
+      "permit_number": "21",
+      "application_date": "2023-05-30",
+      "issuance_date": "2025-10-28",
+      "owner": "Valon Çoçaj, Jeton Govori, Selatin Çoçaj, Lumturije Çoçaj",
+      "investor": "Cima shpk",
+      "designer": "PH-ARCHITECT SHPK",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 32126.58,
+      "density_fee_eur": 176483.51,
+      "administrative_fee_eur": 211140.12,
+      "total_fee_eur": 387623.63,
+      "storeys": "2B+S+P+11+Ph, 2B+S+P+12, 2B+S+P+12+Ph",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-109165/23",
+      "document_url": "https://drive.google.com/file/d/1J8Zu_L203cN12Kb0a2L99UpuanzLfzt7/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1_oULFWNZm6S3SV05M43e46VLUI_f1vRQ/view?usp=sharing"
+    },
+    {
+      "permit_number": "22",
+      "application_date": "2025-03-24",
+      "issuance_date": "2025-10-28",
+      "owner": "Kompania e Re Dardania-Arbëria sh.p.k, Rizah, Bashkim dhe Artin Deshishku",
+      "investor": "Deshishku Construction sh.p.k",
+      "designer": "LESNA TRADE shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 10942.13,
+      "density_fee_eur": 28911.43,
+      "administrative_fee_eur": 69809.66,
+      "total_fee_eur": 98721.09,
+      "storeys": "3B+S+P+13, 2B+2S+P",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-41451/25",
+      "document_url": "https://drive.google.com/file/d/1xWAK5QSY4a3DDIIywQ96LO1nt2tltMBk/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Ig7cn_UpoocwHGdGJyZEJa_Xy3F51Sa7/view?usp=sharing"
+    },
+    {
+      "permit_number": "23",
+      "application_date": "2025-09-04",
+      "issuance_date": "2025-10-27",
+      "owner": "Kemajl Pllana",
+      "investor": "Kemajl Pllana",
+      "designer": "Engineering Group S&J L.L.C",
+      "neighbourhood": "Bërnicë e Epërme",
+      "total_floor_area_m2": 199.8,
+      "density_fee_eur": 685.84,
+      "administrative_fee_eur": 1298.7,
+      "total_fee_eur": 1984.54,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-134999/25",
+      "document_url": "https://drive.google.com/file/d/1Gqk9ux1nHfW9cFpoEayJzEZ27QOjGMil/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1jB-0YAd_Y8BfQC4IlyMV36XODv50OGUS/view?usp=sharing"
+    },
+    {
+      "permit_number": "24",
+      "application_date": "2025-06-24",
+      "issuance_date": "2025-10-27",
+      "owner": "Driton Vitija, Emine Vitia, Sevdail Kllokoqi, Driton Kllokoqi, Lumni Kllokoqi, Bujar Kllokoqi, Hajrush Kllokoqi, Mehedin Vllasali dhe Naim Vllasaliu",
+      "investor": "Andrra Invest L.L.C",
+      "designer": "LSN + Partners SH.P.K",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 11500.42,
+      "density_fee_eur": 48704.98,
+      "administrative_fee_eur": 75347.69,
+      "total_fee_eur": 124052.67,
+      "storeys": "B+S+P+7, 2B+S+P+6",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-91421/25",
+      "document_url": "https://drive.google.com/file/d/1fSnLwRvOkekB_l5YK9kmz2pUg7xwhVkS/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1R3Nnc9p3UGIfvXPk94831-7oLuTJSG_H/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1fSnLwRvOkekB_l5YK9kmz2pUg7xwhVkS/view?usp=sharing",
+          "page": 9,
+          "area_m2": 608.09,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.170849,
+                  42.64159516
+                ],
+                [
+                  21.17116556,
+                  42.64132721
+                ],
+                [
+                  21.17133197,
+                  42.64140213
+                ],
+                [
+                  21.17132821,
+                  42.64140673
+                ],
+                [
+                  21.17129816,
+                  42.64143405
+                ],
+                [
+                  21.17119317,
+                  42.64152298
+                ],
+                [
+                  21.17116336,
+                  42.64150367
+                ],
+                [
+                  21.17114462,
+                  42.64151945
+                ],
+                [
+                  21.17117455,
+                  42.64153867
+                ],
+                [
+                  21.17103367,
+                  42.6416579
+                ],
+                [
+                  21.170849,
+                  42.64159516
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1fSnLwRvOkekB_l5YK9kmz2pUg7xwhVkS/view?usp=sharing",
+          "page": 9,
+          "area_m2": 534.12,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.17120388,
+                  42.64151531
+                ],
+                [
+                  21.17129962,
+                  42.64143423
+                ],
+                [
+                  21.1713293,
+                  42.64140718
+                ],
+                [
+                  21.17133307,
+                  42.64140258
+                ],
+                [
+                  21.17161169,
+                  42.64152776
+                ],
+                [
+                  21.17147654,
+                  42.64169181
+                ],
+                [
+                  21.17131037,
+                  42.64161716
+                ],
+                [
+                  21.17134282,
+                  42.64157767
+                ],
+                [
+                  21.17120388,
+                  42.64151531
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "25",
+      "application_date": "2025-06-10",
+      "issuance_date": "2025-10-21",
+      "owner": "Dren, Belkiza, Rashid, Nazmije, Valdet dhe Albert Sejdiu, Agim Zymberi, Nazif Gajtani, Antigona Zeqiri, Eliza Dibrani, Gani, Burim dhe Eshrefe Sejdija, Valbona Sejdija Bajrami",
+      "investor": "Real Invest sh.p.k",
+      "designer": "Maden Group L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 9438.36,
+      "density_fee_eur": 49039.46,
+      "administrative_fee_eur": 62111.25,
+      "total_fee_eur": 111150.71,
+      "storeys": "2B+S+P+12",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-80882/25",
+      "document_url": "https://drive.google.com/file/d/1d1d1TeGFv0-l4p4Aujl0XK3X0FSrkK2p/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1S7CkK87AqehXd6oFX83UHgFNwQOnzA3l/view?usp=sharing"
+    },
+    {
+      "permit_number": "26",
+      "application_date": "2025-09-15",
+      "issuance_date": "2025-10-20",
+      "owner": "Agim Gashi",
+      "investor": "Agim Gashi",
+      "designer": "Kulla Arkitekturë shpk",
+      "neighbourhood": "Mramor",
+      "total_floor_area_m2": 219.12,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 1424.28,
+      "total_fee_eur": 1424.28,
+      "storeys": "P+0",
+      "destination": "Objekt Bujqësor",
+      "document_reference": "05-351/02-140501/25",
+      "document_url": "https://drive.google.com/file/d/1O8QyrZaQNWGhIIdqKgLl_dAUK6cmt_zB/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1HXTTdBYMGcrBrtYsdoEXL_Ewv8eF0BkK/view?usp=sharing"
+    },
+    {
+      "permit_number": "27",
+      "application_date": "2025-08-14",
+      "issuance_date": "2025-10-10",
+      "owner": "Ahmet Spahiu, Azem Limaj, Meliha Rrmoku, Gani Shala, Skender Haradinaj, Sadik Gashi",
+      "investor": "MIRI\"sh.p.k",
+      "designer": "N.N.SH \"CAD partners",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 6303.17,
+      "density_fee_eur": 27896.17,
+      "administrative_fee_eur": 41046.51,
+      "total_fee_eur": 68942.68,
+      "storeys": "3B+S+P+8",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-121465/25",
+      "document_url": "https://drive.google.com/file/d/1cq1zdt6PbBn4Sj507G6o4td_aRMC4AYG/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Qee_N0mOkE67DUnVV2wupXjbH49ZwGO5/view?usp=sharing"
+    },
+    {
+      "permit_number": "28",
+      "application_date": "2025-07-01",
+      "issuance_date": "2025-10-10",
+      "owner": "Valon, Aziz dhe Ramadan Azizi",
+      "investor": "Valon, Aziz dhe Ramadan Azizi",
+      "designer": "LSN+Partners\"SH.P.K",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 4207.7,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 27759.03,
+      "total_fee_eur": 27759.03,
+      "storeys": "P+1",
+      "destination": "Objekt Afarist - Administrativ",
+      "document_reference": "05-351/02-95104/25",
+      "document_url": "https://drive.google.com/file/d/1XjKYa1Vu7glStKK_vjbiy3JkHCbmxYOH/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1NMyUU5voEfVfosALpebQn9d9InCyEBvf/view?usp=sharing"
+    },
+    {
+      "permit_number": "29",
+      "application_date": "2025-08-07",
+      "issuance_date": "2025-10-08",
+      "owner": "Igballe Rafuna, Enkelejda Shatri, Nazmi Ismajli, Naim Gashi dhe \"4 A sh.p.k",
+      "investor": "4 A sh.p.k",
+      "designer": "4 A sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 6867.8,
+      "density_fee_eur": 36180.23,
+      "administrative_fee_eur": 44926.12,
+      "total_fee_eur": 81106.35,
+      "storeys": "B+P+4, B+S+P+5",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-115959/25",
+      "document_url": "https://drive.google.com/file/d/100LR6QFSc5HgyAkRpy0_tuTOc_Ts8opV/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1k8SZLKLO7PvnKMOlkpSli4bIYJ25zu4l/view?usp=sharing"
+    },
+    {
+      "permit_number": "30",
+      "application_date": "2025-06-03",
+      "issuance_date": "2025-10-06",
+      "owner": "Sami Morina",
+      "investor": "Sami Morina",
+      "designer": "Dea Group shpk",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 268.86,
+      "density_fee_eur": 370.48,
+      "administrative_fee_eur": 1747.59,
+      "total_fee_eur": 2118.07,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-77647/25",
+      "document_url": "https://drive.google.com/file/d/18bRfTCpjE44cOkIgy5qydGT08U1CtNcC/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1xz9KrMgaCRvvI5MRTPMr8s8Shcg-g3mP/view?usp=sharing",
+      "site": {
+        "source_url": "https://drive.google.com/file/d/1xz9KrMgaCRvvI5MRTPMr8s8Shcg-g3mP/view?usp=sharing",
+        "page": 1,
+        "parcels": [
+          {
+            "reference": "2074-2 ZK Çagllavicë",
+            "area_m2": 372
+          }
+        ]
+      }
+    },
+    {
+      "permit_number": "31",
+      "application_date": "2024-02-26",
+      "issuance_date": "2025-10-06",
+      "owner": "Sabile Qyqalla, Gjevdet Aliu, Jusuf Qyqalla, Besim Krasniqi dhe Jeton Gashi",
+      "investor": "Orient Kubz Construction SH.P.K",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 6490.31,
+      "density_fee_eur": 34514.72,
+      "administrative_fee_eur": 42186.95,
+      "total_fee_eur": 76701.67,
+      "storeys": "2B+S+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-29454/24",
+      "document_url": "https://drive.google.com/file/d/1S58zs0MuT_j_Yor2NfqaErQDxNwSZPzu/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/16pUo_0jyYnugTxY_WhknKXdsyfAmhLNw/view?usp=sharing"
+    },
+    {
+      "permit_number": "32",
+      "application_date": "2024-08-12",
+      "issuance_date": "2025-10-02",
+      "owner": "Feriz Gashi dhe Belkise Aliu Gashi",
+      "investor": "Feriz Gashi dhe Belkise Aliu Gashi",
+      "designer": "Building\"SH.P.K",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 250.7,
+      "density_fee_eur": 880.43,
+      "administrative_fee_eur": 1629.58,
+      "total_fee_eur": 2510.01,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-105391/24",
+      "document_url": "https://drive.google.com/file/d/1hiVx8gty8bRHu6xP1UAe1R1WeeBnCAPG/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1jmlDj2wBH7izpUBPkqt1tZTeLoOX0cZk/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1hiVx8gty8bRHu6xP1UAe1R1WeeBnCAPG/view?usp=sharing",
+          "page": 5,
+          "area_m2": 124.62,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14021989,
+                  42.62750983
+                ],
+                [
+                  21.14020227,
+                  42.62742639
+                ],
+                [
+                  21.14018667,
+                  42.62742821
+                ],
+                [
+                  21.1401778,
+                  42.62738627
+                ],
+                [
+                  21.14024776,
+                  42.62737817
+                ],
+                [
+                  21.14024862,
+                  42.62738267
+                ],
+                [
+                  21.14029652,
+                  42.62737712
+                ],
+                [
+                  21.14031143,
+                  42.62744805
+                ],
+                [
+                  21.14031875,
+                  42.62744723
+                ],
+                [
+                  21.14032811,
+                  42.62749196
+                ],
+                [
+                  21.14027924,
+                  42.6274976
+                ],
+                [
+                  21.14028035,
+                  42.62750291
+                ],
+                [
+                  21.14021989,
+                  42.62750983
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "33",
+      "application_date": "2024-02-07",
+      "issuance_date": "2025-10-02",
+      "owner": "Xhufe Bacaj Morina, Artan Kuçi, Kujtim Bacaj, Shaban Syla, Ilir Tolaj, Blerim Tolaj, Selim Tolaj, Myzafere Gjakova, Ilir Shehu, Ardian Ferizaj, Dafina Loshaj Pukaj, Binak Ulaj, Nerim Çelaj, Ilir Ulaj, Arlind Bacaj, Alban Bacaj, Nusret Ramadani, Skënder Bacaj, Hasnie Beqiraj, Hasime Terziqi, Adelina Ramadani, Gëzim Çelaj, Përparim Muja",
+      "investor": "Glowing Group L.L.C",
+      "designer": "Grand Desigm and Consulting L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 28823.26,
+      "density_fee_eur": 116571.93,
+      "administrative_fee_eur": 188276.46,
+      "total_fee_eur": 304848.39,
+      "storeys": "4B+2S+P+13, 6B+P+15, 6B+0",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-21041/24",
+      "document_url": "https://drive.google.com/file/d/1FcW-N_Yb2YuGzF2XZxXLJ1EN61bPJ95A/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/19Ct5ni3rq8DX_KIKnE6gwesDNWs8SriM/view?usp=sharing"
+    },
+    {
+      "permit_number": "34",
+      "application_date": "2025-06-05",
+      "issuance_date": "2025-10-01",
+      "owner": "Frojde Haziri",
+      "investor": "Frojde Haziri",
+      "designer": "Çeta-General Ivest Group shpk",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 447.07,
+      "density_fee_eur": 1042.02,
+      "administrative_fee_eur": 2905.63,
+      "total_fee_eur": 3947.65,
+      "storeys": "P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-79358/25",
+      "document_url": "https://drive.google.com/file/d/1wVbaCJm4ws-LFmSGjo9v5IyEKqyfrHTF/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/10CQ1WRhWd6x9yFNOQPqI7_0Zy0Y7sq-x/view?usp=sharing",
+      "site": {
+        "source_url": "https://drive.google.com/file/d/10CQ1WRhWd6x9yFNOQPqI7_0Zy0Y7sq-x/view?usp=sharing",
+        "page": 1,
+        "parcels": [
+          {
+            "reference": "304-14 ZK Çagllavicë",
+            "area_m2": 400
+          }
+        ]
+      }
+    },
+    {
+      "permit_number": "35",
+      "application_date": "2025-08-25",
+      "issuance_date": "2025-09-30",
+      "owner": "Meriton Makolli",
+      "investor": "Meriton Makolli",
+      "designer": "Fidan Belegu B.I",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 439.6,
+      "density_fee_eur": 2829.08,
+      "administrative_fee_eur": 2857.4,
+      "total_fee_eur": 5686.48,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-128061/25",
+      "document_url": "https://drive.google.com/file/d/12hmX4W6XFXZFIowiyFB0zkUii85oFxk5/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1OBhsl9HmjvLRUWwGwXpMqLjJuLFlvrfd/view?usp=sharing",
+      "site": {
+        "source_url": "https://drive.google.com/file/d/1OBhsl9HmjvLRUWwGwXpMqLjJuLFlvrfd/view?usp=sharing",
+        "page": 1,
+        "parcels": [
+          {
+            "reference": "4359-19 ZK Prishtinë",
+            "area_m2": 449
+          }
+        ]
+      }
+    },
+    {
+      "permit_number": "36",
+      "application_date": "2025-07-25",
+      "issuance_date": "2025-09-30",
+      "owner": "Flamur dhe Roberta Marku",
+      "investor": "Flamur dhe Roberta Marku",
+      "designer": "VBV Architects SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 300.97,
+      "density_fee_eur": 1007.15,
+      "administrative_fee_eur": 1956.31,
+      "total_fee_eur": 2963.46,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-108686/25",
+      "document_url": "https://drive.google.com/file/d/1ej2SdOvM6V3qw8_jrRm9enqUN7OnWTp8/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1e68UOEHGt6FKC2QhER8XFyIyfqDjxBJ1/view?usp=sharing"
+    },
+    {
+      "permit_number": "37",
+      "application_date": "2025-03-25",
+      "issuance_date": "2025-09-30",
+      "owner": "Xhevdet Shillova",
+      "investor": "Xhevdet Shillova",
+      "designer": "Unikosproject L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 743.97,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 1052.74,
+      "total_fee_eur": 1052.74,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-41632/25",
+      "document_url": "https://drive.google.com/file/d/1pFAmogpj3-QbtstvKvr3lSgbJ1slIg69/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/13MhOpu4Xlw5GZwVCXq3mSO0kQqFoA6Q5/view?usp=sharing"
+    },
+    {
+      "permit_number": "38",
+      "application_date": "2025-07-15",
+      "issuance_date": "2025-09-29",
+      "owner": "Fahrije Gashi",
+      "investor": "Fahrije Gashi",
+      "designer": "Smart Project sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 305.88,
+      "density_fee_eur": 840.87,
+      "administrative_fee_eur": 1988.29,
+      "total_fee_eur": 2829.16,
+      "storeys": "S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-102418/25",
+      "document_url": "https://drive.google.com/file/d/1AG8twK6dHRJLJL7yL_UbmTw_kh35z24r/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/17zls7F86K0-fVMDuYgi-Z0yiHFYlNYoS/view?usp=sharing"
+    },
+    {
+      "permit_number": "39",
+      "application_date": "2025-04-17",
+      "issuance_date": "2025-09-29",
+      "owner": "Ibrahim dhe Beqir Fazliu",
+      "investor": "Kosova Home sh.p.k",
+      "designer": "NPSH \"Smart Project",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 2823.25,
+      "density_fee_eur": 3485.6,
+      "administrative_fee_eur": 18351.14,
+      "total_fee_eur": 21836.74,
+      "storeys": "P+1+NK, P+1, B+P+1, B+P+1+NK, 2B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-217874/23",
+      "document_url": "https://drive.google.com/file/d/1u8yqiGv9CoDPf9MW8wf20Zr23kyj_R5d/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1xufos5TYIKQp8VISIZ7bGB8U6-GPSLUb/view?usp=sharing"
+    },
+    {
+      "permit_number": "40",
+      "application_date": "2025-07-25",
+      "issuance_date": "2025-09-26",
+      "owner": "Benita Corporation shpk",
+      "investor": "Benita Corporation shpk",
+      "designer": "KAPAK STUDIO L.L.C",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 2076.4,
+      "density_fee_eur": 6506.33,
+      "administrative_fee_eur": 13496.6,
+      "total_fee_eur": 20002.93,
+      "storeys": "S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-108548/25",
+      "document_url": "https://drive.google.com/file/d/1c2MRX-9y5-zTkovy1IXr_oQNkg_SX8vL/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1VIPBKpzXNRzr4I25uuVhadqMl4Uyg442/view?usp=sharing"
+    },
+    {
+      "permit_number": "41",
+      "application_date": "2024-10-21",
+      "issuance_date": "2025-09-24",
+      "owner": "Sanije Sherifi, Naser Shatrolli, Florim Mustafa, Perparim Pervetica, Fatvere Zogu, Bahrije Duriqi, Liridon Abazi, Zenel Braha, Bajram Braha, Mihrije Braha, Arben Hajrizi, Naim Hoxha, Kimjet Ajdaspasiç, Milazim Veliu, Renata Bajrami, Redon Bajrami, Renesa Bajrami, Blerim Potera, Ruhan Selmani, Sami Rafuna, Naim Lushaj, Sadri Thaqi dhe Azemine Gashi",
+      "investor": "Oda Construction F.H shpk, \"Projekt AG shpk dhe \"Projekt Sh shpk",
+      "designer": "NPN Euro Projekt",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 25569.21,
+      "density_fee_eur": 126399.69,
+      "administrative_fee_eur": 165624.85,
+      "total_fee_eur": 292024.54,
+      "storeys": "2B+S+P+11, 2B",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-138024/24",
+      "document_url": "https://drive.google.com/file/d/1vnF3u2ZEXbYnIMXIDEiOEUh9WlRSBPMO/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1vnF3u2ZEXbYnIMXIDEiOEUh9WlRSBPMO/view?usp=sharing"
+    },
+    {
+      "permit_number": "42",
+      "application_date": "2024-08-30",
+      "issuance_date": "2025-09-24",
+      "owner": "Vjendita Prishtina Mehmeti dhe Pranvera Limani",
+      "investor": "Vjendita Prishtina Mehmeti dhe Pranvera Limani",
+      "designer": "Tregtia sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 1672.36,
+      "density_fee_eur": 4446.35,
+      "administrative_fee_eur": 10850.84,
+      "total_fee_eur": 15297.19,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-114808/24",
+      "document_url": "https://drive.google.com/file/d/1sms7Lh-bfXSuMxULeVbK5MIYkgCT4bYF/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1iXgCZEhD5XTbvnH6LYLYTzLkYFKliydT/view?usp=sharing"
+    },
+    {
+      "permit_number": "43",
+      "application_date": "2023-07-20",
+      "issuance_date": "2025-09-18",
+      "owner": "Shukrije Gashi, Uran Gashi, Hilmije Ramabaja, Yll Gashi, Pajazit Gashi, Idriz Gashi, Bajram Gashi, Skender Gashi, Nysret Gashi, Hedije Kçiku, Sami Gashi, Avdyl Gashi, Afrim Gashi, Sabri e Naim Gashi",
+      "investor": "Erta Invest\"shpk",
+      "designer": "Ferizi 2A\"shpk",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 17352.63,
+      "density_fee_eur": 107876.89,
+      "administrative_fee_eur": 160117.14,
+      "total_fee_eur": 267994.03,
+      "storeys": "B+S+P+5, 2B+P+5, 2B+P+5",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-150627/23",
+      "document_url": "https://drive.google.com/file/d/1zrckT-wKeeiGpxWpw1WkLkGbE2s5-O5g/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1BcdpXqfESGx9bbFGk3HsEdc5uoCX34U0/view?usp=sharing"
+    },
+    {
+      "permit_number": "44",
+      "application_date": "2024-10-15",
+      "issuance_date": "2025-09-18",
+      "owner": "Hafiz Zuka",
+      "investor": "Hafiz Zuka",
+      "designer": "VIA PROJEK sh.p.k",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 458.2,
+      "density_fee_eur": 1754.53,
+      "administrative_fee_eur": 2987.39,
+      "total_fee_eur": 4741.92,
+      "storeys": "S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-135122/24",
+      "document_url": "https://drive.google.com/file/d/1DRGdKTrYC5ERqsUTjRkDOYGtdlS_NrbS/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/16qnpK71JAmpwCKjAvMfVuuiFUCSkgrGj/view?usp=sharing"
+    },
+    {
+      "permit_number": "45",
+      "application_date": "2025-04-29",
+      "issuance_date": "2025-09-15",
+      "owner": "Elvis Beqiri, Nderim Rexha",
+      "investor": "EvergreenValleys\"L.L.C",
+      "designer": "UA Architects L.L.C",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 4412.32,
+      "density_fee_eur": 12158.77,
+      "administrative_fee_eur": 29185.53,
+      "total_fee_eur": 41344.3,
+      "storeys": "B+P+1, S+P+1, S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-59483/25",
+      "document_url": "https://drive.google.com/file/d/1n7Ypll5MgYIinaazmSWnfQBxC1XzFyS7/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1M46qicIRZhIk3KO8Muiu_AqRaYzCv0Y7/view?usp=sharing"
+    },
+    {
+      "permit_number": "46",
+      "application_date": "2025-06-16",
+      "issuance_date": "2025-09-15",
+      "owner": "Besim Ajeti",
+      "investor": "2B&A British Building C",
+      "designer": "Enggroup shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 4469.98,
+      "density_fee_eur": 23069.15,
+      "administrative_fee_eur": 29415.65,
+      "total_fee_eur": 52484.8,
+      "storeys": "2B+S+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-84307/25",
+      "document_url": "https://drive.google.com/file/d/1x7_SMQJZlHduG31QeIEDYwRI5wwm54KG/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/13d6bJiUHrdwblr1K7l8QkZLhCGEgdR1e/view?usp=sharing"
+    },
+    {
+      "permit_number": "47",
+      "application_date": "2025-05-16",
+      "issuance_date": "2025-09-12",
+      "owner": "Diamant Elshani, Ismajl Gashi, Xhevdet Hetemi, Besnik Berisha, Dibran Zogaj, Sokol Boqolli, Mentor Tahiraj, Ali Krasniqi, Xhevat Seferi, Veton Misiri, Albert Krasniqi, Përparim Elezi, Enver Boqolli, Avni Zogu, Nebih Bajraktari, Hysen Boqolli, Gazmend Havolli, Haxhi Krasniqi, Arben Vishaj, Rafet Fetahaj, Muhamet Karameta, Driton Thaqi",
+      "investor": "Klub Invest shpk",
+      "designer": "Locus shpk",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 20464.1,
+      "density_fee_eur": 104016.84,
+      "administrative_fee_eur": 133763.69,
+      "total_fee_eur": 237780.53,
+      "storeys": "3B+P+14 3B+9+13",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-67975/25 LN2 00078 & 05-351/02-67978/25 LN2 000123",
+      "document_url": "https://drive.google.com/file/d/1ty-4BVXwRyup7Mnzi0bo78ka6315FoT3/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1rAQGr3ntZ6CZvGAEP-nuEwD4Hpe_YgNn/view?usp=sharing"
+    },
+    {
+      "permit_number": "48",
+      "application_date": "2025-07-22",
+      "issuance_date": "2025-09-12",
+      "owner": "Artist's Studio shpk",
+      "investor": "Artist's Studio shpk",
+      "designer": "Green Door\"shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 40878.32,
+      "density_fee_eur": 88910.61,
+      "administrative_fee_eur": 267606.93,
+      "total_fee_eur": 356517.54,
+      "storeys": "3B+P+9, 3B+P+9, 3B+P+9, 3B+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-105899/25",
+      "document_url": "https://drive.google.com/file/d/15RwKrceATXoV-sevl75-fyTJJcQk90G6/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1lBsiguYo_YBijPnmwewpGo7Tr0rewFky/view?usp=sharing"
+    },
+    {
+      "permit_number": "49",
+      "application_date": "2024-09-23",
+      "issuance_date": "2025-09-11",
+      "owner": "DP&Partners shpk",
+      "investor": "DP&Partners shpk",
+      "designer": "DP&Partners shpk",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 9120.57,
+      "density_fee_eur": 41410.18,
+      "administrative_fee_eur": 59443.34,
+      "total_fee_eur": 100853.52,
+      "storeys": "3B+P+9",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-124626/25",
+      "document_url": "https://drive.google.com/file/d/1EeKS6bpS-5s9Kn4k0SfulO9YdO3EFiCB/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ygrVbmX95cG2_cn9ohEbyGYyoH4oNAfM/view?usp=sharing"
+    },
+    {
+      "permit_number": "50",
+      "application_date": "2025-06-19",
+      "issuance_date": "2025-09-11",
+      "owner": "Përparim Rama, Mustafë Krasniqi, Hesat Osmani, Asllan Beqiri, Shaban Buzoku, Naim Ukaj, Qamil Rexhaj, Lulzim Berisha, Nevzad Berisha, Adem Buzoku",
+      "investor": "Idila RrB L.L.C",
+      "designer": "Design Project dp shpk",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 9262.43,
+      "density_fee_eur": 54157.86,
+      "administrative_fee_eur": 59916.36,
+      "total_fee_eur": 114074.22,
+      "storeys": "2B+2S+P+11",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-88042/25",
+      "document_url": "https://drive.google.com/file/d/1b0-dhS08u0wWXns95bMGcLHsYrXKvyV0/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1I55Zx5OqCtCR3fE0PPvOJKoK8D3yL02r/view?usp=sharing"
+    },
+    {
+      "permit_number": "51",
+      "application_date": "2025-05-20",
+      "issuance_date": "2025-09-10",
+      "owner": "Flamur Isufi",
+      "investor": "Flamur Isufi",
+      "designer": "MA+P Murseli Architects+Partners",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 479.5,
+      "density_fee_eur": 1020.67,
+      "administrative_fee_eur": 3116.75,
+      "total_fee_eur": 4137.42,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-69655/25",
+      "document_url": "https://drive.google.com/file/d/1AWg-2Kx0HxpnJovxF16PS2lVYBCGvcEb/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1IeydoCYkGyacp7w-Q2mRXMVZsqnZB0d1/view?usp=sharing"
+    },
+    {
+      "permit_number": "52",
+      "application_date": "2025-06-23",
+      "issuance_date": "2025-09-08",
+      "owner": "Artan Gorani, Valon Aliu, Donart Aliu, Ron Aliu, Faton Abazi, Ilir Fetahaj, Syzana Dautaj Surdolli",
+      "investor": "Duzhmani Invest sh.p.k",
+      "designer": "Hyllus\"sh.p.k",
+      "neighbourhood": "Kolovicë",
+      "total_floor_area_m2": 14274.79,
+      "density_fee_eur": 50001.06,
+      "administrative_fee_eur": 92108.14,
+      "total_fee_eur": 142109.2,
+      "storeys": "S+P, S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-90587/25",
+      "document_url": "https://drive.google.com/file/d/1s5cBqSmMUjawlQNnqLN_r84lI76CUHKZ/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1NZUsrC4heUcjZ65bnG64RWuAff-nHZKB/view?usp=sharing"
+    },
+    {
+      "permit_number": "53",
+      "application_date": "2024-10-28",
+      "issuance_date": "2025-09-08",
+      "owner": "Ndërmarrja e Re Ratar Hajvali sh.p.k",
+      "investor": "Marigona Hill sh.p.k",
+      "designer": "Archides Studio shpk",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 62965.51,
+      "density_fee_eur": 225084.8,
+      "administrative_fee_eur": 410515.16,
+      "total_fee_eur": 635599.96,
+      "storeys": "2B+S+P+5+Ph, 2B+S+P, 2B+S+P+5+Ph, B+S+P+5+Ph, 2B+S+P+5+Ph, S+0",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-141317/24",
+      "document_url": "https://drive.google.com/file/d/1NzQ1ddB099ErQl-ae52-XkPhBS2Z7AXE/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Yn9McI7PHtRr20Xpq5QgIoI_Jir6shW_/view?usp=sharing"
+    },
+    {
+      "permit_number": "54",
+      "application_date": "2025-01-16",
+      "issuance_date": "2025-09-05",
+      "owner": "Orhan Qerimi",
+      "investor": "Orhan Qerimi",
+      "designer": "ArcumStudio sh.p.k",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 315.26,
+      "density_fee_eur": 440.06,
+      "administrative_fee_eur": 2049.06,
+      "total_fee_eur": 2489.12,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-8514/25",
+      "document_url": "https://drive.google.com/file/d/1e2YeaH-GSayPhgSoz6e94ICZxm1KG1XU/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1uCeWyOi1oeN4cPylFjdAx2YE3vjBjxHj/view?usp=sharing"
+    },
+    {
+      "permit_number": "55",
+      "application_date": "2025-07-07",
+      "issuance_date": "2025-09-04",
+      "owner": "Ndermarrja e Re Remont sh.p.k, \"BP Home Towers L.L.C",
+      "investor": "BP Home Towers L.L.C",
+      "designer": "Modium L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 58083.5,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 380367.95,
+      "total_fee_eur": 380367.95,
+      "storeys": "3B+P+20, P+2",
+      "destination": "Objekt Shumëbanesorë - Afarist",
+      "document_reference": "05-351/02-97168/25",
+      "document_url": "https://drive.google.com/file/d/1COxaWqOe1XhOAFRag18bC2mLzXHJl60b/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/19_XbWYzePr-oYgFzNEhnd47paCpnPtDG/view?usp=sharing"
+    },
+    {
+      "permit_number": "56",
+      "application_date": "2025-06-26",
+      "issuance_date": "2025-09-04",
+      "owner": "Jonus Mustafa, Sami Mustafa, Shaip Berisha, Mehmet Cakolli, Murat Zeneli, Samir Vitia, Artan Syla, Idriz Gold, Advije Hajrullahu",
+      "investor": "Dulon Group Sh.p.k",
+      "designer": "Hus Bureau Sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 18740.96,
+      "density_fee_eur": 100032.72,
+      "administrative_fee_eur": 122425.49,
+      "total_fee_eur": 222458.21,
+      "storeys": "B+S+P+11, 2B+S+P+10",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-92342/25",
+      "document_url": "https://drive.google.com/file/d/1kGODBV7XA6-VynoOajWMxqkvU0jMAtUP/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1mhoUciZNdoBKbjpehCPbcRGlVP5aCkbJ/view?usp=sharing"
+    },
+    {
+      "permit_number": "57",
+      "application_date": "2024-06-06",
+      "issuance_date": "2025-09-02",
+      "owner": "Fatos Pllana",
+      "investor": "Fatos Pllana",
+      "designer": "ESD Construction",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 537.36,
+      "density_fee_eur": 1894.5,
+      "administrative_fee_eur": 3492.84,
+      "total_fee_eur": 5387.34,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-73280/24",
+      "document_url": "https://drive.google.com/file/d/1uHcoumiSz69B0z-IcAJ7fhITptUesIXj/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1bHW1_vD4KeD3ivr5Fv-u4cfUdK-xqt1V/view?usp=sharing"
+    },
+    {
+      "permit_number": "58",
+      "application_date": "2024-05-14",
+      "issuance_date": "2025-09-01",
+      "owner": "Minire Mehmeri, Mishko Arsiq, Shaqir Emini, Xhevdet Dardani, Nexhat Hajrizi",
+      "investor": "2B&A British Building C\"sh.p.k",
+      "designer": "Enggroup\"sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 6519.31,
+      "density_fee_eur": 31279.63,
+      "administrative_fee_eur": 42850.48,
+      "total_fee_eur": 74130.11,
+      "storeys": "2B+S+P+7",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-61878/24",
+      "document_url": "https://drive.google.com/file/d/1eeZjlKxlBkM7QL53JP3gcYbYIVLs0lLx/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1t_lRGgLI-GM_6ufyvot2V86YQD6UUsr_/view?usp=sharing"
+    },
+    {
+      "permit_number": "59",
+      "application_date": "2025-07-04",
+      "issuance_date": "2025-09-01",
+      "owner": "Avdyl Haliti",
+      "investor": "Avdyl Haliti",
+      "designer": "AET Group sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 356.18,
+      "density_fee_eur": 1032.41,
+      "administrative_fee_eur": 2315.17,
+      "total_fee_eur": 3347.58,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-96761/25",
+      "document_url": "https://drive.google.com/file/d/1R2wMTsXKGnwtClXxY-zQ5rZrzb_1apYg/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1yeIE_MM8ffS9zLxIcXG0ubd99QY0t5uO/view?usp=sharing"
+    },
+    {
+      "permit_number": "60",
+      "application_date": "2023-05-29",
+      "issuance_date": "2025-09-01",
+      "owner": "Bedri Kelmendi",
+      "investor": "Bedri Kelmendi",
+      "designer": "Toning-A SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 628.8,
+      "density_fee_eur": 4162.3,
+      "administrative_fee_eur": 4087.2,
+      "total_fee_eur": 8249.5,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-108494/23",
+      "document_url": "https://drive.google.com/file/d/110lDqqLDsloD32exdcHfg9tykoIDxiSK/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1s89D3SefQRHFXcdvRiB_SCdN48U7cc16/view?usp=sharing"
+    },
+    {
+      "permit_number": "61",
+      "application_date": "2023-05-29",
+      "issuance_date": "2025-09-01",
+      "owner": "Bedri Kelmendi",
+      "investor": "Bedri Kelmendi",
+      "designer": "Toning-A SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 628.8,
+      "density_fee_eur": 4162.3,
+      "administrative_fee_eur": 4087.2,
+      "total_fee_eur": 8249.5,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-108514/23",
+      "document_url": "https://drive.google.com/file/d/1NYAx9nrWDj8PqctxjWMTjOLXVnIwXGZO/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1i3_3lk83ffr6-Kwdt6aM9B9VKGaOO6z7/view?usp=sharing"
+    },
+    {
+      "permit_number": "62",
+      "application_date": "2024-09-02",
+      "issuance_date": "2025-08-29",
+      "owner": "Gafurr Statovci, Esat Troni, Xhavit Vllasliu, Valon Haxhaj, Rahim Vllasaliu, Luigj Malota",
+      "investor": "Gashi Invest-BF\"Sh.p.k",
+      "designer": "Building\"SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 9972.8,
+      "density_fee_eur": 46926.72,
+      "administrative_fee_eur": 66477.75,
+      "total_fee_eur": 113404.47,
+      "storeys": "B+S+P+9",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-115472/24",
+      "document_url": "https://drive.google.com/file/d/1Z_K-VlKqIyq4XxNIRVqcJ8yD5GMIKq0D/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1t7OZ2yss-YbO-jeRhx4CDyE2JbUqIwGB/view?usp=sharing"
+    },
+    {
+      "permit_number": "63",
+      "application_date": "2025-07-23",
+      "issuance_date": "2025-08-29",
+      "owner": "Jahir Berisha",
+      "investor": "Jahir Berisha",
+      "designer": "Proarchitecture\"sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 296.1,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 1139.99,
+      "total_fee_eur": 1139.99,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-107077/25",
+      "document_url": "https://drive.google.com/file/d/1-koHIcgM5TEIP1i-A-FqBuDMN4O9KVuf/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1bp1UaEh1j4WEEJJjBNYhx-i_GMY8OIk0/view?usp=sharing"
+    },
+    {
+      "permit_number": "64",
+      "application_date": "2025-06-10",
+      "issuance_date": "2025-08-27",
+      "owner": "Muharrem Latifaj",
+      "investor": "Muharrem Latifaj",
+      "designer": "Ilirian Group shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 573.0,
+      "density_fee_eur": 1075.22,
+      "administrative_fee_eur": 3724.7,
+      "total_fee_eur": 4799.92,
+      "storeys": "B+P+2",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-80653/25",
+      "document_url": "https://drive.google.com/file/d/1W-zFflf1Q3KqBJAiQMyeA8Uidt2iWrOI/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1KypYiDEv3Xi1UpZRDzqKqZoN0agbV7IT/view?usp=sharing"
+    },
+    {
+      "permit_number": "65",
+      "application_date": "2025-03-24",
+      "issuance_date": "2025-08-25",
+      "owner": "Zenel, Isuf, Vedat, Sadat Pllashniku, Nadire Vitija",
+      "investor": "Prima Group Construction sh.p.k",
+      "designer": "Archlink Studio sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 9403.87,
+      "density_fee_eur": 32784.44,
+      "administrative_fee_eur": 61125.16,
+      "total_fee_eur": 93909.6,
+      "storeys": "3B+P+13",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-41236/25",
+      "document_url": "https://drive.google.com/file/d/1FJiWb03D-9GRGDSqyFXgoSYSRxmxZU-j/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1dZCX046WvIYHA--rPV7ybIu0bo-HSJPe/view?usp=sharing"
+    },
+    {
+      "permit_number": "66",
+      "application_date": "2025-03-26",
+      "issuance_date": "2025-08-21",
+      "owner": "Mirsade Mulolli",
+      "investor": "Mirsade Mulolli",
+      "designer": "arch IN O.P",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 360.4,
+      "density_fee_eur": 856.13,
+      "administrative_fee_eur": 2342.6,
+      "total_fee_eur": 3198.73,
+      "storeys": "S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-42657/25",
+      "document_url": "https://drive.google.com/file/d/1LkR0wAX16CZAaS2IlAj60pS8WeqD27vw/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Is0EJrGzDOR1AxX0nlS55TBOFt74WOsZ/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1LkR0wAX16CZAaS2IlAj60pS8WeqD27vw/view?usp=sharing",
+          "page": 5,
+          "area_m2": 125.34,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18571662,
+                  42.67074628
+                ],
+                [
+                  21.18566661,
+                  42.67066767
+                ],
+                [
+                  21.18566332,
+                  42.67066876
+                ],
+                [
+                  21.1856621,
+                  42.67066678
+                ],
+                [
+                  21.18580457,
+                  42.67061748
+                ],
+                [
+                  21.18580592,
+                  42.67061946
+                ],
+                [
+                  21.1858025,
+                  42.67062064
+                ],
+                [
+                  21.1858318,
+                  42.67066668
+                ],
+                [
+                  21.1858346,
+                  42.67066578
+                ],
+                [
+                  21.18585115,
+                  42.67069186
+                ],
+                [
+                  21.18585213,
+                  42.67069393
+                ],
+                [
+                  21.18585287,
+                  42.67069663
+                ],
+                [
+                  21.18585264,
+                  42.67069933
+                ],
+                [
+                  21.18585191,
+                  42.67070194
+                ],
+                [
+                  21.18585033,
+                  42.67070438
+                ],
+                [
+                  21.18584814,
+                  42.67070654
+                ],
+                [
+                  21.18584547,
+                  42.67070844
+                ],
+                [
+                  21.1858423,
+                  42.67070979
+                ],
+                [
+                  21.18581244,
+                  42.6707201
+                ],
+                [
+                  21.18580888,
+                  42.67071444
+                ],
+                [
+                  21.18571662,
+                  42.67074628
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "67",
+      "application_date": "2025-07-10",
+      "issuance_date": "2025-08-21",
+      "owner": "Qendra Klinike Spitalore Klinika Onkologjike \"Akseleratori",
+      "investor": "Qendra Klinike Spitalore Klinika Onkologjike \"Akseleratori",
+      "designer": "LPLAN/Architest SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 560.55,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 0.0,
+      "total_fee_eur": 0.0,
+      "storeys": "B+P, B+0",
+      "destination": "Rindertim Objekt Ekzistues",
+      "document_reference": "05-351/02-99959/25",
+      "document_url": "https://drive.google.com/file/d/1Z2Ubug2U7MF-VOvTLbA00Ms74DYmgND-/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1YQ7dHsYVqT-z0dHuMPyqycTPh5s_IH7J/view?usp=sharing"
+    },
+    {
+      "permit_number": "68",
+      "application_date": "2025-05-12",
+      "issuance_date": "2025-08-20",
+      "owner": "Shefqet Mustafa, Halil, Jahir, Bashkim Pacolli, Aziz Islami, Gentrit, Xhevrije, Labinot Elshani, Salejdin Murtezani, Besnik Shala, P.SH.KBI Kosova Export, Aziz Pacolli",
+      "investor": "Lirimi & ACL Sh.p.k",
+      "designer": "Modium L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 15802.3,
+      "density_fee_eur": 92085.81,
+      "administrative_fee_eur": 103285.43,
+      "total_fee_eur": 195371.24,
+      "storeys": "B+S+P+8, 2B+0",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-65093/25",
+      "document_url": "https://drive.google.com/file/d/1n3I57EiZPDptBur6L5z00ke8c-0j1aTR/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Eibqm6peaHfvBLEnm91VhCFIHTMavSM5/view?usp=sharing"
+    },
+    {
+      "permit_number": "69",
+      "application_date": "2024-11-15",
+      "issuance_date": "2025-08-19",
+      "owner": "Redoni Sh.p.k",
+      "investor": "Redoni Sh.p.k",
+      "designer": "LSN+Partners\"SH.P.K",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 138.9,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 930.03,
+      "total_fee_eur": 930.03,
+      "storeys": "P+0",
+      "destination": "Objekt Afarist",
+      "document_reference": "05-351/02-152245/24",
+      "document_url": "https://drive.google.com/file/d/15MN-6GxAFp5GztSjdg3wCyYMJ6CwbIzs/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/15qiqB3dpGgbJI7tLrMcNoeEEsviThI7s/view?usp=sharing"
+    },
+    {
+      "permit_number": "70",
+      "application_date": "2025-06-11",
+      "issuance_date": "2025-08-18",
+      "owner": "Mentor dhe Artan Vitija",
+      "investor": "Mentor Vitija Group\"Shpk",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 11334.0,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 73832.07,
+      "total_fee_eur": 73832.07,
+      "storeys": "2B+P+3",
+      "destination": "Objekt Afarist",
+      "document_reference": "05-351/02-81674/25",
+      "document_url": "https://drive.google.com/file/d/1ECcgMEWyiuIMB_tuza3mEg7V30Xgaao0/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1-nWLfyzp6lLH6W8DlLrTAgD6IqbmdW93/view?usp=sharing"
+    },
+    {
+      "permit_number": "71",
+      "application_date": "2025-04-24",
+      "issuance_date": "2025-08-15",
+      "owner": "Muhamet, Besiana Zeqiri",
+      "investor": "Muhamet, Besiana Zeqiri",
+      "designer": "Tulla Studio\"sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 328.95,
+      "density_fee_eur": 1069.59,
+      "administrative_fee_eur": 2141.71,
+      "total_fee_eur": 3211.3,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-56993/25",
+      "document_url": "https://drive.google.com/file/d/1D_EF60j9CkxMyoazYP30ciP5NatR2Tno/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/15SoY7Umr4pjPwhrIgZ9lIUuH6rNU6xXs/view?usp=sharing"
+    },
+    {
+      "permit_number": "72",
+      "application_date": "2024-08-21",
+      "issuance_date": "2025-08-13",
+      "owner": "Kastriot Pirraku",
+      "investor": "Kastriot Pirraku",
+      "designer": "Madd Architects Sh.p.k",
+      "neighbourhood": "Makovc",
+      "total_floor_area_m2": 559.2,
+      "density_fee_eur": 1032.86,
+      "administrative_fee_eur": 3634.8,
+      "total_fee_eur": 4667.66,
+      "storeys": "S+P",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-109821/24",
+      "document_url": "https://drive.google.com/file/d/1DNSmswYZxNf9wW28GyqXvDu9tRLURms8/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1wRFa2w6MwpfCzzbIkb8SDz2ZnOL6mRid/view?usp=sharing"
+    },
+    {
+      "permit_number": "73",
+      "application_date": "2025-06-19",
+      "issuance_date": "2025-08-12",
+      "owner": "Behxhet Kapiti, Taibe Kapiti",
+      "investor": "Behxhet Kapiti, Taibe Kapiti",
+      "designer": "Infra-Ing\"SH.P.K",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 286.55,
+      "density_fee_eur": 734.93,
+      "administrative_fee_eur": 1862.58,
+      "total_fee_eur": 2597.51,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-41783/25 05-351/02-88586/25",
+      "document_url": "https://drive.google.com/file/d/1iavRZ-yHguucJTBMl448qTNl_zeDOmqa/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1RmeHwzf8bpLC1tMed9fU8tS7N19DzKge/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1iavRZ-yHguucJTBMl448qTNl_zeDOmqa/view?usp=sharing",
+          "page": 5,
+          "area_m2": 103.51,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.1952985,
+                  42.64909857
+                ],
+                [
+                  21.19529898,
+                  42.64909677
+                ],
+                [
+                  21.19531631,
+                  42.64909962
+                ],
+                [
+                  21.19533477,
+                  42.64903621
+                ],
+                [
+                  21.1953848,
+                  42.64904423
+                ],
+                [
+                  21.19538818,
+                  42.64903279
+                ],
+                [
+                  21.19548713,
+                  42.64904847
+                ],
+                [
+                  21.19546481,
+                  42.64912503
+                ],
+                [
+                  21.1952985,
+                  42.64909857
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "74",
+      "application_date": "2025-04-23",
+      "issuance_date": "2025-08-11",
+      "owner": "Shaip Robelli, Vjollca Zylfiu Robelli",
+      "investor": "MANA\"sh.p.k",
+      "designer": "Eko Building Project sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 1745.64,
+      "density_fee_eur": 4872.05,
+      "administrative_fee_eur": 11536.42,
+      "total_fee_eur": 16408.47,
+      "storeys": "S+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-56328/25",
+      "document_url": "https://drive.google.com/file/d/1exKEMSVhOu6O-9Xzm-NPdE3WeHuaM_C1/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1604I7EjBmzkxs6Nud1S0NXx32rUWeI6V/view?usp=sharing"
+    },
+    {
+      "permit_number": "75",
+      "application_date": "2025-01-28",
+      "issuance_date": "2025-08-11",
+      "owner": "In On\"sh.p.k, Shafi, Hazbi Canolli, Skender Haliti, Malush Nuhiu, Jakup Haxhiu, Ismajl Hoxha, Agim Selmani, Avni, Gani Thaçi, Emrush Helshani, Muhamedteki Hysejni, Adnan Hysejni, Hafije Qyqalla, Remzije Mehmeti, Labinot Shahini, Driton Gerdovci, Ramadan Seferi, Albana Seferi Miftari, Shefqet Çerkini, Driton, Kushtrim, Sanije Bajgora",
+      "investor": "In On sh.p.k",
+      "designer": "In On sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 33224.27,
+      "density_fee_eur": 160002.45,
+      "administrative_fee_eur": 218059.45,
+      "total_fee_eur": 378061.9,
+      "storeys": "2B+S+P+14, 2B+S+P+17",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-14036/25",
+      "document_url": "https://drive.google.com/file/d/1mceQNjtYHeZ8BWjOq6taBypy3ABik0fG/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ZLyvF8vojcXSRA2HDABScoJ2hNB0Tnt1/view?usp=sharing"
+    },
+    {
+      "permit_number": "76",
+      "application_date": "2025-03-25",
+      "issuance_date": "2025-07-29",
+      "owner": "Elhami Hajdari",
+      "investor": "Elhami Hajdari",
+      "designer": "SHM Architecture SH.P.K",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 312.49,
+      "density_fee_eur": 983.47,
+      "administrative_fee_eur": 2031.19,
+      "total_fee_eur": 3014.66,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-41917/25",
+      "document_url": "https://drive.google.com/file/d/1_kH9YfzTcIom4FwqayKwYNN8HPNkZxKC/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1JSW4ZEplYEpCRYwSM4x2dTTXrAH-r1H0/view?usp=sharing"
+    },
+    {
+      "permit_number": "77",
+      "application_date": "2024-12-19",
+      "issuance_date": "2025-07-28",
+      "owner": "Hasib, Rahim, Ylber, Mustafe, Hamdi, Bashkim, Arif Syla, Enver, Fadil, Naser Gerbeshi, Sabri Hyseni",
+      "investor": "Shala Group sh.p.k",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 16846.3,
+      "density_fee_eur": 93517.08,
+      "administrative_fee_eur": 110234.41,
+      "total_fee_eur": 203751.49,
+      "storeys": "B+S+P+6",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-167260/24",
+      "document_url": "https://drive.google.com/file/d/1IHWcWqK3CXGLIpDUHTIwjIv8EZY8tLCf/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ysYPg5WHkNXNOGJntAErN1bSjazHOkmB/view?usp=sharing"
+    },
+    {
+      "permit_number": "78",
+      "application_date": "2025-05-23",
+      "issuance_date": "2025-07-24",
+      "owner": "Ahmet Spahiu, Azem Limaj, Meliha Rrmoku, Gani Shala, Skender Haradinaj, Sadik Gashi",
+      "investor": "Miri\"sh.p.k",
+      "designer": "N.N.SH \"CAD partners",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 3976.97,
+      "density_fee_eur": 17995.62,
+      "administrative_fee_eur": 26087.04,
+      "total_fee_eur": 44082.66,
+      "storeys": "2B+S+P+7",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-72379/25",
+      "document_url": "https://drive.google.com/file/d/1DssOh2ZntkhoouePrb9ChEuT-0w-EX_O/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Rwn9Bn2N3ptpftN0bV2w7ar_fveFRZ2D/view?usp=sharing"
+    },
+    {
+      "permit_number": "79",
+      "application_date": "2024-12-25",
+      "issuance_date": "2025-07-22",
+      "owner": "Dugagjin Mulliqi, Dafina Mulliqi, Katriot Muliqi, Ilirjane Mulliqi, Mustafe Neziri, Mexhide Neziri, Jon Mulliqi, Besnik Bajrami, Fiona Bajrami, Lidija Nasif Bajrami, Florent Bajrami, Shpend Selimi, Nazif Vitia, Xhemail Buzoku, Mirita Hamza, Vjosa Dobruna, Fisnik Mekaj, Hagji Shala",
+      "investor": "Marigona Sun sh.p.k",
+      "designer": "Archi Edu sh.p.k",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 25478.2,
+      "density_fee_eur": 75562.5,
+      "administrative_fee_eur": 167944.95,
+      "total_fee_eur": 243507.45,
+      "storeys": "S+P+1, B+P+S",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-155929/25",
+      "document_url": "https://drive.google.com/file/d/14llkaNUJIhl_y5QVMb3tytkwV9_hnuqJ/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1J3vla9h2ViejLDB8bg8fWzTQ72_DSFlS/view?usp=sharing"
+    },
+    {
+      "permit_number": "80",
+      "application_date": "2025-06-02",
+      "issuance_date": "2025-07-21",
+      "owner": "Aferdita Haskaj",
+      "investor": "Aferdita Haskaj",
+      "designer": "Proarchitecture\"sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 190.72,
+      "density_fee_eur": 678.01,
+      "administrative_fee_eur": 1239.68,
+      "total_fee_eur": 1917.69,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-76870/25",
+      "document_url": "https://drive.google.com/file/d/1Qcrx1_sPSJmw_N56CDoDBHIgE_XBYzVL/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ivnYiRBa3eKpdn9fFgXl9EyT7q9nsxFU/view?usp=sharing"
+    },
+    {
+      "permit_number": "81",
+      "application_date": "2025-06-18",
+      "issuance_date": "2025-07-18",
+      "owner": "Ministria e Shendetesise te Repulikes se Kosoves",
+      "investor": "Ministria e Shendetesise te Repulikes se Kosoves",
+      "designer": "GEOPLAN&CONSULTING\"SH.P.K",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 1124.72,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 0.0,
+      "total_fee_eur": 0.0,
+      "storeys": "P+0",
+      "destination": "Objekt Ekzistues",
+      "document_reference": "05-351/02-87348/25",
+      "document_url": "https://drive.google.com/file/d/1aY41rEYA-h3M3p6etEX3zPfSM8HFGjVz/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1N2BOP1rKDqmG4x86Fh6qUd7OnbyEvW0_/view?usp=sharing"
+    },
+    {
+      "permit_number": "82",
+      "application_date": "2025-04-15",
+      "issuance_date": "2025-07-17",
+      "owner": "Tregtia sh.p.k",
+      "investor": "Tregtia sh.p.k",
+      "designer": "Tregtia sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 28784.65,
+      "density_fee_eur": 147484.17,
+      "administrative_fee_eur": 187100.23,
+      "total_fee_eur": 334584.4,
+      "storeys": "2B+P+7, 4B+P+19",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-52469/25 05-351/02-52461/25",
+      "document_url": "https://drive.google.com/file/d/1NgN0FZDxWSFhgMiyD2VlmBLvw0n6RO-G/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1THxlDWHuYN8FEY5IfCW2vYBVPRvjtAI_/view?usp=sharing"
+    },
+    {
+      "permit_number": "83",
+      "application_date": "2025-04-29",
+      "issuance_date": "2025-07-16",
+      "owner": "VLLEZRIT ASLLANI sh.p.k",
+      "investor": "VLLEZRIT ASLLANI sh.p.k",
+      "designer": "N.N.SH \"CAD partners",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 7658.37,
+      "density_fee_eur": 29807.42,
+      "administrative_fee_eur": 49934.04,
+      "total_fee_eur": 79741.46,
+      "storeys": "3B+S+P+9",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-59031/25",
+      "document_url": "https://drive.google.com/file/d/1prP6bNRkAfmkFVcaV1d1VgxnBaGv8NEB/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1sDYe1xwwkpc2cD_F7eeVW49xGj9LyJKv/view?usp=sharing"
+    },
+    {
+      "permit_number": "84",
+      "application_date": "2025-05-29",
+      "issuance_date": "2025-07-16",
+      "owner": "Dan Imeri",
+      "investor": "Horizonti I Ri Shpk",
+      "designer": "Fractal Shpk",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 13348.46,
+      "density_fee_eur": 57576.78,
+      "administrative_fee_eur": 87706.23,
+      "total_fee_eur": 145283.01,
+      "storeys": "B+S+P+5, 2B+P+5, B+S+P+5",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-75529/25",
+      "document_url": "https://drive.google.com/file/d/1Zkq_7h3RvBfAVM2hTH-9z6gTH_WKZNsU/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1wj9Ctel0NzNnaB8zqT4UyxM0l-8CNh-Z/view?usp=sharing"
+    },
+    {
+      "permit_number": "85",
+      "application_date": "2024-10-31",
+      "issuance_date": "2025-07-15",
+      "owner": "Bajram Mujaj",
+      "investor": "Bajram Mujaj",
+      "designer": "FORM sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 524.82,
+      "density_fee_eur": 1845.57,
+      "administrative_fee_eur": 3411.33,
+      "total_fee_eur": 5256.9,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-143023/24",
+      "document_url": "https://drive.google.com/file/d/1ig8w6EYp53e-so1XOcwmEJxWwIvZ4Ydt/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ejDb9Pl5Kf24xQ_OSitFgJZIDlkH2x26/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1ig8w6EYp53e-so1XOcwmEJxWwIvZ4Ydt/view?usp=sharing",
+          "page": 5,
+          "area_m2": 91.46,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14567769,
+                  42.62796964
+                ],
+                [
+                  21.14566314,
+                  42.62785082
+                ],
+                [
+                  21.14574677,
+                  42.62784514
+                ],
+                [
+                  21.14576167,
+                  42.62796387
+                ],
+                [
+                  21.14567769,
+                  42.62796964
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1ig8w6EYp53e-so1XOcwmEJxWwIvZ4Ydt/view?usp=sharing",
+          "page": 5,
+          "area_m2": 87.07,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14565896,
+                  42.62778268
+                ],
+                [
+                  21.14565356,
+                  42.62766348
+                ],
+                [
+                  21.14573256,
+                  42.62766068
+                ],
+                [
+                  21.14574003,
+                  42.62777987
+                ],
+                [
+                  21.14565896,
+                  42.62778268
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "source_url": "https://drive.google.com/file/d/1ig8w6EYp53e-so1XOcwmEJxWwIvZ4Ydt/view?usp=sharing",
+          "page": 5,
+          "area_m2": 83.86,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14565011,
+                  42.62759282
+                ],
+                [
+                  21.14564434,
+                  42.62747353
+                ],
+                [
+                  21.14572053,
+                  42.62747092
+                ],
+                [
+                  21.14572801,
+                  42.62759011
+                ],
+                [
+                  21.14565011,
+                  42.62759282
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "86",
+      "application_date": "2024-11-13",
+      "issuance_date": "2025-07-07",
+      "owner": "Swiss Real Estate Company\", Drtion Gerdovci, Driton, Jeton, Nazmije, Veton, Faton Canolli, Lulzim Barileva, Ibrahim Canolli, Ismail Canolli, Shaban, Sahadete Rexhepi, Florim Tahiri dhe Rexhep Mustafa",
+      "investor": "Swiss Real Esate L.L.C",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 7932.29,
+      "density_fee_eur": 30626.18,
+      "administrative_fee_eur": 51677.7,
+      "total_fee_eur": 82303.88,
+      "storeys": "2B+3S+P+9",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-150951/24",
+      "document_url": "https://drive.google.com/file/d/1I4fXyEptIE04sM_fV5XzqfvqDUo5EmZg/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1FzY6COM-KISIkJOS5bbvX6t40G2JoHAI/view?usp=sharing"
+    },
+    {
+      "permit_number": "87",
+      "application_date": "2025-03-24",
+      "issuance_date": "2025-07-07",
+      "owner": "Gazmend dhe Fjoralba Sylaj",
+      "investor": "Gazmend dhe Fjoralba Sylaj",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Çagllavicë",
+      "total_floor_area_m2": 433.45,
+      "density_fee_eur": 477.08,
+      "administrative_fee_eur": 2817.43,
+      "total_fee_eur": 3294.51,
+      "storeys": "B+P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-41261/25",
+      "document_url": "https://drive.google.com/file/d/1Zk97WAmoOV3gwIbAZFCqkVZTmukX1Zl2/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/11wDzBxK9GHt-rRUALlvHCoJKORxfvDMl/view?usp=sharing"
+    },
+    {
+      "permit_number": "88",
+      "application_date": "2025-03-24",
+      "issuance_date": "2025-07-01",
+      "owner": "Elmi Berisha",
+      "investor": "Arijon Invest L.L.C",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 42476.35,
+      "density_fee_eur": 206331.21,
+      "administrative_fee_eur": 278090.13,
+      "total_fee_eur": 484421.34,
+      "storeys": "2B+S+P+10, 2B+S+P+10, 2B+P+12, 2B+P+12, 2B+P+12",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-41258/25",
+      "document_url": "https://drive.google.com/file/d/1xyIlpgIu0nhscwCxFAwHh206AfiJrm-9/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/18oDSyEWMb0I6RQolICpIG9qLNIFqzsVI/view?usp=sharing"
+    },
+    {
+      "permit_number": "89",
+      "application_date": "2025-02-14",
+      "issuance_date": "2025-07-01",
+      "owner": "Liridon Bytyqi",
+      "investor": "Maloku Group sh.p.k",
+      "designer": "ARCH NOUVEAU shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 8598.36,
+      "density_fee_eur": 39119.72,
+      "administrative_fee_eur": 56419.82,
+      "total_fee_eur": 95539.54,
+      "storeys": "2B+S+P+8",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-24438/25",
+      "document_url": "https://drive.google.com/file/d/1tTGlC9lfq1OFf0B6IR09JNLzWsgXhE4g/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1Rj5FP-EBz26WKBMLjZNdYCFoK8f-_s6z/view?usp=sharing"
+    },
+    {
+      "permit_number": "90",
+      "application_date": "2025-01-13",
+      "issuance_date": "2025-06-30",
+      "owner": "Qahil Emini, Art Construction L.L.C",
+      "investor": "Art Construction L.L.C",
+      "designer": "ARCADIS Sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 32020.4,
+      "density_fee_eur": 124550.72,
+      "administrative_fee_eur": 209096.94,
+      "total_fee_eur": 333647.66,
+      "storeys": "B+S+P+9, 3B+P+10, 2B+S+P+11, 3B+P+10",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-5966/25",
+      "document_url": "https://drive.google.com/file/d/1Fto3jzPb4US27xElCW1yFR5joXdvfW-Z/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1fkXssHhgty_h6wV8tOjEQIifmypuN8g0/view?usp=sharing"
+    },
+    {
+      "permit_number": "91",
+      "application_date": "2024-10-14",
+      "issuance_date": "2025-06-30",
+      "owner": "Suel Bajrami, Uliks Bajrami, Luljeta Morina, Xhevat Nuhi, Xhevdet Rafuna, Fatmir Baholli, Daut Baholli, Emin Baholli",
+      "investor": "Global Master sh.p.k",
+      "designer": "VI ARCH sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 16551.03,
+      "density_fee_eur": 27926.5,
+      "administrative_fee_eur": 108523.34,
+      "total_fee_eur": 136449.84,
+      "storeys": "B+P+6+PH, B+P+6+PH, B+P+6+PH",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-134683/25",
+      "document_url": "https://drive.google.com/file/d/1YIGhCqcVaM_CtJ8cZmOAPFjPWLhhAk1B/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1ERunMio3EbcjJVjm6-YeWWtJQc6xKqkB/view?usp=sharing"
+    },
+    {
+      "permit_number": "92",
+      "application_date": "2024-12-06",
+      "issuance_date": "2025-06-27",
+      "owner": "Burnist Hamidi",
+      "investor": "Burnist Hamidi",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 795.7,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 5256.86,
+      "total_fee_eur": 5256.86,
+      "storeys": "B+S+P+1",
+      "destination": "Objekt Afarist",
+      "document_reference": "05-351/02-161450/25",
+      "document_url": "https://drive.google.com/file/d/10zV4kD0vT4VMOH5l9w7FaUGA6E41S20_/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1peA_l73vUnBr2sY0Iw93QQS8nmZgKQIv/view?usp=sharing"
+    },
+    {
+      "permit_number": "93",
+      "application_date": "2022-11-18",
+      "issuance_date": "2025-06-27",
+      "owner": "Ismail Shillova, Faik Osmani, Osman Breznica",
+      "investor": "Invest Group Sh.p.k",
+      "designer": "Archipoints Group Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 31599.56,
+      "density_fee_eur": 164788.24,
+      "administrative_fee_eur": 205810.33,
+      "total_fee_eur": 370598.57,
+      "storeys": "2B+S+P+10, 2B+S+P+10, B+S+P+11, 3B",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-252722/22",
+      "document_url": "https://drive.google.com/file/d/1Dfsx3Ou7E2H1ylcrWkHXtc_sg91-kgmF/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1D6IJOzKAg1G3AmOeoaJMSVkJKl-K-C3M/view?usp=sharing"
+    },
+    {
+      "permit_number": "94",
+      "application_date": "2025-01-10",
+      "issuance_date": "2024-06-24",
+      "owner": "Arben Berisha, Armend Berisha, Hamide Berisha, Ahmet Berisha, Jusuf Berisha, Mustafa Berisha, Fazile Hashani, Haxhere Bullaku",
+      "investor": "Dijari Estate\"sh.a",
+      "designer": "Proarchitecture\"sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 15985.78,
+      "density_fee_eur": 72987.06,
+      "administrative_fee_eur": 104567.2,
+      "total_fee_eur": 177554.26,
+      "storeys": "B+P+4+Ph, B+P+4+Ph, 2B+P+4, 2B+P+4+Ph, 2B+P+4+Ph",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-4794/25",
+      "document_url": "https://drive.google.com/file/d/1Em-thSKTrxDL-2PqT5jO0dGwMdSxqkGn/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1JVdMUpe9Q0-g_BCbK1HvIja0ABs5-kXP/view?usp=sharing"
+    },
+    {
+      "permit_number": "95",
+      "application_date": "2024-12-09",
+      "issuance_date": "2025-06-24",
+      "owner": "Besnik Demhaja, Ridvan Ajrulli, Aferdita Paqarada, Arian Kurteshi-Vala, Emire Govori, Ahmet Govori, Life Ferizi, Besnik Kosumi, Lendita Ramaxhiku, Bashkim Mehmeti, Din Feriaj, Shaban Syla",
+      "investor": "Glowing Group L.L.C",
+      "designer": "Grand Desigm and Consulting L.L.C",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 33652.72,
+      "density_fee_eur": 117080.36,
+      "administrative_fee_eur": 208708.78,
+      "total_fee_eur": 325789.14,
+      "storeys": "3B+2S+P+13+TP, 3B+2S+P+15, B+2S+0",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-213850/23",
+      "document_url": "https://drive.google.com/file/d/1ToMz4ca10IN3S2PeQk66KMTT-5w3TcaW/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1lEShYuOJ7kzrHWdUbx9w2Wc2NTuwsIUM/view?usp=sharing"
+    },
+    {
+      "permit_number": "96",
+      "application_date": "2025-03-25",
+      "issuance_date": "2025-06-19",
+      "owner": "Maliq Sadiku",
+      "investor": "Butrinti Building sh.p.k",
+      "designer": "Aspen Architecture\"shpk",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 7929.91,
+      "density_fee_eur": 32650.3,
+      "administrative_fee_eur": 52819.49,
+      "total_fee_eur": 85469.79,
+      "storeys": "B+S+P+6",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-41818/25",
+      "document_url": "https://drive.google.com/file/d/1SLppQn9JyNS9zT2VV9lcfphBrsPXnK0y/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1M3wIWCPPLwMF6VET7zPpBgeEBRU7NYxf/view?usp=sharing"
+    },
+    {
+      "permit_number": "97",
+      "application_date": "2024-05-29",
+      "issuance_date": "2025-06-19",
+      "owner": "Gejvahir Begolli, Islam Rama, Hazbi Hasani",
+      "investor": "Universal Bau Group sh.p.k",
+      "designer": "Plan 2 Sh.p.k",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 8762.84,
+      "density_fee_eur": 49158.62,
+      "administrative_fee_eur": 57504.17,
+      "total_fee_eur": 106662.79,
+      "storeys": "B+S+P+7, B+S+P+7",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-68970/24",
+      "document_url": "https://drive.google.com/file/d/1Jfk6Q35kU_tSfWuZ4ZefRGf3Wt0OYmMZ/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1s0ts9UChChN8aw8JGeTMesrSFdJ9YbEY/view?usp=sharing"
+    },
+    {
+      "permit_number": "98",
+      "application_date": "2024-11-26",
+      "issuance_date": "2025-06-18",
+      "owner": "Ekrem Hasani",
+      "investor": "Ekrem Hasani",
+      "designer": "En Project sh.p.k",
+      "neighbourhood": "Hajvali",
+      "total_floor_area_m2": 333.3,
+      "density_fee_eur": 543.93,
+      "administrative_fee_eur": 2166.45,
+      "total_fee_eur": 2710.38,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-156683/24",
+      "document_url": "https://drive.google.com/file/d/1TIkmaLAoLsACgVKtZktR5W9vMRwfmbBc/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1hMTM-E2sFzaaL_ywGQemwXRaH0WW2myQ/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1TIkmaLAoLsACgVKtZktR5W9vMRwfmbBc/view?usp=sharing",
+          "page": 5,
+          "area_m2": 171.54,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.18425777,
+                  42.62096307
+                ],
+                [
+                  21.18431236,
+                  42.62082857
+                ],
+                [
+                  21.1844408,
+                  42.62085708
+                ],
+                [
+                  21.1843861,
+                  42.62099159
+                ],
+                [
+                  21.18425777,
+                  42.62096307
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "permit_number": "99",
+      "application_date": "2024-03-13",
+      "issuance_date": "2025-06-13",
+      "owner": "Tregtia sh.p.k",
+      "investor": "Tregtia sh.p.k",
+      "designer": "Tregtia sh.p.k",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 19757.97,
+      "density_fee_eur": 103135.19,
+      "administrative_fee_eur": 128712.22,
+      "total_fee_eur": 231847.41,
+      "storeys": "2B+P+11, 4B+P+7, 3B+P+7",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-36532/24",
+      "document_url": "https://drive.google.com/file/d/1nY9M82MgTs0dAy777XNcxUcC8iVL4fHW/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1zgTkSXolNGe3F2akCfzd3F2NV0cv4bWa/view?usp=sharing"
+    },
+    {
+      "permit_number": "100",
+      "application_date": "2024-07-11",
+      "issuance_date": "2025-06-10",
+      "owner": "Vesel Krasniqi, Eshref Shabani, Leotrim Grainca, Arbresh Ramadani, Ilmi Ramadani, Skender Krasniqi, Besim Baraliu, Hazir Hajdari, Haki Gashi, Skender Berisha, Luan Bytyqi, Naim Arifi",
+      "investor": "Premium Invest Sh.p.k",
+      "designer": "GZJ Architecture SH.P.K",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 31106.71,
+      "density_fee_eur": 145871.46,
+      "administrative_fee_eur": 203291.93,
+      "total_fee_eur": 349163.39,
+      "storeys": "B+P+5+Ph, B+P+5+Ph, 4B+P+5+Ph, 4B+P+5+Ph, 3B+P+5+Ph",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-82611/24",
+      "document_url": "https://drive.google.com/file/d/1YYBcc_n97Qhez13xiOAm2dLbG9LVF5Vc/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1F5fWW23YDs-7ufOh7NPxu17C-WJcPAhp/view?usp=sharing"
+    },
+    {
+      "permit_number": "101",
+      "application_date": "2024-01-22",
+      "issuance_date": "2025-06-10",
+      "owner": "Avdullah dhe Lulzim Krasniqi",
+      "investor": "Lira Invest Group sh.p.k",
+      "designer": "N.T.P \"Pro Joni",
+      "neighbourhood": "Matiçan",
+      "total_floor_area_m2": 5694.22,
+      "density_fee_eur": 29351.12,
+      "administrative_fee_eur": 37108.63,
+      "total_fee_eur": 66459.75,
+      "storeys": "2B+P+6",
+      "destination": "Objekt Shumëbanesorë - me Afarizëm",
+      "document_reference": "05-351/02-11916/24",
+      "document_url": "https://drive.google.com/file/d/13vJYLDZIJVZsDwZlKQ_UDklNF_uyTT_O/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/16S8I4zk3AJJTvcQhL56igB37oKB36FCZ/view?usp=sharing"
+    },
+    {
+      "permit_number": "102",
+      "application_date": "2025-04-17",
+      "issuance_date": "2025-06-02",
+      "owner": "Merve Maskuka-Fatjani, Errëzana Spahi, Xhevahire Haskuka-Krasniqi",
+      "investor": "Kosova Home sh.p.k",
+      "designer": "NPSH \"Smart Project",
+      "neighbourhood": "Prishtinë",
+      "total_floor_area_m2": 681.19,
+      "density_fee_eur": 1754.3,
+      "administrative_fee_eur": 4427.74,
+      "total_fee_eur": 6182.04,
+      "storeys": "P+1",
+      "destination": "Objekt Individual",
+      "document_reference": "05-351/02-53878/25",
+      "document_url": "https://drive.google.com/file/d/19nLRbvac_G7qw9HRz3khrMrqGSPiL3gG/view?usp=sharing",
+      "situation_url": "https://drive.google.com/file/d/1IneYa10WhUJhDweHmRHwnuQ-QgjH2C4w/view?usp=sharing"
+    },
+    {
+      "permit_number": "103",
       "application_date": "2024-02-26",
       "issuance_date": "2025-05-29",
       "owner": "Lulzim Sahiti, Erolinda Sahiti",
@@ -23,7 +2827,7 @@
       "situation_url": "https://drive.google.com/file/d/1-PUU4CjiUS4mA8WyGPBJjAGQJ0iXddWv/view?usp=sharing"
     },
     {
-      "permit_number": "2",
+      "permit_number": "104",
       "application_date": "2024-08-12",
       "issuance_date": "2025-05-28",
       "owner": "Sami Qyqalla, Ramadan Qyqalla, Tallku shpk, Zajm Gashi",
@@ -41,7 +2845,7 @@
       "situation_url": "https://drive.google.com/file/d/1-NcMNkl5qVDW68nbh6NW36Nuz5vgERKw/view?usp=sharing"
     },
     {
-      "permit_number": "3",
+      "permit_number": "105",
       "application_date": "2025-03-26",
       "issuance_date": "2025-05-27",
       "owner": "Herolind Islamaj",
@@ -56,10 +2860,52 @@
       "destination": "Objekt Individual",
       "document_reference": "05-351/02-42393/25 LN1-00046",
       "document_url": "https://drive.google.com/file/d/1orj5Y1_C3TOdFD2Chy1FuHVR4LWwqug6/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/1SbxiUBqlgb_IezyWmmyLQF_DLT6YH9ev/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/1SbxiUBqlgb_IezyWmmyLQF_DLT6YH9ev/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1orj5Y1_C3TOdFD2Chy1FuHVR4LWwqug6/view?usp=sharing",
+          "page": 5,
+          "area_m2": 128.95,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.19697395,
+                  42.64356907
+                ],
+                [
+                  21.19693929,
+                  42.64348315
+                ],
+                [
+                  21.19700778,
+                  42.64346899
+                ],
+                [
+                  21.19701725,
+                  42.64345556
+                ],
+                [
+                  21.19711407,
+                  42.64349275
+                ],
+                [
+                  21.19704196,
+                  42.64359515
+                ],
+                [
+                  21.19697395,
+                  42.64356907
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "4",
+      "permit_number": "106",
       "application_date": "2024-12-12",
       "issuance_date": "2025-05-26",
       "owner": "Mensur Çunaku, Mustafë Hyseni, Gëzim Havolli, Visar Havolli, Drilon Havolli, Avni Havolli, Ilir Havolli, Armend Bërveniku, Besim Krasniqi, Rexhep Jashari, Maliq Jashari, Remzije Jashari, Nustret Jashari, Jaush Pllana",
@@ -77,7 +2923,7 @@
       "situation_url": "https://drive.google.com/file/d/1gaCh2CUee1DPhKlyUYLWQArb8eBiwgkw/view?usp=sharing"
     },
     {
-      "permit_number": "5",
+      "permit_number": "107",
       "application_date": "2025-03-25",
       "issuance_date": "2025-05-23",
       "owner": "Adnan Graiçevci",
@@ -95,7 +2941,7 @@
       "situation_url": "https://drive.google.com/file/d/14uyClcSTiPQeqJMgdVsKrWdnVWh3yAiC/view?usp=sharing"
     },
     {
-      "permit_number": "6",
+      "permit_number": "108",
       "application_date": "2025-04-17",
       "issuance_date": "2025-05-23",
       "owner": "Dioqeza Prizren-Prishtinë",
@@ -113,7 +2959,7 @@
       "situation_url": "https://drive.google.com/file/d/1uQ1mMnGGr7fRJ9U4RoyVwuS62WwBJ9Kw/view?usp=sharing"
     },
     {
-      "permit_number": "7",
+      "permit_number": "109",
       "application_date": "2024-01-16",
       "issuance_date": "2025-05-21",
       "owner": "Arton Grajqevci",
@@ -131,7 +2977,7 @@
       "situation_url": "https://drive.google.com/file/d/1dmQsLOAZ_hZmoz98UgEoNYulOMx-BK5f/view?usp=sharing"
     },
     {
-      "permit_number": "8",
+      "permit_number": "110",
       "application_date": "2024-11-08",
       "issuance_date": "2025-05-20",
       "owner": "Ramadan Idrizaj",
@@ -149,7 +2995,7 @@
       "situation_url": "https://drive.google.com/file/d/1iWFNg_uvnEhPIN_Nv-dZb8uo3xSy5Rad/view?usp=sharing"
     },
     {
-      "permit_number": "9",
+      "permit_number": "111",
       "application_date": "2022-05-04",
       "issuance_date": "2025-05-13",
       "owner": "Ekrem Elshani",
@@ -167,7 +3013,7 @@
       "situation_url": "https://drive.google.com/file/d/1oT5DGrJdyUqGktHIk9YITQM1PiNC3jwv/view?usp=sharing"
     },
     {
-      "permit_number": "10",
+      "permit_number": "112",
       "application_date": "2024-11-01",
       "issuance_date": "2025-05-13",
       "owner": "Roof Bar & Restaurant shpk",
@@ -185,7 +3031,7 @@
       "situation_url": "https://drive.google.com/file/d/16-6Pm-J7yIosrcaVPrRauebFmaqsFjlo/view?usp=sharing"
     },
     {
-      "permit_number": "11",
+      "permit_number": "113",
       "application_date": "2025-01-16",
       "issuance_date": "2025-05-13",
       "owner": "Driton Qehaja, Selvete Qehaja",
@@ -200,10 +3046,68 @@
       "destination": "Objekt Individual",
       "document_reference": "05-351/02-8585/25",
       "document_url": "https://drive.google.com/file/d/1fJiiSkafTJqcal5ULn3T_f-I3HV0IQgz/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/1XU9K6lbWXdUhdxdalFOnoySI3aDjXcb2/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/1XU9K6lbWXdUhdxdalFOnoySI3aDjXcb2/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1fJiiSkafTJqcal5ULn3T_f-I3HV0IQgz/view?usp=sharing",
+          "page": 5,
+          "area_m2": 126.74,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.13864409,
+                  42.62760133
+                ],
+                [
+                  21.13861374,
+                  42.62749837
+                ],
+                [
+                  21.13869711,
+                  42.62748504
+                ],
+                [
+                  21.1386874,
+                  42.62745201
+                ],
+                [
+                  21.13872323,
+                  42.62744629
+                ],
+                [
+                  21.13876316,
+                  42.62758219
+                ],
+                [
+                  21.13872745,
+                  42.6275879
+                ],
+                [
+                  21.1387261,
+                  42.62758349
+                ],
+                [
+                  21.13869039,
+                  42.6275893
+                ],
+                [
+                  21.13869174,
+                  42.62759362
+                ],
+                [
+                  21.13864409,
+                  42.62760133
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "12",
+      "permit_number": "114",
       "application_date": "2023-07-05",
       "issuance_date": "2025-05-12",
       "owner": "Avdyl Zeka, Fatos Zeka, Fazli Zeka, Zeqiria Zeka",
@@ -221,7 +3125,7 @@
       "situation_url": "https://drive.google.com/file/d/17vo-3Oatb622lZyNmzZIrmcwcSFLTL_B/view?usp=sharing"
     },
     {
-      "permit_number": "13",
+      "permit_number": "115",
       "application_date": "2024-06-05",
       "issuance_date": "2025-05-08",
       "owner": "Rexhep Spahiu, Ilhan Aliu, Fehmije Gashi Bytyqi",
@@ -239,7 +3143,7 @@
       "situation_url": "https://drive.google.com/file/d/1we796FRuM6-yKTMWhDh6HdH7WmLTVmeV/view?usp=sharing"
     },
     {
-      "permit_number": "14",
+      "permit_number": "116",
       "application_date": "2025-01-10",
       "issuance_date": "2025-04-29",
       "owner": "Ismet Rafuna, Fadil Rafuna, Naser Rafuna",
@@ -257,7 +3161,7 @@
       "situation_url": "https://drive.google.com/file/d/1RDl6xWoxv2IbP_3kDNT6euDuN5M2ri5S/view?usp=sharing"
     },
     {
-      "permit_number": "15",
+      "permit_number": "117",
       "application_date": "2025-01-09",
       "issuance_date": "2025-04-28",
       "owner": "Burim Tahiri",
@@ -272,10 +3176,60 @@
       "destination": "Objekte Individuale",
       "document_reference": "Leje dokumenti 05-351/02-4261/25",
       "document_url": "https://drive.google.com/file/d/1f2rMO1EinqkPUbef2U3Ri5MaGf5LmHY7/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/14y_n5WdRivjN2WWibmfTo_B2rn-BiV8l/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/14y_n5WdRivjN2WWibmfTo_B2rn-BiV8l/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1f2rMO1EinqkPUbef2U3Ri5MaGf5LmHY7/view?usp=sharing",
+          "page": 5,
+          "area_m2": 130.36,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14185743,
+                  42.62985633
+                ],
+                [
+                  21.14184236,
+                  42.62971635
+                ],
+                [
+                  21.14190307,
+                  42.62971277
+                ],
+                [
+                  21.14190469,
+                  42.62972807
+                ],
+                [
+                  21.14192359,
+                  42.62972697
+                ],
+                [
+                  21.14192483,
+                  42.62973858
+                ],
+                [
+                  21.14195458,
+                  42.62973683
+                ],
+                [
+                  21.14196678,
+                  42.62984998
+                ],
+                [
+                  21.14185743,
+                  42.62985633
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "16",
+      "permit_number": "118",
       "application_date": "2024-12-05",
       "issuance_date": "2025-04-24",
       "owner": "Fitim Lutolli, Luljetë Lutolli",
@@ -293,7 +3247,7 @@
       "situation_url": "https://drive.google.com/file/d/1zA2V10gjZRYZiHVhX9xlqM-6nUc4C5Il/view?usp=sharing"
     },
     {
-      "permit_number": "17",
+      "permit_number": "119",
       "application_date": "2024-02-07",
       "issuance_date": "2025-04-24",
       "owner": "Hakif Bllaca, Igballe Kelmendi",
@@ -311,7 +3265,7 @@
       "situation_url": "https://drive.google.com/file/d/1UIMG8948rR2HHfBsiB-ZybVFR9CNxq4-/view?usp=sharing"
     },
     {
-      "permit_number": "18",
+      "permit_number": "120",
       "application_date": "2024-12-04",
       "issuance_date": "2025-04-23",
       "owner": "Shala Group shpk",
@@ -329,7 +3283,7 @@
       "situation_url": "https://drive.google.com/file/d/1Lrha4aeagbwg49B6sk897R20ZNDsimAc/view?usp=sharing"
     },
     {
-      "permit_number": "19",
+      "permit_number": "121",
       "application_date": "2023-08-31",
       "issuance_date": "2025-04-22",
       "owner": "Mujë Haliti",
@@ -347,7 +3301,7 @@
       "situation_url": "https://drive.google.com/file/d/1w_T14m7Po_-CYNG0vnBBTxUEvoQZ66BD/view?usp=sharing"
     },
     {
-      "permit_number": "20",
+      "permit_number": "122",
       "application_date": "2024-11-06",
       "issuance_date": "2025-04-17",
       "owner": "Odat e Profesionistëve, Shëndetësorë",
@@ -355,9 +3309,9 @@
       "designer": "Coning Studio shpk",
       "neighbourhood": "Çagllavicë",
       "total_floor_area_m2": 2000.0,
-      "density_fee_eur": null,
-      "administrative_fee_eur": null,
-      "total_fee_eur": null,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 0.0,
+      "total_fee_eur": 0.0,
       "storeys": "S+P+3",
       "destination": "Objekt Shtetror",
       "document_reference": "05-351/02-147234/24",
@@ -365,7 +3319,7 @@
       "situation_url": "https://drive.google.com/file/d/1VE9ON8DuPspqo1NB9OSbvqn-VVOn_suv/view?usp=sharing"
     },
     {
-      "permit_number": "21",
+      "permit_number": "123",
       "application_date": "2025-01-10",
       "issuance_date": "2025-04-17",
       "owner": "Labinot Elshani",
@@ -383,7 +3337,7 @@
       "situation_url": "https://drive.google.com/file/d/1-IdzxD-7S6nxOKGq7JqYoY0l-QFdueTT/view?usp=sharing"
     },
     {
-      "permit_number": "22",
+      "permit_number": "124",
       "application_date": "2024-12-30",
       "issuance_date": "2025-04-14",
       "owner": "Edon Maloku",
@@ -401,7 +3355,7 @@
       "situation_url": "https://drive.google.com/file/d/1JzD4D01s5DGxNdrNtlXCKgHe4K6C_fmp/view?usp=sharing"
     },
     {
-      "permit_number": "23",
+      "permit_number": "125",
       "application_date": "2024-10-31",
       "issuance_date": "2025-04-02",
       "owner": "Sabrije Iseni",
@@ -419,7 +3373,7 @@
       "situation_url": "https://drive.google.com/file/d/1DAuoxVp2sOKKtYRPkhTcx-6b93tf40bY/view?usp=sharing"
     },
     {
-      "permit_number": "24",
+      "permit_number": "126",
       "application_date": "2024-10-24",
       "issuance_date": "2025-04-01",
       "owner": "Dugagjin Mulliqi, Dafina Mulliqi, Kastriot Mulliqi, Ilirjane Mulliqi, Mustafe Neziri, Mexhide Neziri, Jon Mulliqi, Besnik Bajrami, Fiona Bajrami, Lidija Nasif Bajrami, Florent Bajrami, Shpend Selimi, Nazif Vitia, Xhemail Buzoku, Mirita Hamza, Vjosa Dobruna, Fisnik Mekaj, Hagji Shala",
@@ -437,7 +3391,7 @@
       "situation_url": "https://drive.google.com/file/d/1-6AGRYH16yZ5TZ2JM8xfxnteM2u8nckl/view?usp=sharing"
     },
     {
-      "permit_number": "25",
+      "permit_number": "127",
       "application_date": "2024-06-27",
       "issuance_date": "2025-04-01",
       "owner": "Jakup Ibishi, Elizabete Ibishi",
@@ -455,7 +3409,7 @@
       "situation_url": "https://drive.google.com/file/d/1SSRaeXldLIj9kvahwvHxISMPExandQ-4/view?usp=sharing"
     },
     {
-      "permit_number": "26",
+      "permit_number": "128",
       "application_date": "2024-11-26",
       "issuance_date": "2025-03-28",
       "owner": "Shkelzen Sylaj",
@@ -473,7 +3427,7 @@
       "situation_url": "https://drive.google.com/file/d/1JA8hFZHAttqMxsgwMfemAK_YsvpOyOf6/view?usp=sharing"
     },
     {
-      "permit_number": "27",
+      "permit_number": "129",
       "application_date": "2024-10-14",
       "issuance_date": "2025-03-26",
       "owner": "Prime Group, Construction shpk",
@@ -491,7 +3445,7 @@
       "situation_url": "https://drive.google.com/file/d/1KNiaVHFW-olcQg8521PuqL6AYlDhcCoS/view?usp=sharing"
     },
     {
-      "permit_number": "28",
+      "permit_number": "130",
       "application_date": "2024-05-17",
       "issuance_date": "2025-03-12",
       "owner": "Besnik Shala",
@@ -509,7 +3463,7 @@
       "situation_url": "https://drive.google.com/file/d/1YcombcpS-9FusSt6_-EcTf2SvrTMU289/view?usp=sharing"
     },
     {
-      "permit_number": "29",
+      "permit_number": "131",
       "application_date": "2024-03-18",
       "issuance_date": "2025-03-12",
       "owner": "Ramadan Halimi, Hidajete Halimi",
@@ -527,7 +3481,7 @@
       "situation_url": "https://drive.google.com/file/d/1MjOwEMTVfTY7jjA3kQYpNfAnlPkPa1yc/view?usp=sharing"
     },
     {
-      "permit_number": "30",
+      "permit_number": "132",
       "application_date": "2021-11-22",
       "issuance_date": "2025-03-05",
       "owner": "Albi Commerce shpk",
@@ -545,7 +3499,7 @@
       "situation_url": "https://drive.google.com/file/d/1aaIUc0-w9UDmQBtqxPL2L6a6N5Wbixhs/view?usp=sharing"
     },
     {
-      "permit_number": "31",
+      "permit_number": "133",
       "application_date": "2024-07-26",
       "issuance_date": "2025-02-28",
       "owner": "Megzon Hoti",
@@ -560,10 +3514,60 @@
       "destination": "Objekt Individual",
       "document_reference": "05-351/02-97573/24",
       "document_url": "https://drive.google.com/file/d/1k4sT75qpDsdlc1ePLQkRFWHi0ZFnzkQr/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/1tKoB5dja48TCBjjuGmT-OGVUAN273vbs/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/1tKoB5dja48TCBjjuGmT-OGVUAN273vbs/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1k4sT75qpDsdlc1ePLQkRFWHi0ZFnzkQr/view?usp=sharing",
+          "page": 5,
+          "area_m2": 123.33,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.14352986,
+                  42.6226028
+                ],
+                [
+                  21.14367324,
+                  42.62261135
+                ],
+                [
+                  21.1436613,
+                  42.62272084
+                ],
+                [
+                  21.14361265,
+                  42.62271793
+                ],
+                [
+                  21.14361492,
+                  42.62269776
+                ],
+                [
+                  21.14358871,
+                  42.62269618
+                ],
+                [
+                  21.14358931,
+                  42.62269131
+                ],
+                [
+                  21.14352067,
+                  42.62268717
+                ],
+                [
+                  21.14352986,
+                  42.6226028
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "32",
+      "permit_number": "134",
       "application_date": "2024-10-01",
       "issuance_date": "2025-02-28",
       "owner": "Arben Begu",
@@ -581,7 +3585,7 @@
       "situation_url": "https://drive.google.com/file/d/1bIYK1N9SFa7JmC_ppmaE7qxUIccUOqsA/view?usp=sharing"
     },
     {
-      "permit_number": "33",
+      "permit_number": "135",
       "application_date": "2024-09-19",
       "issuance_date": "2025-02-26",
       "owner": "Ilir Berisha, Valentina Berisha",
@@ -599,7 +3603,7 @@
       "situation_url": "https://drive.google.com/file/d/1ce2LOdF_HsnmUh3NijhOsy7y7HFhY80-/view?usp=sharing"
     },
     {
-      "permit_number": "34",
+      "permit_number": "136",
       "application_date": "2024-05-20",
       "issuance_date": "2025-01-23",
       "owner": "Arian Uka, Pleurat Uka",
@@ -617,7 +3621,7 @@
       "situation_url": "https://drive.google.com/file/d/11wSvT6Oa3uRp1B_bC5dllvuYt3_lGKuW/view?usp=sharing"
     },
     {
-      "permit_number": "35",
+      "permit_number": "137",
       "application_date": "2021-12-15",
       "issuance_date": "2025-02-20",
       "owner": "Petrol Company shpk",
@@ -635,7 +3639,7 @@
       "situation_url": "https://drive.google.com/file/d/1IAV8zMY1MiqrBGpbizXuiHalCdEMaxLW/view?usp=sharing"
     },
     {
-      "permit_number": "36",
+      "permit_number": "138",
       "application_date": "2024-09-20",
       "issuance_date": "2025-02-20",
       "owner": "Jehona Lushaku Sadriu",
@@ -653,7 +3657,7 @@
       "situation_url": "https://drive.google.com/file/d/17qpjNwD-bI709wuSAKcVgB5NrT-x2Lx0/view?usp=sharing"
     },
     {
-      "permit_number": "37",
+      "permit_number": "139",
       "application_date": "2024-09-09",
       "issuance_date": "2025-02-20",
       "owner": "Daut Zuka",
@@ -671,7 +3675,7 @@
       "situation_url": "https://drive.google.com/file/d/1oy-Zlitoo-jH7-Q-R-yNhoyctQJVukxE/view?usp=sharing"
     },
     {
-      "permit_number": "38",
+      "permit_number": "140",
       "application_date": "2024-10-17",
       "issuance_date": "2025-02-20",
       "owner": "Xhafer Tahiri, Igballe Perquku Tahiri",
@@ -689,7 +3693,7 @@
       "situation_url": "https://drive.google.com/file/d/1Y8wRpKlCGP04Od1C9LD6tTgjc4i7iVo3/view?usp=sharing"
     },
     {
-      "permit_number": "39",
+      "permit_number": "141",
       "application_date": "2024-09-24",
       "issuance_date": "2025-02-20",
       "owner": "Drejtoria e Investimeve Kapitale, dhe Menaxhimin e Kontratave KP",
@@ -697,9 +3701,9 @@
       "designer": "Arkitekti i Qytetit",
       "neighbourhood": "Çagllavicë",
       "total_floor_area_m2": 3250.86,
-      "density_fee_eur": null,
-      "administrative_fee_eur": null,
-      "total_fee_eur": null,
+      "density_fee_eur": 0.0,
+      "administrative_fee_eur": 0.0,
+      "total_fee_eur": 0.0,
       "storeys": "B+S+P+3",
       "destination": "Objekt Shtetëror / Afarist",
       "document_reference": "05-351/02-125199/24",
@@ -707,7 +3711,7 @@
       "situation_url": "https://drive.google.com/file/d/1rXDRITwrtPr2IcvE-0viUskigvWj-jza/view?usp=sharing"
     },
     {
-      "permit_number": "40",
+      "permit_number": "142",
       "application_date": "2024-08-06",
       "issuance_date": "2025-02-20",
       "owner": "Naim Zeneli, Endri Pllashniku, Erjona Pllashniku, Fatmire Pllashniku, Ejup Pllashniku, Sylejman Behra, Armend Jusufi, Ismet Avdyli, Sahit Kelmendi, Sherif Mustafa",
@@ -725,7 +3729,7 @@
       "situation_url": "https://drive.google.com/file/d/1xiXvnfLKfXc4SXLBpI3h7dJgBnG80WZn/view?usp=sharing"
     },
     {
-      "permit_number": "41",
+      "permit_number": "143",
       "application_date": "2022-12-09",
       "issuance_date": "2025-02-19",
       "owner": "Halil Hoti",
@@ -743,7 +3747,7 @@
       "situation_url": "https://drive.google.com/file/d/1u2EPxNxEMqOsSVUoh0969jKzxacEDJXT/view?usp=sharing"
     },
     {
-      "permit_number": "42",
+      "permit_number": "144",
       "application_date": "2024-10-15",
       "issuance_date": "2025-02-14",
       "owner": "Ibrahim Maxhuni, Adelina Hasani Maxhuni",
@@ -761,7 +3765,7 @@
       "situation_url": "https://drive.google.com/file/d/14jluDyKvO1EHZmYVLqeg6ksi4oHK0dZ7/view?usp=sharing"
     },
     {
-      "permit_number": "43",
+      "permit_number": "145",
       "application_date": "2021-08-31",
       "issuance_date": "2025-02-13",
       "owner": "Puntori Group shpk",
@@ -779,7 +3783,7 @@
       "situation_url": "https://drive.google.com/file/d/1Q1t9l9ODbkcLmaZdAeZHFC8Xj0IXKZ6S/view?usp=sharing"
     },
     {
-      "permit_number": "44",
+      "permit_number": "146",
       "application_date": "2024-07-17",
       "issuance_date": "2025-02-13",
       "owner": "Murat Avdyli",
@@ -794,10 +3798,84 @@
       "destination": "Objekt Individual",
       "document_reference": "05-351/02-92759/24",
       "document_url": "https://drive.google.com/file/d/17QLb5OhvhJ8LI79UBalaxx4NH_2SIHZx/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/16Eg69RYJcY-pBrGwRqN3Xey_jtjNkurm/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/16Eg69RYJcY-pBrGwRqN3Xey_jtjNkurm/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/17QLb5OhvhJ8LI79UBalaxx4NH_2SIHZx/view?usp=sharing",
+          "page": 6,
+          "area_m2": 129.48,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.13986247,
+                  42.62491183
+                ],
+                [
+                  21.13985921,
+                  42.62487267
+                ],
+                [
+                  21.1398519,
+                  42.62487304
+                ],
+                [
+                  21.13984952,
+                  42.62484387
+                ],
+                [
+                  21.13985683,
+                  42.6248435
+                ],
+                [
+                  21.13985382,
+                  42.62480668
+                ],
+                [
+                  21.13992075,
+                  42.62480363
+                ],
+                [
+                  21.13992062,
+                  42.62480183
+                ],
+                [
+                  21.13998632,
+                  42.62479887
+                ],
+                [
+                  21.1399951,
+                  42.62490581
+                ],
+                [
+                  21.13994585,
+                  42.62490804
+                ],
+                [
+                  21.13994535,
+                  42.62490263
+                ],
+                [
+                  21.13992292,
+                  42.62490365
+                ],
+                [
+                  21.1399233,
+                  42.62490905
+                ],
+                [
+                  21.13986247,
+                  42.62491183
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "45",
+      "permit_number": "147",
       "application_date": "2024-08-23",
       "issuance_date": "2025-02-10",
       "owner": "Zojë Kajtazaj",
@@ -815,7 +3893,7 @@
       "situation_url": "https://drive.google.com/file/d/1iJJYKi923fPDcFIlc5c6aOBchuhi_TpO/view?usp=sharing"
     },
     {
-      "permit_number": "46",
+      "permit_number": "148",
       "application_date": "2024-01-16",
       "issuance_date": "2025-01-31",
       "owner": "Zef Morina",
@@ -833,7 +3911,7 @@
       "situation_url": "https://drive.google.com/file/d/1SJ9OCfqy3AXjTAA5nCDvyS4p_q5eACOP/view?usp=sharing"
     },
     {
-      "permit_number": "47",
+      "permit_number": "149",
       "application_date": "2024-10-31",
       "issuance_date": "2025-01-30",
       "owner": "Blerim Pacolli",
@@ -851,7 +3929,7 @@
       "situation_url": "https://drive.google.com/file/d/16Ko31f4Sj2nW1MM6YaRGLvvnzgBxjq_J/view?usp=sharing"
     },
     {
-      "permit_number": "48",
+      "permit_number": "150",
       "application_date": "2024-09-25",
       "issuance_date": "2025-01-29",
       "owner": "Hajdin Thaçi",
@@ -869,7 +3947,7 @@
       "situation_url": "https://drive.google.com/file/d/12sDlGi-YeCEbCzScQ5BumlBLyclZNvN5/view?usp=sharing"
     },
     {
-      "permit_number": "49",
+      "permit_number": "151",
       "application_date": "2024-02-21",
       "issuance_date": "2025-01-27",
       "owner": "Besart Berisha, Bukurosh Berisha, Fjolla Berisha, Sahadije Berisha, Kreshnik Sopi, Arian Lekaj, Durim Zylfiu",
@@ -887,7 +3965,7 @@
       "situation_url": "https://drive.google.com/file/d/1Wi7DhR99dzWhPmG5usxbWmgUPhACnoWV/view?usp=sharing"
     },
     {
-      "permit_number": "50",
+      "permit_number": "152",
       "application_date": "2023-11-09",
       "issuance_date": "2025-01-24",
       "owner": "Mabetex Proporties SHA",
@@ -905,7 +3983,7 @@
       "situation_url": "https://drive.google.com/file/d/1BIiRkVgJvS3jXMXeU1ee4bhx0r4zKaky/view?usp=sharing"
     },
     {
-      "permit_number": "51",
+      "permit_number": "153",
       "application_date": "2024-01-23",
       "issuance_date": "2025-01-23",
       "owner": "Pozhegu Brothers shpk",
@@ -923,7 +4001,7 @@
       "situation_url": "https://drive.google.com/file/d/1FTLOAk7M7BJlI8Q_IOxi9Srto8MtNC5A/view?usp=sharing"
     },
     {
-      "permit_number": "52",
+      "permit_number": "154",
       "application_date": "2024-07-24",
       "issuance_date": "2025-01-23",
       "owner": "Investment Plus shpk",
@@ -941,7 +4019,7 @@
       "situation_url": "https://drive.google.com/file/d/1im2Lbvm63f026l3P6c29dqRPgs7tTbdN/view?usp=sharing"
     },
     {
-      "permit_number": "53",
+      "permit_number": "155",
       "application_date": "2023-11-17",
       "issuance_date": "2025-01-23",
       "owner": "Avni Gashi",
@@ -959,7 +4037,7 @@
       "situation_url": "https://drive.google.com/file/d/1o3HtDucDtIT01PIWP4xQUaJylWJDQXMl/view?usp=sharing"
     },
     {
-      "permit_number": "54",
+      "permit_number": "156",
       "application_date": "2024-12-18",
       "issuance_date": "2025-01-23",
       "owner": "Jashar Krasniqi",
@@ -977,7 +4055,7 @@
       "situation_url": "https://drive.google.com/file/d/1ssm3gxpZ-Sm-Eo0zkU7vj03D59yX88UI/view?usp=sharing"
     },
     {
-      "permit_number": "55",
+      "permit_number": "157",
       "application_date": "2023-12-27",
       "issuance_date": "2025-01-23",
       "owner": "Ujup Krasniqi, Istref Krasniqi, Izet Krasniqi, Durmish Krasniqi, Lumni Krasniqi, Selatin Krasniqi, Veton Krasniqi, Hajrije Krasniqi, Luan Krasniqi, Ardiana Krasniqi, Jahja Krasniqi, Afrim Krasniqi, Bashkim Krasniqi, Bujar Krasniqi, Ismet Avdiu, Burim Potera, Arsim Hyseni",
@@ -995,7 +4073,7 @@
       "situation_url": "https://drive.google.com/file/d/15uGAoKlkJJNtTLDu_8XJu5kLxzmvdhnL/view?usp=sharing"
     },
     {
-      "permit_number": "56",
+      "permit_number": "158",
       "application_date": "2025-11-29",
       "issuance_date": "2025-01-20",
       "owner": "Nexhat Dumnica",
@@ -1013,7 +4091,7 @@
       "situation_url": "https://drive.google.com/file/d/1u8u6L6RTHAlZmuwx0U3jgwO31F3OyZPx/view?usp=sharing"
     },
     {
-      "permit_number": "57",
+      "permit_number": "159",
       "application_date": "2024-09-19",
       "issuance_date": "2025-01-20",
       "owner": "Bujar Mehmeti, Emine Mehmeti",
@@ -1028,10 +4106,84 @@
       "destination": "Objekt Individual",
       "document_reference": "Leja dokumenti, 05-351/02-123652/24",
       "document_url": "https://drive.google.com/file/d/1cZtccxNzPXoT4Y5O6bIb_dtq3bDcN1qI/view?usp=sharing",
-      "situation_url": "https://drive.google.com/file/d/1mxgzviZtS8uYC69pCyZCe_HBcQKapDMx/view?usp=sharing"
+      "situation_url": "https://drive.google.com/file/d/1mxgzviZtS8uYC69pCyZCe_HBcQKapDMx/view?usp=sharing",
+      "footprints": [
+        {
+          "source_url": "https://drive.google.com/file/d/1cZtccxNzPXoT4Y5O6bIb_dtq3bDcN1qI/view?usp=sharing",
+          "page": 6,
+          "area_m2": 112.28,
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  21.19533212,
+                  42.6688837
+                ],
+                [
+                  21.19544032,
+                  42.66883931
+                ],
+                [
+                  21.19546874,
+                  42.66887707
+                ],
+                [
+                  21.19547568,
+                  42.66887427
+                ],
+                [
+                  21.19549173,
+                  42.66889549
+                ],
+                [
+                  21.19548478,
+                  42.66889829
+                ],
+                [
+                  21.19550279,
+                  42.6689223
+                ],
+                [
+                  21.19545857,
+                  42.66894047
+                ],
+                [
+                  21.19546102,
+                  42.66894362
+                ],
+                [
+                  21.19539693,
+                  42.66896984
+                ],
+                [
+                  21.19537647,
+                  42.66894268
+                ],
+                [
+                  21.1953722,
+                  42.66894449
+                ],
+                [
+                  21.19535628,
+                  42.66892318
+                ],
+                [
+                  21.19536054,
+                  42.66892146
+                ],
+                [
+                  21.19533212,
+                  42.6688837
+                ]
+              ]
+            ]
+          }
+        }
+      ]
     },
     {
-      "permit_number": "58",
+      "permit_number": "160",
       "application_date": "2024-08-15",
       "issuance_date": "2025-01-14",
       "owner": "Nexhmije Kusari",

@@ -1,6 +1,16 @@
+export type BuildingPermitSite = {
+  source_url: string;
+  page: number;
+  parcels: {
+    reference: string;
+    area_m2?: number;
+  }[];
+};
+
 export type BuildingPermitRecord = {
   permit_number: string;
   application_date: string | null;
+  application_dates?: string[];
   issuance_date: string | null;
   owner: string | null;
   investor: string | null;
@@ -15,6 +25,13 @@ export type BuildingPermitRecord = {
   document_reference: string | null;
   document_url: string | null;
   situation_url: string | null;
+  site?: BuildingPermitSite;
+  footprints?: {
+    source_url: string;
+    page: number;
+    area_m2: number;
+    geometry: { type: "Polygon"; coordinates: [number, number][][] };
+  }[];
 };
 
 export type BuildingPermitsYearDataset = {

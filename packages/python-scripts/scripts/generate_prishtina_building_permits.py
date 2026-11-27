@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# /// script
+# dependencies = ["openpyxl", "pandas", "pyproj>=3.4", "requests", "shapely>=2"]
+# ///
 from __future__ import annotations
 
 import argparse
@@ -13,9 +16,13 @@ from typing import Any, Dict, List, Optional, Tuple
 import pandas as pd
 import requests
 from openpyxl import load_workbook
+from pyproj import Transformer
+from shapely.geometry import Polygon
+from shapely.geometry.polygon import orient
 
 SOURCE_URLS: Dict[int, str] = {
-    2025: "https://prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2025%20%283%29.xlsx",
+    2026: "https://www.prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2026%20(5).xlsx",
+    2025: "https://www.prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2025%20(8).xlsx",
     2024: "https://prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2024%20%2810%29.xlsx",
     2023: "https://prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_per_vitin_2023%20%281%29.xlsx",
     2022: "https://prishtinaonline.com/uploads/lista_e_lejeve_te_leshuara_2022_23.03.2023.xlsx",
@@ -63,12 +70,13 @@ TEXT_FIELDS = {
     "document_reference",
 }
 
-NUMERIC_FIELDS = {
-    "total_floor_area_m2",
+FEE_FIELDS = {
     "density_fee_eur",
     "administrative_fee_eur",
     "total_fee_eur",
 }
+
+NUMERIC_FIELDS = {"total_floor_area_m2", *FEE_FIELDS}
 
 DATE_FIELDS = {"application_date", "issuance_date"}
 
@@ -282,6 +290,13 @@ def parse_decimal(value: Any) -> Optional[float]:
     return rounded
 
 
+def parse_fee(value: Any) -> Optional[float]:
+    text = clean_text(value)
+    if text and text.casefold() in {"lirohet nga pagesa", "lirohet nga taksa"}:
+        return 0.0
+    return parse_decimal(value)
+
+
 def parse_date(value: Any) -> Optional[str]:
     if value is None or (isinstance(value, float) and pd.isna(value)):
         return None
@@ -289,6 +304,12 @@ def parse_date(value: Any) -> Optional[str]:
     if pd.isna(ts):
         return None
     return ts.date().isoformat()
+
+
+def parse_application_dates(value: Any) -> List[str]:
+    values = value.splitlines() if isinstance(value, str) else [value]
+    dates = [parse_date(item) for item in values]
+    return [date for date in dates if date is not None]
 
 
 def discover_files(raw_dir: Path, pattern: str) -> List[Path]:
@@ -393,8 +414,15 @@ def build_record(row: pd.Series, *, comment_as_destination: bool) -> Dict[str, A
                 record[field] = normalize_document_reference(value)
             else:
                 record[field] = clean_text(value)
+        elif field in FEE_FIELDS:
+            record[field] = parse_fee(value)
         elif field in NUMERIC_FIELDS:
             record[field] = parse_decimal(value)
+        elif field == "application_date":
+            dates = parse_application_dates(value)
+            record[field] = dates[0] if dates else None
+            if len(dates) > 1:
+                record["application_dates"] = dates
         elif field in DATE_FIELDS:
             record[field] = parse_date(value)
         else:
@@ -466,20 +494,63 @@ def write_json(path: Path, payload: Dict[str, Any]) -> None:
     print(f"Wrote {path}")
 
 
+def building_footprint(
+    survey: Dict[str, Any], source_url: str, to_wgs84: Transformer
+) -> Dict[str, Any]:
+    outline = Polygon(survey["vertices"])
+    if not outline.is_valid or outline.is_empty or outline.area == 0:
+        raise ValueError(
+            f"Invalid ground-floor outline in {source_url}, page {survey['page']}"
+        )
+    coordinates = []
+    bounds = to_wgs84.area_of_use
+    for east, north in orient(outline, sign=1.0).exterior.coords:
+        lon, lat = to_wgs84.transform(east, north, errcheck=True)
+        if not (
+            bounds.west <= lon <= bounds.east and bounds.south <= lat <= bounds.north
+        ):
+            raise ValueError(f"Ground-floor vertex outside the source CRS in {source_url}")
+        coordinates.append([round(lon, 8), round(lat, 8)])
+    return {
+        "source_url": source_url,
+        "page": survey["page"],
+        "area_m2": round(outline.area, 2),
+        "geometry": {"type": "Polygon", "coordinates": [coordinates]},
+    }
+
+
 def main() -> None:
     args = parse_args()
+    sites_path = Path(__file__).resolve().parents[1] / "sources" / "prishtina-permit-sites.json"
+    with sites_path.open(encoding="utf-8") as fh:
+        documents = json.load(fh)
+    to_wgs84 = Transformer.from_crs("EPSG:9141", "EPSG:4326", always_xy=True)
     if args.download_source:
         args.raw_dir.mkdir(parents=True, exist_ok=True)
         for year, url in SOURCE_URLS.items():
             filename = f"building-permits-{year}.xlsx"
-            download_file(url, args.raw_dir / filename)
+            if Path(filename).match(args.pattern):
+                if not download_file(url, args.raw_dir / filename):
+                    raise RuntimeError(f"Unable to download source workbook for {year}")
 
     files = discover_files(args.raw_dir, args.pattern)
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
-    summary: List[Dict[str, Any]] = []
     for excel_path in files:
         result = parse_workbook(excel_path)
+        for record in result.records:
+            document_url = record["document_url"]
+            evidence = documents.get(document_url, {})
+            if site := evidence.get("site"):
+                if site["source_url"] not in (document_url, record["situation_url"]):
+                    raise ValueError(
+                        f"Unmatched site document for permit {result.year}/{record['permit_number']}"
+                    )
+                record["site"] = site
+            if surveys := evidence.get("footprints"):
+                record["footprints"] = [
+                    building_footprint(survey, document_url, to_wgs84) for survey in surveys
+                ]
         output_name = f"permits_{result.year}.json"
         payload = {
             "year": result.year,
@@ -490,12 +561,16 @@ def main() -> None:
         }
         out_file = args.output / output_name
         write_json(out_file, payload)
-        records_file = out_file.relative_to(args.output)
+
+    summary: List[Dict[str, Any]] = []
+    for out_file in args.output.glob("permits_*.json"):
+        with out_file.open(encoding="utf-8") as fh:
+            payload = json.load(fh)
         summary.append(
             {
-                "year": result.year,
-                "records_file": records_file.as_posix(),
-                "record_count": len(result.records),
+                "year": payload["year"],
+                "records_file": out_file.relative_to(args.output).as_posix(),
+                "record_count": payload["record_count"],
             }
         )
 

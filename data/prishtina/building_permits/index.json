@@ -1,10 +1,15 @@
 {
-  "generated_at": "2025-11-09T07:41:45Z",
+  "generated_at": "2026-11-27T15:27:50Z",
   "years": [
+    {
+      "year": 2026,
+      "records_file": "permits_2026.json",
+      "record_count": 95
+    },
     {
       "year": 2025,
       "records_file": "permits_2025.json",
-      "record_count": 58
+      "record_count": 160
     },
     {
       "year": 2024,
