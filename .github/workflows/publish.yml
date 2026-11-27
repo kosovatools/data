@@ -23,13 +23,13 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Use the latest commit on the branch; workflow_run.head_sha does not
           # include commits pushed by the workflow itself.
           ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ./data
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
