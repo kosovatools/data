@@ -163,10 +163,12 @@ export async function fetchLabourEmploymentActivityGender(
         code: "Tremujoret",
         text: "Tremujoret",
         alias: "quarter",
-        toLabel: (valueCode, context) =>
-          normalizeQuarterCode(
-            context.value.metaLabel || context.value.label || valueCode,
-          ),
+        resolveValues: ({ baseValues }) =>
+          baseValues.map(({ code, label }) => {
+            const quarter = normalizeQuarterCode(label);
+            return { code, key: quarter, label: quarter };
+          }),
+        sort: (a, b) => a.label.localeCompare(b.label),
       },
       {
         code: "Punësimi sipas aktiviteteve (NË MIJËRA)",
@@ -228,10 +230,6 @@ export async function fetchLabourEmploymentActivityGender(
       const quarter = axes.quarter;
       if (!activity || !gender || !quarter) return null;
 
-      const normalizedQuarter = normalizeQuarterCode(
-        quarter.metaLabel || quarter.label || quarter.code,
-      );
-      const normalizedPeriod = `${period}-${normalizedQuarter}`;
       const rawEmployment = values.employment;
       const employment =
         typeof rawEmployment === "number" && Number.isFinite(rawEmployment)
@@ -239,7 +237,7 @@ export async function fetchLabourEmploymentActivityGender(
           : null;
 
       return {
-        period: normalizedPeriod,
+        period: `${period}-${quarter.label}`,
         activity: activity.value.key as string,
         gender: gender.value.key as EmploymentGender,
         employment,

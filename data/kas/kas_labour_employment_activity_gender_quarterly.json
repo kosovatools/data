@@ -22,19 +22,19 @@
       "quarter": [
         {
           "key": "Q1",
-          "label": "Q4"
+          "label": "Q1"
         },
         {
           "key": "Q2",
-          "label": "Q3"
-        },
-        {
-          "key": "Q3",
           "label": "Q2"
         },
         {
+          "key": "Q3",
+          "label": "Q3"
+        },
+        {
           "key": "Q4",
-          "label": "Q1"
+          "label": "Q4"
         }
       ],
       "activity": [
@@ -146,7 +146,7 @@
       "Vlerat origjinale janë në mijë persona; të konvertuara këtu në numër personash (x1000)."
     ],
     "id": "kas_labour_employment_activity_gender_quarterly",
-    "generated_at": "2025-12-06T15:51:44.125Z",
+    "generated_at": "2026-11-27T16:13:30.649Z",
     "title": null
   },
   "records": [
