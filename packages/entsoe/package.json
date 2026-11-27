@@ -7,7 +7,7 @@
     "generate": "tsx src/fetch-entsoe.ts"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.5.1"
+    "fast-xml-parser": "^5.12.1"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",

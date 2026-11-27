@@ -125,7 +125,6 @@ async function writeJsonAtomic(file: string, obj: unknown) {
 }
 async function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)) }
 async function safeFetch(url: string, tries = 5) {
-    console.log(url);
     let delay = 1000
     let lastError: unknown
     for (let i = 0; i < tries; i++) {
