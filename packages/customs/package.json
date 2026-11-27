@@ -7,7 +7,7 @@
     "generate": "tsx src/fetch-customs.ts"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0",
+    "@types/node": "^26.6.6",
     "tsx": "^4.19.2"
   }
 }
