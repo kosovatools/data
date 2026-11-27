@@ -422,10 +422,9 @@ export async function runPxDatasetPipeline<
       ? cubeSummary.updatedAt
       : (cubeSummary.updatedAt ?? null);
 
-  // Time stats from resolvedTime values
-  const periodCodes = resolvedTime.values.map((v) => v.label);
-  const first = periodCodes[0] ?? "";
-  const last = periodCodes[periodCodes.length - 1] ?? "";
+  const periods = resolvedTime.values.map((value) => value.label).sort();
+  const first = periods[0] ?? "";
+  const last = periods[periods.length - 1] ?? "";
   if (!first || !last)
     throw new PxError(`${datasetId}: unable to resolve first/last period`);
 
